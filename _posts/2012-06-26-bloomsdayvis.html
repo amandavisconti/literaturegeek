@@ -1,0 +1,31 @@
+---
+layout: post
+title: O rocks! Tell it to us in plain images (A THATCamp/Bloomsday Visualization)
+date: 2012-06-26 15:01:28.000000000 -04:00
+permalink: 2012/06/26/bloomsdayvis
+author: 
+  twitter: literature_geek
+  github: amandavisconti
+tags: 
+  - Digital humanities
+  - Favorite
+  - Infoviz
+  - Advice & tutorials
+  - James Joyce & Ulysses
+status: publish
+type: post
+published: true
+---
+<p>At <a href="http://chnm2012.thatcamp.org">THATCamp Prime</a> this year, I led <a href="http://chnm2012.thatcamp.org/06/14/o-rocks-celebrating-bloomsday-dh-style/">a hack session</a> where we discussed small digital Joycean projects we might take on that day and continue hacking at over the following weeks. Session participants were Anastasia Salter, Ben Schmidt, Chad Rutkowski (part of the <em><a href="http://www.ulyssesseen.com">Ulysses Seen</a></em> team!), and Heather Prescott. I've been working a lot with the great open-source visualization software <a href="http://www.gephi.org">Gephi</a> recently (I'll be posting about the visualizations of <em><a href="http://www.digitalhumanities.org/dhq/">Digital Humanities Quarterly</a></em> citations and articles I've just finished up fr an ACH Microgrant later this week!), so we decided to create a dataset that could be used in Gephi to make something both informative and pretty: a log of the social interactions among characters that could be turned into a social network visualization.</p>
+<p>Chad read through the Wandering Rocks episode and logged a list of character interactions, which I then turned into a dataset and manipulated in Gephi to produce (click image for larger version):</p>
+<p><img title="Wandering Rocks visualization" alt="Wandering Rocks visualization" src="assets/wanderingrocks1.png" width="561" height="382"></p>
+<p>Character nodes are weighted by the number of edges touching them (i.e. by how many interactions with other people a given character has), so unsurprisingly for anyone who's read <em>Ulysses</em>, Father Conmee appears as one of the most connected characters in the episode.</p>
+<p>Our next step will be to answer some questions about types of character interactions and include these answers in our dataset:</p>
+<ul>
+<li>Do we want to log the direction of an interaction to cover cases where, for example, and conversation is one-sided? (Yes, but this means creating two edges for every dialogue: Bloom > Molly as well as Molly > Bloom).</li>
+<li>What counts as an interaction? (Telegrams, letters, overheard shouts in the street?)</li>
+<li>How do we handle time? (Is Bloom > Molly recorded only one time in our <em>Ulysses</em> datatset, or every time they interact? If the latter, how do we decide when an interaction counts as ended?) If we can find a satisfactory and non-insanity causing way of coding this, we could create a time-lapse visualization of interactions in the novel, perhaps with some sort of cumulative or heatmapping feature.</li>
+<li>How to handle different types of interactions? We discussed assigning different numbered weights to interaction edges so that its easy to see the degree of interaction taking place (was a character imagining a conversation with Bloom, or actually talking to him?), but there's some difficulty in deciding what types of interaction are deeper than others in order to place these on a spectrum and make visual apprehension easier.</li>
+</ul>
+<p>Ben Schmidt also did some neat and quick work with the Circe episode, running a script to gather character names by grabbing the all-caps words in that section and mapping interactions stepwise by linking the names that appears next after a given character in the text.</p>
+<p>We'll continue working on this project as we have time, so if you're interested in helping out, send us a tweet! The work involved is pretty easy: identifying a section of the novel you wish to attack, then making a list of the characters who interact and ID'ing the type of interaction according to a scheme we're using.</p>

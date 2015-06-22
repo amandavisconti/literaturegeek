@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Tutorial: Omeka+Imagemagick Happiness with MAMP Pro 3'
+date: 2014-03-28 04:55:20.000000000 -04:00
+permalink: 2014/03/28/imagemagickomekamamp
+author: 
+  twitter: literature_geek
+  github: amandavisconti
+tags: 
+  - Digital humanities
+  - Advice & tutorials
+status: publish
+type: post
+published: true
+---
+<p><img alt="Official ImageMagick logo from Wikmedia Commons (GPL 2)." src="assets/Imagemagick-logo-290x300.png" width="232" height="240"></p><p>Official ImageMagick logo from Wikmedia Commons (GPL 2).</p>
+<p>If you make websites, you've probably worked with <a href="http://www.imagemagick.org/" target="_blank">Imagemagick</a> and know it's a <a href="http://omeka.org/forums/search.php?q=imagemagick" target="_blank">pain in</a> <a href="https://groups.google.com/forum/#!topicsearchin/omeka-dev/imagemagick|sort:date|spell:true" target="_blank">the butt</a> to get working (especially for Mac local development)—and if you want to use an awesome CMS like <a href="http://www.omeka.org" target="_blank">Omeka</a> (super for digital archives, collections, museums) to display still images, you'll need Imagemagick. Used to be you'd need to lose some time finagling (possibly setting up Homebrew) to get ImageMagick to work, but if you're already using MAMP, it might be worth your while to <a href="http://blog-en.mamp.info/" target="_blank">upgrade to MAMP Pro 3</a> and make things easier on yourself.</p>
+<h2>Instructions (once you've <a href="http://blog-en.mamp.info/" target="_blank">installed MAMP Pro 3</a>)</h2>
+<p><em>These instructions assume knowledge of installing an Omeka site locally using MAMP.</em></p>
+<ol>
+<li>In the MAMP config window, go to the "PHP" tab and note which version of PHP you're using.
+<p><img alt="Where to locate the version of PHP MAMP is using" src="assets/whichphp.png" width="748" height="172"></p><p>Look under the PHP tab in the MAMP Pro 3 settings window to locate the version of PHP MAMP is using.</li>
+<li>In Finder, go to and open in a text editor this file: <strong><em>/Applications/MAMP/bin/php/php5.5.10/conf/php.ini</em> </strong>Note that you're looking in the MAMP (not MAMP Pro) folder, and that you should replace "<em>php5.5.10</em>" in the file path above with the folder that matches whatever version of PHP you identified you're using in Step #1 (i.e. go into whatever folder has the same PHP version you're using—I'm just using PHP 5.5.10 in this example).</li>
+<li>Find the line that says <strong>;extension=imagick.so</strong> (line 542 in my MAMP Pro 3.0.2) and remove the semi-colon from the front of the line (so the line now just says <strong>extension=imagick.so</strong>). This uncomments the imagemagick module so that MAMP makes it available.</li>
+<li>Save the file and close it. You may need to restart your MAMP servers or just restart MAMP for this change to take effect.</li>
+<li>Go to the "settings" tab on the admin dashboard for your local Omeka site (yoursitename/admin/settings/edit-settings), scroll to the bottom, and enter <strong>/usr/local/bin</strong> in the "ImageMagick Directory Path" field. Click the "Save Changes" button on the upper-right.
+<p><img alt="Where to type the ImageMagick path in the Omeka dashboard settings" src="assets/imagemagickpath.png" width="546" height="90"> Type the ImageMagick path at the bottom of the page in the Omeka dashboard settings.</li>
+<li>Imagemagick should now work—you should be able to add "still image" types of files to your local Omeka site, and Omeka will create thumbnails of the images and display the thumbnails and original size images correctly. If you've got a bunch of images you want to add as separate items, I recommend using the <a href="http://omeka.org/add-ons/plugins/dropbox/" target="_blank">Dropbox plugin</a> (doesn't have anything to do with the Dropbox backup site), which lets you batch upload a folder full of images.</li>
+</ol>
+<h2>An Alternative: Vagrant</h2>
+<p>Note that another way to make Imagemagick finagling simpler is to use <a href="http://www.vagrantup.com/" target="_blank">Vagrant</a> (if you've ever worked with a virtual machine, for example to run Windows on a Mac, it's like developing in a virtual machine and being able to easily boot up a machine with a new copy of the CMS of your choice configured how you want, easily move that dev site to a public site, and not have any of this mess with the settings on your host computer/laptop the way you might need to do when using MAMP).</p>
+<p>In particular, the awesome digital humanities devs at <a href="http://www.scholarslab.org/" target="_blank">Scholars' Lab </a>share Vagrant+Chef code and documentation for <a href="http://www.omeka.org" target="_blank">Omeka</a> sites <a href="https://github.com/scholarslab/cookbooks" target="_blank">at this GitHub repo</a> (haven't actually used it myself yet, but planning to very soon). Working with Vagrant takes some learning, though, so if you don't have the time/desire to add a useful webdev skill to your toolkit just now, the MAMP Pro 3 route might be better for you.</p>
+<p>Another option is <a href="https://github.com/michaelck/puppet-lamp-stack-for-omeka" target="_blank">this Vagrant+Puppet LAMP/Omeka set-up</a> on GitHub by MichaelCK. (<a href="https://groups.google.com/forum/#!topic/omeka-dev/0vkYN2pWWgM" target="_blank">HT the Omeka Dev listserv!</a>)</p>
+<p>I started using MAMP Pro 3 to make local Omeka dev easier after <a href="https://groups.google.com/d/msg/omeka-dev/DVER4WHGUjc/UDAyWg4CcCwJ" target="_blank">user niek noted its awesomeness</a> on the Omeka Dev listserv (hat tip!).</p>
