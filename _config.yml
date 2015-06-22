@@ -1,0 +1,11 @@
+# Site settings
+title: Literature Geek
+markdown: redcarpet
+pygments: true
+
+baseurl: "/literaturegeek" # the subpath of your site, e.g. /blog/
+twitter_username: literature_geek
+github_username:  amandavisconti
+
+# Build settings
+markdown: redcarpet
