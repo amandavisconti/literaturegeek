@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags!
+title: View posts by topic
 ---
 
 <div class="page">
