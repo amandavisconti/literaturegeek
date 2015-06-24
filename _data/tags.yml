@@ -1,17 +1,22 @@
 - slug: digital-humanities
   name: Digital humanities
+  title: All digital humanities posts
   
 - slug: scholarly-web-design-and-coding
   name: Scholarly web design and coding
+  title: All posts on scholarly web design and coding
 
 - slug: dh-now
   name: DH Now
+  title: All posts highlighted on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
 
 - slug: best
   name: Best
+  title: A curated selection of my best/favorite blog posts
 
 - slug: dissertation
   name: Dissertation
+  title: All posts about/during my Ph.D. Dissertation (successfully defended in Spring 2015; see <a href="http://dr.AmandaVisconti.com">Dr.AmandaVisconti.com</a> for the dissertation and <a href="http://www.InfiniteUlysses.com">InfiniteUlysses.com</a> for the finished digital+social reading platform.)
 
 - slug: infinite-ulysses
   name: Infinite Ulysses
