@@ -13,7 +13,7 @@ title: Home
     </h1>
 
 {% include tag_collector.html tag_separator=',' %}
-    <span class="post-date">{{ page.date | date: '%B %d, %Y' }}  | {{ tag_list }}</span>
+  <span class="post-date">{{ page.date | date: '%B %d, %Y'  }} | {{ tag_list }}</span>
 
     {{ post.content }}
   </div>
