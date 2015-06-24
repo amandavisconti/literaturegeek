@@ -11,7 +11,6 @@ layout: default
 </div>
 
 <div class="related">
-If you liked this post, you can <a href="https://twitter.com/intent/tweet?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}&via=literature_geek" target="_blank"> share it on Twitter</a> or <a href="https://twitter.com/literature_geek"> follow me on Twitter</a>!
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -26,3 +25,5 @@ If you liked this post, you can <a href="https://twitter.com/intent/tweet?url={{
     {% endfor %}
   </ul>
 </div>
+
+If you liked this post, you can <a href="https://twitter.com/intent/tweet?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}&via=literature_geek" target="_blank"> share it on Twitter</a> or <a href="https://twitter.com/literature_geek"> follow me on Twitter</a>!
