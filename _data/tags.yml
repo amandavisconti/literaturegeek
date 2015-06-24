@@ -24,18 +24,24 @@
 
 - slug: james-joyce-and-ulysses
   name: James Joyce & Ulysses
+  title: All posts about James Joyce and/or <em>Ulysses</em>
 
 - slug: gephi
   name: Gephi
+  title: All posts on using Gephi for information visualization
 
 - slug: advice
   name: Advice
+  title: All posts with advice for graduate students, people curious about the digital humanities, etc.
 
 - slug: tutorial
   name: Tutorial
+  title: All posts containing a tutorial on how to do something
 
 - slug: usertesting
   name: Usertesting
+  title: All posts related to usertesting, usability, and other user/site metrics and analysis
 
 - slug: textual-scholarship
   name: Textual scholarship
+  title: All posts related to textual scholarship, scholarly editing, digital editions, weird texts, etc.
