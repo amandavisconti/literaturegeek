@@ -1,8 +1,35 @@
-- slug: jekyll
-  name: Jekyll
+- slug: digital-humanities
+  name: Digital humanities
+  
+- slug: scholarly-web-design-and-coding
+  name: Scholarly web design and coding
 
-- slug: documentation
-  name: Documentation
+- slug: dh-now
+  name: DH Now
 
-- slug: examples
-  name: Examples
+- slug: best
+  name: Best
+
+- slug: dissertation
+  name: Dissertation
+
+- slug: infinite-ulysses
+  name: Infinite Ulysses
+
+- slug: james-joyce-and-ulysses
+  name: James Joyce & Ulysses
+
+- slug: gephi
+  name: Gephi
+
+- slug: advice
+  name: Advice
+
+- slug: tutorial
+  name: Tutorial
+
+- slug: usertesting
+  name: Usertesting
+
+- slug: textual-scholarship
+  name: Textual scholarship
