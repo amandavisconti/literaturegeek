@@ -560,3 +560,7 @@ p.page-title {
   font-size: 1.3em;
   border-bottom: 1px solid #CCCCCC;
 }
+
+.post{
+border-bottom: 20px dotted #CCCCCC; 
+}
