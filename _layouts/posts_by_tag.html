@@ -5,6 +5,7 @@ layout: default
 {% for data_tag in site.data.tags %}
   {% if data_tag.slug == page.tag %}
     {% assign tag_name = data_tag.name %}
+    {% assign tag_title = data_tag.title %}
   {% endif %}
 {% endfor %}
 
