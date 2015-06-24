@@ -1,7 +1,7 @@
 # Site settings
 title: Literature Geek  / Amanda Visconti
 tagline:             'designing the future of digital+social reading'
-description:         'Amanda Visconti is a design researcher with a strong research background and a focus on innovating, coding, and user testing digital interfaces for reading and social collaboration. New Ph.D. (Literature/Digital Humanities), Information M.S. (Digital Humanities Human-Computer Interaction). MITH digital humanities think tank 2009-2015. Creator of the digital+social reading platform <a href="http://www.InfiniteUlysses.com">InfiniteUlysses.com</a>.'
+description:         'Amanda Visconti is a digital humanist with a strong research background and a focus on innovating, coding, and user testing digital interfaces for social reading, learning, and knowledge-making. New Ph.D. (Literature/Digital Humanities Human-Computer Interaction), University of Michigan Information M.S. (Digital Humanities HCI). MITH digital humanities think tank alum (2009-2015).'
 markdown: pygments
 pygments: true
 paginate: 5
