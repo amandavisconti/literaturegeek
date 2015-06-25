@@ -598,8 +598,8 @@ height: 1.9em;
 @media (-webkit-min-device-pixel-ratio:0) {
 #searchButton {
 border: none !important;
-height: 2em;
-color: blue;
+height: 1.8em;
+color: orange;
 }
 }
         
