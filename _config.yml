@@ -5,7 +5,7 @@ description:         'Amanda Visconti is a digital humanist with a strong resear
 markdown: redcarpet
 pygments: true
 paginate: 1
-paginate_path: "/num"
+paginate_path: "/page:num/"
 baseurl: "/literaturegeek"
 # About/contact
 author:
