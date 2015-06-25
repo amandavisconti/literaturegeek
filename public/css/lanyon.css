@@ -583,6 +583,15 @@ border-bottom: 20px dotted #CCCCCC;
     }
 }
 
+.gsc-resultsHeader {
+display: none;
+}
+
+.gsc-above-wrapper-area {
+margin-left: 5px;
+margin-right: 5px;
+}
+
 #searchString {
 border: none;
 padding: 0.3em 0.6em;
