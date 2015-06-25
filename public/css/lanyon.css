@@ -609,3 +609,7 @@ border-bottom: 20px dotted #CCCCCC;
           -webkit-appearance: none;
           border-radius: 0;
         }
+        
+input[type="submit"] {
+    font-family: FontAwesome;
+}
