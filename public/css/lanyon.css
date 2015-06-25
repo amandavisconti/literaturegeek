@@ -599,8 +599,8 @@ height: 1.9em;
 #searchButton {
 border: none !important;
 height: 1.8em;
-color: pink;
-margin-top: -5px;
+color: green;
+margin-top: -5px !important;
 }
 }
         
