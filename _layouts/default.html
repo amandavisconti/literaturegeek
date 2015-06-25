@@ -19,11 +19,10 @@
         </div>
       </div>
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date: '%B %d, %Y'  }} | {{ tag_list }}</span>
-  {{ content }}
-</div>
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
