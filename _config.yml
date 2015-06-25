@@ -24,8 +24,8 @@ markdown: redcarpet
 permalink:           pretty
 #relative_permalinks: true
 
-sharing :
-  provider : twitter
-    twitter : 
-      size : large
-      via : literature_geek
+sharing:
+  provider: twitter
+    twitter: 
+      size: large
+      via: "literature_geek"
