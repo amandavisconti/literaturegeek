@@ -1,8 +1,5 @@
 {% if site.sharing.provider and page.sharing != false %}
 
-  {% case site.sharing.provider %}
-	{% when 'tweet' %}
-  		{% include sharing-providers/twitter %}
-  {% endcase %}
+  {% include sharing-providers/twitter %}
 
 {% endif %}
