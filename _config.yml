@@ -23,3 +23,15 @@ markdown: redcarpet
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 #relative_permalinks: true
+
+# Settings for sharing 
+    # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
+    # Add a tweet button 		=> provider : tweet
+    # Set 'provider' to the sharing provider you want to use.
+    # Set 'provider' to false to turn sharing off globally.
+    #
+     sharing :
+       provider : twitter
+       twitter : 
+         size : large
+         via : literature_geek
