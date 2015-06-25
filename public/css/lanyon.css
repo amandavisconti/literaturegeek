@@ -594,6 +594,14 @@ margin-right: 0;
 border: none;
 height: 1.9em;
 }
+
+@media (-webkit-min-device-pixel-ratio:0) {
+#searchButton {
+border: none;
+height: 1em;
+color: red;
+}
+}
         
 input[type="submit"] {
 font-family: FontAwesome;
