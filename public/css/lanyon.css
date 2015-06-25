@@ -591,9 +591,9 @@ margin-right: 0;
 }
 
 #searchButton {
-color: #FFFFFF;
 -webkit-appearance: none;
-border-radius: 0;
+border: none;
+height: 1.9em;
 }
         
 input[type="submit"] {
