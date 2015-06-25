@@ -598,10 +598,10 @@ height: 1.9em;
 @media (-webkit-min-device-pixel-ratio:0) {
 #searchButton {
 border: none !important;
-color: blue;
+color: red;
 }
 #searchString {
-padding: 0.1em 0.6em 0.3em 0.6em !important;
+padding: 0.5em 0.6em 0.5em 0.6em !important;
 }
 }
         
