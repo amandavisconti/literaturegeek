@@ -17,13 +17,13 @@ author:
   twitter_username:  literature_geek
   github_username:   amandavisconti
 
-gems:
-- jekyll-redirect-from
-- jekyll-sitemap
-
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 #relative_permalinks: true
 
 sharing:
   provider: twitter
+  
+gems:
+- jekyll-redirect-from
+- jekyll-sitemap
