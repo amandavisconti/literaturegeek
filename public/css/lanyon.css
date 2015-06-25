@@ -584,9 +584,6 @@ border-bottom: 20px dotted #CCCCCC;
     }
 }
 
-#search {
-        float: right;
-
 #searchString {
           width: 283px;
           border: none;
