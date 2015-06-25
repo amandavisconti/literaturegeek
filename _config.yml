@@ -1,18 +1,17 @@
 # Site settings
 title: Literature Geek  / Amanda Visconti
 tagline:             'designing the future of digital+social reading'
-description:         'Amanda Visconti is a digital humanist with a strong research background and a focus on innovating, coding, and user testing digital interfaces for social reading, learning, and knowledge-making. New Ph.D. (Literature/Digital Humanities Human-Computer Interaction), University of Michigan Information M.S. (Digital Humanities HCI). MITH digital humanities think tank alum (2009-2015).'
-markdown: pygments
+description:         'Amanda Visconti is a digital humanist with a strong research background and a focus on innovating, coding, and user testing digital interfaces for social reading, learning, and knowledge-making.<br>New Ph.D. (Literature/Digital Humanities Human-Computer Interaction), University of Michigan Information M.S. (Digital Humanities HCI). MITH digital humanities think tank alum (2009-2015).'
+markdown: redcarpet
 pygments: true
 paginate: 5
 #permalink: :year-:month-:day-:title
 paginate_path: "page:num" # might want to change this
-site.future: false # don't publish posts with future dates (cron will)
 baseurl: "/literaturegeek"
 # About/contact
 author:
   name:              Amanda Visconti
-  url:               https://twitter.com/literature_geek
+  url:               http://www.AmandaVisconti.com
   email:             visconti@umd.edu
   twitter_username:  literature_geek
   github_username:   amandavisconti
