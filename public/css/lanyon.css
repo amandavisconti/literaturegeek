@@ -573,15 +573,20 @@ border-bottom: 20px dotted #CCCCCC;
     border-radius: 5px;
     margin: 10px;
 
-.share-page  a {
-font-weight: 700;
-color: #fff;
-margin-left: 10px;
-  &:hover {
-    border-bottom: 1px dashed #fff;
-  }
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
 }
-}
+
+ #searchBar {
+      font-size: 80%;
+      padding: 0.43em 0 0.57em;
 
 #search {
         float: right;
