@@ -4,8 +4,8 @@ tagline:             'designing the future of digital+social reading'
 description:         'Amanda Visconti is a digital humanist with a strong research background and a focus on innovating, coding, and user testing digital interfaces for social reading, learning, and knowledge-making.<br>New Ph.D. (Literature/Digital Humanities Human-Computer Interaction), University of Michigan Information M.S. (Digital Humanities HCI). MITH digital humanities think tank alum (2009-2015).'
 markdown: redcarpet
 pygments: true
-paginate: 2
-paginate_path: ""
+paginate: 1
+paginate_path: "/num"
 baseurl: "/literaturegeek"
 # About/contact
 author:
