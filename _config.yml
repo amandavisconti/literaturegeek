@@ -26,6 +26,5 @@ permalink:           pretty
 
 sharing:
   provider: twitter
-    twitter: 
-      size: large
-      via: "literature_geek"
+    size: large
+    via: "literature_geek"
