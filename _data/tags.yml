@@ -40,7 +40,7 @@
   
 - slug: advice-tutorial
   name: Advice/Tutorial
-  title: Tutorials for web development, Gephi information visualization (<a href="{{ site.baseurl }}/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities
+  title: Tutorials for web development, Gephi information visualization (<a href="http://amandavisconti.github.io/literaturegeek/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities
   sort: 10
   
 - slug: grad-advice
