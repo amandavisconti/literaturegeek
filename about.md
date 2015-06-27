@@ -23,7 +23,9 @@ title: About
 <li>web annotation</li>
 <li>digital information filtering and personalization</li>
 <li>HCI and building as research</li>
+<li>digital preservation (including <a href="http://www.bitcurator.net/bitcurator/">via digital forensics tools</a>)</li>
 <li>edition and archive interfaces</li>
+<li>scholarly editing and digital edition design</li>
 <li>user testing and usability work in the humanities</li>
 <li>alternate reality games</li>
 <li>James Joyce and <em>Ulysses</em>, Modernist novels, e-lit, comics, videogames, and other weird texts</li>
