@@ -9,7 +9,7 @@ markdown: redcarpet
 pygments: true
 paginate: 1
 paginate_path: "/page:num/"
-baseurl: "www.literaturegeek.com"
+baseurl: ""
 # About/contact
 author:
   name:              Amanda Visconti
