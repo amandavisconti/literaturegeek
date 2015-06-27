@@ -38,15 +38,10 @@
   title: All posts on using Gephi for information visualization
   sort: 7
   
-- slug: advice
-  name: Advice
-  title: All posts with advice for graduate students, people curious about the digital humanities, etc.
+- slug: advice-tutorial
+  name: Advice/Tutorial
+  title: Advice for graduate students, people curious about the digital humanities, etc. and tutorials for web development, Gephi information visualization, etc.
   sort: 10
-  
-- slug: tutorial
-  name: Tutorial
-  title: All posts containing a tutorial on how to do something
-  sort: 11
   
 - slug: usertesting
   name: Usertesting
