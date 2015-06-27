@@ -40,12 +40,12 @@
   
 - slug: advice-tutorial
   name: Advice/Tutorial
-  title: Tutorials for web development, Gephi information visualization, etc. as well as advice for people curious about the digital humanities
+  title: Tutorials for web development, Gephi information visualization (<a href="{{ site.baseurl }}/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities
   sort: 10
   
 - slug: grad-advice
   name: Advice for Grad Students
-  title: Advice for graduate students, people curious about the digital humanities, etc. and tutorials for web development, Gephi information visualization, etc.
+  title: Advice for graduate students on doing a digital dissertation, project management, etc.
   sort: 13
   
 - slug: usertesting
