@@ -1,10 +1,10 @@
 - slug: digital-humanities
-  name: Digital humanities
+  name: digital humanities
   title: All digital humanities posts
   sort: 1
   
 - slug: scholarly-web-design-and-coding
-  name: Scholarly web design and coding
+  name: scholarly web design and coding
   title: All posts on scholarly web design and coding
   sort: 6
   
@@ -14,12 +14,12 @@
   sort: 4
   
 - slug: best
-  name: Best
+  name: best
   title: A curated selection of my best/favorite blog posts
   sort: 5
   
 - slug: dissertation
-  name: Dissertation
+  name: dissertation
   title: All posts about/during my Ph.D. Dissertation (successfully defended in Spring 2015; see <a href="http://dr.AmandaVisconti.com">Dr.AmandaVisconti.com</a> for the dissertation and <a href="http://www.InfiniteUlysses.com">InfiniteUlysses.com</a> for the finished digital+social reading platform)
   sort: 2
   
@@ -39,21 +39,21 @@
   sort: 7
   
 - slug: advice-tutorial
-  name: Advice/Tutorial
+  name: advice/tutorial
   title: Tutorials for web development, Gephi information visualization (<a href="http://amandavisconti.github.io/literaturegeek/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities
   sort: 10
   
 - slug: grad-advice
-  name: Advice for Grad Students
+  name: advice for grad students
   title: Advice for graduate students on doing a digital dissertation, project management, etc.
   sort: 13
   
 - slug: usertesting
-  name: Usertesting
+  name: usertesting
   title: All posts related to usertesting, usability, and other user/site metrics and analysis
   sort: 8
   
 - slug: textual-scholarship
-  name: Textual scholarship
+  name: textual scholarship
   title: All posts related to textual scholarship, scholarly editing, digital editions, weird texts, etc.
   sort: 9
