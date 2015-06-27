@@ -31,5 +31,5 @@ title: About
 </p>
 
 <h2>Remix/Reuse</h2>
-<p>This site's content is CC BY-NC; please reuse/remix/build on this work. Let me know if it's been useful to you</p>
+<p>This site's content is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work. Let me know if it's been useful to you</p>
 </div>
