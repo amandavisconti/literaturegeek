@@ -2,7 +2,6 @@
 layout: page
 title: View posts by topic
 ---
-hi
 <div class="page">
   {% assign sorted_tags = site.data.tags | sort:"sort" %}
   {% for tag in sorted_tags %}
