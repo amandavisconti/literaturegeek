@@ -24,6 +24,3 @@ permalink:           pretty
 
 sharing:
   provider: twitter
-  
-gems:
-- jekyll-redirect-from
