@@ -1,11 +1,32 @@
 ---
 layout: page
-title: About Amanda Visconti
+title: About
 ---
 <div class="page">
-<p>Making the digital humanities more participatory by building for+with the public. Social reading/learning, building as research, humanities interfaces, user testing.</p>
+<p>Hello! This is (Dr!) Amanda Visconti's research blog.</p>
 
-<p>New Literature Ph.D., University of Michigan Information M.S. (Digital Humanities HCI). Proud alum of the MITH digital humanities R&D center (2009-2015).</p>
+<p>I've been <a href="http://www.AmandaVisconti.com">a professional web designer/developer and UX researcher</a> for 8+ years, including various roles 2009-2015 at the <a href="http://mith.umd.edu">Maryland Institute for Technology in the Humanities</a> (MITH) digital humanities R&D center. I hold a new <a href="dr.AmandaVisconti.com">UMD Literature Ph.D.</a> (May 2015) and a University of Michigan Information M.S. (Digital Humanities HCI) where I received the Margaret Mann award for professional promise. </p>
 
-<p>This site is CC BY-NC; please reuse/remix/build on this work!</p>
+<h2>Unique digital dissertation</h2>
+<p>In Spring 2015, I successfully defended a <a href="dr.AmandaVisconti.com">digital humanities dissertation</a> with an innovative form and methodology: design, code, usertesting, blogging, and an analytic whitepaper at the very end. This dissertation was unique in not including a traditional proto-monograph (4-5 chapters of writing). For more information, check out my posts from during the dissertation or all posts with advice for digital humanities graduate students. Find the completed dissertation at <a href="dr.AmandaVisconti.com">Dr.AmandaVisconti.com</a>, including the whitepaper and the InfiniteUlysses.com site I created as the focus of the dissertation.</p>
+
+<p>An online portfolio at <a href="http://www.AmandaVisconti.com">AmandaVisconti.com</a> shows off some of my work, and you can download my resume here. I'm on Twitter, LinkedIn, and GitHub, and can also be contacted via AmandaVisconti /at/ Gmail.com.</p>
+
+<p>My research focuses on making the digital humanities more participatory by designing and building for+with the public, and I look to non-academic digital communities (Reddit, StackExchange) and movements (citizen archivists, Twitter activism) for inspiration. 
+
+<p>I'm interested in a lot of things, including:
+<ul>
+<li>social reading/learning</li>
+<li>web annotation</li>
+<li>digital information filtering and personalization</li>
+<li>HCI and building as research</li>
+<li>edition and archive interfaces</li>
+<li>user testing and usability work in the humanities</li>
+<li>alternate reality games</li>
+<li>James Joyce and <em>Ulysses</em>, Modernist novels, e-lit, comics, videogames, and other weird texts</li>
+<ul>
+</p>
+
+<h2>Remix/Reuse</h2>
+<p>This site's content is CC BY-NC; please reuse/remix/build on this work. Let me know if it's been useful to you</p>
 </div>
