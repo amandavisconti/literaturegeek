@@ -12,6 +12,8 @@ title: Home
       </a>
     </h1>
 
+<span class="post-date">{{ page.date | date: '%B %d, %Y'  }} okay </span>
+
 {% include tag_collector.html tag_separator=',' %}
   <span class="post-date">{{ page.date | date: '%B %d, %Y'  }} | and {{ tag_list }}</span>
 
