@@ -5,6 +5,7 @@ title: View posts by topic
 <div class="page">
   {% assign sorted_tags = site.data.tags | sort:"sort" %}
   {% for tag in sorted_tags %}
-    {{ include.tag.title }} {% include tag_link_formatter.html tag=tag tag_separator='<br />' %}
+     {% include tag_link_formatter.html tag=tag tag_separator='<br />' %}
+     {{ include.tag.title }}
   {% endfor %}
 </div>
