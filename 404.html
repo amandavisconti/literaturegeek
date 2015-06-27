@@ -1,10 +1,34 @@
 ---
 layout: default
-title: "404: Page not found"
+title: "Page not found"
 permalink: 404.html
 ---
 
 <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
+  <h1 class="page-title">Were you looking for one of these things?:</h1>
+  <p class="lead">Some of the post categories have changed during this site's migration from WordPress to Jekyll. Use the links below to get where you wanted to go:</p>
+  
+  {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
+  {% for tag in sorted_tags %}
+    <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
+  {% endfor %}</ul>
+  
+<p>If you weren't looking for something linked above, try searching for it:</p>
+<div id="home-search" class="home">
+    <script>
+        (function() {
+            var cx = '003023042509722054646:vihivpenpra';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <gcse:search queryParameterName="searchString"></gcse:search>
+</div>
+
+<p>You can also <a href="http://www.twitter.com/literature_geek">contact me on Twitter @Literature_Geek</a> if you need help finding something.</p>
 </div>
