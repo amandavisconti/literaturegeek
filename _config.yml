@@ -1,7 +1,10 @@
 # Site settings
 title: Literature Geek  / Amanda Visconti
 tagline:             'designing the future of digital+social reading'
-description:         'Digital humanities focus on innovating, coding, and user testing digital interfaces for social reading, learning, and knowledge-making.<br>New Ph.D. (Literature/Digital Humanities Human-Computer Interaction), University of Michigan Information M.S. (Digital Humanities HCI). MITH digital humanities think tank alum (2009-2015). This site is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work!'
+description:         '<p>Making the digital humanities more participatory by building for+with the public. Social reading/learning, building as research, humanities interfaces, user testing.</p>
+<p>New Literature Ph.D., University of Michigan Information M.S. (Digital Humanities HCI). Proud alum of the MITH digital humanities R&D center (2009-2015). 
+</p>
+<p>This site is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work!</p>'
 markdown: redcarpet
 pygments: true
 paginate: 1
