@@ -8,14 +8,14 @@ title: Home
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }} or {{ page.date | date: '%B %d, %Y' }}
+        {{ post.title }} or {{ page.date }}
       </a>
     </h1>
 
-<span class="post-date">{{ page.date | date: '%B %d, %Y'  }} okay </span>
+<span class="post-date">{{ page.date }} okay </span>
 
 {% include tag_collector.html tag_separator=',' %}
-  <span class="post-date">{{ page.date | date: '%B %d, %Y'  }} | and {{ tag_list }}</span>
+  <span class="post-date">{{ page.date }} | and {{ tag_list }}</span>
 
     {{ post.content }}
   </div>
