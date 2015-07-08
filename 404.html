@@ -11,7 +11,9 @@ permalink: 404.html
   {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
   {% for tag in sorted_tags %}
     <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
-  {% endfor %}</ul>
+  {% endfor %}
+  <li><a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">Values page/post</a>: Offline for post-Ph.D. development, but you can read the dissertation-era version on the Internet Archive <a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">here</a>.</li>
+  </ul>
   
 <p>If you weren't looking for something linked above, try searching for it:</p>
 <div id="home-search" class="home">
