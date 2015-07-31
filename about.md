@@ -33,5 +33,5 @@ title: About
 <p>An online portfolio at <a href="http://www.AmandaVisconti.com">AmandaVisconti.com</a> shows off some of my work, and you can <a href="http://amandavisconti.com/AmandaVisconti_Resume.pdf">download my resume here</a>. I'm on Twitter <a href="http://www.twitter.com/literature_geek">@Literature_Geek</a>, <a href="https://www.linkedin.com/in/amandavisconti">LinkedIn</a>, and <a href="https://github.com/amandavisconti">GitHub</a>, and can also be contacted via AmandaVisconti /at/ Gmail.com.</p>
 
 <h2>Remix/Reuse</h2>
-<p>This site's content is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work. Let me know if it's been useful to you</p>
+<p>This site's content is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work. Let me know if it's been useful to you!</p>
 </div>
