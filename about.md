@@ -5,14 +5,17 @@ title: About
 <div class="page">
 <p>Hello! This is (Dr!) Amanda Visconti's research blog.</p>
 
-<p>I'm an Assistant Professor/Digital Humanities Specialist in the Purdue University Libraries.</p>
+<p>Dr. Amanda Visconti designs, codes, and analyzes user and site data toward helping the humanities grow more open: not just publicly accessible, but inviting and supporting public participation. She is the Digital Humanities Specialist and an assistant professor in the Libraries at Purdue University.</p>
 
-<p>I'm a digital humanities researcher as well as <a href="http://www.AmandaVisconti.com">a professional web designer/developer and UX researcher</a> with over eight years of experience, including various roles 2009-2015 at the <a href="http://mith.umd.edu">Maryland Institute for Technology in the Humanities</a> (MITH) digital humanities R&D center. I recently successfully defended UMD <a href="dr.AmandaVisconti.com">Literature Ph.D.</a> using design, code, and usertesting to explore collaborative online reading (May 2015). I also hold a University of Michigan <a href="http://deepblue.lib.umich.edu/handle/2027.42/71380">Information M.S.</a> (Digital Humanities HCI), receiving the <a href="https://www.si.umich.edu/newsandevents/margaret-mann-award-recipients-1941-present">Margaret Mann Award</a> for demonstrated ability and promise of professional development.</p>
+<p>An active maker and member of the digital humanities community, Visconti's <a href="dr.AmandaVisconti.com">recently completed University of Maryland Literature Ph.D.</a> consisted of the design, code, and user-testing of an experimental social reading interface (InfiniteUlysses.com) instead of a proto-monograph. Visconti holds an <a href="http://deepblue.lib.umich.edu/handle/2027.42/71380">Information M.S.</a> with a specialization in digital humanities HCI from the University of Michigan, where she worked with public humanities enthusiasts to identify small design changes that could open scholarly websites to public use, and received the <a href="https://www.si.umich.edu/newsandevents/margaret-mann-award-recipients-1941-present">Margaret Mann Award</a> for demonstrated ability and promise of professional development.</p>
+
+<p>A professional digital humanities web developer and UX researcher for over eight years, Visconti has worked since 2009 in various roles at the <a href="http://mith.umd.edu">Maryland Institute for Technology in the Humanities</a> (MITH), one of the world's top digital humanities R&D centers. She tweets @Literature_Geek, blogs her design research at LiteratureGeek.com, shares her code on GitHub (github.com/amandavisconti), and maintains a project portfolio at AmandaVisconti.com.
 
 <h2> Areas of interest/expertise</h2>
 <p>I'm interested in a lot of things, including:
 <ul>
-<li>social reading/learning</li>
+<li>building weird/experimental stuff for self-motivated learning</li>
+<li>social reading and learning, especially in the digital humanities (literature, history, the arts...)</li>
 <li>web annotation</li>
 <li>digital information filtering and personalization</li>
 <li>HCI and building as research</li>
