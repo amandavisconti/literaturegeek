@@ -7,7 +7,7 @@ description:         '<p>Making the digital humanities more participatory by bui
 <p>This site is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work!</p>'
 markdown: redcarpet
 pygments: true
-paginate: 1
+paginate: 3
 paginate_path: "/page:num/"
 baseurl: ""
 # About/contact
