@@ -33,7 +33,7 @@ title: Invited Speaking
 <h2>Recent invited speaking includes:</h2>
 <ul>
 <li>Brown University (November 2016). Public lecture.</li>
-<li>Northeastern University (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.</li>
+<li>Northeastern University "Literature together: participatory digital editions, social annotation, and the public humanities" (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.</li>
 <li>MIT Media Lab “Public => Participatory Digital Humanities: designing the past & present of human culture for everyone” (May 2015).</li>
 <li>"Culture Analytics and User Experience Design” weeklong workshop at the Institute for Pure and Applied Mathematics (IPAM) at UCLA (April 2016).</li>
 <li>Purdue University "Service +/- Collaboration for Digital Humanities in the Library” (July 2015).</li>
