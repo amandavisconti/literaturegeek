@@ -1,30 +1,45 @@
-Yes, I would be happy to speak at your institution! 
+---
+layout: page
+title: Invited Speaking
+---
+<p>Contact me at aviscont@purdue.edu or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution!</p>
 
-## Possible topics:
+<h2>Possible topics:</h2>
+<h3>Digital humanities</h3>
+<ul>
+<li><strong>What is the digital humanities</strong> and why is it good for my department/university? How can I get started in the digital humanities?</li>
+<li><strong>Participatory digital editions</strong> and other DH projects that invite and support a <strong>public humanities</strong></li>
+<li><strong>Scholarly social media</strong> for better and happier research (blogging and Twitter in particular)</li>
+<li><strong>Research blogging</strong></li>
+</ul>
 
-- **What is the digital humanities** and why is it good for my department/university? How can I get started in the digital humanities?
-- **Designing digital humanities websites** (and other interfaces)
-- **Web annotation** for research, teaching, and learning
-- **Digital humanities web development, design, and user/usability testing**
-- **User experience design** for the digital humanities
-- **Participatory digital editions** and other DH projects that invite and support a **public humanities**
-- **Designing and pursuing a successful digital dissertation** (I successfully defended a wholly digital, no-chapters literature dissertation in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)
-- **Supporting digital dissertations** and other digital student work: **how to evaluate digital work**, support it and track effort while it’s happening, and how to argue for the necessity of a digital format and/or method
-- **Scholarly social media** for better and happier research (blogging and Twitter in particular)
-- **Research blogging**
-- **Teaching digital humanities skills**
+<h3>Digital humanities dissertations</h3>
+<ul>
+<li><strong>Designing and pursuing a successful digital dissertation</strong> (I successfully defended a wholly digital, no-chapters literature dissertation in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)</li>
+<li><strong>Supporting digital dissertations</strong> and other digital student work: <strong>how to evaluate digital work</strong>, support it and track effort while it’s happening, and how to argue for the necessity of a digital format and/or method</li>
+</ul>
 
-I’m happy to consult informally with faculty, students, and staff interested in learning a digital skill, pursuing a digital project, or doing/mentoring a digital dissertation while on campus.
+<h3>Digital humanities technology & training</h3>
+<ul>
+<li><strong>Designing digital humanities websites</strong> (and other interfaces)</li>
+<li><strong>Web annotation</strong> for research, teaching, and learning</li>
+<li><strong>Digital humanities web development, design, and user/usability testing</strong>, including workshops on specific skills like GitHub/git for the classroom, Omeka for textual scholars, and making and hosting your first web page (HTML5 and CSS3)</li>
+<li><strong>User experience design</strong> for the digital humanities</li>
+<li><strong>Teaching digital humanities</strong></li>
+</ul>
 
-## Recent invited speaking includes:
+<p>I’m happy to consult informally with faculty, students, and staff interested in learning a digital skill, pursuing a digital project, or doing/mentoring a digital dissertation while on campus.</p>
 
-- Brown University (November 2016). Public lecture.
-- Northeastern University (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.
-- MIT Media Lab “Public => Participatory Digital Humanities: designing the past & present of human culture for everyone” (May 2015).
-- "Culture Analytics and User Experience Design” weeklong workshop at the Institute for Pure and Applied Mathematics (IPAM) at UCLA (April 2016).
-- Purdue University "Service +/- Collaboration for Digital Humanities in the Library” (July 2015).
-- Dr. Matthew Kirschenbaum’s "Critical Topics in Digital Studies” graduate course at the University of Maryland (October 2015). Skype panelist on participatory digital humanities sites and discussion of digital dissertation experience.
-- MITH (Maryland Institute for Technology in the Humanities) Digital Dialogue "Do read the comments: Designing digital editions for the public humanities" (April 2015).
-- Folger Shakespeare Library sponsored panel discussant: "Folger Digital Agendas III: Digital Futures". (Renaissance Society of America, March 2016).
-- Nebraska Forum on Digital Humanities "“What if we build a digital edition and everyone shows up? Public Humanities, Participatory Design, and Infinite Ulysses” (April 2014).
-- Dr. Hans Walter Gabler's *Digital Ulysses* Master Class (June 2013).
+<h2>Recent invited speaking includes:</h2>
+<ul>
+<li>Brown University (November 2016). Public lecture.</li>
+<li>Northeastern University (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.</li>
+<li>MIT Media Lab “Public => Participatory Digital Humanities: designing the past & present of human culture for everyone” (May 2015).</li>
+<li>"Culture Analytics and User Experience Design” weeklong workshop at the Institute for Pure and Applied Mathematics (IPAM) at UCLA (April 2016).</li>
+<li>Purdue University "Service +/<li>Collaboration for Digital Humanities in the Library” (July 2015).</li>
+<li>Dr. Matthew Kirschenbaum’s "Critical Topics in Digital Studies” graduate course at the University of Maryland (October 2015). Skype panelist on participatory digital humanities sites and discussion of digital dissertation experience.</li>
+<li>MITH (Maryland Institute for Technology in the Humanities) Digital Dialogue "Do read the comments: Designing digital editions for the public humanities" (April 2015).</li>
+<li>Folger Shakespeare Library sponsored panel discussant: "Folger Digital Agendas III: Digital Futures". (Renaissance Society of America, March 2016).</li>
+<li>Nebraska Forum on Digital Humanities "“What if we build a digital edition and everyone shows up? Public Humanities, Participatory Design, and Infinite Ulysses” (April 2014).</li>
+<li>Dr. Hans Walter Gabler's *Digital Ulysses* Master Class (June 2013).</li>
+</ul>
