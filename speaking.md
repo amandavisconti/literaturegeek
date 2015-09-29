@@ -41,5 +41,5 @@ title: Invited Speaking
 <li>MITH (Maryland Institute for Technology in the Humanities) Digital Dialogue "Do read the comments: Designing digital editions for the public humanities" (April 2015).</li>
 <li>Folger Shakespeare Library sponsored panel discussant: "Folger Digital Agendas III: Digital Futures". (Renaissance Society of America, March 2016).</li>
 <li>Nebraska Forum on Digital Humanities "“What if we build a digital edition and everyone shows up? Public Humanities, Participatory Design, and Infinite Ulysses” (April 2014).</li>
-<li>Dr. Hans Walter Gabler's *Digital Ulysses* Master Class (June 2013).</li>
+<li>Dr. Hans Walter Gabler's <em>Digital Ulysses</em> Master Class (June 2013).</li>
 </ul>
