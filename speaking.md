@@ -2,7 +2,7 @@
 layout: page
 title: Invited Speaking
 ---
-<p>Contact me at aviscont@purdue.edu or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution!</p>
+<p>Contact me at aviscont@purdue.edu or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution! You can read more about me on <a href="http://www.literaturegeek.com/about">this blog's about page</a> or on <a href="http://www.amandavisconti.com">my online portfolio</a>.</p>
 
 <h2>Possible topics:</h2>
 <h3>Digital humanities</h3>
@@ -15,7 +15,7 @@ title: Invited Speaking
 
 <h3>Digital humanities dissertations</h3>
 <ul>
-<li><strong>Designing and pursuing a successful digital dissertation</strong> (I successfully defended a wholly digital, no-chapters literature dissertation in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)</li>
+<li><strong>Designing and pursuing a successful digital dissertation</strong> (I successfully defended <a href="http://dr.AmandaVisconti.com">a wholly digital, no-chapters literature dissertation</a> in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)</li>
 <li><strong>Supporting digital dissertations</strong> and other digital student work: <strong>how to evaluate digital work</strong>, support it and track effort while it’s happening, and how to argue for the necessity of a digital format and/or method</li>
 </ul>
 
