@@ -1,0 +1,40 @@
+---
+layout: post
+title: Introducing Static Sites for Digital Humanities Projects: Why (and what are) Jekyll, GitHub, etc.?
+date: 2015-12-08  08:00:00.000000000 -04:00
+permalink: 2015/12/08/WhyJekyllGitHub
+author: 
+  twitter: literature_geek
+  github: amandavisconti
+tags: [digital-humanities, tutorial, scholarly-web-design-and-coding]
+status: publish
+type: post
+published: true
+---
+<p>I'm working with my university press on new models for DH scholarship... and as I started typing up a description of using <a href="https://jekyllrb.com/">Jekyll</a> and GitHub for a proposed DH book project, I ended up discussing not just Jekyll and GitHub but also defining static vs. dynamic sites, git and versioning, and GitHub pages. Thought I'd share this as a starting point for others! (<em>Caveat emptor: this is one of those emails that turned into a huge email that turned into a blog post.</em>) If you want to be superfancy, you can click <a href="https://via.hypothes.is/http://literaturegeek.com/2015/12/08/WhyJekyllGitHub">this link to annotate the page with questions and requests for clarification, comments, and suggestions</a> using the magic of <a href="https://hypothes.is/">Hypothesis</a>, and I'll work on refining this into a more exhaustive FAQ as time allows.</p>
+
+<h2>What are.... dynamic versus static websites?</h2>
+<p>Dynamic sites (like Drupal or WordPress) pull information from a database to populate a page; when you search for some words on Amazon.com, for example, the search results page you are shown didn’t already exist as a full HTML page—Amazon.com has a template for search results page with things they all share like their main menu and logo, but it queries the database to insert the info about the books your search calls for. Jekyll is a “static site generator” in that it runs code before you view any webpage to take page templates (those things like main menus and footers, shared across all the web pages) and other files with specific information (e.g. a file for each blog post on the site) and combine these into full HTML pages for the site visitors to see (i.e. generating a static site, aka a folder of HTML files). That is, Jekyll doesn’t need to do anything like querying a database when you visit a page; it’s already got the pages fully formed.</p>
+
+<h2>How is Jekyll like Drupal/WordPress/Omeka/[other CMS]?</h2>
+<p>Jekyll is like content management systems (CMSs) such as Drupal or WordPress in that it’s a set of code that makes a website run and handles certain repeated tasks like displaying a logo and menubar on every page, creating a searchable archive of blog posts, etc. Unlike CMSs, though, Jekyll doesn’t have a web “dashboard” (that shiny UI you use to administrate the website: moderating comments, writing a blog post from within the live site...). And! Jekyll does not use a database (the source of a lot of code and security headaches in CMSs like Drupal). If you don’t need the power and possibilities behind these CMSs, it’s often better for effort, security, and preservation not to use them. Or if you <em>need</em> some of the things that Jekyll particularly offers...</p>
+
+<h2>Why/when Jekyll?</h2>
+<p>Jekyll lets you author your webpages (blog posts, etc.) in markdown rather than HTML; markdown is a tool for converting text to HTML—that is, it lets you write in a manner close to how you already do, and makes converting what you've written into webpagey formats like headings, italicizations, lists, etc. easy. More and more humanists are using markdown these days, and it’s easier to learn and more forgiving than HTML. (There are lots of WYSIWYG tools, too, for those who don’t want to learn Markdown.)</p>
+
+<p>Jekyll doesn’t work as well if you have a site like Amazon.com that basically lets visitors create a huge number of custom pages by making complex searches from a huge set of things, since it’s easier for Amazon.com to create search result pages on the fly from their database than to store an HTML page for each possible search result combination. But for a site where you can largely imagine now what all the pages will look like (e.g. a digital book), Jekyll is faster, lighter, and better for longterm security and preservation.</p>
+
+<h2>GitHub.com, git, and repos</h2>
+<p>GitHub.com is a site where people share code they’ve written so others can reuse it, build on it, and report bugs and feature requests. It’s based on git, which is software for versioning code: keeping track of the various changes in code over time as people add, subtract, and otherwise edit that text. People use GitHub.com for things other than code including blogging and professional writing, since it supports keeping track of multiple versions of a text and is friendly to collaboratively authored text. (Other sites besides GitHub use git, and you can use git without GitHub.com. GitHub.com is just a wildly popular public platform for sharing and working on versioned code.)</p>
+
+<p>GitHub “repos" (repositories) are just collections of code; for example, I have <a href="https://github.com/amandavisconti/infinite-ulysses-dissertation">one repo with all the code involved in my dissertation</a>, and <a href="https://github.com/amandavisconti/EncodedCurtain">another repo that shares an old Omeka maintenance-page hack I wrote</a>. </p>
+
+<h2>GitHub Pages</h2>
+<p>GitHub Pages can be located for free at a GitHub subdomain such as amandavisconti.github.io/SGAPedagogyPage (where amandavisconti is my GitHub username and SGAPedagogyPage is the name of the GitHub repository holding its web files. You can also purchase from elsewhere and use your own domain name with the same site (as I did for LiteratureGeek.com). Custom domain names aren’t permanently bought, so you need to renew your license over them from time to time (you can do this once a year or buy a bunch of years at a time; the type of domain names a DHer might want to acquire usually cost around $10-20 each per year).</p>
+
+<p>You don’t need to use GitHub or GitHub pages to use Jekyll; you could, for example, use commercial or university web hosting. I like GitHub Pages hosting because it’s free, uses git (which manages multiple versions and drafts of collaboratively authored/edited texts nicely), is set up to make Jekyll use easier, and because GitHub is already the most popular place for DH data sharing, code and text versioning, etc.</p>
+
+<h2>Can I use these for projects that might have a commercial aspect (e.g. a book series with digital components)?</h2>
+<p>I think so. Jekyll is free and open-source. <a href="https://github.com/jekyll/jekyll">Its code</a> can be used for commercial projects (<a href="https://github.com/jekyll/jekyll/blob/master/LICENSE">its MIT License file</a> with its attribution to the Jekyll creator should be kept with the rest of the files). </p>
+<p><a href="https://pages.github.com/">GitHub Pages</a> are webpages hosted for free on GitHub.com. GitHub Pages can run Jekyll. My <a href="http://www.LiteratureGeek.com">LiteratureGeek.com research blog</a> is an example of a site using Jekyll to run the site and GitHub Pages to host the site. According to this page, commercial use of GitHub Pages is allowed, though because GitHub retains the right to alter that, anyone using it in a book project should have a backup plan in place (something very simple: time required, who to contact, cost of transferring to university or commercial web hosting).</p>
+<p>If you do begin to use GitHub for multiple DH projects, you’ll want to look into their various plans, as the default free plans are set up for individual use and public repositories (e.g. you might want multiple private repositories so sites can be developed there before going public). There are various options including free plans for educational and non-profit uses.</p>
