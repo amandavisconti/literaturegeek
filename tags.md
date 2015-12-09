@@ -3,7 +3,7 @@ layout: page
 title: All blog posts by topic or date
 ---
 <h2>Posts by topic</h2>
-<div class="page">
+<div>
   {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
   {% for tag in sorted_tags %}
     <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
