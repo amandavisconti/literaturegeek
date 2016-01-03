@@ -2,9 +2,9 @@
 layout: page
 title: Invited Speaking
 ---
-<p>Contact me at aviscont@purdue.edu or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution! You can read more about me on <a href="http://www.literaturegeek.com/about">this blog's about page</a> or on <a href="http://www.amandavisconti.com">my online portfolio</a>.</p>
+<p>Contact me at AmandaVisconti@Gmail.com or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution! You can read more about me on <a href="http://www.literaturegeek.com/about">this blog's about page</a> or on <a href="http://www.amandavisconti.com">my online portfolio at AmandaVisconti.com</a>.</p>
 
-<h2>Possible topics:</h2>
+<h2>Topics:</h2>
 <h3>Digital humanities</h3>
 <ul>
 <li><strong>What is the digital humanities</strong> and why is it good for my department/university? How can I get started in the digital humanities?</li>
