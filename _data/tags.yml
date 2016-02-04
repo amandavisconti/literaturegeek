@@ -9,8 +9,8 @@
   sort: 6
   
 - slug: dh-now
-  name: DH Now
-  title: All posts highlighted on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
+  name: featured on DH Now!
+  title: All posts featured on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
   sort: 4
   
 - slug: best

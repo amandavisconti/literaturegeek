@@ -11,6 +11,7 @@ title: All blog posts by topic or date
 </div>
 
 <h2>Posts by date</h2>
+<em>Note that some earlier posts have been retired; <a href="mailto:amandavisconti@gmail.com?Subject=ContactFromLiteratureGeekBlog">contact me</a> if you're having trouble finding something old, as I might have an offline copy to share.</em>
 <section id="archive">
   <h3>This year's posts</h3>
   {%for post in site.posts %}

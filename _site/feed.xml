@@ -1,40 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2015 07:34:30 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2015 07:34:30 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <title>Literature Geek</title>
+    <description>LiteratureGeek.com is the research blog of Dr. Amanda Visconti.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Feb 2016 06:04:27 -0500</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 06:04:27 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Digital Humanities Annotates (#DHannotates)</title>
+        <description>&lt;p&gt;Tech tutorials and documentation are a particularly exciting place for inline annotation, since users can indicate exactly where they got stuck or need additional information. Using the #DHannotates hashtag, we&#39;re encouraging digital humanists to annotate tutorials, documentation, and other DHy webpages as an easy way of improving these resources for the whole community. &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt; annotation makes inline annotation easy! Simply&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://hypothes.is/register&quot;&gt;Create a Hypothesis account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prefix the URL of the webpage you want to annotate with &lt;strong&gt;https://via.hypothes.is/&lt;/strong&gt; (that is, cut and paste that in front of the link to the page you want to annotate!)&lt;/li&gt;
+&lt;li&gt;Annotation feels very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students/&quot;&gt;this tutorial&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;If you&#39;ve wanted to try out a tech skill like visualization or Python before, but weren&#39;t sure how to start—or started a tutorial and got stuck—read on! (If you&#39;d like to use this in the classroom, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;see Shawn Graham&#39;s post &quot;Can we fix it? Yes we can! #DHAnnotates Feb 8-12&quot; on the Electric Archaeology site&lt;/a&gt;.)&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Work through a tutorial now (and get help if you encounter a problem!)&lt;/h2&gt;
+&lt;p&gt;From now through the end of next week (February 2-12), Shawn Graham and I (and anyone else who wants to volunteer!) will address any &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis annotations&lt;/a&gt; created on a particular DH resource: the &lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;Programming Historian tutorials&lt;/a&gt; (resources for learning various DH tech skills, written to be friendly to humanists new to coding and other tech work). We&#39;ll answer questions when possible, and when we can&#39;t, we&#39;ll create an issue in the Programming Historian GitHub repo to make sure someone knows about it (we&#39;ll also try to find people who can answer questions via Twitter and the Digital Humanities Slack).&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Interesting lessons include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions&quot;&gt;Cleaning OCR&#39;d text with regular expressions&lt;/a&gt;, by Laura Turner O&#39;Hara&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/topic-modeling-and-mallet&quot;&gt;Getting Started with Topic Modeling and MALLET&lt;/a&gt;, by Shawn Graham, Scott Weingart, and Ian Milligan &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/googlemaps-googleearth&quot;&gt;Various Google Earth/mapping/GIS lessons&lt;/a&gt;, by Jim Clifford, Josh MacFadyen, and Daniel Macfarlane &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources&quot;&gt;Visualizing historical networks&lt;/a&gt;, by Marten Düring&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/up-and-running-with-omeka&quot;&gt;Using Omeka&lt;/a&gt;, by Miriam Posner&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/corpus-analysis-with-antconc&quot;&gt;Corpus Analysis with Antconc&lt;/a&gt;, by Heather Froehlich&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/programminghistorian.org/lessons/introduction-and-installation&quot;&gt;A series of tutorials for learning Python for DH work&lt;/a&gt;, by William J. Turkel and Adam Crymble &lt;/li&gt;
+&lt;/ul&gt;
 
-</description>
-        <pubDate>Mon, 22 Jun 2015 03:30:45 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/06/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/06/22/welcome-to-jekyll.html</guid>
+&lt;p&gt;Questions during a tutorial? Ideas for improvements? Get stuck? Want to thank the tutorial&#39;s writers and editors? You can use Hypothesis annotation to add your thoughts.&lt;p&gt;
+
+&lt;h2&gt;If a DHer annotates, does anyone hear?&lt;/h2&gt;
+&lt;p&gt;During Feb 2-12, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;Shawn Graham&lt;/a&gt; and I will respond to Programming Historian annotations and/or add an issue to the site&#39;s GitHub repo so that the annotation is heard and attended to (note, of course, that Programming Historian is written and run by generous volunteers, so help is dependent on volunteers&#39; time... but this is a step toward making sure questions and ideas are seen).&lt;/p&gt;
+&lt;p&gt;For beyond next week (2/2-2/12), we&#39;re discussing automating the process of turning Hypothesis annotations into GitHub issues here: &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182&quot;&gt;https://github.com/programminghistorian/jekyll/issues/182&lt;/a&gt;. Please do join the conversation!&lt;/p&gt;</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 -0500</pubDate>
+        <link>/2016/02/02/DHannotates</link>
+        <guid isPermaLink="true">/2016/02/02/DHannotates</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>dh-now</category>
         
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>Educase Podcast Interview on Digital Humanities Dissertations</title>
+        <description>&lt;p&gt;Educause recently interviewed me about my Infinite Ulysses research and digital humanities dissertations–you can listen in via this 7-minute podcast:&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/242972610&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=true&amp;amp;show_comments=false&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Or &lt;a href=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/242972610&quot;&gt;listen directly on Soundcloud&lt;/a&gt;. For more detail and nuance, check out my recent blog post on my talk &quot;&lt;a href=&quot;http://literaturegeek.com/2016/01/11/welcomedigitaldissertations&quot;&gt;Digital Dissertations in an Increasingly Welcoming Landscape &lt;/a&gt;&quot; (audio/slides, text transcript).&lt;/p&gt;</description>
+        <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
+        <link>/2016/01/26/digitaldissertationaudio</link>
+        <guid isPermaLink="true">/2016/01/26/digitaldissertationaudio</guid>
         
-        <category>update</category>
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>infinite-ulysses</category>
+        
+        <category>dissertation</category>
+        
+        <category>advice</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digital Dissertations in an Increasingly Welcoming Landscape</title>
+        <description>&lt;p&gt;This audio+slides presentation describes my recent, uniquely non-monograph digital humanities dissertation, which consisted of design, code, blogging, user-testing, and a whitepaper written during just the final month before the defense, *without* accompanying written chapters of proto-monograph. See below the video for a transcript.&lt;/p&gt;
+
+&lt;p&gt;I survey the increasingly welcoming landscape for doing digital dissertations (especially in the humanities) and look at the practices (and privileges) that help or hinder digital dissertation success. See &lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt; for the dissertation discussed (includes links to all pieces of the dissertation, such as the &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; participatory digital edition and &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt; blogging) and &lt;a href=&quot;http://www.TinyURL.com/DHevaluation&quot;&gt;TinyURL.com/DHevaluation&lt;/a&gt; for a Zotero bibliography of articles related to digital humanities dissertations, promotion, and tenure.&lt;/p&gt;
+
+&lt;p&gt;This talk was originally presented at the Coalition for Networked Information (CNI) Fall 2015 meeting in Washington, D.C. (any extra commas are the result of it being a talk transcript!). If you&#39;re a potential or current digital dissertator (or advising one), you may wish to &lt;a href=&quot;http://www.literaturegeek.com/tag/dissertation&quot;&gt;check out my complete series of dissertation blogging&lt;/a&gt; from throughout my dissertation experience; it includes practical advice on aspects like arguing for your methodology and dealing with IP and copyright issues.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/151446633?title=0&amp;byline=0&amp;portrait=0&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;https://vimeo.com/151446633&quot;&gt;Digital Dissertations in an Increasingly Welcoming Landscape&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user8389727&quot;&gt;LiteratureGeek&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Digital Dissertations in an Increasingly Welcoming Landscape&lt;/h2&gt;
+&lt;p&gt;In April this year, I defended a literature dissertation that was unusual in its methodology and form: design, code, user testing, blogging, and a whitepaper written during the final few weeks before the defense. On top of using some digital humanities methods that are becoming more and more recognized and allowed as *some* part of a dissertation and as part of *any* non-dissertational scholarship, though, my dissertation was possibly unique in its format, in that these digital pieces were completely recognized as the full scholarship they were; and you can tell this was the case because there was no proto-monograph: there were zero written chapters. This really wasn&#39;t a case of someone being allowed to do some extra digital scholarship, as long as they did it in addition to a traditionally recognizable set of written chapters.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.001.png&quot;&gt;
+&lt;p&gt;I was lucky to have an incredibly positive digital dissertational experience, which I’ll tell you about more in a moment. First, though, I want to rewind to three years earlier, when I had a very brief roadblock to getting the dissertation off the ground. &lt;/p&gt;
+&lt;h2&gt;Digital dissertations: not actually that special?&lt;/h2&gt;
+&lt;p&gt;I knew that I wanted to design a dissertation this unusual way, and so it made sense to talk to all the parties involved in deciding if I&#39;d receive my doctorate, before starting the work, to make sure we were all on board and on the same page about the project. I had the academic experience of writing my dissertation prospectus under my belt, and the habit of summarizing my research thinking into 140 characters for Twitter, so academic or concise writing weren’t quite the problems.&lt;/p&gt;
+&lt;p&gt;But for whatever reason, I got stuck trying to write just two little paragraphs to share with people like the librarian in charge of ingesting dissertations: two short paragraphs on the methods I wanted to use for my dissertation, why these were the best ways to pursue my research, and what the final deliverables would look like. I was just having a tough time and getting too up in my head about producing this explanation. I couldn&#39;t get my two paragraphs cut down small enough: How did I use two paragraphs to explain not only these whats and whys of my project, and not just the critical thinking behind my use of content management systems, PHP, Javascript, and other technical terms, but what each of those terms meant to the lay person, as well? &lt;/p&gt;
+&lt;p&gt;So I was overthinking this a bit and finally my advisor, Matthew Kirschenbaum—who I&#39;ll be introducing a bit later— gently pointed out that trying to explain PHP and Javascript to, for example, my graduate school dean, wasn&#39;t actually an unusual activity or one that was an unfair extra burden of doing digital scholarship. One of the core purposes of the Ph.D., is to bring junior scholars past the pool of shared community knowledge for their first time, to refine your specialization, and otherwise embark on a path where you&#39;ll have a lot of shorthand, and a lot of terms of art, that you&#39;ll always need to be able to explain to all but a handful of other people in the world, if you want them to understand you.&lt;/p&gt;
+&lt;p&gt;This was a useful moment for me as a scholar, to cut off right there, any sense of special solitude or extra burden caused by doing digital scholarship. The privilege of working with mentors like Matt is that I had a safe space to learn to be pedagogical about my work, rather than defensive; to expect curious listeners instead of defensiveness and lack of understanding, and to sometimes create curiosity about digital methods, if it wasn’t already there, through this pedagogical approach.&lt;/p&gt;
+&lt;p&gt;I share this anecdote because I&#39;m hoping to do more today, than just offer my dissertation as a model for student digital scholarship. &lt;strong&gt;Although there&#39;s an interesting conversation to be had around some of the particular, special benefits of doing various types of digital dissertation work, I hope that our conversation during this session can start from, perhaps surprisingly, &lt;em&gt;the many ways doing a digital dissertation is not special&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Chapters ≠ Dissertation&lt;/h2&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.007.png&quot;&gt;
+&lt;p&gt;That is, I’d like to see the conversation tend less toward comparing newer types of student research (especially digital methods) to written chapters…&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.008.png&quot;&gt;
+&lt;p&gt;…and I’d like to see us moving the conversation more toward the reasons behind doing a dissertation in the first place. Every dissertating scholar, regardless of the methods and format they use, needs to think through the best methods and format for their scholarly argument. I’d like to see us be pedagogical about how the way we each choose to advance knowledge works, and instead of starting the conversation by focusing on written chapters, start talking instead around what we want the dissertation to do for a student and show about that student, and how *in this moment* we can use many different methods and forms, in critical and scholarly ways, to realize those goals.&lt;/p&gt;
+&lt;p&gt;Next, I&#39;m going to describe my recent dissertation, and some thoughts about the current environment for digital dissertations. Then, I&#39;ll hand the mic over to Dr. Matthew Kirschenbaum to talk a bit about digital dissertations from the perspective of advising them.&lt;/p&gt;
+&lt;h2&gt;Digital dissertation case study (successfully defended April 2015!)&lt;/h2&gt;
+&lt;p&gt;Since I’m both a web developer and a literature Ph.D., I’m interested in how we can use interface design, to encourage not just public consumption of, but active participation in humanities reading and interpretation, especially with digital editions of literary texts. Scholarly editors—those researchers who create scholarly editions of texts—are integral to the continuum that keeps the stories of the past, available to and understood by the present—but there&#39;s also a less-served public of readers beyond the academy, whose interest keeps the humanities alive and relevant.
+&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.010.png&quot;&gt;
+&lt;p&gt;I&#39;m especially interested in work that takes digitized and publicly available humanities resources, and makes these truly accessible, beyond just those people who are experts at formulating research questions, and at using online resources to answer these questions. An example of this is the Library of Congress&#39; online hosting of photographs, taken across the U.S. during the Depression as part of a federal work program; this is a fantastic research offering that is theoretically public, but…&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.011.png&quot;&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.012.png&quot;&gt;
+&lt;p&gt;it took the Photogrammar project creating an interface, for intuitively exploring these photographs, to truly open this piece of our cultural heritage to everyone. I’m interested in crafting humanities interfaces, that help everyone get interested in our cultural heritage, and that make getting involved and following up on curiosity intuitive, through interfaces that make it obvious how to use them and  that care about public participation in research thinking.
+&lt;/p&gt;
+&lt;h2&gt;What if we build a digital edition and invite everyone?&lt;/h2&gt;
+&lt;p&gt;Therefore, my dissertation asked this question: What if we build a digital edition and invite everyone, including first-time readers, students, and others outside the academy, to participate in its use? I considered this question by creating and testing the InfiniteUlysses.com participatory digital edition, of James Joyce&#39;s challenging novel Ulysses. As a brief tour of what that site looked like: This is the current front page, and those three big images give a high level tour of the edition&#39;s features: you can highlight parts of the book as you read it and annotate those highlights—that is: leave comments and questions. You can read the annotations left by others; and you can personalize what annotations you see to your background, interests, and needs.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.013.png&quot;&gt;
+&lt;p&gt;On the screen is the reading interface on Infinite Ulysses. My field of textual scholarship has a long history of building editions and experimenting with textual interfaces, in order to critically explore and perform scholarly arguments, a tradition that helped me argue for design and code as scholarship because of how closely this building and design tied into my research questions. The most productive and efficacious way to learn about and advance public participation in digital editions, was to actually build an experimental digital edition with some new interactive features, this InfiniteUlysses.com site, and then analyze the edition’s use.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.014.png&quot;&gt;
+&lt;p&gt;And so, my dissertation consisted of the design work and web development that created the Infinite Ulysses digital edition. Part of my argument for the form of dissertation, was that scholars were theorizing how social digital editions might work, more often than building these theories and actually assessing them; with Ulysses in particular, scholars argued about whether hyperannotation would “diminish” or “break” the text, but hadn’t tried to assess this through testing it out.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.015.png&quot;&gt;
+&lt;p&gt;Therefore, various forms of user testing, as well as quantitative and qualitative analyses of the results of these tests, and of site use statistics, were another deliverable of the dissertation. I used my research blog LiteratureGeek.com, to write twice a month through the three years of the dissertation, with posts that examined my research questions as well as metadissertational issues like questions of IP and copyright involved in my project. And finally, I wrote a whitepaper *just* during the final month before my defense, to act as a debriefing and analytical discussion of the dissertation experience, a place to analyze the results of my user testing, and a public accounting of the new knowledge created by my research.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.017.png&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt; served as the single representative website gathering all the pieces of the dissertation, including archival recordings of the digital edition website, and exports of websites, code, and blogs. This website was ingested into my university repository as a ZIP of its web files, plus a one-page PDF abstract for the entire project.&lt;/p&gt;
+&lt;h2&gt;Challenge: evaluating the dissertation&lt;/h2&gt;
+&lt;p&gt;A big question with unusual dissertational methodologies is: how will your work be understood and evaluated? The thing being evaluated with my project was the digital edition interface I created, and how I addressed various theoretical questions both through this end product, and through the regular blogging and final whitepaper debriefing I wrote. My committee members weren’t web developers, but they are digital humanists, textual scholars with significant digital edition experience, user interface researchers, and a Joycean; a perfect set of expertise for evaluating an experimental Ulysses digital edition not on the level of critical code studies, but of user interface.&lt;/p&gt;
+&lt;p&gt;Another question is: how will technical or specialized work be communicated to the research’s audience? To address this question, my advisor suggested I create a manifest documenting all the pieces of the dissertation in one place. This document explained each piece of work in lay terms, gave a sense of the depth of the work and the critical thought that went into it, and linked to where to look at the work. This was also a perfect place to acknowledge and credit the collaborations in my research, such as opensource code like Drupal, or the improvements to the Annotator Javascript tool Stanford’s Michael Widner generously shared with me.&lt;/p&gt;
+&lt;h2&gt;Challenge: administrative time &amp; effort&lt;/h2&gt;
+&lt;p&gt;A third challenge is: how do we reduce the extra administrative time/effort that stems from unusual dissertational design? There was extra work involved not just for me, but also for my dissertation committee: my advisor Matthew Kirschenbaum and committee members Neil Fraistat, Kari Kraus, Melanie Kill, and Brian Richardson were all incredibly generous with their time and mentorship, and met with me as a team multiple times throughout the three years of the project. Meeting as a team meant that we made better use of the dissertation committee than just drawing them in at the end: it turned feedback on my project into a conversation among several areas of expertise.&lt;/p&gt;
+&lt;p&gt;Meetings also let us reaffirm a mutual understanding of what the deliverables at the time of the defense would look like, and that the committee still found that this outcome satisfies the requirements of a dissertation in my department. I hope we can discuss today how we might provide the same degree of support and time commitment for both busy advisors and advisees. Are there ways we can change our departments forms and templates to offload some of the work of checking in on the progress for dissertations, when it can’t be measured in chapters and drafts? Or to make sure faculty receive special credit or things like course and committee releases, when they commit to this extra level of support for a student’s dissertation? My current university, Purdue, just officially made mentoring undergraduates a written piece of how it judges tenure and promotion cases, and I’m hoping to see this extended to graduate mentorship as well.&lt;/p&gt;
+&lt;h2&gt;The increasingly welcoming landscape for digital dissertations&lt;/h2&gt;
+&lt;p&gt;I&#39;m going to focus on one particular event in the recent environment for digital dissertations now, but I encourage you to check out the Zotero bibliography I&#39;ve built at &lt;a href=&quot;tinyurl.com/DHevaluation&quot;&gt;tinyurl.com/DHevaluation&lt;/a&gt;, if you&#39;re interested in more examples of supporting digital dissertations and other digital scholarship. This includes discussions of recent events like CUNY&#39;s livestreamed “Remix the Dissertation” symposium, and relevant dissertations outside the humanities, namely Nick Sousanis&#39; recent dissertation entirely in comics form for an Education Ph.D. at Columbia Teachers College.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://historyarthistory.gmu.edu/graduate/phd-history/digital-dissertation-guidelines&quot;&gt;The guidelines for both partially and fully digital dissertations published by George Mason University’s History and Art History Department this fall&lt;/a&gt; are hopefully a sign other universities and departments will start to give student scholars the freedom to choose the best form and methods of their contribution to academic knowledge. GMU’s guidelines state: &quot;Developments in digital publication platforms and digital history methods have increasingly made it possible for graduate students to produce a culminating work of historical scholarship, that does not take the form of a narrative dissertation. [They] welcome dissertation projects that take a range of digital forms, *while also upholding* the standards of the profession for good scholarly work.&quot; &lt;/p&gt;
+&lt;p&gt;I like that the GMU guidelines are presented as porous guidelines, that don&#39;t assume we know every form or method a scholar might judge appropriate to their research. The GMU guidelines are also fantastic in pointing back to the values behind a dissertation&#39;s design. Rather than asking &quot;is it written chapters, or if not how like chapters can it be?&quot;, this department has thought carefully about what the dissertation should do, using in part the guidelines for scholarship of the American Historical Association. For example, the guidelines state that any dissertation should perform longstanding values of historical research, like showing the significance of the research, and justifying all methodological choices.&lt;/p&gt;
+&lt;h2&gt;Justifying your research methods &amp; form: a task for every dissertator&lt;/h2&gt;
+&lt;p&gt;Dissertators using forms or methods for which their scholarly community does not yet widely understand the nature of the critical process or deliverables, should be responsible for educating others about these. My only quibble with the GMU guidelines is that they put the extra burden on digital dissertators to argue for the aptness of their methods and forms. I disagree: *all* dissertators should argue for the aptness of their methods to their research questions, regardless of if they&#39;re using a form or method that time has shown is generally a good way of pursuing research questions in that field.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.027.png&quot;&gt;
+&lt;p&gt;&lt;strong&gt;What matters is the appropriateness of method and form to your particular research questions&lt;/strong&gt;. You want to choose how you best think through ideas and convey your critical thinking, so that you end up with the best possible support for your scholarly argument. Digital or not, dissertating scholars should ask themselves questions like:&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;What format best supports what you’re arguing, and best reaches the most people who can use and build on your work?&lt;/li&gt;
+&lt;li&gt;If you used a different format, what would be possible? What would you lose and gain?&lt;/li&gt;
+&lt;li&gt;And on the practical side of things, what skills do you want to learn? Do your form and methods support your career plans? How will you deal with job applications that require longform writing samples, and otherwise present your work to an audience unfamiliar with digital scholarship?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h2&gt;Pros of using my digital dissertation as a model...&lt;/h2&gt;
+&lt;p&gt;I’m glad my dissertation experience counters some of the common objections to student work that innovates in form and method. It is not written in stone, for example, that you will not get any job, or the kind of job you want (including if that happens to be the troubled tenure-track position); or that you won&#39;t be able to finish the Ph.D. in five years. Using social media and eschewing an embargo can result in more people knowing about your work and more opportunities for collaboration and publication, not less.&lt;/p&gt;
+&lt;p&gt;And perhaps most importantly, it is possible, given the right circumstances, to do a digital dissertation that fully recognizes your digital scholarship and doesn&#39;t require you to double your labor by producing anything digital as extra effort alongside the traditional multiple written chapters.&lt;/p&gt;
+&lt;h2&gt;But don&#39;t forget the privileges &amp; risks of doing a digital dissertation!&lt;/h2&gt;
+&lt;p&gt;I&#39;d be remiss to not address those “right circumstances”, though.&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.028.png&quot;&gt;
+&lt;p&gt;Dissertators need permission from ourselves, and permission for our departments that this path can lead to success, and I think as dissertations like mine and guidelines like GMU&#39;s proliferate, more students will find this permission. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dissertators also need more environments that let them take risks and that recognize that these risks are not just intellectual ones, but personal risks involving being able to provide for yourself and your family, pay down student loans, and find a job that will let you be happy&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;As departments begin to support more diverse forms of doctoral scholarship, I hope we can use sessions like this one to discuss how the greater scholarly ecosystem of universities, libraries, publishers, and others can contribute to supporting these innovators once they’ve graduated.&lt;/p&gt;
+&lt;h2&gt;Q&amp;A&lt;/h2&gt;
+&lt;p&gt;My talk was followed by remarks from my dissertation advisor, Matthew Kirschenbaum, who himself defended one of the very first digital literature dissertations; we also had lots of time for audience discussion, as well as time for me to note some of the specific privileges I alluded to in the main talk (e.g. my working at a major, on-campus DH center since halfway through my master&#39;s degree; experience teaching myself technical skills; active interest in an alternative academic career). Unfortunately the microphone wasn&#39;t working, but I captured the following notes:
+&lt;ul&gt;
+&lt;li&gt;Matt emphasized that (despite what might be most entertaining to hear), there was no &quot;backroom drama&quot; to my dissertation: administration throughout my university was welcoming to our approach of presenting a succinct, clear explanation of the necessity of my methods and form.&lt;/li&gt;
+&lt;li&gt;Matt noted that language and expectations at the department level still expect written chapters (e.g. a departmental award asks that the any dissertations nominated for the prize be submitted as &quot;an electronic copy of the whole dissertation in PDF form&quot;).&lt;/li&gt;
+&lt;li&gt;Audience question: My (Amanda&#39;s) dissertation was collaborative in terms of building on and recognizing others&#39; code, but what about truly networked dissertations—dissertations that succeed as members of a group of dissertating researchers? One answer: The UVa Scholars&#39; Lab Praxis Program (which supports a team of fellows through real collaborative work on a DH project) might be a place to look for such connected dissertation in the near future, especially since the program realistically allows team members to each focus on different DH roles that fit their interests and background.&lt;/li&gt;
+&lt;li&gt;Audience question: What is the responsibility of scholars who create public/participatory projects (like InfiniteUlysses.com) as their dissertation—should they be expected to maintain and build on this work through to the time of their tenure case? Should a failure to do so be a mark against their scholarship? One answer: Responsibility and care for the audience of your research should be marks in favor of your evaluated scholarship, especially for scholarship that is consciously public-serving. While keeping in mind that the emotional labor and capacity to support such projects can be difficult and requires certain privileges, having a plan in place for the longterm existence of your scholarship is an aspect of good research (even if that&#39;s &quot;I&#39;m being very public about this site only lasting online for one year and I&#39;ll post clear directions for users to export their work/data&quot;...) &lt;/li&gt;
+&lt;li&gt;Audience question: How can libraries/university repositories help preserve digital humanities dissertations? (Some answers: Be aware that ProQuest will let you ingest things like web sites, code, and audio. But this is really the same problem that DH centers face with everyone project, and there&#39;s no one-size-fits-all answer with such experimental websites.)&lt;/li&gt;
+&lt;li&gt;Audience question: What can librarians do to support digital dissertations before and during the dissertation? One answer: serve as advocates and translators for students seeking to innovate, e.g. accompany students when they meet with their department to discuss their format, and help the student establish historical scholarly precedents for their work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;img alt=&quot;CNI presentation slide&quot; src=&quot;/assets/CNISlideImage.030.png&quot;&gt;</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 -0500</pubDate>
+        <link>/2016/01/11/welcomedigitaldissertations</link>
+        <guid isPermaLink="true">/2016/01/11/welcomedigitaldissertations</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>infinite-ulysses</category>
+        
+        <category>dissertation</category>
+        
+        <category>advice</category>
+        
+        <category>textual-scholarship</category>
+        
+        <category>dh-now</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Filter Problem at the CODEX Literary Hackathon</title>
+        <description>&lt;p&gt;I&#39;m at &lt;a href=&quot;http://codexhackathon.com/&quot;&gt;the MIT Media Lab&#39;s CODEX Literary Hackathon&lt;/a&gt; this weekend—an event focused on prototyping tools for the future of digital reading, books, libraries, and publishing. Below is my description of the annotation &quot;filter problem&quot;, the research challenge that I&#39;m bringing to the table at the event (although I might end up working on something else—we&#39;ll see!).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: I pitched &quot;Team Annotation&quot; and we ended up getting around ten people together to brainstorm annotation, before breaking into several smaller project teams. Read our Team Annotation notes &lt;a href=&quot;https://hackdash.org/projects/568ff7e062b2cc5d050af6c8&quot;&gt;here&lt;/a&gt; and see what I ended up hacking on &lt;a href=&quot;https://hackdash.org/projects/5692943e62b2cc5d050af71e&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;P&gt;&lt;h2&gt;Better online communities and the “filter problem”&lt;/h2&gt;&lt;br&gt;
+Making “internet comments”, web annotation, and other types of online communal knowledge-making not terrible means balancing our inability to read everything (all the comments on a topic) with a desire to defeat the echo-chamber effect of Facebook-style algorithmic personalization based on what we like/favorite the most, which isn&#39;t a good fit for reading and learning—we want to hear differing interpretations and ideas that challenge and unsettle us, rather than get a smooth Facebook experience. I&#39;m interested in code and design work addressing the need for nuanced information filtering, balancing digital fixes like mechanics for crowdsourcing curation &amp; moderation with community design solutions like interfaces that scaffold good digital citizenship.&lt;/p&gt;
+
+&lt;p&gt;I ran my first test of these ideas about balancing algorithmic and community curation of public discussion by building &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;, experimenting with crowd commentary around a notoriously difficult novel and rejuvenating a platform traditionally aimed only at scholars (the digital edition) via social mechanics used on sites like Reddit and StackExchange. My design both supported social textual annotation, and also personalized (at a very basic level) the display of the resulting huge quantity of public-authored annotations to fit each reader&#39;s needs and background. Our filtering work could be on the Infinite Ulysses site itself, elsewhere using Infinite Ulysses&#39; code, or something else entirely.&lt;/p&gt; 
+
+&lt;p&gt;&lt;img alt=&quot;Front page screenshot of InfiniteUlysses.com&quot; src=&quot;/assets/3-7-2015_FrontScreenshot.png&quot;&gt;&lt;em&gt;Reddit + Ulysses, anyone?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This weekend, might we experiment with balancing both coded mechanics and social curation to give people better reading experiences: a non-overwhelming amount of annotations per page, tuned to their interests, background, and needs? Some steps we could start to brainstorm and prototype:
+&lt;ol&gt;
+&lt;li&gt;brainstorm more ways of filtering annotations than by date, author, popularity, and popularity of the author&#39;s other annotations, then&lt;/li&gt;
+&lt;li&gt;think about how we can make it easy and enjoyable for readers to add the metadata allowing this additional annotation filtering.&lt;/li&gt;
+&lt;li&gt;Someone interested in algorithmic learning might draft a questionnaire that guesses the filters a given reader might want applied to their experience.&lt;/li&gt;
+&lt;li&gt;Someone interested in community design could work on a set of best practices for reading sites to implement before inviting social annotation (e.g. how to seed the annotations with model commentary).&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;m also especially interested in anything related to annotation, social reading, and communities designed around various types of &quot;difficult&quot; text (challenging to read, politically contentious, requiring deep field or historical knowledge to understand...)&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;/assets/ulyssesfirstslide-300x165.jpg&quot;&gt;&lt;/p&gt;</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0500</pubDate>
+        <link>/2016/01/04/codex</link>
+        <guid isPermaLink="true">/2016/01/04/codex</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>infinite-ulysses</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The future of a thing is a return to its values</title>
+        <description>&lt;p&gt;&lt;h2&gt;I keep pulling the same tool out of my bag this year: does &lt;strong&gt;the thing we&#39;ve built&lt;/strong&gt; match &lt;strong&gt; the values behind why we built it?&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Must&lt;/em&gt; a dissertation have written chapters?&lt;/strong&gt; (&lt;em&gt;No.&lt;/em&gt;) Or is the value of a dissertation that it lets you practice and prove the values and skills your scholarly field needs its members to share, and are there other methods for doing that than writing a proto-monograph? (&lt;em&gt;Easy answer: yes &amp; yes, see my example at &lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Must&lt;/em&gt; a digital edition focus on the same methods as a scholarly print edition?&lt;/strong&gt; Recension, conjecture, work at the word-level (or below) of a text are key methods for many scholarly editors, but work that pushes the field of textual scholarship ahead can also look like &lt;a href=&quot;http://maker.uvic.ca/ulysses/&quot;&gt;a museum exhibit&lt;/a&gt;, &lt;a href=&quot;http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/264/329&quot;&gt;iPad app&lt;/a&gt;, or &lt;a href=&quot;http://individual.utoronto.ca/alangaley/visualizingvariation/&quot;&gt;experimental code&lt;/a&gt;: what matters is attention to the core values of textual scholarship, like clearly arguing for your methodology, establishing the authority of your text, etc. (see &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;Section 4: Reimagining Editions in my recent whitepaper&lt;/a&gt; for lots more plus real examples!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Separating original values from how they ended up manifested—and not making the mistake that the final artifact is the same thing as the originating values—has been a productive thought experiment for me this year. (Of course, I don&#39;t ignore questions about how those &quot;originating values&quot; came together in the first place, and how they might be altered or replaced for the better...)&lt;/p&gt;
+
+&lt;p&gt;Dr. Jennifer Steenshorne just distributed a short survey on the future of scholarly editions via the &lt;a href=&quot;http://dhhumanist.org/&quot;&gt;HUMANIST listserv&lt;/a&gt;; you can contribute to the survey yourself &lt;a href=&quot;https://www.surveymonkey.com/r/XXPZWNH&quot;&gt;here&lt;/a&gt;! She writes that the survey is for a round table discussion at the 2016 Annual Meeting of the American Historical Association, &quot;&lt;a href=&quot;https://aha.confex.com/aha/2016/webprogram/Session13356.html&quot;&gt;Documentary Editors Engage the 21st Century&lt;/a&gt;&quot;.&lt;/p&gt;
+
+&lt;p&gt;Since the survey got me to summarize some thinking about digital editions vs. scholarly digital editions over the past year, I share my answers here as well. All question headings are from Dr. Steenshorne&#39;s survey.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&quot;How do you define a digital scholarly edition?&quot;&lt;/h3&gt;&lt;br&gt;
+I think using &quot;scholarly digital edition&quot; (SDE) for something that digitally approximates a scholarly print edition is useful for our community: we want an easy way of calling out when the same (or digital counterparts of) scholarly activities of versioning, recension, word-level decisions, etc. are involved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Differently&lt;/strong&gt;, a &lt;em&gt;digital edition* to me&lt;/em&gt; is a broader category sitting above the SDE, meaning *any* digital work (site, performance, museum exhibit) that show it values the same values motivating scholarly editing activities as an SDE, but possibly in different and often experimental ways: that is, imagining other means of manifesting textual scholarship&#39;s core values (authority, clearly defined and discussed methodology...). Unlike a scholarly digital edition, digital editions are a more open term allowing scholar-creators to experiment with new ways of manifesting these core field values.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&quot;What are the most useful buzz words or concepts (like Big Data) in digital humanities, particularly for scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
+Public literature, participatory edition/archive, citizen scholars, meaningful crowdsourcing, linked open data, exportable data, web annotation. I&#39;d like to see more room for discussions of textual materiality, screen essentialism, e-lit and artistic design, interface design, user testing and usability, audiences, diversity (what authors get edition projects funded &amp; popular; who makes editions and who gets the credit; the audiences for which editions get made).&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&quot;What are the most annoying or overused buzz words or concepts (like Big Data) in digital humanities, particularly for scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
+(&lt;em&gt;Aside: I like and understand what this question is asking, but I&#39;m a tiny bit uncomfortable with IDing &quot;buzz words&quot;, as thinking of something as &quot;buzzwordy&quot; is an easy way to dismiss it instead of at least acknowledge that someone is thinking critically about it, and it probably has a history of critical thought stretching back way before it became popular enough for people not involved in it to randomly hear about it (e.g. I&#39;m a digital humanist, and I&#39;ve both seen others dismiss DH as a buzzword, and encountered people actually using it as a buzzword &quot;the funders will want to see us include&quot;). I know it&#39;s shorthand for &quot;I wish we&#39;d talk about this thing more too/instead if time is limited&quot;, but shorthand isn&#39;t the most useful thing if it has a high misfire rate for interpretation... so it&#39;s something I want to notice and be careful about using myself.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;But things I wish we&#39;d talk about more—and on the flip side, the concepts I think distract from the discussions I wish we were having? I&#39;d like to see more room for discussions of textual materiality, screen essentialism, e-lit and artistic design, interface design, user testing and usability, audiences, diversity (what authors get edition projects funded &amp; popular; who makes editions and who gets the credit; the audiences for which editions get made).&lt;/p&gt;
+&lt;p&gt;I&#39;ve moved from TEI/textual markup to work focused on the things I listed above, so sometimes I&#39;m sad when a conversation about digital textual scholarship means a discussion solely focused on markup instead of also including other aspects of textual scholarship, &lt;em&gt;but&lt;/em&gt; on the other hand I&#39;m extremely privileged and happy that such strong work on textual encoding exists and continues, and that I feel like I can focus on other aspects of a textual project knowing this area of textual work has both a past and a rich present of strong exploration.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&quot;What are some of the most exciting new scholarly digital edition projects you have seen and why?&quot;&lt;/h3&gt;&lt;br&gt;
+&lt;ol&gt;&lt;li&gt;The &lt;a href=&quot;http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/i#/p1&quot;&gt;Shelley-Godwin Archive&lt;/a&gt; is doing interesting work in involving editors at different stages of expertise (from students on up) and signaling to users what degree of quality a given set of markup guarantees (instead of hiding everything from public use until it&#39;s all 100% checked by a professional editor).&lt;/li&gt;
+&lt;li&gt;The SHORE consortium is bringing together a number of key scholarly editors, edition developers, and scholarly period societies so that when one edition develops a new tool (e.g. Infinite Ulysses&#39; social annotation), all participating editions will share the same technical backend and can therefore also use the new tool. Additionally, we&#39;ll start to gather a dataset of both scholarly and public literary annotations across the literary periods (medieval, modern, Victorian...) and be able to learn new things about digital reading and research. The first example site fully migrated into SHORE is &lt;a href=&quot;http://CoveCollective.org&quot;&gt;CoveCollective.org&lt;/a&gt; (currently under alpha testing, but there&#39;s a consortium meeting and public talks at Purdue in May 2016).&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;http://ride.i-d-e.de/&quot;&gt;RIDE digital edition review journal&lt;/a&gt; is building scholarly review for SDEs that is aware of technical and design work as a critical component.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; uniquely invites the public into the critical conversation around James Joyce&#39;s challenging novel Ulysses via user-authored social annotation. Additionally, the edition experiments with mechanics for social curation and moderation of the annotations, and attempts to personalize the annotations displayed to each reader&#39;s expertise, needs, and interests.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;My recent digital dissertation&lt;/a&gt; was based around this project—&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;&quot;&#39;How can you love a work, if you don&#39;t know it?&#39;: Critical Code and Design toward Participatory Digital Editions&quot;&lt;/a&gt; used entirely digital humanities methods (design, code, blogging, user testing) to create and analyze various theories about public and social digital editions (especially those supporting social annotation).&lt;/li&gt;
+&lt;li&gt;To explain why &lt;a href=&quot;InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; is a digital edition but &lt;em&gt;not&lt;/em&gt; a scholarly digital edition, part of &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;my whitepaper on the Infinite Ulysses project and dissertation around it&lt;/a&gt; deals directly with a number of edition and edition-like objects (&lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;PDF link&lt;/a&gt; and see Section 4: Reimagining Editions).&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&quot;What would you like to see more of in scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
+Things related to making our hard scholarly effort reach people outside the professoriate (editions for new students, for new readers; a more public literature, enabled by textual scholarship plus digital humanities), and to making sure that work lasts in an accessible form beyond the next decade.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can annotate this blog post via Hypothesis by clicking this link: &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2016/01/04/scholarlydigitaleditions/&quot;&gt;https://via.hypothes.is/http://literaturegeek.com/2016/01/04/scholarlydigitaleditions/&lt;/a&gt;. Eventually I&#39;ll set up canonical URLs so these annotations show up on the blog&#39;s front page as well...&lt;/em&gt;&lt;/p&gt;</description>
+        <pubDate>Mon, 04 Jan 2016 13:00:00 -0500</pubDate>
+        <link>/2016/01/04/scholarlydigitaleditions</link>
+        <guid isPermaLink="true">/2016/01/04/scholarlydigitaleditions</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>textual-scholarship</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Introducing Static Sites for Digital Humanities Projects (why &amp; what are Jekyll, GitHub, etc.?)</title>
+        <description>&lt;p&gt;I&#39;m working with my university press on new models for DH scholarship... and as I started typing up a description of using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and GitHub for a proposed DH book project, I ended up discussing not just Jekyll and GitHub but also defining static vs. dynamic sites, git and versioning, and GitHub pages.&lt;/p&gt;&lt;p&gt;Thought I&#39;d share this as a starting point for others! (&lt;em&gt;Caveat emptor: this is one of those emails that turned into a huge email that turned into a blog post.&lt;/em&gt;) If you want to be superfancy, you can click &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2015-12-08-WhyJekyllGitHub/&quot;&gt;this link to annotate the page with questions and requests for clarification, comments, and suggestions&lt;/a&gt; using the magic of &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt;, and I&#39;ll work on refining this into a more exhaustive FAQ as time allows.&lt;/p&gt;
+
+&lt;h2&gt;What are.... dynamic versus static websites?&lt;/h2&gt;
+&lt;p&gt;Dynamic sites (like Drupal or WordPress) pull information from a database to populate a page; when you search for some words on Amazon.com, for example, the search results page you are shown didn’t already exist as a full HTML page—Amazon.com has a template for search results page with things they all share like their main menu and logo, but it queries the database to insert the results of that search you initiated. Jekyll is a “static site generator” in that it takes page templates (those things like main menus and footers, shared across all the web pages) and other files with specific information (e.g. a file for each blog post on the site) and combines these into full HTML pages for the site visitors to see (i.e. generating a static site, aka a folder of HTML files)—and these are already put together and ready to serve up when you&#39;re visiting the site. That is, Jekyll doesn’t need to do anything like querying a database when you visit a page; it’s already got the pages fully formed, and it just updates them when and if they ever change. (For someone who took more time to think through a metaphor for static site generation, &lt;a href=&quot;https://davidwalsh.name/introduction-static-site-generators&quot;&gt;check out this post&lt;/a&gt;!)&lt;/p&gt;
+
+&lt;h2&gt;How is Jekyll like Drupal/WordPress/Omeka/[other CMS]?&lt;/h2&gt;
+&lt;p&gt;Jekyll is like software called content management systems (CMSs) such as Drupal or WordPress in that it’s a set of code that makes a website run and handles certain repeated tasks like displaying a logo and menubar on every page, creating a searchable archive of blog posts, etc. Unlike CMSs, though, Jekyll doesn’t have a web “dashboard” (that shiny UI you use to administrate the website: moderating comments, writing a blog post from within the live site...). And! Jekyll does not use a database (the source of a lot of code and security headaches in CMSs like Drupal). If you don’t need the power and possibilities behind these CMSs, it’s often better for effort, security, and preservation not to use them. Or if you &lt;em&gt;need&lt;/em&gt; some of the things that Jekyll particularly offers...&lt;/p&gt;
+
+&lt;h2&gt;Why/when Jekyll?&lt;/h2&gt;
+&lt;p&gt;Versioning! Security (no database hacking) and less sysadminy hassle in general. Speed of loading pages. Free and easy to set up and host with GitHub Pages, and it&#39;s then linked into the GitHub.com ecosystem of code versioning, sharing, and reuse.&lt;/p&gt;
+
+&lt;p&gt;Jekyll doesn’t work as well if you have a site like Amazon.com that basically lets visitors create a huge number of custom pages by making complex searches from a huge set of things, since it’s easier for Amazon.com to create search result pages on the fly from their database than to store an HTML page for each possible search result combination. But for a site where you can largely imagine now what all the pages will look like (e.g. a digital book), Jekyll is faster, lighter, and better for longterm security and preservation.&lt;/p&gt;
+
+&lt;h2&gt;GitHub.com, git, and repos&lt;/h2&gt;
+&lt;p&gt;GitHub.com is a site where people share code they’ve written so others can reuse it, build on it, and report bugs and feature requests. It’s based on git, which is software for versioning code: keeping track of the various changes in code over time as people add, subtract, and otherwise edit that text. People use GitHub.com for things other than code including blogging and professional writing, since it supports keeping track of multiple versions of a text and is friendly to collaboratively authored text. (Other sites besides GitHub use git, and you can use git without GitHub.com. GitHub.com is just a wildly popular public platform for sharing and working on versioned code.)&lt;/p&gt;
+
+&lt;p&gt;GitHub “repos&quot; (repositories) are just collections of code; for example, I have &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-dissertation&quot;&gt;one repo with all the code involved in my dissertation&lt;/a&gt;, and &lt;a href=&quot;https://github.com/amandavisconti/EncodedCurtain&quot;&gt;another repo that shares an old Omeka maintenance-page hack I wrote&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt;GitHub Pages&lt;/h2&gt;
+&lt;p&gt;GitHub Pages can be located for free at a GitHub subdomain such as amandavisconti.github.io/SGAPedagogyPage (where amandavisconti is my GitHub username and SGAPedagogyPage is the name of the GitHub repository holding its web files). You can also purchase from elsewhere and use your own domain name with the same site (as I did for LiteratureGeek.com). Custom domain names aren’t permanently bought, so you need to renew your license over them from time to time (you can do this once a year or buy a bunch of years at a time; the type of domain names a DHer might want to acquire usually cost around $10-20 each per year... except if you want DH.center, they will overcharge you for that!).&lt;/p&gt;
+
+&lt;p&gt;You don’t need to use GitHub or GitHub pages to use Jekyll; you could, for example, use commercial or university web hosting. I like GitHub Pages hosting because it’s free, uses git (which manages multiple versions and drafts of collaboratively authored/edited texts nicely), is set up to make Jekyll use easier, and because GitHub is already the most popular place for DH data sharing, code and text versioning, etc.&lt;/p&gt;
+
+&lt;h2&gt;Can I use these for projects that might have a commercial aspect (e.g. a book series with digital components)?&lt;/h2&gt;
+&lt;p&gt;I think so. Jekyll is free and open-source. &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Its code&lt;/a&gt; can be used for commercial projects (&lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/LICENSE&quot;&gt;its MIT License file&lt;/a&gt; with its attribution to the Jekyll creator should be kept with the rest of the files). &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; are webpages hosted for free on GitHub.com. GitHub Pages can run Jekyll. My &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com research blog&lt;/a&gt; is an example of a site using Jekyll to run the site and GitHub Pages to host the site. According to this page, commercial use of GitHub Pages is allowed, though because GitHub retains the right to alter that, anyone using it in a book project should have a backup plan in place (something very simple: time required, who to contact, cost of transferring to university or commercial web hosting).&lt;/p&gt;
+&lt;p&gt;If you do begin to use GitHub for multiple DH projects, you’ll want to look into their various plans, as the default free plans are set up for individual use and public repositories (e.g. you might want multiple private repositories so sites can be developed there before going public). There are various options including free plans for educational and non-profit uses.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;There you have it, an only slightly-cleaned-up email turned into a blog post! It isn&#39;t meant to be a universal resource, but feel free to comment/suggest using &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2015-12-08-WhyJekyllGitHub/&quot;&gt;Hypothesis via this link&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
+        <pubDate>Tue, 08 Dec 2015 07:00:00 -0500</pubDate>
+        <link>/2015/12/08/WhyJekyllGitHub</link>
+        <guid isPermaLink="true">/2015/12/08/WhyJekyllGitHub</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice-tutorial</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>ACH Executive Council</title>
+        <description>&lt;p&gt;I&#39;m running for a seat on the Executive Council of the ACH (Association for Computers and the Humanities), the professional society for the digital humanities. If you&#39;re a member, please consider voting for me! I&#39;d bring a focus on&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;support for undergrad and grad students&lt;/strong&gt; (particularly in getting their DH work fully accepted as scholarship, whether as coursework or dissertation) and on &lt;/li&gt;&lt;li&gt;&lt;strong&gt;improving the DH social media community&lt;/strong&gt; (making it easier for new DHers to be involved, expanding the teaching/learning we do via social media, and improving how backchannels like Twitter and &lt;a href=&quot;http://bit.ly/1jI8VUx&quot;&gt;Slack&lt;/a&gt; are preserved and made accessible).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Candidate statement&lt;/h2&gt;
+&lt;p&gt;I&#39;m honored to be nominated for a position on the ACH Executive Council. As a recent Ph.D., I&#39;m especially interested in &lt;strong&gt;advocating for student digital humanists&lt;/strong&gt;, such as reaching out to the Undergraduate Network for Research in the Humanities (UNRH) and assembling a central web resource for digital humanities dissertations: case studies, administrative documents used by successful dissertators, and links to supporting arguments and tutorials for DH forms of graduate research. (&lt;em&gt;The structure of this resource could be cloned to support a paired second site focused on review and promotion applications by those in DH job roles—managed by another ACH volunteer—as there are considerable overlaps in these two challenging areas.&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;I&#39;m also interested in &lt;strong&gt;supporting and improving the ways the digital humanities community uses Twitter and other social media&lt;/strong&gt;, especially as developing technologies such as Slack (online messaging and chat rooms) and Hypothes.is (web annotation) become part of our online ecosystem. In the case of Slack, anchoring &lt;a href=&quot;http://bit.ly/1jI8VUx&quot;&gt;the new DH Slack team&lt;/a&gt; I&#39;ve organized—which now has 197 digital humanist members!—to ACH would let us argue for non-profit status, which confers benefits like better chat history and search.&lt;/p&gt;
+&lt;p&gt;I&#39;d like to &lt;strong&gt;standardize how we preserve DH social media&lt;/strong&gt;, particularly tweets using various DH conference hashtags, by exploring whether a specific ACH role could be in charge of capturing these in a given year and storing them in a publicly accessible space. I&#39;d also like to &lt;strong&gt;investigate ways of encouraging the DH Q &amp; A site as a first-stop intro to DH&lt;/strong&gt; (e.g. a wiki for FAQs like what conference acronyms and hashtags stand for) and whether social mechanics (favoriting, badges) might motivate more DHers to ask and answer questions on the site.&lt;/p&gt;
+
+&lt;h2&gt;Biography&lt;/h2&gt;
+&lt;p&gt;I am a DH hybrid: a web developer, as well as librarian, assistant professor, and the Digital Humanities Specialist at the Purdue University Libraries. I recently completed a digital humanities dissertation in the University of Maryland English Department, and I also hold a master&#39;s degree from the University of Michigan School of Information, where I tailored a Digital Humanities HCI specialization. I worked in a number of positions at the Maryland Institute for Technology in the Humanities (MITH) fromm 2009-2015, beginning as an IMLS Model Digital Humanities Intern and ending as the Winnemore Digital Dissertation Fellow. I&#39;ve been a professional web developer for over eight years, and most of my research takes the form of making things for the web.&lt;p&gt;
+&lt;p&gt;I&#39;ve been active in the digital humanities community since 2009, tweeting &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@Literature_Geek&lt;/a&gt; and keeping a popular DH blog at &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt; (11 posts have been highlighted on DH Now; LiteratureGeek.com/tag/dh-now). My major projects include co-organizing the inaugural THATCamp Games with Anastasia Salter, applying one of the inaugural ACH Microgrants (now Incubator Grants) to visualize Digital Humanities Quarterly&#39;s citation network, the creation of a participatory digital edition (&lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;; over 13,000 unique visitors during its first month of open beta), and successfully designing and defending a unique &quot;born-digital&quot; digital humanities dissertation consisting of design, code, user-testing, blogging, and a whitepaper written in the final weeks of the project (&lt;a href=&quot;http://www.dr.amandavisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;).&lt;/p&gt;</description>
+        <pubDate>Fri, 20 Nov 2015 07:00:00 -0500</pubDate>
+        <link>/2015/11/20/ACH-executive-council</link>
+        <guid isPermaLink="true">/2015/11/20/ACH-executive-council</guid>
+        
+        <category>digital-humanities</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Invited Speaking</title>
+        <description>&lt;p&gt;Contact me at aviscont@purdue.edu or &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@literature_geek&lt;/a&gt; about speaking at your institution! You can read more about me on &lt;a href=&quot;http://www.literaturegeek.com/about&quot;&gt;this blog&#39;s about page&lt;/a&gt; or on &lt;a href=&quot;http://www.amandavisconti.com&quot;&gt;my online portfolio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Possible topics:&lt;/h2&gt;
+&lt;h3&gt;Digital humanities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What is the digital humanities&lt;/strong&gt; and why is it good for my department/university? How can I get started in the digital humanities?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Participatory digital editions&lt;/strong&gt; and other DH projects that invite and support a &lt;strong&gt;public humanities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scholarly social media&lt;/strong&gt; for better and happier research (blogging and Twitter in particular)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research blogging&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Digital humanities dissertations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designing and pursuing a successful digital dissertation&lt;/strong&gt; (I successfully defended &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;a wholly digital, no-chapters literature dissertation&lt;/a&gt; in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supporting digital dissertations&lt;/strong&gt; and other digital student work: &lt;strong&gt;how to evaluate digital work&lt;/strong&gt;, support it and track effort while it’s happening, and how to argue for the necessity of a digital format and/or method&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Digital humanities technology &amp; training&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designing digital humanities websites&lt;/strong&gt; (and other interfaces)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web annotation&lt;/strong&gt; for research, teaching, and learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Digital humanities web development, design, and user/usability testing&lt;/strong&gt;, including workshops on specific skills like GitHub/git for the classroom, Omeka for textual scholars, making and hosting your first web page (HTML5 and CSS3), or starting your own research blog (from setting up the website through writing your first post)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User experience design&lt;/strong&gt; for the digital humanities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teaching digital humanities&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m happy to consult informally with faculty, students, and staff interested in learning a digital skill, pursuing a digital project, or doing/mentoring a digital dissertation while on campus.&lt;/p&gt;
+
+&lt;h2&gt;Recent invited speaking includes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Brown University&lt;/strong&gt; (November 2016). Public lecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Northeastern University&lt;/strong&gt; &quot;Literature together: participatory digital editions, social annotation, and the public humanities&quot; (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MIT Media Lab&lt;/strong&gt; “Public =&gt; Participatory Digital Humanities: designing the past &amp; present of human culture for everyone” (May 2015).&lt;/li&gt;
+&lt;li&gt;&quot;Culture Analytics and User Experience Design” weeklong workshop at the &lt;strong&gt;Institute for Pure and Applied Mathematics&lt;/strong&gt; (IPAM) at UCLA (April 2016).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Purdue University&lt;/strong&gt; &quot;Service +/- Collaboration for Digital Humanities in the Library” (July 2015).&lt;/li&gt;
+&lt;li&gt;Dr. Matthew Kirschenbaum’s &quot;Critical Topics in Digital Studies” graduate course at the &lt;strong&gt;University of Maryland&lt;/strong&gt; (October 2015). Skype panelist on participatory digital humanities sites and discussion of digital dissertation experience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MITH (Maryland Institute for Technology in the Humanities)&lt;/strong&gt; Digital Dialogue &quot;Do read the comments: Designing digital editions for the public humanities&quot; (April 2015).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Folger Shakespeare Library&lt;/strong&gt; sponsored panel discussant: &quot;Folger Digital Agendas III: Digital Futures&quot;. (Renaissance Society of America, March 2016).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nebraska Forum on Digital Humanities&lt;/strong&gt; &quot;“What if we build a digital edition and everyone shows up? Public Humanities, Participatory Design, and Infinite Ulysses” (April 2014).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dr. Hans Walter Gabler&#39;s &lt;em&gt;Digital Ulysses&lt;/em&gt; Master Class at the Univeristy of Victoria&lt;/strong&gt; (June 2013).&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Wed, 30 Sep 2015 08:00:00 -0400</pubDate>
+        <link>/2015/09/30/speaking</link>
+        <guid isPermaLink="true">/2015/09/30/speaking</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A small sample of cool digital humanities info visualization projects &amp; tools</title>
+        <description>&lt;p&gt;
+A handful of interesting projects, lesson plans, and tools for digital humanities information visualization (aka infoviz, sometimes aka data visualization). 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://processing.org/tutorials/&#39;  &gt;Tutorials&lt;/a&gt; for making introductory information visualizations with the Processing language (&quot;a language for learning how to code within the context of the visual arts&quot;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wefeelfine.org/&quot;&gt;We Feel Fine&lt;/a&gt; by Jonathan Harris and Sep Kamvar is a visualization project that scrapes current social media posts to explore human emotion in visually beautiful ways, and it&#39;s always been a hit with my students (the hard part is when they want to build something like it!). I couldn&#39;t get it to load in my browser this week, so it may no longer work.
+&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;http://www.ted.com/talks/jonathan_harris_tells_the_web_s_secret_stories?language=en&#39;  &gt;&quot;The web&#39;s secret stories&lt;/a&gt;&quot; TED talk discusses building the project.&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Miriam Posner on&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/how-did-they-make-that/#network&#39;  &gt;how to get started making a humanities network visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/the-case-of-the-missing-faces/&#39;  &gt;using visualization to explore an archive of historical medical photographs&lt;/a&gt; (some good research ethics questions here)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/a-fun-way-to-introduce-dh-students-to-dataviz/&#39;  &gt;&quot;A fun way to introduce DH students to dataviz&quot; lesson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/getting-started-with-palladio/&#39;  &gt;&quot;Getting started with Palladio&quot;&lt;/a&gt; (&quot;&lt;a href=&#39;http://palladio.designhumanities.org/#/&#39;  &gt;Palladio&lt;/a&gt;, a product of Stanford&#39;s Humanities+Design Lab, is a web-based visualization tool for complex humanities data.&quot;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Johanna Drucker&#39;s &lt;a href=&#39;http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html&#39;&gt;&quot;Humanities Approaches to Visual Display&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://neatline.org/&#39;  &gt;Neatline&lt;/a&gt; (a platform for telling stories with maps and timelines)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://gephi.github.io/&#39;  &gt;The Gephi dataviz tool&lt;/a&gt; (note that you&#39;ll probably need to download the 0.8.1beta version instead of the latest; I couldn&#39;t get the latest to run on my Mac)&lt;/li&gt;
+&lt;li&gt;I have &lt;a href=&#39;http://literaturegeek.com/tag/gephi/&#39;  &gt;several blog posts on introductory use of Gephi for data visualizations&lt;/a&gt; on my &lt;a href=&#39;http://www.LiteratureGeek.com&#39;  &gt;LiteratureGeek.com&lt;/a&gt; blog&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://www.briansarnacki.com/gephi-tutorial/&#39;  &gt;&quot;The complete n00b&#39;s guide to Gephi&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://www.scottbot.net/HIAL/?p=39600&#39;  &gt;Scott Weingart on when not to use networks&lt;/a&gt; (good for a student discussion on getting past the &quot;prettiness&quot; factor of visualizations)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://benfry.com/projects/&#39;  &gt;Ben Fry does a bunch of cool infoviz work&lt;/a&gt;, including &lt;a href=&#39;http://benfry.com/traces/&#39;  &gt;this timelapse viz of changes in the various editions of Darwin&#39;s On the Origin of Species&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://sappingattention.blogspot.com/&#39;  &gt;Ben Schmidt&#39;s work&lt;/a&gt;, including &lt;a href=&#39;http://sappingattention.blogspot.com/2015/01/state-of-union-and-corpus-comparison.html, [mapping the earth via shipping](http://sappingattention.blogspot.com/2014/03/shipping-maps-and-how-states-see.html&#39;  &gt;changing language in State of the Union addresses&lt;/a&gt; and &lt;a href=&#39;http://sappingattention.blogspot.com/2012/11/reading-digital-sources-case-study-in.html&#39;  &gt;whaling routes&lt;/a&gt;, &lt;a href=&#39;http://benschmidt.org/coverspace/&#39;  &gt;visualizing image collections&lt;/a&gt; and &lt;a href=&#39;http://bookworm.culturomics.org/&#39;  &gt;trends in collections of digitized texts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;em&gt;There&#39;s lots of other great visualization, image, and network stuff out there! This was just to blog an email of relevant links I put together after discussing a humanities visualization course that was being designed. Eventually, hoping to combine links like these from various places (Instapaper, Twitter favorites, LibGuides, Zotero) and get them nicely tagged, so pulling out DH work relevant to a project or course being designed isn&#39;t entirely based on what I can recall off the top of my head...&lt;/em&gt;</description>
+        <pubDate>Fri, 25 Sep 2015 08:00:00 -0400</pubDate>
+        <link>/2015/09/25/infovizlinks</link>
+        <guid isPermaLink="true">/2015/09/25/infovizlinks</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>gephi</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digital dissertation defended!</title>
+        <description>&lt;p&gt;Just a quick post to note that I successfully defended my digital dissertation on April 14th, 2015 and completed my Literature Ph.D. Check out the finished project at &lt;a href=&quot;http://dr.AmandaVisconti.com&quot; target=&quot;_blank&quot;&gt;dr.AmandaVisconti.com&lt;/a&gt;! (And I&#39;m now on the job market for alternative academic positions, so &lt;a href=&quot;https://www.linkedin.com/in/amandavisconti&quot; target=&quot;_blank&quot;&gt;let me know if you&#39;re looking to hire&lt;/a&gt; someone with 8+ years of professional interface design experience on a strong research background!)&lt;/p&gt;&lt;p&gt;In addition to links to the &lt;a href=&quot;http://www.InfiniteUlysses.com&quot; target=&quot;_blank&quot;&gt;Infinite Ulysses participatory digital edition&lt;/a&gt; and &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-public&quot; target=&quot;_blank&quot;&gt;public code/design repo&lt;/a&gt;, the project site links out to a &lt;a href=&quot;http://dissertation.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot; target=&quot;_blank&quot;&gt;whitepaper covering the process and product&lt;/a&gt; of my project, an &lt;a href=&quot;http://dr.amandavisconti.com/#dissabstract&quot; target=&quot;_blank&quot;&gt;abstract&lt;/a&gt; for the whole project, &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-public/blob/master/About%20the%20Dissertation/MANIFEST.md&quot; target=&quot;_blank&quot;&gt;a manifest listing and describing all the pieces of work&lt;/a&gt; that went into the project, and of course &lt;a href=&quot;http://www.literaturegeek.com/category/dissertation/&quot; target=&quot;_blank&quot;&gt;all my research blog posts during the project here on the blog&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;If you haven&#39;t been following along, the dissertation is worth checking out even if you&#39;re not interested in the digital humanities, participatory interface design, or &lt;em&gt;Ulysses&lt;/em&gt;: I use a novel approach combining design, code, user-testing, site analytics, and blogging, without the traditional 4-5 chapters of proto-monograph. Tweet &lt;a href=&quot;http://www.twitter.com/Literature_Geek&quot; target=&quot;_blank&quot;&gt;@Literature_Geek&lt;/a&gt; if you have any questions about the process or my research. &lt;/p&gt;&lt;p&gt;Huge thanks are due to my dissertation committee — Drs. Matthew Kirschenbaum (chair), Neil Fraistat, Melanie Kill, Kari Kraus (also Dean&#39;s Representative), and Brian Richardson — for their intellectual and personal generosity. In particular, their willingness to learn about, support, and refine my project&#39;s unique format and methodology; meeting with me as a team and always being available for discussion throughout the course of the project; and thoughtful evaluation of unusual deliverables for a literature dissertation.&lt;/p&gt;&lt;p&gt;I&#39;m also grateful to the University of Maryland English Department, UMD Graduate School and Dean Charles Caramello, and the UMD Libraries Digital Repository for their support of my unique format and methodology, as well as the Maryland Institute for Technology in the Humanities (MITH) and its stellar staff for introducing me to the digital humanities; intellectual stimulation, community, and funding; and mentorship in diverse digital skills and staff roles.&lt;/p&gt;</description>
+        <pubDate>Sat, 09 May 2015 20:57:06 -0400</pubDate>
+        <link>/2015/05/09/dissertationdefended</link>
+        <guid isPermaLink="true">/2015/05/09/dissertationdefended</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>dissertation</category>
+        
+        <category>infinite-ulysses</category>
+        
+        <category>textual-scholarship</category>
+        
+        <category>james-joyce-and-ulysses</category>
+        
         
       </item>
     

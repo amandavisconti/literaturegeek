@@ -1,26 +1,26 @@
 # Site settings
+# bundle exec jekyll serve --watch OR # bundle exec jekyll serve --incremental
+# Incremental has issues (e.g. isn't updating removed posts from tag.md)
 title: Literature Geek
 tagline:             'smarter online communities via digital humanities'
-description:         '<p>Making the digital humanities more participatory by building for+with the public. Social reading/learning, building as research, humanities interfaces, user testing.</p>
-<p>New Literature Ph.D., University of Michigan Information M.S. (Digital Humanities HCI). Proud alum of the MITH digital humanities R&D center (2009-2015). 
-</p>
-<p>This site is <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a>; please reuse/remix/build on this work!</p>'
+description:         'LiteratureGeek.com is the research blog of Dr. Amanda Visconti.' 
 markdown: kramdown
-pygments: true
-paginate: 3
-paginate_path: "/page:num/"
+highlighter: rouge
 baseurl: ""
 # About/contact
 author:
   name:              Amanda Visconti
   url:               http://www.AmandaVisconti.com
-  email:             visconti@umd.edu
+  email:             amandavisconti@gmail.com
   twitter_username:  literature_geek
   github_username:   amandavisconti
 
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
 
 sharing:
   provider: twitter
+
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "/page:num/"
