@@ -14,15 +14,15 @@ permalink: /:year/:month/:day/:title/
 sharing :
 provider : all
 
-gems:
-  - bourbon
-  - jekyll-paginate
+#gems:
+#  - bourbon
+#  - jekyll-paginate
 paginate: 5
 paginate_path: "/page:num/"
 
-sass:
-  sass_dir: assets/scss
-  style: compressed
+#sass:
+#  sass_dir: assets/scss
+#  style: compressed
 
 author:
   name     : Amanda Visconti
