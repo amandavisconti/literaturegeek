@@ -2,7 +2,7 @@
 # cd /Users/aviscont/Documents/GitHubGeneral/literaturegeek 
 # bundle exec jekyll serve --watch
 title: Literature Geek
-description: 'Smarter online communities via digital humanities. LiteratureGeek.com is the research blog of Dr. Amanda Visconti.' 
+description: 'smarter online communities via digital humanities' 
 keywords: "literature geek, digital humanities, Amanda Visconti, digital dissertation, digital humanities dissertation, digital edition, digital Ulysses, dissertation, scholarly building, making, coding, web development, humanities computing, James Joyce, digital Joyce, digital Joycean, Infinite Ulysses"
 
 markdown: kramdown
