@@ -4,6 +4,3 @@ gem 'jekyll'
 gem 'github-pages'
 gem 'jekyll-paginate'
 gem 'rouge'
-
-gem 'sass'
-gem 'bourbon'
