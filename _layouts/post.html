@@ -1,17 +1,23 @@
 ---
 layout: default
 ---
-
 {% include tag_collector.html tag_separator=',' %}
+<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1><hr>
+    <p class="post-meta"><span class="post-date">By Amanda Visconti | <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span> | {{ tag_list }}</p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <!-- {% include post-share.html %} -->
+</article>
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">By Amanda Visconti | {{ page.date | date: '%B %d, %Y'  }} | {{ tag_list }}</span>
-  {{ content }}
-</div>
-
-<div class="related">
-  <h2>Recent Posts</h2>
+<section class="post-list">
+  <div class="container">
+  
+  <div class="related post-list">
+  <h2>Recent posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
@@ -25,6 +31,5 @@ layout: default
   </ul>
 </div>
 
-<div class="post-sharing">
-{% include sharing.html %}
 </div>
+</section>

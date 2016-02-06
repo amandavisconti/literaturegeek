@@ -3,36 +3,19 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-{% include tag_collector.html tag_separator=',' %}
-  <span class="post-date">By Amanda Visconti | {{ post.date | date_to_string }} | {{ tag_list }}</span>
+{% include intro.html %}
 
-    {{ post.content }}
+<section class="post-list">
+  <div class="container">
+  <h2 class="front">Recent posts | <a href="{{ site.baseurl }}/tags">Post archive</a> | <a href="{{ site.baseurl }}/tag/best">Best posts</a></h2>
+{% for post in paginator.posts %}
+      <article class="post-item">
+        <p><strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> <span class="post-meta">({{ post.date | date: "%b %-d, %Y" }})</span> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">more</a></p>
+      </article>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older Posts</a>
-  {% else %}
-    <span class="pagination-item older">Older Posts</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer Posts</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer Posts</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer Posts</span>
-  {% endif %}
-</div>
-
+  <div class="container">
+    {% include pagination.html %}
+  </div>
+</section>

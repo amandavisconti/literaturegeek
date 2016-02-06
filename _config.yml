@@ -1,26 +1,41 @@
 # Site settings
-# bundle exec jekyll serve --watch OR # bundle exec jekyll serve --incremental
-# Incremental has issues (e.g. isn't updating removed posts from tag.md)
+# cd /Users/aviscont/Documents/GitHubGeneral/literaturegeek 
+# bundle exec jekyll serve --watch
 title: Literature Geek
-tagline:             'smarter online communities via digital humanities'
-description:         'LiteratureGeek.com is the research blog of Dr. Amanda Visconti.' 
+description: 'Smarter online communities via digital humanities. LiteratureGeek.com is the research blog of Dr. Amanda Visconti.' 
+keywords: "literature geek, digital humanities, Amanda Visconti, digital dissertation, digital humanities dissertation, digital edition, digital Ulysses, dissertation, scholarly building, making, coding, web development, humanities computing, James Joyce, digital Joyce, digital Joycean, Infinite Ulysses"
+
 markdown: kramdown
 highlighter: rouge
 baseurl: ""
-# About/contact
-author:
-  name:              Amanda Visconti
-  url:               http://www.AmandaVisconti.com
-  email:             amandavisconti@gmail.com
-  twitter_username:  literature_geek
-  github_username:   amandavisconti
+permalink: pretty
+permalink: /:year/:month/:day/:title/
 
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+sharing :
+provider : all
 
-sharing:
-  provider: twitter
-
-gems: [jekyll-paginate]
-paginate: 3
+gems:
+  - bourbon
+  - jekyll-paginate
+paginate: 5
 paginate_path: "/page:num/"
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+author:
+  name     : Amanda Visconti
+  job      : digital humanities professor & research programmer
+  bio      : "I envision, prototype, & analyze web interfaces & their user communities, building design & code on a strong research background (Ph.D., M.S.) to innovate social reading, learning, & knowing."
+  thumb    : /images/author.jpg
+  email    : amandavisconti@gmail.com
+  url      : http://www.AmandaVisconti.com
+  github   : http://github.com/amandavisconti
+  twitter  : http://twitter.com/literature_geek
+  linkedin : http://linkedin.com/in/amandavisconti
+  
+twitter_card: "summary_large_image"
+twitter_site: "@literature_geek"
+
+exclude: ["Gemfile", "Gemfile.lock"]

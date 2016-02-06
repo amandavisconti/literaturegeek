@@ -3,19 +3,8 @@ layout: default
 title: "Page not found"
 permalink: 404.html
 ---
-
-<div class="page">
-  <h1 class="page-title">Were you looking for one of these things?:</h1>
-  <p class="lead">Some of the post categories have changed during this site's migration from WordPress to Jekyll. Use the links below to get where you wanted to go:</p>
-  
-  {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
-  {% for tag in sorted_tags %}
-    <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
-  {% endfor %}
-  <li><a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">Values page/post</a>: Offline for post-Ph.D. development, but you can read the dissertation-era version on the Internet Archive <a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">here</a>.</li>
-  </ul>
-  
-<p>If you weren't looking for something linked above, try searching for it:</p>
+<article class="container">
+  <h1>Were you looking for one of these?</h1>
 <div id="home-search" class="home">
     <script>
         (function() {
@@ -31,6 +20,9 @@ permalink: 404.html
     </script>
     <gcse:search queryParameterName="searchString"></gcse:search>
 </div>
-
-<p>You can also <a href="http://www.twitter.com/literature_geek">contact me on Twitter @Literature_Geek</a> if you need help finding something.</p>
-</div>
+  {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
+  {% for tag in sorted_tags %}
+    <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
+  {% endfor %}
+  <li><a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">Values page/post</a>: Offline for post-Ph.D. development, but you can read the dissertation-era version on the Internet Archive <a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">here</a>.</li>
+  </ul>

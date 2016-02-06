@@ -12,9 +12,12 @@ layout: default
 {% capture post_tagged_message %}{{ tag_title }}{% endcapture %}
 {% assign no_posts_tagged_message = 'There are no posts with this tag.' %}
 
-<div class="page">
-  <p class="page-title">{{ post_tagged_message }}</p>
-    {% if site.tags[page.tag] %}
+<article class="page container postsbytag">
+  <header class="page-header">
+    <h1 class="page-title">{{ post_tagged_message }}</h1>
+  </header>
+  <div class="page-content">
+     {% if site.tags[page.tag] %}
       {% for post in site.tags[page.tag] %}
         {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% if forloop.first %}
@@ -25,17 +28,17 @@ layout: default
           {% assign previous_index = forloop.index0 | minus: 1 %}
           {% capture previous_post_year %}{{ site.tags[page.tag][previous_index].date | date: '%Y' }}{% endcapture %}
           {% if post_year != previous_post_year %}
-            </div><h3>{{ post_year }}</h3><div>
+            </div><h3>{{ post_year }}</h3><div><ul>
           {% endif %}
         {% endif %}
-
-        <a href="{{ post.url }}">{{ post.title }}</a><br />
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 
         {% if forloop.last %}
-          </div>
+          </ul></div>
         {% endif %}
       {% endfor %}
     {% else %}
         <p>{{ no_posts_tagged_message }}</p>
     {% endif %}
-</div>
+  </div>
+</article>

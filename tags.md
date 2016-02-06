@@ -8,7 +8,7 @@ title: All blog posts by topic or date
   {% for tag in sorted_tags %}
     <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
   {% endfor %}</ul>
-</div>
+</div><br>
 
 <h2>Posts by date</h2>
 <em>Note that some earlier posts have been retired; <a href="mailto:amandavisconti@gmail.com?Subject=ContactFromLiteratureGeekBlog">contact me</a> if you're having trouble finding something old, as I might have an offline copy to share.</em>

@@ -1,6 +1,6 @@
 - slug: digital-humanities
   name: digital humanities
-  title: All digital humanities posts
+  title: All digital humanities posts (honestly, this is almost every post I write...)
   sort: 1
   
 - slug: scholarly-web-design-and-coding
@@ -10,28 +10,28 @@
   
 - slug: dh-now
   name: featured on DH Now!
-  title: All posts featured on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
-  sort: 4
+  title: All posts that have been featured on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
+  sort: 3
   
 - slug: best
   name: best
   title: A curated selection of my best/favorite blog posts
-  sort: 5
+  sort: 2
   
 - slug: dissertation
   name: dissertation
   title: All posts about/during my Ph.D. Dissertation (successfully defended in Spring 2015; see <a href="http://dr.AmandaVisconti.com">Dr.AmandaVisconti.com</a> for the dissertation and <a href="http://www.InfiniteUlysses.com">InfiniteUlysses.com</a> for the finished digital+social reading platform)
-  sort: 2
+  sort: 5
   
 - slug: infinite-ulysses
   name: Infinite Ulysses
   title: All posts about <a href="http://www.InfiniteUlysses.com">Infinite Ulysses</a> (during and after the dissertation based on it)
-  sort: 3
+  sort: 4
   
 - slug: james-joyce-and-ulysses
   name: James Joyce & Ulysses
   title: All posts about James Joyce and/or <em>Ulysses</em>
-  sort: 12
+  sort: 13
   
 - slug: gephi
   name: Gephi
@@ -40,13 +40,13 @@
   
 - slug: advice-tutorial
   name: advice/tutorial
-  title: Tutorials for web development, Gephi information visualization (<a href="http://www.literaturegeek.com/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities
+  title: Tutorials for web development, Gephi information visualization (<a href="http://www.literaturegeek.com/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities. See <a href="{{ site.baseurl }}/tag/grad-advice">grad advice</a> for just stuff about being a grad student in the digital humanities.
   sort: 10
   
 - slug: grad-advice
   name: advice for grad students
   title: Advice for graduate students on doing a digital dissertation, project management, etc.
-  sort: 13
+  sort: 12
   
 - slug: usertesting
   name: usertesting
