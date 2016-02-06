@@ -14,9 +14,9 @@ permalink: /:year/:month/:day/:title/
 sharing :
 provider : all
 
-#gems:
-#  - bourbon
-#  - jekyll-paginate
+gems:
+  - jekyll-paginate
+
 paginate: 5
 paginate_path: "/page:num/"
 
