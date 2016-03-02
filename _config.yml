@@ -17,8 +17,8 @@ provider : all
 gems:
   - jekyll-paginate
 
-paginate: 5
-paginate_path: "/page:num/"
+paginate: 3
+paginate_path: "/page:num"
 
 #sass:
 #  sass_dir: assets/scss
