@@ -21,12 +21,12 @@ In exchange for providing feedback on my lesson as you work through the lesson, 
 
 Visit "[Building a static website with Jekyll and GitHub Pages](http://programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages)" to use the lesson.
 
-###Before starting the lesson, two alerts:
+### Before starting the lesson, two alerts:
 
 1. You will need a Mac computer with a decent internet connection.
 2. One of the early steps of the lesson (["Xcode" in the "Installing dependencies" section](http://programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages#section2)) requires you to download a piece of Mac developer software that **may take 3-5 hours to download**. You'll want to budget separate times (30-60 minutes, then 60-120 minutes?) to start the lesson, then come back after that download completes and do the rest of the lesson.
 
-###Ways of sharing your feedback:
+### Ways of sharing your feedback:
 
 * **Email:** You can email [me](mailto:aviscont@purdue.edu) a list of your comments (maybe open the new email and add to it as you go through the lesson?)
 * **Hypothesis annotation:** Follow this special link to my lesson: https://via.hypothes.is/programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages (it's the lesson link, prefixed with via.hypothes.is/) to add your feedback right to the lesson! You'll need to [create a Hypothesis account](http://hypothes.is/register) if you don't have one (or log in), then highlight any words or sentence you want to comment on and type in your annotation (more info on why using Hypothesis annotation is awesome [back in this post](http://literaturegeek.com/2016/02/02/DHannotates)).
@@ -35,7 +35,7 @@ Visit "[Building a static website with Jekyll and GitHub Pages](http://programmi
 
 You can always privately contact my PH editor [Fred Gibbs](mailto:fwgibbs@gmail.com) or [me](mailto:aviscont@purdue.edu) by email with questions about the lesson or the peer review process.
 
-### Type of feedback needed:
+###  Type of feedback needed:
 
 I'm seeking constructive comments—things that can help me make the lesson better and more accessible to users without a technical background. This includes places where you were confused, got stuck, quit, wanted more details, etc. I'm interested in both how I can make the lesson better for *you specifically*, and how you think I could improve the lesson for other users (especially those who may not have as much digital experience as you).
 
