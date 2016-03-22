@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Peer review for my Programming Historian lesson on Jekyll+GitHUb Pages website creation
+title: Peer review for my Programming Historian lesson on Jekyll+GitHub Pages website creation
 permalink: 2016/03/15/peer-review-programming-historian-jekyll
 author: 
   twitter: literature_geek
