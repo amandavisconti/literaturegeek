@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Better tech via annotation: using Hypothesis to improve your technical documentation, code, and tutorials
+title: Better tech via annotation (using Hypothesis to improve your technical documentation, code, and tutorials)
 permalink: 2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials
 author: 
   twitter: literature_geek
