@@ -27,6 +27,8 @@ To realize this vision, I recently submitted [a proposal](https://www.newschalle
 <iframe src="https://player.vimeo.com/video/159821316?byline=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/159821316">Making it public: a more public humanities by co-evolving the digital humanities center &amp; university press</a> from <a href="https://vimeo.com/user8389727">LiteratureGeek</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+## Project description
+
 We pursue this goal through a collaboration of two Purdue Libraries units: the Digital Humanities Center and University Press. This proposal would fund a "co-evolving" of these partners towards a sustainable workflow for libraries to make all kinds of humanities work truly publicly accessible, welcoming, and participatory.
 
 Funds would support the Digital Humanities Center and Press using the coming year to focus on creating and testing best practices documents and workflows for humanities publication issues such as technical longterm sustainability, ethical crediting of project effort, and contracts that 
