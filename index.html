@@ -5,15 +5,6 @@ title: Home
 
 {% include intro.html %}
 
-<!-- Tag blocks -->
-<div>
-  {% assign sorted_tags = site.data.tags | sort:"sort" %}
-  <div class="blocks">
-  <ul>{% for tag in sorted_tags %}
-    <li>{% include tag_link_formatter.html tag=tag %}</li> 
-  {% endfor %}</ul>
-</div>
-
 <section class="post-list">
   <div class="container">
   <h2 class="front">Recent posts | <a href="{{ site.baseurl }}/tags">Post archive</a> | <a href="{{ site.baseurl }}/tag/best">Best posts</a></h2>

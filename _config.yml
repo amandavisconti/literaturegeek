@@ -11,11 +11,18 @@ baseurl: ""
 permalink: pretty
 permalink: /:year/:month/:day/:title/
 
+sharing :
+provider : all
+
 gems:
   - jekyll-paginate
 
 paginate: 3
 paginate_path: "/page:num"
+
+#sass:
+#  sass_dir: assets/scss
+#  style: compressed
 
 author:
   name     : Amanda Visconti
@@ -27,5 +34,8 @@ author:
   github   : http://github.com/amandavisconti
   twitter  : http://twitter.com/literature_geek
   linkedin : http://linkedin.com/in/amandavisconti
+  
+twitter_card: "summary_large_image"
+twitter_site: "@literature_geek"
 
 exclude: ["Gemfile", "Gemfile.lock"]
