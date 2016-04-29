@@ -40,7 +40,7 @@
   
 - slug: advice-tutorial
   name: advice/tutorial
-  title: Tutorials for web development, Gephi information visualization (<a href="http://www.literaturegeek.com/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities. See <a href="{{ site.baseurl }}/tag/grad-advice">grad advice</a> for just stuff about being a grad student in the digital humanities.
+  title: Tutorials for web development, Gephi information visualization (<a href="http://www.literaturegeek.com/tag/gephi">want just Gephi posts?</a>), etc. as well as advice for people curious about the digital humanities. See <a href="http://literaturegeek.com/tag/grad-advice/">grad advice</a> for just stuff about being a grad student in the digital humanities.
   sort: 10
   
 - slug: grad-advice
