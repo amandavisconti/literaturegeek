@@ -5,8 +5,8 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Apr 2016 11:13:50 -0400</pubDate>
-    <lastBuildDate>Fri, 29 Apr 2016 11:13:50 -0400</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 12:55:21 -0400</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 12:55:21 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -1200,18 +1200,18 @@ These workshops are team-taught and very hands-on, so the workshops &lt;em&gt;th
     
       <item>
         <title>Digital Humanities Annotates (#DHannotates)</title>
-        <description>&lt;p&gt;Tech tutorials and documentation are a particularly exciting place for inline annotation, since users can indicate exactly where they got stuck or need additional information. Using the #DHannotates hashtag, we&#39;re encouraging digital humanists to annotate tutorials, documentation, and other DHy webpages as an easy way of improving these resources for the whole community. &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt; annotation makes inline annotation easy! Simply&lt;/p&gt;
+        <description>&lt;p&gt;Tech tutorials and documentation are a particularly exciting place for inline annotation, since users can indicate exactly where they got stuck or need additional information. Using the #DHannotates hashtag, we&#39;re encouraging digital humanists to annotate tutorials, documentation, and other DHy webpages as an easy way of improving these resources for the whole community. &lt;a href=&quot;https://hypothes.is&quot;&gt;Hypothesis&lt;/a&gt; annotation makes inline annotation easy! Simply&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://hypothes.is/register&quot;&gt;Create a Hypothesis account&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Prefix the URL of the webpage you want to annotate with &lt;strong&gt;https://via.hypothes.is/&lt;/strong&gt; (that is, cut and paste that in front of the link to the page you want to annotate!)&lt;/li&gt;
-&lt;li&gt;Annotation feels very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students/&quot;&gt;this tutorial&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
+&lt;li&gt;Annotation feels very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students&quot;&gt;this tutorial&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;If you&#39;ve wanted to try out a tech skill like visualization or Python before, but weren&#39;t sure how to start—or started a tutorial and got stuck—read on! (If you&#39;d like to use this in the classroom, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;see Shawn Graham&#39;s post &quot;Can we fix it? Yes we can! #DHAnnotates Feb 8-12&quot; on the Electric Archaeology site&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;If you&#39;ve wanted to try out a tech skill like visualization or Python before, but weren&#39;t sure how to start—or started a tutorial and got stuck—read on! (If you&#39;d like to use this in the classroom, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can&quot;&gt;see Shawn Graham&#39;s post &quot;Can we fix it? Yes we can! #DHAnnotates Feb 8-12&quot; on the Electric Archaeology site&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;h2&gt;Work through a tutorial now (and get help if you encounter a problem!)&lt;/h2&gt;
-&lt;p&gt;From now through the end of next week (February 2-12), Shawn Graham and I (and anyone else who wants to volunteer!) will address any &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis annotations&lt;/a&gt; created on a particular DH resource: the &lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;Programming Historian tutorials&lt;/a&gt; (resources for learning various DH tech skills, written to be friendly to humanists new to coding and other tech work). We&#39;ll answer questions when possible, and when we can&#39;t, we&#39;ll create an issue in the Programming Historian GitHub repo to make sure someone knows about it (we&#39;ll also try to find people who can answer questions via Twitter and the Digital Humanities Slack).&lt;/p&gt;
+&lt;p&gt;From now through the end of next week (February 2-12), Shawn Graham and I (and anyone else who wants to volunteer!) will address any &lt;a href=&quot;https://hypothes.is&quot;&gt;Hypothesis annotations&lt;/a&gt; created on a particular DH resource: the &lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;Programming Historian tutorials&lt;/a&gt; (resources for learning various DH tech skills, written to be friendly to humanists new to coding and other tech work). We&#39;ll answer questions when possible, and when we can&#39;t, we&#39;ll create an issue in the Programming Historian GitHub repo to make sure someone knows about it (we&#39;ll also try to find people who can answer questions via Twitter and the Digital Humanities Slack).&lt;/p&gt;
 
 &lt;h2&gt;Interesting lessons include:&lt;/h2&gt;
 &lt;ul&gt;
@@ -1226,7 +1226,7 @@ These workshops are team-taught and very hands-on, so the workshops &lt;em&gt;th
 &lt;p&gt;Questions during a tutorial? Ideas for improvements? Get stuck? Want to thank the tutorial&#39;s writers and editors? You can use Hypothesis annotation to add your thoughts.&lt;p&gt;
 
 &lt;h2&gt;If a DHer annotates, does anyone hear?&lt;/h2&gt;
-&lt;p&gt;During Feb 2-12, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;Shawn Graham&lt;/a&gt; and I will respond to Programming Historian annotations and/or add an issue to the site&#39;s GitHub repo so that the annotation is heard and attended to (note, of course, that Programming Historian is written and run by generous volunteers, so help is dependent on volunteers&#39; time... but this is a step toward making sure questions and ideas are seen).&lt;/p&gt;
+&lt;p&gt;During Feb 2-12, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can&quot;&gt;Shawn Graham&lt;/a&gt; and I will respond to Programming Historian annotations and/or add an issue to the site&#39;s GitHub repo so that the annotation is heard and attended to (note, of course, that Programming Historian is written and run by generous volunteers, so help is dependent on volunteers&#39; time... but this is a step toward making sure questions and ideas are seen).&lt;/p&gt;
 &lt;p&gt;For beyond next week (2/2-2/12), we&#39;re discussing automating the process of turning Hypothesis annotations into GitHub issues here: &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182&quot;&gt;https://github.com/programminghistorian/jekyll/issues/182&lt;/a&gt;. Please do join the conversation!&lt;/p&gt;</description>
         <pubDate>Tue, 02 Feb 2016 00:00:00 -0500</pubDate>
         <link>/2016/02/02/DHannotates</link>
@@ -1371,7 +1371,7 @@ These workshops are team-taught and very hands-on, so the workshops &lt;em&gt;th
     
       <item>
         <title>The Filter Problem at the CODEX Literary Hackathon</title>
-        <description>&lt;p&gt;I&#39;m at &lt;a href=&quot;http://codexhackathon.com/&quot;&gt;the MIT Media Lab&#39;s CODEX Literary Hackathon&lt;/a&gt; this weekend—an event focused on prototyping tools for the future of digital reading, books, libraries, and publishing. Below is my description of the annotation &quot;filter problem&quot;, the research challenge that I&#39;m bringing to the table at the event (although I might end up working on something else—we&#39;ll see!).&lt;/p&gt;
+        <description>&lt;p&gt;I&#39;m at &lt;a href=&quot;http://codexhackathon.com&quot;&gt;the MIT Media Lab&#39;s CODEX Literary Hackathon&lt;/a&gt; this weekend—an event focused on prototyping tools for the future of digital reading, books, libraries, and publishing. Below is my description of the annotation &quot;filter problem&quot;, the research challenge that I&#39;m bringing to the table at the event (although I might end up working on something else—we&#39;ll see!).&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Update: I pitched &quot;Team Annotation&quot; and we ended up getting around ten people together to brainstorm annotation, before breaking into several smaller project teams. Read our Team Annotation notes &lt;a href=&quot;https://hackdash.org/projects/568ff7e062b2cc5d050af6c8&quot;&gt;here&lt;/a&gt; and see what I ended up hacking on &lt;a href=&quot;https://hackdash.org/projects/5692943e62b2cc5d050af71e&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
