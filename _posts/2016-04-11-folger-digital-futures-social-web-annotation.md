@@ -11,7 +11,7 @@ type: post
 published: true
 ---
 
-Early modern DH projects have focused on things like transcription, tagging, and data mining of texts; what else can DH projects around Elizabethan plays, old recipe manuscripts, and other early modern content do? I was part of a Folger Shakespeare Library sponsored [panel on "digital futures"](convention2.allacademic.com/one/rsa/rsa16/index.php?cmd=Online+Program+View+Session&selected_session_id=1049407&PHPSESSID=k1kol620luu8jupspeucn5q6p3) at the Renaissance Society of American annual conference (4/1/2016) that discussed possible next steps, and I gave a brief talk about the opportunities **social annotation** on such projects could support.
+Early modern DH projects have focused on things like transcription, tagging, and data mining of texts; what else can DH projects around Elizabethan plays, old recipe manuscripts, and other early modern content do? I was part of a Folger Shakespeare Library sponsored [panel on "digital futures"](http://tinyurl.com/nbrgcxg) at the Renaissance Society of American annual conference (4/1/2016) that discussed possible next steps, and I gave a brief talk about the opportunities **social annotation** on such projects could support.
 
 ## What kind of annotation?
 

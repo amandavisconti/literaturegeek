@@ -5,19 +5,1034 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2016 15:50:22 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2016 15:50:22 -0500</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 08:46:06 -0400</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 08:46:06 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
+        <title>Building a static website with Jekyll and GitHub Pages</title>
+        <description>&lt;p&gt;I published &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;a peer-reviewed piece on building your own scholarly blog or website at &lt;em&gt;The Programming Historian&lt;/em&gt;&lt;/a&gt; this week and am cross-posting the lesson here (but check it out at the Programming Historian, which has a bunch of fantastic DH lessons on other topics too!). The lesson was generously edited by Fred Gibbs and reviewed by Fred Gibbs, Paige Morgan, and Jaime Howe.&lt;/p&gt;
+
+&lt;h1 id=&quot;building-a-static-website-with-jekyll-and-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;This lesson is for you if&lt;/strong&gt; you’d like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control, such as a scholarly blog, project website, or online portfolio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;At the end of this lesson&lt;/strong&gt;, you’ll have a basic live website where you can publish content that other people can visit—it will look like &lt;a href=&quot;http://amandavisconti.github.io/JekyllDemo/&quot;&gt;this&lt;/a&gt;!—and you’ll also have some resources to explore if you want to further customize the site.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; A computer (Mac/Windows/Linux are all okay, but this lesson doesn’t cover some aspects of Linux use), the ability to download and install software on the computer, an internet connection that can support downloading software. Users have reported needing between 1-3 hours to complete the entire lesson.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulty level:&lt;/strong&gt; Intermediate (this lesson includes use of the command line and git, &lt;em&gt;but&lt;/em&gt; walks you through anything needed to complete this lesson). Forthcoming lessons in the basics of git/GitHub and GitHub Pages will be linked here when available, and provide a good background for anyone wishing for deeper understanding of the technology used in this lesson.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#section0&quot;&gt;What are static sites, Jekyll, etc. and why might I care?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section1&quot;&gt;Preparing for installation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section2&quot;&gt;Installing dependencies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section3&quot;&gt;Setting up Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section3a&quot;&gt;Running a website locally&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section4&quot;&gt;Tweaking the settings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section5&quot;&gt;Writing pages and posts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section6&quot;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section7&quot;&gt;Getting fancy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section8&quot;&gt;Cheatsheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section9&quot;&gt;Help, credits, and further reading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-are-static-sites-jekyll-etc--why-might-i-care-a-idsection0a&quot;&gt;What are static sites, Jekyll, etc. &amp;amp; why might I care? &lt;a id=&quot;section0&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;This tutorial is built on the &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;official Jekyll Documentation&lt;/a&gt; written by the Jekyll community. See the &lt;a href=&quot;#section9-3&quot;&gt;“Read more”&lt;/a&gt; section below if you’d like to know even more about these terms!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dynamic-websites-static-websites--jekyll-a-idsection0-1a&quot;&gt;Dynamic websites, static websites, &amp;amp; Jekyll &lt;a id=&quot;section0-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Dynamic websites&lt;/em&gt;, such as those created and managed by a content management system such as &lt;a href=&quot;https://www.drupal.com/&quot;&gt;Drupal&lt;/a&gt;, &lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt;, and &lt;a href=&quot;https://omeka.org/&quot;&gt;Omeka&lt;/a&gt;, pull information from a database to fill in the content on a webpage. When you search for a book on Amazon.com, for example, the search results page you are shown didn’t already exist as a full HTML page; instead, Amazon.com has a template for search results page that includes things all results pages share (like the main menu and Amazon logo), but it queries the database to insert the results of that search you initiated into that template.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Static websites&lt;/em&gt;, on the other hand, do not use a database to store information; instead, all information to be displayed on each webpage is already contained in an HTML file for that webpage. The HTML pages that make up a static site can be completely written by hand, or you can offload some of this work using something like Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Jekyll&lt;/em&gt; is software that helps you “generate” or create a &lt;em&gt;static website&lt;/em&gt; (you may see Jekyll described as a “static site generator”). Jekyll takes page templates—those things like main menus and footers that you’d like shared across all the web pages on your site, where manually writing the HTML to include them on every webpage would be time-consuming. These templates are combined with other files with specific information (e.g. a file for each blog post on the site) to generate full HTML pages for website visitors to see. Jekyll doesn’t need to do anything like querying a database and creating a new HTML page (or filling in a partial one) when you visit a webpage; it’s already got the HTML pages fully formed, and it just updates them when/if they ever change.&lt;/p&gt;
+
+&lt;p&gt;Note that when someone refers to a “Jekyll website”, they really mean a static (plain HTML) website that has been created using Jekyll. Jekyll is software that creates websites. Jekyll isn’t actually “running” the live website; rather, Jekyll is a “static site generator”: it helps you create the static site files, which you then host just as you would any other HTML website.&lt;/p&gt;
+
+&lt;p&gt;Because static sites are really just text files (no database to complicate matters), you can easily &lt;em&gt;version&lt;/em&gt; a static site—that is, use a tool to keep track of the different versions of the site over time by tracking how the text files that compose the site have been altered. Versioning is especially helpful when you need to merge two files (e.g. two students are writing a blog post together, and you want to combine their two versions), or when you want compare files to look for differences among them (e.g. “How did the original About page describe this project?”). Versioning is great when working with a team (e.g. helps you combine and track different people’s work), but it’s also useful when writing or running a website on your own.&lt;/p&gt;
+
+&lt;p&gt;Read more about &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll here&lt;/a&gt; or &lt;a href=&quot;https://davidwalsh.name/introduction-static-site-generators&quot;&gt;static site generators here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;github--github-pages-a-idsection0-2a&quot;&gt;GitHub &amp;amp; GitHub Pages &lt;a id=&quot;section0-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/em&gt; is a free place to store the files that run a website and host that website for people to visit (it only works for particular types of website, like basic HTML sites or Jekyll sites, and does not host databases).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;&lt;/em&gt; is a visual way to use &lt;em&gt;&lt;a href=&quot;https://git-scm.com/documentation&quot;&gt;git&lt;/a&gt;&lt;/em&gt;, a system for &lt;em&gt;versioning&lt;/em&gt;: keeping track of changes to computer files (including code and text documents) over time (as explained &lt;a href=&quot;#section0-1&quot;&gt;above&lt;/a&gt;). If you’re curious, here’s &lt;a href=&quot;https://guides.github.com/activities/hello-world/&quot;&gt;a friendly lesson for exploring GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-the-reasons-for-using-a-static-website-a-idsection0-3a&quot;&gt;What are the reasons for using a static website? &lt;a id=&quot;section0-3&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Options like &lt;a href=&quot;https://www.drupal.com/&quot;&gt;Drupal&lt;/a&gt;, &lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt;, and &lt;a href=&quot;https://omeka.org/&quot;&gt;Omeka&lt;/a&gt; are good for the needs of complex, interactive websites like Amazon or an interactive digital edition of a novel—but for many blogs, project websites, and online portfolios, a static website (such as a website created using Jekyll) can do everything you need while providing some nice perks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Maintenance&lt;/strong&gt;: Updates and maintenance are needed far less often (less than once a year vs. weekly-monthly).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Preservation:&lt;/strong&gt; No database means that the text files making up your site are all you need to save to preserve and replicate your site. It’s easy to back your site up or submit it to an institutional repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Learning:&lt;/strong&gt; Because there isn’t a database and there aren’t a bunch of code files providing features you might not even need, there are far fewer actual pieces of your website—it’s easier to go through them all and actually know what each does, should you be so inclined. Therefore, it’s much easier to become both a basic and an advanced Jekyll user.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More customization possible&lt;/strong&gt;: Since learning to master your website is easier, things you’ll definitely want to do, like changing the look (the “theme”) of a Jekyll-created site, are much easier than altering the look of a WordPress or Drupal site.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Free hosting:&lt;/strong&gt; While many website tools like Drupal, WordPress, and Omeka are free, hosting them (paying for someone to serve your website’s files to site visitors) can cost money.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Versioning:&lt;/strong&gt; Hosting on GitHub Pages means your site is linked into GitHub’s visual interface for git versioning, so you can track changes to your site and always roll back to an earlier state of any blog post, page, or the site itself if needed. This includes uploaded files you might want to store on the site, like old syllabi and publications. (Versioning is &lt;a href=&quot;#section0-1&quot;&gt;explained in more detail above&lt;/a&gt;.)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; There’s no database to protect from hackers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Speed:&lt;/strong&gt; Minimal website files and no database to query mean a faster page-loading time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Creating a static website using Jekyll offers more perks in addition to all the benefits of a hand-coded HTML static website:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Learning:&lt;/strong&gt; It’s easier to get started customizing your site and writing its content, since you won’t need to learn or use HTML.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Built for blogging:&lt;/strong&gt; Jekyll was built to support blog posts, so it’s easy to blog (add new, date-sorted content) and do related tasks like display an archive of all blog posts by month, or include a link to the three most recent blog posts at the bottom of each post.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Templating automates repeated tasks:&lt;/strong&gt; Jekyll makes it easy to automate repeated website tasks via its “templating” system: you can create content that should, for example, appear on the header and footer of every page (e.g. logo image, main menu), or following the title of every blog post (e.g. author name and publication date). This templated information will automatically be repeated on every appropriate webpage, instead of forcing you to manually rewrite that information on every webpage where you want it to appear. Not only does this save a lot of copying and pasting—if you ever want to change something that appears on every page of your website (e.g. a new site logo or a new item in the main menu), changing it once in a template will change in on every place it appears on your website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;preparing-for-installation-a-idsection1a&quot;&gt;Preparing for installation &lt;a id=&quot;section1&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’re ready to get to work! In the rest of this lesson, we’re going to get a few programs installed on your computer, use the command line to install a few things that can only be installed that way, look at and customize a private version of your website, and finally make your website publicly accessible on the Web. If you run into problems at any point in this lesson, see the &lt;a href=&quot;#section9&quot;&gt;help section&lt;/a&gt; for how to ask questions or report issues.&lt;/p&gt;
+
+&lt;p&gt;In this section, we’ll make sure you have a couple things ready on your computer for when we need them later in the lesson by covering what operating system you can use (i.e. Mac/Windows/Linux), creating a GitHub account and installing the GitHub app, why you should use a “text editor” program to work on your website, and how to use the command line.&lt;/p&gt;
+
+&lt;p&gt;Everything this lesson has you install is a standard and trusted web development tool, so it isn’t important to know exactly what each of these things do before installing it. I’ll try to balance more information about the things it’s most useful for you to fully understand, with providing a brief explanation for each piece and also link to further information in case you’d like to know more about what you’re putting on your computer.&lt;/p&gt;
+
+&lt;h3 id=&quot;operating-systems-a-idsection1-0a&quot;&gt;Operating systems &lt;a id=&quot;section1-0&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This tutorial should be usable by both Mac and Windows users. Jekyll can also work for Linux; this tutorial uses the GitHub Desktop software (Mac and Windows only) for simplicity, but Linux users will need to use git over the command line instead (not covered here).&lt;/p&gt;
+
+&lt;p&gt;Jekyll isn’t officially supported for Windows, which means none of the official Jekyll documentation (the pages that walk you through setting up Jekyll and what its different pieces do, which you could consult instead of or in addition to this lesson) addresses Windows use. I’ve used &lt;a href=&quot;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&quot;&gt;David Burela’s Windows instructions&lt;/a&gt; to note the places in the &lt;a href=&quot;#section2&quot;&gt;“Installing Dependencies” section&lt;/a&gt; when Windows users should do something different; the rest of the lesson should work the same for both Mac and Windows users, though note that screenshots throughout the lesson are all from a Mac (so thing may look slightly different for a Windows user).&lt;/p&gt;
+
+&lt;h3 id=&quot;github-user-account-a-idsection1-1a&quot;&gt;GitHub user account &lt;a id=&quot;section1-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;A GitHub user account will let you host your website (make it available for others to visit) for free on GitHub (we’ll cover how in a later step). As a bonus, it will also let you keep track of versions of the website and its writing as it grows or changes over time.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Visit &lt;a href=&quot;https://github.com/&quot;&gt;GitHub.com&lt;/a&gt; and click on the “Sign up” button on the upper right. Write your desired username. This will be visible to others, identify you on GitHub, and also be part of your site’s URL; for example, the author’s GitHub username is amandavisconti and her demo Jekyll site’s URL is http://amandavisconti.github.io/JekyllDemo/. (&lt;em&gt;Note you can also purchase your own domain name and use it for this site, but that won’t be covered in this tutorial&lt;/em&gt;). Also write your desired email address and password, then click “Create an account”.&lt;/li&gt;
+  &lt;li&gt;On the next page, click the “Choose” button next to the “Free” plan option, ignore the “Help me set up an organization next” checkbox, and click “Finish sign up”.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Optional&lt;/em&gt;: Visit https://github.com/settings/profile to add a full name (can be your real name, GitHub user name, or something else) and other public profile information, if desired.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;github-desktop-app-a-idsection1-2a&quot;&gt;GitHub Desktop app &lt;a id=&quot;section1-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;The GitHub Desktop app will make updating your live website (one we set it up) easy—instead of using the command line every time you want to update your site, you’ll be able to use an easier visual tool to update your site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Visit the &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop site&lt;/a&gt; and click on the “Download GitHub Desktop” button to download the GitHub Desktop software to your computer (Mac and Windows only; Linux users will need to use git just via the command line, which is not covered in this version of the tutorial).&lt;/li&gt;
+  &lt;li&gt;Once the file has completely downloaded, double-click on it and use the following directions to install GitHub Desktop…&lt;/li&gt;
+  &lt;li&gt;Enter the username and password for the GitHub.com account you created using the steps above. (Ignore the “Add an Enterprise Account” button.) Click “Continue”.&lt;/li&gt;
+  &lt;li&gt;Enter the name and email address you want the work on your site to be associated with (probably just your public name and work email address, but it’s up to you!).&lt;/li&gt;
+  &lt;li&gt;On the same page, click the “Install Command Line Tools” button and enter your computer’s username and password if prompted (then click the “Install Helper” button on the prompt). After you get a popup message that all command line tools have successfully installed, click continue.&lt;/li&gt;
+  &lt;li&gt;The last page will ask “Which repositories would you like to use?”. Ignore this and click the “Done” button.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Optional:&lt;/em&gt; Follow the walkthrough of the GitHub Desktop app that will appear (this isn’t necessary; we will cover anything you need to do with GitHub in this lesson).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;text-editor-a-idsection1-3a&quot;&gt;Text editor &lt;a id=&quot;section1-3&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;You’ll need to download and install a “text editor” program on your computer for making small customizations to your Jekyll site’s code. Good free options include &lt;a href=&quot;http://www.barebones.com/products/textwrangler/download.html&quot;&gt;TextWrangler&lt;/a&gt; (Mac) or &lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt; (Windows). Software aimed at word processing, like Microsoft Word or Word Pad, isn’t a good choice because it’s easy to forget how to format and save the file, accidentally adding in extra and/or invisible formatting and characters that will break your site. You’ll want something that specifically can save what you write as plaintext (e.g. HTML, Markdown).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Optional:&lt;/em&gt; See &lt;a href=&quot;#section5-2&quot;&gt;the “Authoring in Markdown” section below&lt;/a&gt; for notes on a Markdown-specific editing program, which you may also wish to install when you get to the point of authoring webpages and/or blog posts.&lt;/p&gt;
+
+&lt;h3 id=&quot;command-line-a-idsection1-4a&quot;&gt;Command line &lt;a id=&quot;section1-4&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The command line is a way to interact with your computer using text: it lets you type in commands for actions from simpler things such as “show me a list of the files in this directory” or “change who is allowed to access this file”, to more complex behavior. Sometimes there are nice visual ways to do things on your computer (e.g. the GitHub Desktop app &lt;a href=&quot;#section1-2&quot;&gt;we installed above&lt;/a&gt;), and sometimes you’ll need to use the command line to type out commands to get your computer to do things. The Programming Historian has &lt;a href=&quot;http://programminghistorian.org/lessons/intro-to-bash&quot;&gt;an in-depth lesson exploring the command line written&lt;/a&gt; by Ian Milligan and James Baker if you want more information than provided here, but this lesson will cover everything you need to know to complete the lesson (and we’ll only use the command line when it’s necessary or much easier than a visual interface).&lt;/p&gt;
+
+&lt;p&gt;Where the command line uses text commands, a “graphical user interface” (aka GUI) is what you probably normally use to work with your computer: anything where commands are given through a visual interface containing icons, images, mouse-clicking, etc. is a GUI. Often it’s simpler and faster to type in (or cut and paste from a tutorial) a series of commands via the command line, than to do something using a GUI; sometimes there are things you’ll want to do for which no one has yet created a GUI, and you’ll need to do them via the command line.&lt;/p&gt;
+
+&lt;p&gt;The default command line program is called “Terminal” on Macs (located in &lt;em&gt;Applications &amp;gt; Utilities&lt;/em&gt;), and “Command Prompt”, “Windows Power Shell”, or “Git Bash” on Windows (these are three different options that each differ in the type of commands they accept; we’ll go in detail on which you should use later in the lesson).&lt;/p&gt;
+
+&lt;p&gt;Below is what a command line window looks like on the author’s Mac (using Terminal). You’ll see something like the &lt;em&gt;Macbook-Air:~ DrJekyll$&lt;/em&gt; below in your command line window; that text is called the “prompt” (it’s prompting you to input commands). In the screenshot, &lt;em&gt;Macbook-Air&lt;/em&gt; is the name of my computer, and &lt;em&gt;DrJekyll&lt;/em&gt; is the user account currently logged in (the prompt will use different names for your computer and username).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-0.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When asked to open a command line window and enter commands in this lesson, keep the following in mind:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Commands that you should type (or copy/paste) into the command line are formatted like this:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;example of code formatting&lt;/code&gt;. Each formatted chunk of code should be copied and pasted into the command line, followed by pressing enter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Let installation processes run &lt;em&gt;completely&lt;/em&gt; before entering new commands.&lt;/strong&gt; Sometimes typing a command and pressing enter produces an instantaneous result; sometimes lots of text will start to fill up the command line window, or the command line window will seem to not be doing anything (but something is actually happening behind the scenes, like downloading a file). &lt;strong&gt;When you’ve typed a command and hit enter, you’ll need to wait for that command to completely finish before typing &lt;em&gt;anything else&lt;/em&gt;&lt;/strong&gt;, or you might stop a process in the middle, causing problems. 
+{0}. You’ll know your command has completed when the command line spits out the prompt again (e.g. &lt;em&gt;Macbook-Air:~ DrJekyll$&lt;/em&gt; on the author’s computer). See the screenshot below for an example of inputting a command, followed by some text showing you what was happening while that command was processed (and sometimes asking you to do something, like enter your password), and finally the reappearance of the command prompt to let you know it’s okay to type something else.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-4.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;If you need to do something else at the command line and don’t want to wait, just open a separate command line window (on a Mac, hit command-N or go to &lt;em&gt;Shell &amp;gt; New Window &amp;gt; New Window with Settings-Basic&lt;/em&gt;) and do things there while waiting for the process in the other command line window to finish.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Typing or pasting in the same commands a lot, or want to remember something you typed earlier? You can type the &lt;strong&gt;↑&lt;/strong&gt; (up arrow) at the command line to scroll through recently typed commands; just press enter after the one you want to use appears.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;installing-dependencies-a-idsection2a&quot;&gt;Installing dependencies &lt;a id=&quot;section2&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;We’ll install some software dependencies (i.e. code Jekyll depends on to be able to work), using the command line because there isn’t a visual interface for doing this. This section is divided into instructions for if you’re &lt;a href=&quot;#sectionMac&quot;&gt;On a Mac&lt;/a&gt; or &lt;a href=&quot;#sectionWindows&quot;&gt;On Windows&lt;/a&gt;, so skip down to &lt;a href=&quot;#sectionWindows&quot;&gt;On Windows&lt;/a&gt; now if you’re using Windows.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;on-a-mac-a-idsectionmaca&quot;&gt;On a Mac &lt;a id=&quot;sectionMac&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;If you’re using a Mac computer, follow the instructions below until you hit a line that says the Windows-specific instructions are beginning.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Open a command line window (Applications &amp;gt; Utilities &amp;gt; Terminal) and enter the code shown in the steps below (&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;code is formatted like this&lt;/code&gt;&lt;/em&gt;), keeping &lt;a href=&quot;#section1-4&quot;&gt;the command line tips from above&lt;/a&gt; in mind.&lt;/p&gt;
+
+&lt;h3 id=&quot;command-line-tools-suite-a-idsection2-1a&quot;&gt;Command line tools suite &lt;a id=&quot;section2-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;You’ll need to first install the Mac “command line tools” suite to be able to use &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; (which we’ll install next). Homebrew lets you download and install open-source software on Macs from the command line (it’s a “package manager”), which will make installing Ruby (the language Jekyll is built on) easier.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In Terminal, paste the following code then press enter:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll see something like the following text, followed by a popup:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-1.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the popup, click the “Install” button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll see a message that “The software was installed” when the installation is complete:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-2.5.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;homebrew-a-idsection2-2a&quot;&gt;Homebrew &lt;a id=&quot;section2-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;After the command line tools suite has completed installation, return to your command line window and enter the following to install &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll need to press enter when prompted and enter your computer password when asked. For reference, below is a screenshot of the command entered into the author’s command line, followed by all the text that appeared (including the prompt to press enter, and to enter my password).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-4.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ruby--ruby-gems-a-idsection2-3a&quot;&gt;Ruby &amp;amp; Ruby Gems &lt;a id=&quot;section2-3&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is built from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ruby_%28programming_language%29&quot;&gt;Ruby coding language&lt;/a&gt;. &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt; makes setting up Ruby software like Jekyll easy (it’s a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler).&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew install ruby&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to wait until the command prompt appears again to type the following command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install rubygems-update&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nodejs-a-idsection2-4a&quot;&gt;NodeJS &lt;a id=&quot;section2-4&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt; (or Node.js) is a development platform (in particular, a “runtime environment”) that does things like making Javascript run faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew install node&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll-a-idsection2-5a&quot;&gt;Jekyll &lt;a id=&quot;section2-5&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is the code that creates your website (i.e. “site generation”), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There’s more info on &lt;a href=&quot;#section0-1&quot;&gt;what Jekyll and static sites are&lt;/a&gt;, and on &lt;a href=&quot;#section0-3&quot;&gt;why you’d want to use Jekyll to make a static website&lt;/a&gt;, above.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skip the following steps (which are for Windows users only) and jump down to &lt;a href=&quot;#section3&quot;&gt;Setting up Jekyll&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;on-windows-a-idsectionwindowsa&quot;&gt;On Windows &lt;a id=&quot;sectionWindows&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Instructions for Windows users differ from those for Mac users just in this one “Installing dependencies” section. Only do the following if you’re using Windows.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We need a command line tool that recognizes the same commands Macs and Linux computers (i.e. Unix operating systems) do. Visit &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;https://git-scm.com/downloads&lt;/a&gt; and click on the “Windows” link under “Downloads”. Once the download has finished, double-click on the downloaded file and follow the steps to install Git Bash (leave all options the way they already are).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open “Command Prompt” (open your Start Menu and search for “Command Prompt” and an app you can open should come up).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chocolatey is a “package manager”: code that lets you download and install open-source software on Windows easily from the command line. We’ll now install Chocolately (&lt;em&gt;make sure to highlight and copy the whole club of text below together, not as separate lines&lt;/em&gt;). Enter the code shown in the steps below (&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;code is formatted like this&lt;/code&gt;&lt;/em&gt;), keeping &lt;a href=&quot;#section1-4&quot;&gt;the command line tips from above&lt;/a&gt; in mind:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;(iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))) &amp;gt;$null 2&amp;gt;&amp;amp;1&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Close the “Command Prompt” app and open “Git Bash” (which you recently installed) instead. &lt;strong&gt;You’ll now use Git Bash any time the command line is called for.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jekyll is built from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ruby_%28programming_language%29&quot;&gt;Ruby coding language&lt;/a&gt;. &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gems&lt;/a&gt; makes setting up Ruby software like Jekyll easy (it’s a package manager, just like Homebrew—instead of making installation easy on Macs, it adds some stuff to make Ruby installations simpler). We’ll now install Ruby (this will take a few minutes):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Close the command line program and restart (Ruby won’t work until you’ve done this once)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is the code that creates your website (i.e. “site generation”), making it easier to do certain common tasks such as using the same template (same logo, menu, author information…) on all your blog post pages. There’s more info on &lt;a href=&quot;#section0-1&quot;&gt;what Jekyll and static sites are&lt;/a&gt;, and on &lt;a href=&quot;#section0-3&quot;&gt;why you’d want to use Jekyll to make a static website&lt;/a&gt;, above. We’ll now install Jekyll (if Windows Security gives you a warning popup, ignore it):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;From now on, all instructions are for both Mac and PC users!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-jekyll-a-idsection3a&quot;&gt;Setting up Jekyll &lt;a id=&quot;section3&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;You’ve now installed everything needed to make your website. In this section, we’ll use Jekyll to generate a new folder full of the files that constitute your website. We’ll also locate this folder in a place accessible to the GitHub Desktop app so they’re in the right place when we want to publish them as a public website later in the lesson.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’ll need to know the file path to the GitHub folder created by installing the GitHub Desktop app (this is some text that says where a specific folder or file is within the directory tree on your computer, e.g. /Desktop/MyRecipes/Spaghetti.doc). If you don’t know the GitHub folder file path, click on the magnifying glass icon in the top right of your computer screen (on a Mac) or use the search field on the Start Menu (Windows).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-5.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;On Macs, a search box will appear in the middle of the screen; type in “GitHub”, then double-click on the “GitHub” option that appears under “Folders” to reveal the GitHub folder in Finder (this may look slightly different on Windows, but should function the same).&lt;/p&gt;
+
+    &lt;p&gt;Note that on some computers, this folder is instead labeled “GitHub for Macs” and may not show up on a search; if the previous steps didn’t locate a GitHub folder for you, navigate to Library &amp;gt; Application Support in Finder and check if a “GitHub for Mac” folder is located there.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-6.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Right-click on the “GitHub” folder and choose “Copy ‘GitHub’”. The GitHub folder file path is now copied to your clipboard.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the command line, write &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt;, followed by a space, followed by the file path to your GitHub folder (either type it in if known, or press Command-v to paste in the file path you copied in the previous step). On the author’s computer (logged in as the user &lt;em&gt;DrJekyll&lt;/em&gt;) this command looks like:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-7.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;The &lt;em&gt;cd&lt;/em&gt; command (&lt;strong&gt;c&lt;/strong&gt;hange &lt;strong&gt;d&lt;/strong&gt;irectory) tells your computer to look at the place in the computer’s folder system you specify by the path typed after it—in this case, the path to the GitHub folder created by installing the GitHub Desktop app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Your site’s public URL will take the form http://amandavisconti.github.io/JekyllDemo/, with &lt;em&gt;amandavisconti&lt;/em&gt; being the author’s GitHub username and &lt;em&gt;JekyllDemo&lt;/em&gt; the name of the site I entered at this step (&lt;em&gt;an option to purchase and use your own &lt;a href=&quot;#section7-2&quot;&gt;custom URL&lt;/a&gt; is possible, but not covered in this lesson&lt;/em&gt;). &lt;strong&gt;Lowercase and uppercase website names do &lt;em&gt;not&lt;/em&gt; point to the same website automatically&lt;/strong&gt;, so unlike my &lt;em&gt;JekyllDemo&lt;/em&gt; example you might wish to pick an all-lowercase name to make sure people who hear about the site tend to type its URL correctly.&lt;/p&gt;
+
+    &lt;p&gt;At the command line, type in the following (but replace &lt;em&gt;JekyllDemo&lt;/em&gt; with whatever you want your site to be called):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new JekyllDemo&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;This command told &lt;em&gt;jekyll&lt;/em&gt; to create a &lt;em&gt;new&lt;/em&gt; site by installing all the necessary files in a folder named &lt;em&gt;JekyllDemo&lt;/em&gt;. &lt;strong&gt;The folder you create at this step (e.g. &lt;em&gt;JekyllDemo&lt;/em&gt;) will be referred to as the “website folder” for the rest of this tutorial.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the command line, type in the following to navigate into your site folder (through the rest of this lesson, always replace &lt;em&gt;JekyllDemo&lt;/em&gt; with whatever name you chose for your site in the previous step):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd JekyllDemo&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-8.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;If you look in the &lt;em&gt;GitHub &amp;gt; JekyllDemo&lt;/em&gt; folder in Finder, you’ll see that a bunch of new files—the files that will run your website!—have been installed (we’ll describe what each does &lt;a href=&quot;#section4-2&quot;&gt;further on in the lesson&lt;/a&gt;):&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-9.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bundler is a Ruby “Gem” (a package of Ruby code that adds some specific feature to your site) that will make testing your site easier; it needs to be installed directly into the website folder we just created (e.g. &lt;em&gt;JekyllDemo&lt;/em&gt;), which is why we didn’t install it earlier in this lesson. At the command line, enter:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Don’t forget to wait until the command prompt appears again to type the following command:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle init&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;A new file named “Gemfile” will appear in your website folder. The &lt;a href=&quot;http://tosbourn.com/what-is-the-gemfile/&quot;&gt;Gemfile&lt;/a&gt; helps your site keep track of all the dependencies it requires to run without breaking (dependencies are pieces of code that software &lt;em&gt;depends&lt;/em&gt; on or requires, if you don’t want errors to occur).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigate to your website folder in Finder (Macs) or your directory folder (Windows), and open the “Gemfile” file; you’ll want to open this and any future website files using your &lt;a href=&quot;#section1-3&quot;&gt;text editor&lt;/a&gt; (e.g. TextWrangler). To force a file to open with your text editor, right-click on the file, then chose “Open with” and select the text editor program (you may need to choose “Other…” to find the text editor if it isn’t in the list that appears).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-12.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;You can also drag and drop a text file onto the icon for your text editor program (e.g. on the Dock/menubar).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add the two following lines of text, on separate lines and with the same lower-case formatting (as shown in the screenshot below), then &lt;strong&gt;save&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+gem &#39;jekyll&#39;
+gem &#39;github-pages&#39;
+&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-13.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the command line, type&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;This will install the &lt;em&gt;jekyll&lt;/em&gt; and &lt;em&gt;github-pages&lt;/em&gt; gems you just listed in the Gemfile. (Don’t forget to let the entire process finish and the prompt reappear before typing any more commands! This process will take a few minutes, as a number of dependencies are being installed.)&lt;/p&gt;
+
+    &lt;p&gt;You won’t need to mess with the Gemfile again, since we’ll be hosting your website on GitHub Pages and GitHub Pages does not allow additional site dependencies or plugins (code that adds specific features, like social media buttons after every post; &lt;a href=&quot;#section7-2&quot;&gt;more on plugins below&lt;/a&gt;.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;running-a-website-locally-a-idsection3aa&quot;&gt;Running a website locally &lt;a id=&quot;section3a&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This section will describe how to run your website&lt;/em&gt; &lt;strong&gt;&lt;em&gt;locally&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;—meaning you’ll be able to see what your website will look like in a web browser just on your computer (aka locally), but not anywhere else. Working on a “local” version of a website means that it’s private to your computer; no one else can see your website yet (your website isn’t “live” or “public”: no one can type in the URL and see it in their browser).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This means you can experiment all you want, and only publish your site for the world to see when it’s ready. Or, once you’ve made your site live, you can continue to experiment locally with new writing, design, etc. and only add these to the public site once you’re happy with how they look on the local site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the command line, type&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;This is the command you’ll run whenever you want to view your website locally:&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;jekyll serve&lt;/em&gt; tells your computer to run Jekyll locally.&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;–watch&lt;/em&gt; together with &lt;em&gt;bundle exec&lt;/em&gt; tells Jekyll to watch for changes to the website’s files, such as you writing and saving a new blog post or webpage, and to include these changes on refreshing your web browser. &lt;strong&gt;An exception to this&lt;/strong&gt; is the _config.yml file, which I’ll discuss in more detail in the next section (any changes made there &lt;em&gt;won’t&lt;/em&gt; show up until you stop and restart Jekyll).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After typing in the command in the previous step, you’ll notice that the process never finishes. Remember how on the command line, if you type in anything while the previous command is still processing, you can cause problems? Jekyll is now being run from this command line window, so you’ll need to open a new command line window if you want to type other commands while your local site is still accessible to you (see &lt;a href=&quot;#section1-4&quot;&gt;the section on command line usage above&lt;/a&gt;.) &lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-10.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Reports and error messages caused by changes you make to the files in the website folder will appear in this command line window, and are a good first place to check if something isn’t working.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To stop running the site locally, press &lt;strong&gt;control-c&lt;/strong&gt; (this frees up the command line window for use again). Just enter &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt; again to start running the site locally again.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;View your locally-running site by visiting &lt;strong&gt;localhost:4000&lt;/strong&gt;. You’ll see a basic Jekyll website with boilerplate text:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-11.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mini-cheatsheet-a-idsection3a-1a&quot;&gt;Mini cheatsheet &lt;a id=&quot;section3a-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt; at the command line to start running your website locally. You’d visit &lt;strong&gt;localhost:4000&lt;/strong&gt; in a browser to see your local site now, but in the next section we’ll be changing things such that you’ll need to visit &lt;strong&gt;localhost:4000/JekyllDemo/&lt;/strong&gt; to see the site from then on (filling in your website folder name for &lt;em&gt;JekyllDemo&lt;/em&gt;, and making sure to include the last slash).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hit &lt;strong&gt;control-c&lt;/strong&gt; at the command line to stop running the website locally.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—&lt;strong&gt;except for the _config.yml file&lt;/strong&gt;, for which you must stop running the website and restart running the website to see changes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Typing or pasting in &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt; a lot? Instead, you can type the ↑ (up arrow) at the command line to scroll through recently typed commands; just press enter after the command you want to use appears.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tweaking-the-settings-a-idsection4a&quot;&gt;Tweaking the settings &lt;a id=&quot;section4&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;You now have a basic, private website accessible only on your computer. In this section, we’ll begin to customize your site by changing the website title and author information, and giving a brief overview of what the different website files do.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-site-settings-via-configyml-a-idsection4-1a&quot;&gt;Basic site settings via _config.yml &lt;a id=&quot;section4-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigate to your website folder in Finder (Macs) or the directory folder (Windows. The author’s website at &lt;em&gt;/Users/DrJekyll/GitHub/JekyllDemo&lt;/em&gt; (&lt;em&gt;DrJekyll&lt;/em&gt; is my logged in username, and &lt;em&gt;JekyllDemo&lt;/em&gt; is the name of my website folder). &lt;a href=&quot;#section3&quot;&gt;Return to the “Setting up Jekyll” section&lt;/a&gt; if you need help locating your website folder.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-18.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We’ll start by customizing the main settings file, &lt;strong&gt;_config.yml&lt;/strong&gt;. You’ll want to open this and any future website files using your text editor (e.g. TextWrangler on Macs or Notepad++ on Windows).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-14.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-15.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;The &lt;em&gt;_config.yml&lt;/em&gt; file is a file “meant for settings that affect your whole blog, values for which your are expected to set up once and rarely need to edit after that” (as it says inside the file!). &lt;em&gt;_config.yml&lt;/em&gt; is the place where you can set the title of your site, share information like your email address that you want associated with the site, or add other “basic settings”-type information you want available across your website.&lt;/p&gt;
+
+    &lt;p&gt;The &lt;em&gt;.yml&lt;/em&gt; file type refers to how the file is written using &lt;a href=&quot;https://en.wikipedia.org/wiki/YAML&quot;&gt;YAML&lt;/a&gt; (the acronym standing for “YAML Ain’t Markup Language”); YAML is a way of writing data that is both easy for humans to write and read, and easy for machines to interpret. You won’t need to learn much about YAML, besides keeping the &lt;em&gt;_config.yml&lt;/em&gt; formatted the way it originally is even as you customize the text it contains (e.g. the title information is on a separate line from your email).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can change the text in this file, save the file, and then visit your local website in a browser to see the changes. &lt;strong&gt;Note that changes to _config.yml&lt;/strong&gt;, unlike the rest of your website files, will not show up if made while the website is already running; you need to make them while the website isn’t running, &lt;em&gt;or&lt;/em&gt; after making changes to _config.yml stop then start running the website, to see changes made to this particular file. (&lt;em&gt;Changes to the _config.yml file were left out of the ability to refresh because this file can be used to declare things like the structure of site links, and altering these while the site is running could badly break things.&lt;/em&gt;)&lt;/p&gt;
+
+    &lt;p&gt;Making small changes to website files (one at a time to start with), saving, and then refreshing to see the effect on your site means if you mess anything up, it will be clear what caused the issue and how to undo it.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Note that any line that starts with a &lt;strong&gt;#&lt;/strong&gt; sign is a &lt;em&gt;comment&lt;/em&gt;: comments aren’t read as code, and instead serve as a way to leave notes about how to do something or why you made a change to the code.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Comments can always be deleted without effect to your website (e.g. you can delete the commented lines 1-6 in &lt;em&gt;_config.yml&lt;/em&gt; if you don’t want to always see this info about Jekyll use).&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change the &lt;em&gt;_config.yml&lt;/em&gt; file according to these instructions:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt;: The title of your website, as you want it to appear in the header of the webpage.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;email&lt;/strong&gt;: Your email address.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;description&lt;/strong&gt;: A description of your website that will be used in search engine results and the site’s RSS feed.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;baseurl&lt;/strong&gt;: Fill in the quotation marks with a forward slash followed by the name of your website folder (e.g. “/JekyllDemo”) to help locate the site at the correct URL.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;url&lt;/strong&gt;: Replace “http://yourdomain.com” with “localhost:4000” to help locate your local version of the site at the correct URL.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;twitter_username&lt;/strong&gt;: Your Twitter username (do not include @ symbol).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;github_username&lt;/strong&gt;: Your GitHub username.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;The changes you made to the &lt;em&gt;baseurl&lt;/em&gt; and &lt;em&gt;url&lt;/em&gt; lines will let your site run from the same files both locally on your computer and live on the Web, but &lt;strong&gt;doing this changed the URL where you’ll see your local site from now on&lt;/strong&gt; (while &lt;a href=&quot;#section3-1&quot;&gt;Jekyll is running&lt;/a&gt;) from localhost:4000 to &lt;strong&gt;localhost:4000/JekyllDemo/&lt;/strong&gt; (substitute your website folder name for &lt;em&gt;JekyllDemo&lt;/em&gt; and remembering the last slash mark).&lt;/p&gt;
+
+    &lt;p&gt;In the screenshot below, I have deleted the initial commented lines 1-6 as well as the commented text stating what “description” does (not necessary, just to show you can delete comments that you don’t care about seeing!) as customized the rest of the file as instructed above:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-16.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Save the file, and start (or stop and restart if it’s currently running) the website, then visit &lt;strong&gt;localhost:4000/JekyllDemo/&lt;/strong&gt; (substituting your website folder name for &lt;em&gt;JekyllDemo&lt;/em&gt; and remembering the last slash mark) to see your customized local site:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-17.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;where-and-what-is-everything-a-idsection4-2a&quot;&gt;Where (and what) is everything? &lt;a id=&quot;section4-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;To get a sense of how your site works and what files you’d experiment with to do more advanced things, here are some notes on what each folder or file in your current website folder does. Remember to always open and edit any files with a text editor (e.g. TextWrangler) and not a word processor (e.g. not Microsoft Word or anything that lets you add formatting like italic and bold); this prevents invisible formatting characters from being saved in the file and messing up the website. If you just want to start adding content to your site and make it public, you can &lt;a href=&quot;#section5&quot;&gt;skip to the next section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-18.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;_config.yml&lt;/strong&gt; is discussed &lt;a href=&quot;#section4-1&quot;&gt;above&lt;/a&gt;; it provides basic settings information about your site, such as the site’s title and additional possibilities we won’t cover here, like how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;_includes&lt;/strong&gt; folder has files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;_layouts&lt;/strong&gt; folder contains code that controls how the pages on your site look (default.html), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;_posts&lt;/strong&gt; folder holds the individual files that each represent a blog post on your website. Adding a new post to this folder will make a new blog post appear on your website, in reverse chronological order (newest post to oldest). We’ll cover adding blog posts in the &lt;a href=&quot;#section5-2&quot;&gt;next section&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;_sass&lt;/strong&gt; folder holds SCSS files that control the visual design of the site&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;_site&lt;/strong&gt; folder is where the HTML pages that appear on the web are generated and stored (e.g. you’ll write and save posts as Markdown files, but Jekyll will convert these to HTML for display in a web browser)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;about.md&lt;/strong&gt; is an example of a Jekyll &lt;em&gt;page&lt;/em&gt;. It’s already linked in the header of your website, and you can customize its text by opening and writing in that file. We’ll cover adding more site pages in the &lt;a href=&quot;#section5-3&quot;&gt;next section&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;css&lt;/strong&gt; folder holds CSS converted from SCSS that controls the visual design of the site&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;feed.xml&lt;/strong&gt; lets people follow the RSS feed of your blog posts&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;index.html&lt;/strong&gt; controls the structuring of content on your site’s homepage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-pages-and-posts-a-idsection5a&quot;&gt;Writing pages and posts &lt;a id=&quot;section5&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;This section will describe how to create pages and blog posts on your website.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pages&lt;/strong&gt; and &lt;strong&gt;posts&lt;/strong&gt; are just two types of written content that’s styled differently. Pages are content (like an “About” page) that isn’t organized or displayed chronologically, but might be included in your website’s main menu; posts are meant to be used for content best organized by publication date. The URLs (links) for pages and posts are also different by default (although you can change this): page URLs look like &lt;em&gt;MySite.com/about/&lt;/em&gt;, while post URLs look like &lt;em&gt;MySite.com/2016/02/29/my-post-title.html.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;authoring-in-markdown-a-idsection5-1a&quot;&gt;Authoring in Markdown &lt;a id=&quot;section5-1&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Markdown is a way of formatting your writing for reading on the web: it’s a set of easy-to-remember symbols that show where text formatting should be added (e.g. a # in front of text means to format it as a heading, while a * in front of text means to format it as a bulleted list item). For Jekyll in particular, Markdown means you can write webpages and blog posts in a way that’s comfortable to authors (e.g. no need to look up/add in HTML tags while trying to write an essay), but have that writing show up formatted nicely on the web (i.e. a text-to-HTML convertor).&lt;/p&gt;
+
+&lt;p&gt;We won’t cover Markdown in this lesson; if you’re not familiar with it, for now you can just create posts and pages with no formatting (i.e. no bold/italic, no headers, no bulleted lists). But these are easy to learn how to add: there’s a handy markdown &lt;a href=&quot;http://kramdown.gettalong.org/quickref.html&quot;&gt;reference&lt;/a&gt;, as well as &lt;a href=&quot;http://programminghistorian.org/lessons/getting-started-with-markdown&quot;&gt;a Programming Historian lesson by Sarah Simpkin on the hows and whys of writing with Markdown&lt;/a&gt;. Check out these links if you’d like to format text (italics, bold, headings, bullet/numbered lists) or add hyperlinks or embedded images and other files.&lt;/p&gt;
+
+&lt;p&gt;Make sure any Markdown cheatsheets you look at are for the “&lt;a href=&quot;http://kramdown.gettalong.org/quickref.html&quot;&gt;kramdown&lt;/a&gt;” flavor of Markdown, which is what GitHub Pages (where we’ll be hosting our website) supports. (&lt;em&gt;There are &lt;a href=&quot;https://github.com/jgm/CommonMark/wiki/Markdown-Flavors&quot;&gt;various “flavors” of Markdown&lt;/a&gt; that have subtle differences in what various symbols do, but for the most part frequently used symbols like those that create heading formatting are the same—so you’re actually probably okay using a markdown cheatsheet that doesn’t specify it’s kramdown, but if you’re getting errors on your site using symbols that aren’t included in kramdown might be why&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;You might be interested in “markdown editor” software such as &lt;a href=&quot;http://www.typora.io/&quot;&gt;Typora&lt;/a&gt; (OS X and Windows; free during current beta period), which will let you use popular keyboard shortcuts to write Markdown (e.g. highlight text and press command-B to make it bold) and/or type in Markdown but have it show as it will look on the web (see headings styled like headings, instead of like normal text with a # in front of them).&lt;/p&gt;
+
+&lt;h3 id=&quot;authoring-pages-a-idsection5-3a&quot;&gt;Authoring pages &lt;a id=&quot;section5-3&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;To see an existing page on your website (created as a default part of a Jekyll website &lt;a href=&quot;#section3&quot;&gt;when you created the rest of your website’s files&lt;/a&gt;), navigate to your website folder and open the &lt;strong&gt;about.md&lt;/strong&gt; file either in a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora) to see the file that creates the “About” page. Also click on the “About” link in the top-right of your webpage to see what the webpage the file creates looks like in a browser.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The stuff between the -– dashes is called “front matter” (&lt;em&gt;note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes&lt;/em&gt;). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you’d like the post or page listed under.&lt;/p&gt;
+
+    &lt;p&gt;You can change things in the front matter of a page:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;layout:&lt;/strong&gt; Keep this as-is (it should say page).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;title:&lt;/strong&gt; Change this to the desired page title (unlike posts, no quotation marks around the title). In the screenshot below, I added a page with the title “Resume”.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;permalink:&lt;/strong&gt; change the text between the two forward slash marks to the word (&lt;em&gt;or phrase—but you’ll need to use hyphens and not spaces!&lt;/em&gt;) that you want to follow your site’s main URL to reach the page. For example, &lt;strong&gt;permalink: /about/&lt;/strong&gt; locates a page at &lt;strong&gt;localhost:4000/yourwebsitefoldername/about/&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The space below the front matter’s second — dashes (or below the front matter’s gray box, if using a Markdown editor) is where you write the content of your page, using &lt;a href=&quot;#section5-1&quot;&gt;the Markdown formatting described above&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To create a new page in addition to the “About” page that already exists on the site (and can be customized or deleted), create a copy of the &lt;em&gt;about.md&lt;/em&gt; file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. &lt;em&gt;resume.md&lt;/em&gt; or &lt;em&gt;contact-me.md&lt;/em&gt;). Also change the title and permalink in the file’s front matter, and the content of the file. The new page should automatically appear in the main menu in the site’s header:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-22.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For reference, you can check out &lt;a href=&quot;http://amandavisconti.github.io/JekyllDemo/resume/&quot;&gt;an example of a page&lt;/a&gt; on my demo site, or see &lt;a href=&quot;https://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/resume.md&quot;&gt;the file that’s behind that page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;authoring-posts-a-idsection5-2a&quot;&gt;Authoring posts &lt;a id=&quot;section5-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Finder, navigate to your website folder (e.g. &lt;em&gt;JekyllDemo&lt;/em&gt;) and the &lt;em&gt;_posts&lt;/em&gt; folder inside it. Open the file inside it with either a text editor (e.g. TextWrangler) or a Markdown editor (e.g. Typora). The file will be named something like &lt;em&gt;2016-02-28-welcome-to-jekyll.markdown&lt;/em&gt; (the date will match when you created the Jekyll site).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-19.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;As with pages, with posts the stuff between the -– lines is called “front matter” (&lt;em&gt;note that opening the file in a Markdown editor might make the front matter appear on a gray background instead of between dashes&lt;/em&gt;). The front matter tells your site whether to format the content below the front matter as a page or blog post, the title of the post, the date and time the post should show it was published, and any categories you’d like the post or page listed under.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We’re going to write a second post so you can see how multiple posts look on your site. Close the &lt;em&gt;20xx-xx-xx-welcome-to-jekyll.markdown&lt;/em&gt; file that was open, then right-click on that file in Finder and choose “Duplicate”. A second file named &lt;em&gt;20xx-xx-xx-welcome-to-jekyll copy.markdown&lt;/em&gt; will appear in the _sites folder.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click once on the &lt;em&gt;20xx-xx-xx-welcome-to-jekyll copy.markdown&lt;/em&gt; file name so that you can edit the file name, then alter it to show today’s date and contain a different title, such as &lt;em&gt;2016-02-29-a-post-about-my-research.markdown&lt;/em&gt; (use hyphens between words, &lt;strong&gt;not&lt;/strong&gt; spaces).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now open your renamed file in your text or markdown editor, and customize the following:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;layout:&lt;/strong&gt; Keep this as-is (it should say &lt;em&gt;post&lt;/em&gt;).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;title:&lt;/strong&gt; Change “Welcome to Jekyll!” to whatever title you’d like for your new post (keeping the quotation marks around the title). It’s the norm to make the title the same as the words in the filename (except with added spaces and capitalization). This is how the title will appear on the post’s webpage).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;date:&lt;/strong&gt; Change this to when you want the post to show as its publication date and time, making sure to match the date that’s part of the filename. (The date &lt;em&gt;and&lt;/em&gt; time should have occurred already, for your post to show up.)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;categories:&lt;/strong&gt; Delete the words “jekyll update” for now, and don’t add anything else here—the current theme doesn’t use these and they mess up the post URLs. (&lt;em&gt;Other themes can use this field to sort blog posts by categories&lt;/em&gt;.)&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;The space below the second -– (or below the gray box, if using a Markdown editor):&lt;/strong&gt; This is where you write your blog post, using &lt;a href=&quot;#section5-1&quot;&gt;the Markdown formatting described above&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;After saving, you should now be able to see your second post on the front page of your site, and clicking on the link should take you to the post’s page:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-20.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-21.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Notice that &lt;strong&gt;the URL of the post&lt;/strong&gt; is your local website URL (e.g. &lt;em&gt;localhost:4000/JekyllDemo/&lt;/em&gt;) followed by the year/month/date of publication, followed by the title as written in your filename and ending with .html (e.g. &lt;em&gt;localhost:4000/JekyllDemo/2016/02/29/a-post-about-my-research.html&lt;/em&gt;). Jekyll is converting the Markdown file you authored in the _posts folder into this HTML webpage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Deleting a file&lt;/strong&gt; from the _posts folder removes it from your website (you can try this with the “Welcome to Jekyll!!” sample post).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To create further posts&lt;/strong&gt;, duplicate an existing file, then remember to change not just the front matter and content inside the post as described above, but also the file name (date and title) of the new file.&lt;/p&gt;
+
+&lt;p&gt;For reference, you can check out &lt;a href=&quot;http://amandavisconti.github.io/JekyllDemo/2016/02/29/a-post-about-my-research.html&quot;&gt;an example of a post&lt;/a&gt; on my demo site, or see &lt;a href=&quot;http://raw.githubusercontent.com/amandavisconti/JekyllDemo/gh-pages/_posts/2016-02-29-a-post-about-my-research.markdown&quot;&gt;the code running that post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;hosting-on-github-pages-a-idsection6a&quot;&gt;Hosting on GitHub Pages &lt;a id=&quot;section6&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;You now know how to add text pages and posts to your website. In this section. we’ll move your local site live so that others can visit it on the Web.&lt;/em&gt; &lt;strong&gt;At this point, we are making a version of your website publicly viewable&lt;/strong&gt; &lt;em&gt;(e.g. to search engines and to anyone who knows of or happens on the link).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;#section1-2&quot;&gt;Earlier in the lesson,&lt;/a&gt; you installed the GitHub Desktop app. We’ll now use this app to easily move your website files to a place that will serve them to visitors as webpages (GitHub Pages), where the public can then visit them online. This first time, we’ll move all your website’s files to the Web since none of them are there yet; in the future, you’ll use this app whenever you’ve adjusted the website’s files (added, edited, or deleted content or files) on your local version of the website and are ready for the same changes to appear on the public website (there’s &lt;a href=&quot;#section6-1&quot;&gt;a cheatsheet at the end of this section&lt;/a&gt; for this).&lt;/em&gt;
+1. Open the GitHub Desktop app. Click the &lt;strong&gt;+&lt;/strong&gt; icon in the top left corner, and click on the “Add” option along the top of the box that appears (if “Add” isn’t already selected).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on the “Choose…” button and choose the folder (&lt;em&gt;JekyllDemo&lt;/em&gt; in my example) containing your website files (if on a Mac and unable to locate this folder, your Library folder may be hidden; &lt;a href=&quot;http://www.macobserver.com/tmo/article/mavericks-easily-make-user-library-folder-visible&quot;&gt;use these directions&lt;/a&gt; to make it visible so the GitHub Desktop app can look navigate inside it).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then, click on the “Create &amp;amp; Add Repository” button (Mac) or the “Create Repository” button (Windows). You’ll now see a list of the files to which you’ve made changes (additions or deletions to and of files) since the last time you copied your website code from your computer to GitHub (&lt;em&gt;in this case, we’ve never copied code to GitHub before, so all files are listed here as new&lt;/em&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the first field, type a short description of the changes you’ve made since you last moved your work on the website to GitHub (space is limited). In this first case, something along the lines of “My first commit!” is fine; in the future, you might want to be more descriptive to help you locate when you made a given change—e.g. writing “Added new ‘Contact Me’ page”.&lt;/p&gt;
+
+    &lt;p&gt;You can use the larger text area below this to write a longer message, if needed (&lt;em&gt;it’s optional&lt;/em&gt;).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-23.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the top of the app window, click on the third icon from the left (it will say “Add a branch” if you hover over it). Type &lt;em&gt;gh-pages&lt;/em&gt; in the “Name” field, then click the “Create branch” button.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-24.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on the “Commit to gh-pages” button near the bottom-left of the app window.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-25.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on the “Publish” button in the top-right.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-26.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the popup, leave everything as-is and click the “Publish repository” button in the lower-right (&lt;em&gt;your window may not show the options related to private repositories shown in the screenshot&lt;/em&gt;).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-27.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the “Sync” button in the upper-right&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-28.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can now visit (and share the link to!) your live website. The URL will follow the pattern of &lt;em&gt;your GitHub username DOT github.io SLASH name of your website SLASH&lt;/em&gt;. (For example, the author’s URL is &lt;a href=&quot;http://amandavisconti.github.io/JekyllDemo/&quot;&gt;amandavisconti.github.io/JekyllDemo/&lt;/a&gt;.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;mini-cheatsheet-a-idsection6-1a&quot;&gt;Mini cheatsheet &lt;a id=&quot;section6-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In the future when you want to move changes you’ve made locally to your live site, just follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open the GitHub Desktop app and type a short description of your changes (and optionally a longer description in the second text box).&lt;/li&gt;
+  &lt;li&gt;Click the “commit” button underneath the text box.&lt;/li&gt;
+  &lt;li&gt;Once the commit has finished, click the “Sync” button in the top-right.&lt;/li&gt;
+  &lt;li&gt;Give GitHub a little time to receive these changes (about 10-90 seconds) before refreshing your live site to see your changes there.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;getting-fancy-a-idsection7a&quot;&gt;Getting fancy &lt;a id=&quot;section7&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;This lesson won’t cover advanced work like changing the visual appearance of your site or adding new functionality, but here is some information to get you started on your own.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;visual-design-a-idsection7-1a&quot;&gt;Visual design &lt;a id=&quot;section7-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The visual design of a website is often referred to as its &lt;em&gt;theme&lt;/em&gt; (more properly, a theme is a set of code and image files that together make a major change to the appearance of a website).&lt;/p&gt;
+
+&lt;p&gt;You can customize the current theme of your website by making changes to the files in the &lt;em&gt;_sass&lt;/em&gt; and &lt;em&gt;css&lt;/em&gt; folders (unfortunately, the most recent version of Jekyll’s move to use SASS instead of plain CSS makes learning to customize things a bit more difficult for non-designers).&lt;/p&gt;
+
+&lt;p&gt;Or, you can add in (and further customize, if desired) a theme already created by someone else by searching for “Jekyll themes” or trying one of these resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Alex Gil’s “Ed” theme for minimal digital editions (https://elotroalex.github.io/ed/, https://elotroalex.github.io/ed/documentation.html; free)&lt;/li&gt;
+  &lt;li&gt;Rebecca Sutton Koeser’s “Digital Edition” theme (https://github.com/emory-libraries-ecds/digitaledition-jekylltheme; free)&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt; directory (free)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.io/&quot;&gt;JekyllThemes.io&lt;/a&gt; (free and paid)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;functionality-a-idsection7-2a&quot;&gt;Functionality &lt;a id=&quot;section7-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;Jekyll plugins&lt;/a&gt; allow you to add small bits of code that add functionality to your site such as &lt;a href=&quot;https://github.com/PascalW/jekyll_indextank&quot;&gt;full-text search&lt;/a&gt;, &lt;a href=&quot;https://github.com/yihangho/emoji-for-jekyll&quot;&gt;emoji support&lt;/a&gt;, and &lt;a href=&quot;https://gist.github.com/ilkka/710577&quot;&gt;tag clouds&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you want to host your site on GitHub Pages as we did in this lesson, you can only use the Jekyll plugins already included in the GitHub Pages gem we installed (here’s &lt;a href=&quot;https://pages.github.com/versions/&quot;&gt;a full list of what you installed&lt;/a&gt; when adding the GitHub Pages gem to your Gemfile earlier).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you choose to host your Jekyll website elsewhere than GitHub Pages, you can use any Jekyll plugin (instructions to self-host vary by web host and won’t be covered here, but &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;this&lt;/a&gt; is a page about how to install plugins once you’ve set up your self-hosted Jekyll site). You can search for “Jekyll plugin” plus the functionality you need to see if one is available, or check out the “Available plugins” section near the bottom of &lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;this page&lt;/a&gt; for a list of plugins.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can keep GitHub Page’s free hosting of your Jekyll website, but give the site a &lt;strong&gt;custom domain name&lt;/strong&gt; (domain names are purchased for a reasonable yearly fee—usually around $10—from a “domain name registrar” such as &lt;a href=&quot;https://www.nearlyfreespeech.net/services/domains&quot;&gt;NearlyFreeSpeech.net&lt;/a&gt;). For example, the author’s LiteratureGeek.com blog is built with Jekyll and hosted on GitHub Pages just like the site you built with this lesson, but it uses a custom domain name I purchased and configured to point to my site. Instructions on setting up a custom domain name can be found &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can &lt;strong&gt;migrate an existing blog&lt;/strong&gt; from many other systems including WordPress, Blogger, Drupal, and Tumblr by following the links on the right side of &lt;a href=&quot;https://import.jekyllrb.com/docs/home/&quot;&gt;this page&lt;/a&gt;. When migrating a site, make sure to back up your original site in case it takes a couple tries to get posts living at the same URL as before (so search engine results and bookmarks don’t break).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cheatsheet-a-idsection8a&quot;&gt;Cheatsheet &lt;a id=&quot;section8&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;To test stuff locally&lt;/strong&gt; (new plugin, theme, how a new blog post looks):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Start local site&lt;/em&gt;: Type &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve --watch&lt;/code&gt; at the command line&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Visit local site&lt;/em&gt;: Open &lt;strong&gt;localhost:4000/yourwebfoldername/&lt;/strong&gt; in a web browser (e.g. &lt;em&gt;localhost:4000/JekyllDemo/&lt;/em&gt;). Don’t forget the trailing slash!&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;See changes on the local site as you make them:&lt;/em&gt; While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—&lt;strong&gt;except for the _config.yml file&lt;/strong&gt;, for which you must stop running the website and restart running the website to see changes.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Stop local site:&lt;/em&gt; Hit &lt;strong&gt;control-c&lt;/strong&gt; on the command line.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;To move local changes to your live site&lt;/strong&gt; (new post, settings tweak, etc.):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make the desired changes to your website’s local files.&lt;/li&gt;
+  &lt;li&gt;Open the GitHub Desktop app, make sure your website is chosen in the left sidebar’s list of repositories, and write your commit message summary (and description if desired).&lt;/li&gt;
+  &lt;li&gt;Click “Commit to gh-pages” in the lower left.&lt;/li&gt;
+  &lt;li&gt;After the commit has completed, click “Sync” in the upper right.&lt;/li&gt;
+  &lt;li&gt;Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;help-credits--further-reading-a-idsection9a&quot;&gt;Help, credits, &amp;amp; further reading &lt;a id=&quot;section9&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;help-a-idsection9-1a&quot;&gt;Help &lt;a id=&quot;section9-1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;If you run into an issue, &lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;Jekyll has a page on troubleshooting&lt;/a&gt; that might help. If you’re working on the command line and get an error message, don’t forget to try searching for that specific error message online. Besides search engines, &lt;a href=&quot;http://stackexchange.com/&quot;&gt;the StackExchange site&lt;/a&gt; is a good place to find questions and answers from people who have run into the same problem as you in the past.&lt;/p&gt;
+
+&lt;h3 id=&quot;credits-a-idsection9-2a&quot;&gt;Credits &lt;a id=&quot;section9-2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Thanks to &lt;em&gt;Programming Historian&lt;/em&gt; Editor Fred Gibbs for editing, discussing, and reviewing this lesson; Paige Morgan and Jaime Howe for reviewing this lesson; Scott Weingart and students for testing the lesson with Windows; and Tod Robbins and Matthew Lincoln for suggestions on the &lt;a href=&quot;http://tinyurl.com/DHSlack&quot;&gt;DH Slack&lt;/a&gt; on what to cover in this lesson.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading-a-idsection9-3a&quot;&gt;Further reading &lt;a id=&quot;section9-3&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Check out the following links for documentation, inspiration, and further reading about Jekyll:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Official Jekyll Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jekyll “unofficially” links to two Windows + Jekyll resources: &lt;a href=&quot;http://jekyll-windows.juthilo.com/&quot;&gt;http://jekyll-windows.juthilo.com/&lt;/a&gt; and &lt;a href=&quot;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&quot;&gt;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/using-jekyll-with-pages/&quot;&gt;https://help.github.com/articles/using-jekyll-with-pages/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Amanda Visconti, &lt;a href=&quot;http://literaturegeek.com/2015/12/08/WhyJekyllGitHub&quot;&gt;“Introducing Static Sites for Digital Humanities Projects (why &amp;amp; what are Jekyll, GitHub, etc.?)”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Alex Gil, &lt;a href=&quot;http://chronicle.com/blogs/profhacker/jekyll1/60913&quot;&gt;“How (and Why) to Generate a Static Website Using Jekyll, Part 1”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Eduardo Bouças, &lt;a href=&quot;https://davidwalsh.name/introduction-static-site-generators&quot;&gt;“An Introduction to Static Site Generators”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ben.balter.com/jekyll-style-guide/&quot;&gt;Jekyll Style Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://prose.io/&quot;&gt;Prose&lt;/a&gt; content editor (built on Jekyll)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;Join the Digital Humanities Slack&lt;/a&gt; (anyone can join, even if you have no DH experience) and check out the #publishing channel for discussions of Jekyll and other DH publishing platforms&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+        <link>/2016/04/20/building-static-website-with-jekyll-github-pages</link>
+        <guid isPermaLink="true">/2016/04/20/building-static-website-with-jekyll-github-pages</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>advice-tutorial</category>
+        
+        <category>best</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Talking social web annotation at the Folger Digital Futures panel</title>
+        <description>&lt;p&gt;Early modern DH projects have focused on things like transcription, tagging, and data mining of texts; what else can DH projects around Elizabethan plays, old recipe manuscripts, and other early modern content do? I was part of a Folger Shakespeare Library sponsored &lt;a href=&quot;http://tinyurl.com/nbrgcxg&quot;&gt;panel on “digital futures”&lt;/a&gt; at the Renaissance Society of American annual conference (4/1/2016) that discussed possible next steps, and I gave a brief talk about the opportunities &lt;strong&gt;social annotation&lt;/strong&gt; on such projects could support.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-kind-of-annotation&quot;&gt;What kind of annotation?&lt;/h2&gt;
+
+&lt;p&gt;I’m interested in letting modern readers add annotations to digital editions and similar textual projects. Where we may be used to pre-publication annotation by textual scholars, I’m interested in post-publication annotation by readers.&lt;/p&gt;
+
+&lt;p&gt;Online, this often looks like dragging your cursor to highlight words or sentences and typing in your annotation (with an expanded audience of annotators, this might mean a comment, question, interpretation,contextualization, translation, illustration, locations, or something else…). Then, you can see that annotation plus the annotations of other readers displayed somewhere alongside the digital text.&lt;/p&gt;
+
+&lt;p&gt;Open, public social annotation hasn’t yet been as supported by DH projects as activities like transcription or tagging. Compounding this, I’m not an early modernist, so if anyone knows of early modern projects supporting public annotation, please let me know! You can check out non-early-modern examples in the NYPL’s &lt;a href=&quot;http://candide.nypl.org/text/&quot;&gt;Candide 2.0&lt;/a&gt;, or my own project at &lt;a href=&quot;http://candide.nypl.org/text/&quot;&gt;InfiniteUlysses.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m especially interested in ways we can open up the conversations around literature to those outside universities, so I’m going to briefly talk about a couple ideas for social web annotation that serve reading audiences such as students and public enthusiasts:&lt;/p&gt;
+
+&lt;h2 id=&quot;personalized--customized-annotated-editions&quot;&gt;Personalized &amp;amp; customized annotated editions&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;…Letting readers and researchers filter the visible annotations on a digital edition to just those matching personal interests and needs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If we open texts to social annotation, even beyond basic moderation and curation to make sure annotations should be exposed to the public (e.g. that they’re not spam or off-topic…), we’ll quickly get more annotationson any page than most readers or scholars will want to see.&lt;/p&gt;
+
+&lt;p&gt;By gathering metadata such as the date the annotation was authored, the subjects the annotation discusses (e.g. slang or religion), and the type of annotation (is it interpretation? a translation? an illustration?), we can begin to allow filtering what annotations are displayed to each reader’s needs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;E.g.only show interpretations or contextualizations; don’t show translations; only show feminist readings; only show me annotations written by actors&lt;/li&gt;
+  &lt;li&gt;E.g. a classroom version, first-time reader version, version accompanying a scholarly article annotating specific textual proof&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll briefly mention a few other filters provided by social curation of a website’s annotations: voting (problematic!), flagging for usefulness, tagging by annotation affect (funny, thoughtful). These carry their own issues–you want to have readers see ideas that challenge them, and give a voice in the conversation around a text to people who haven’t been invited in the past, so the various ways you make social annotation practically readable are very much under experimentation and debate. It’s important that projects allowing annotation filtering are prepared to test, assess, and change their interface to better support their user communities.&lt;/p&gt;
+
+&lt;h2 id=&quot;annotation-framework-as-an-interactive-introduction-to-textual-scholarship&quot;&gt;Annotation framework as an interactive introduction to textual scholarship&lt;/h2&gt;
+
+&lt;p&gt;I’m imagining a kind of “Choose Your Own Edition” website that walks you through various locations of possible editorial intervention on a single interesting textual page, lets you choose from possible interventions or write in your own, and at the end recommends short writings and scholarly editions by editors who both strongly match and strongly oppose your line of reasoning.&lt;/p&gt;
+
+&lt;p&gt;At a very basic level, this makes clear to readers that “editing” is additional things beyond transcription, and that transcription is a complex and critical activity itself.&lt;/p&gt;
+
+&lt;p&gt;(I wireframed “Choose Your Own Edition” during a seminar at the Folger Shakespeare Library taught by Dr. Jeffrey Masten, and I’m hoping to further prototype the idea in partnership with Dr. Liz Mercier, who has been working on paleography pedagogy through her own site at &lt;a href=&quot;http://purduepaleography.cla.purdue.edu/index.html&quot;&gt;http://purduepaleography.cla.purdue.edu/index.html&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;In a classroom, different groups of students might be assigned to read the same section of a digital edition, but with a different “editorial theory” filter turned on for each group. Class discussion could then explore how reading differed when supplemented by annotations coming from different schools of thought and interests.&lt;/p&gt;
+
+&lt;p&gt;Or, after annotating scenes in a play, annotators could find out what kind of readings their annotations matched. E.g. did people into certain theories or readings tend to find certain passages especially interesting?&lt;/p&gt;
+
+&lt;p&gt;I see more digital editions in the future simply allowing post-publication social annotation, where annotation of a digital edition is an ongoing activity open to the public (or some subset, such as invited literature scholars), rather than just having finished digital editions containing annotations released to the public. Social annotations can let the conversation around a text grow and be iterative as new ideas, new performances, and new relevant events occur. Annotations can increase public interest in illustrative materials and lesser known texts. And perhaps most importantly, annotation can support participation and inclusion of citizen humanists.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Apr 2016 00:00:00 -0400</pubDate>
+        <link>/2016/04/11/folger-digital-futures-social-web-annotation</link>
+        <guid isPermaLink="true">/2016/04/11/folger-digital-futures-social-web-annotation</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Making it public (a Knight Foundation News Challenge proposal)</title>
+        <description>&lt;p&gt;Humanities research and publication should be more than just writing and printing polished monographs. I envision a humanities where born-digital publication lets us document and celebrate the entire research spectrum, with&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;all&lt;/em&gt; critical work (teaching, learning, discovery…) by&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;all&lt;/em&gt; on campus interested in the humanities (students, staff, faculty at all levels…) using&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;all&lt;/em&gt; methods for critical thinking (writing, coding, curating, annotating, visualizing…) and&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;all&lt;/em&gt; forms of “making public” (ebooks, blogs, interactive websites, code libraries, datasets…)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…realized and made public through a university’s libraries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KnightVideoSlide.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To realize this vision, I recently submitted &lt;a href=&quot;https://www.newschallenge.org/challenge/how-might-libraries-serve-21st-century-information-needs/submissions/making-it-public-a-more-public-humanities-by-co-evolving-the-digital-humanities-center-university-press&quot;&gt;a proposal&lt;/a&gt; to the &lt;a href=&quot;https://www.newschallenge.org/&quot;&gt;Knight Foundation’s News Challenge&lt;/a&gt; in collaboration with the Purdue University Press Director &amp;amp; Head of Scholarly Publishing Peter Froelich. The New Challenge will fund answers to the question “&lt;em&gt;How might libraries serve 21st century information needs&lt;/em&gt;?” (You can &lt;a href=&quot;https://www.newschallenge.org/challenge/how-might-libraries-serve-21st-century-information-needs/submissions/making-it-public-a-more-public-humanities-by-co-evolving-the-digital-humanities-center-university-press&quot;&gt;comment on our proposal here&lt;/a&gt;—proposals are currently undergoing public review, commentary, and updating.)&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/159821316?byline=0&quot; width=&quot;500&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/159821316&quot;&gt;Making it public: a more public humanities by co-evolving the digital humanities center &amp;amp; university press&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user8389727&quot;&gt;LiteratureGeek&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-description&quot;&gt;Project description&lt;/h2&gt;
+
+&lt;p&gt;We pursue this goal through a collaboration of two Purdue Libraries units: the Digital Humanities Center and University Press. This proposal would fund a “co-evolving” of these partners towards a sustainable workflow for libraries to make all kinds of humanities work truly publicly accessible, welcoming, and participatory.&lt;/p&gt;
+
+&lt;p&gt;Funds would support the Digital Humanities Center and Press using the coming year to focus on creating and testing best practices documents and workflows for humanities publication issues such as technical longterm sustainability, ethical crediting of project effort, and contracts that&lt;/p&gt;
+
+&lt;p&gt;outline and support generative collaborations among the Libraries and diverse campus humanities researchers. This work would include the development of a physical space dedicated to experimental, collaborative, public digital humanities building.&lt;/p&gt;
+
+&lt;p&gt;Several test case research projects involving a variety of campus roles, research areas, methods, and publication forms would be pursued and fully publicly documented. These example projects would focus on several areas of humanities endeavor with broad impacts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;works aimed at broader, public audiences (the humanities as radically relevant and inviting)&lt;/li&gt;
+  &lt;li&gt;works supporting public interaction with and participation with research and learning&lt;/li&gt;
+  &lt;li&gt;works throughout the life cycle of research (not just polished monographs, but mid-state publishing during a project, blogging, dataset publication, digital dissertations…)&lt;/li&gt;
+  &lt;li&gt;broadly reusable work documenting research practices, workflows, and infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Project deliverables are both the published, born-digital humanities publication that the collaboration will support, and the publicly documented model of co-evolving a digital humanities center and university press to make a campus’ humanities research radically more 
+public (made available both as blogs on successes, failures, and experiments during the collaboration, and as a whitepaper after one year of collaboration). Finally, we’ll host a THATCamp unconference on “making the humanities public” at the end of the year, which will allow 
+others interested in these goals to meet, exchange ideas, and plan future collaborations.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-this-project-advance-the-library-field&quot;&gt;How does this project advance the library field?&lt;/h2&gt;
+
+&lt;p&gt;This project explores a co-evolution of two areas of the library currently undergoing rapid digital changes, supporting university press born-digital publishing and digital humanities exploration. The project will both deliver real born-digital digital humanities publications, and also document and publicly share the model (workflows, best practices, failures, successes…) we use to achieve those publications. By creating regular blog posts on successes, failures, and experiments during the collaboration, and a whitepaper after one year of collaboration, we aim to thoroughly make public this project about making the humanities public, allowing other libraries to build off what we learn and use our collaboration as a model for jumpstarting their own partnerships toward a more public humanities.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-is-the-audience-and-what-are-their-information-needs&quot;&gt;Who is the audience and what are their information needs?&lt;/h2&gt;
+
+&lt;p&gt;The broad humanities community at Purdue—especially those not traditionally enfranchised to experiment and publish their work—will benefit directly from the collaborative model explored by this project: undergraduate and graduate students in the College of Liberal Arts and School of Interdisciplinary Studies, department and Libraries staff, and faculty at all levels of contract.&lt;/p&gt;
+
+&lt;p&gt;More broadly, the international humanities community can benefit from the public documentation of this project’s evolution, and citizen humanists will benefit from the creation of humanities publications aimed at inviting, welcoming, teaching, and learning with this under-served audience.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-members--their-qualifications&quot;&gt;Team members &amp;amp; their qualifications&lt;/h2&gt;
+
+&lt;p&gt;This project will be led by two units based in the Purdue University Libraries: the Digital Humanities Center and the University Press &amp;amp; Scholarly Publishing Services.&lt;/p&gt;
+
+&lt;p&gt;Amanda Visconti, an Assistant Professor and the Digital Humanities Specialist in the Libraries, directs the Digital Humanities Center. Her background includes work at diverse digital humanities (DH) centers, including at the Maryland Institute for Technology in the Humanities in a variety of roles (2009-2015). She holds a literature Ph.D. and information master’s both focused on DH, and offers almost a decade of experience as a professional DH web developer. An active member of the DH community, Visconti was elected to the ACH executive council (2016-2020), runs a popular DH research blog (http://LiteratureGeek.com), and recently completed a wholly digital humanities dissertation with a central project (http://InfiniteUlysses.com) that has drawn over 20,000 unique visitors in its first year. Her unique mix of coding and design experience coupled with digital humanities scholarship supports this project’s creations of sustainable, ethical technical workflows for born-digital humanities publication.&lt;/p&gt;
+
+&lt;p&gt;Peter Froehlich is the Director of the Purdue University Press and head of Scholarly Publishing Services at Purdue University Libraries. He brings to this project wide-ranging experience in the publishing world and a dedicated interest in innovating through born-digital publication. Froelich worked 2006-2010 at the Indiana University Press, and holds a B.A. from the University of California, Berkeley and an MBA from the Kelley School of Business at Indiana University.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 -0400</pubDate>
+        <link>/2016/03/24/making-it-public-knight-foundation-news-challenge</link>
+        <guid isPermaLink="true">/2016/03/24/making-it-public-knight-foundation-news-challenge</guid>
+        
+        <category>digital-humanities</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Better tech via annotation (using Hypothesis to improve your technical documentation, code, and tutorials)</title>
+        <description>&lt;p&gt;&lt;em&gt;This piece originally appeared as &lt;a href=&quot;https://hypothes.is/blog/better-tech-via-annotation/&quot;&gt;a guest post on the Hypothes.is blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hypothesis makes inline annotation on any web resource possible: a visually small change from comment sections at the end of resources, but a change with a big impact. Whatever your relationship to tech, we’ve all been here: you’re reading through some technical resource (code, documentation, or tutorial) and something doesn’t work the way the page says it should. Maybe you want to add details or a better example; maybe you run into an error message or have a questions specific to your circumstances. Maybe you just want to let the author know “you lost me here”.&lt;/p&gt;
+
+&lt;p&gt;For tech resources where understanding succeeds or fails line-by-line instead of by paragraph or section, inline annotation—the ability to highlight specific text and discuss it right next to where it occurs—is a vast improvement. Even those resources with comment sections at the bottom have problems specific to that positioning, like low-quality comments stemming from commentators not responding to any actual statement on the page, or having trouble identifying where a tutorial lost them. In this post, I’ll cover how a community used Hypothesis to improve a technical resource: how we got our users involved, the types of annotations we observed, and how we’re working to automate the workflow from a new annotation to an improved tech resource.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-community-annotates&quot;&gt;A community annotates&lt;/h2&gt;
+
+&lt;p&gt;I’m a member of the digital humanities (DH) community—we’re builders, users, teachers, and thinkers around innovative digital tools for literature, history, and other cultural heritage fields (stuff like &lt;a href=&quot;http://scholarslab.org/uncategorized/preserving-reconstructing-teaching-in-3d/&quot;&gt;3D printing for archaeology&lt;/a&gt;, &lt;a href=&quot;http://viraltexts.org/&quot;&gt;text analysis of historical memes in newspapers&lt;/a&gt;, and &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;interfaces that let readers interpret and discuss challenging novels&lt;/a&gt;). During the first two weeks in February, &lt;a href=&quot;http://electricarchaeology.ca/about/&quot;&gt;Shawn Graham&lt;/a&gt; and I used the &lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates&lt;/a&gt; tag to encourage DHers to switch from passively reading tech resources to actively annotating them via Hypothesis. We focused on one resource: the amazing &lt;a href=&quot;http://programminghistorian.org/&quot;&gt;Programming Historian site&lt;/a&gt;, where novice-friendly lessons on DH tech skills like the following are &lt;a href=&quot;http://programminghistorian.org/project-team&quot;&gt;authored, edited, and peer-reviewed by community volunteers&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions&quot;&gt;Cleaning OCR’d [scanned and digitized] text with regular expressions&lt;/a&gt;, by Laura Turner O’Hara&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/topic-modeling-and-mallet&quot;&gt;Getting started with topic modeling and MALLET&lt;/a&gt;, by Shawn Graham, Scott Weingart, and Ian Milligan&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources&quot;&gt;Visualizing historical networks&lt;/a&gt;, by Marten Düring&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/corpus-analysis-with-antconc&quot;&gt;Corpus analysis with Antconc&lt;/a&gt;, by Heather Froehlich&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(Links to all Hypothesis-augmented versions of all the Programming Historian tutorials &lt;a href=&quot;https://gist.github.com/amandavisconti/89edd34f998c35705409&quot;&gt;can be perused here&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Maybe you’d like developers to leave comments as they work through your documentation or code. Or maybe you want to support a wider user community. Questions during a tutorial? Ideas for improvements? Get stuck? Want to thank the tutorial’s writers and editors? Users can use Hypothesis annotation to add their thoughts and discuss a resource right in its margins.&lt;/p&gt;
+
+&lt;h2 id=&quot;invite-your-users-to-interact-with-your-code-documentation-or-tutorials&quot;&gt;Invite your users to interact with your code, documentation, or tutorials&lt;/h2&gt;
+
+&lt;p&gt;Want to see the kinds of questions and suggestions for improvement Hypothesis enables your users to share? Our &lt;a href=&quot;http://literaturegeek.com/2016/02/02/DHannotates&quot;&gt;#DHannotates&lt;/a&gt; event drew annotations on tech tutorials such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVKjiwTOvTW_3w8LyrtI&quot;&gt;Short tips to avoid problems later in the tutorial&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hypothes.is/a/AVLRKEnQvTW_3w8Ly4k7&quot;&gt;Further examples of how you can customize a command&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVKjrSUbvTW_3w8Lyryw&quot;&gt;On tutorials written from a Mac/Linux perspective, notes on what Windows users should do differently&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVLH3b1vvTW_3w8Ly17O&quot;&gt;Aggregated reports of error messages encountered while following a tutorial&lt;/a&gt; (the more annotations from stymied users, the more an issue might be broadly affecting your community)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hypothes.is/a/AVK7W2hnvTW_3w8Lyx3i&quot;&gt;Request for definitions for abbreviations used in the tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182#issuecomment-183466725&quot;&gt;see a full list here&lt;/a&gt; of the types of feedback &lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates&lt;/a&gt; garnered on &lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;the Programming Historian tutorials&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-i-get-my-user-community-interested&quot;&gt;How do I get my user community interested?&lt;/h2&gt;
+
+&lt;p&gt;To stir up interest, we invited users of a specific resource (&lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;Programming Historian&lt;/a&gt;) from a specific user community (digital humanities) using Twitter (&lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates hashtag&lt;/a&gt;) and the &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;Digital Humanities Slack&lt;/a&gt;. Two tips:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Keep the initial focus of your encouragement narrowed to a specific webpage or set of related resources.&lt;/em&gt; We’d love the DH community to annotate all our tech resources, but we decided to start with focus on just one website to keep involvement simple.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Encourage people to try annotations &lt;strong&gt;today&lt;/strong&gt; by making it clear their thoughts will be read and responded to during the event.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Why? Users may be more excited to immediately try out a specific experience:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Come learn markdown basics from &lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/getting-started-with-markdown&quot;&gt;this tutorial&lt;/a&gt;! And we’ll answer any issues you run into if you annotate the lesson this week.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;then to remember there’s a new annotation tool to use, the next time they’re using your documentation or lessons and run into something they wish they could discuss. Tying annotation into involvement is a great way to attract and include new users in your tech resource’s community, too—annotation is a form of contributing that even those with little experience in your programming language can do.&lt;/p&gt;
+
+&lt;p&gt;Hypothesis makes getting started annotating easy. The instructions we shared were simple enough to fit in a tweet or two:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hypothes.is/register&quot;&gt;&lt;em&gt;Create a Hypothesis account.&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Prefix the URL of the webpage you want to annotate with https://via.hypothes.is/.&lt;/em&gt; That is, cut and paste that in front of the link to the page you want to annotate.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Annotate!&lt;/em&gt; It’s very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students/&quot;&gt;Hypothesis’ tutorial for student annotators&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We also published blog posts on the project for those who wanted &lt;a href=&quot;http://literaturegeek.com/2016/02/02/DHannotates&quot;&gt;more information&lt;/a&gt; or were interested from the standpoint of &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;a teacher seeking to support student tech learning in the classroom&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-someone-annotates-does-anyone-else-know&quot;&gt;If someone annotates, does anyone else know?&lt;/h2&gt;
+
+&lt;p&gt;For #DHannotates, we encouraged annotation adoption by promising to answer questions during the weeks of the event—or if we couldn’t answer a question, we’d at least make sure the issue was recorded where a future volunteer could address it. Tactics for this included creating an issue in the Programming Historian GitHub repo, and trying to find people who can answer questions via Twitter and the &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;Digital Humanities Slack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The inline highlighting made this much simpler than responding to a comments section at the end of each lesson. By focusing on a set of specific experiences (e.g. “Now’s the time to learn basic regular expressions and get feedback on any questions as you learn”), potential annotators were encouraged to make the step over the threshold into annotation as a habit, creating a Hypothesis user account and starting to read a new tech lesson.&lt;/p&gt;
+
+&lt;p&gt;A great thing about Hypothesis annotations is that annotations are helpful as-is. In cases such as users providing very specific use cases, further information for the curious, or thanks to the authors of a tutorial, some annotations can simply live in the Hypothesis sidebar. For other annotations that suggest a needed change, like reports of error messages or the need to update a tutorial for the latest version of Python, you may want to go further…&lt;/p&gt;
+
+&lt;h2 id=&quot;automate-annotations--improvements&quot;&gt;Automate annotations =&amp;gt; improvements&lt;/h2&gt;
+
+&lt;p&gt;Once you start getting annotations on your documentation or tutorials, you’ll want a workflow to capture and build on this community input. While there isn’t yet an &lt;a href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; or &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt; Hypothesis channel, you can easily automate managing annotations using a feed. Hypothesis lets you follow RSS or Atom feeds of your annotations in two ways (just switch out the .rss for .atom if using the latter):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A stream of all annotations with a given tag (https://hypothes.is/stream.rss?tags=DHannotates)&lt;/li&gt;
+  &lt;li&gt;A stream per annotated URL (e.g. https://hypothes.is/stream.rss?uri=http://programminghistorian.org/lessons/intro-to-the-zotero-api)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can follow the latest annotations through your RSS reader, use a Slack RSS integration to post new annotations to a dedicated Slack channel, or create an issue for each new annotation in your GitHub issue queue to make sure the annotation gets looked at. If you’re concerned about cluttering your issues queue, check out the discussion of tactics among the Programming Historian and #DHannotates group happening on &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182&quot;&gt;this GitHub issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Interested in trying Hypothesis with your own tech resource? Ideas, questions, and suggestions related to using Hypothesis to improve tech resources can be shared using the Hypothesis (&lt;a href=&quot;https://groups.google.com/forum/#!forum/hypothesis-forum&quot;&gt;general product&lt;/a&gt; and &lt;a href=&quot;https://groups.google.com/forum/#!forum/hypothesis-users&quot;&gt;users forums&lt;/a&gt;), or by &lt;a href=&quot;https://github.com/hypothesis/h/issues&quot;&gt;adding a GitHub issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This guest post was written by &lt;a href=&quot;http://www.amandavisconti.com&quot;&gt;Dr. Amanda Visconti&lt;/a&gt;, a UX designer/developer &amp;amp; digital humanities assistant professor at Purdue University Libraries. You can follow her &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@Literature_Geek&lt;/a&gt; or read her posts on digital humanities web development and other DH experimentation at &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 00:00:00 -0400</pubDate>
+        <link>/2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials</link>
+        <guid isPermaLink="true">/2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Peer review for my Programming Historian lesson on Jekyll+GitHub Pages website creation</title>
+        <description>&lt;p&gt;I recently submitted a new digital humanities work for peer review: “&lt;a href=&quot;http://programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” at the &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;Programming Historian&lt;/a&gt;&lt;/em&gt;. My lesson teaches you how to create and publish your own basic website or blog (which will look &lt;a href=&quot;http://amandavisconti.github.io/JekyllDemo/&quot;&gt;just like this&lt;/a&gt; and be publicly accessible on the Web, for free!) using some popular tech (the Jekyll static site generator, and GitHub Pages for web hosting). The lesson attempts to walk you slowly through the process and not assume any previous tech knowledge, and explains why you might be interested in creating a website this way instead of using other tools. (&lt;em&gt;For what it’s worth, this blog you’re reading right now is run using the same tech as the lesson introduces—Jekyll and GitHub Pages!&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I invite anyone interested in trying my lesson to share your thoughts as you follow the lesson.&lt;/strong&gt; Everything from ideas of things to add or highlighting parts of the lesson you liked, to “I got stuck here!”, “This sentence was confusing”, “I wish you’d explain why this step is necessary”, and “I understood this step, but I think someone with less of a tech background would be confused” is useful to me.&lt;/p&gt;
+
+&lt;p&gt;In exchange for providing feedback on my lesson as you work through the lesson, during the next month (&lt;em&gt;through April 15, 2016&lt;/em&gt;) I will respond to any comments or questions from lesson users and &lt;strong&gt;I will personally try to make sure you can make it through the whole lesson&lt;/strong&gt; all the way to your own basic public website. (&lt;em&gt;Note: this lesson was originally Mac-only, but I just added and tested steps that should support Windows users as well. I haven’t coded on a PC in years, though, so I can’t guarantee that I’ll be able to troubleshoot all Windows-specific issues&lt;/em&gt;.)&lt;/p&gt;
+
+&lt;h2 id=&quot;sharing-comments-on-my-lesson&quot;&gt;Sharing comments on my lesson&lt;/h2&gt;
+
+&lt;p&gt;Visit “&lt;a href=&quot;http://programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;” to use the lesson.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-starting-the-lesson-two-alerts&quot;&gt;Before starting the lesson, two alerts:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You will need a Mac computer with a decent internet connection.&lt;/li&gt;
+  &lt;li&gt;One of the early steps of the lesson (&lt;a href=&quot;http://programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages#section2&quot;&gt;“Xcode” in the “Installing dependencies” section&lt;/a&gt;) requires you to download a piece of Mac developer software that &lt;strong&gt;may take 3-5 hours to download&lt;/strong&gt;. You’ll want to budget separate times (30-60 minutes, then 60-120 minutes?) to start the lesson, then come back after that download completes and do the rest of the lesson.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ways-of-sharing-your-feedback&quot;&gt;Ways of sharing your feedback:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; You can email &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#118;&amp;#105;&amp;#115;&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#064;&amp;#112;&amp;#117;&amp;#114;&amp;#100;&amp;#117;&amp;#101;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;me&lt;/a&gt; a list of your comments (maybe open the new email and add to it as you go through the lesson?)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hypothesis annotation:&lt;/strong&gt; &lt;a href=&quot;https://via.hypothes.is/programminghistorian.github.io/ph-submissions/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Follow this special link to my lesson&lt;/a&gt; (it’s the lesson link, prefixed with via.hypothes.is/) to add your feedback right to the lesson! You’ll need to &lt;a href=&quot;http://hypothes.is/register&quot;&gt;create a Hypothesis account&lt;/a&gt; if you don’t have one (or log in), then highlight any words or sentence you want to comment on and type in your annotation (more info on why using Hypothesis annotation is awesome &lt;a href=&quot;http://literaturegeek.com/2016/02/02/DHannotates&quot;&gt;back in this post&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: If you’re comfortable with GitHub, you can visit &lt;a href=&quot;https://github.com/programminghistorian/ph-submissions/issues/3&quot;&gt;the peer review ticket for my lesson&lt;/a&gt; and leave your feedback as a comment on that issue.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slack:&lt;/strong&gt; Slack is a tool for online group chat; you can &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;join over 400 digital humanists on the Digital Humanities Slack via this link&lt;/a&gt;. In addition to checking out all the “channels” (chatrooms dedicated to discussing specific topics, like annotation and DH teaching), we can use Slack to chat in real-time as you work through the lesson (e.g. send me a direct message). If this is interesting you but you’re not familiar with Slack, let me know and I’m happy to show you how to get started.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can always privately contact my PH editor &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#102;&amp;#119;&amp;#103;&amp;#105;&amp;#098;&amp;#098;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;Fred Gibbs&lt;/a&gt; or &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#118;&amp;#105;&amp;#115;&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#064;&amp;#112;&amp;#117;&amp;#114;&amp;#100;&amp;#117;&amp;#101;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;me&lt;/a&gt; by email with questions about the lesson or the peer review process.&lt;/p&gt;
+
+&lt;h3 id=&quot;type-of-feedback-needed&quot;&gt;Type of feedback needed:&lt;/h3&gt;
+
+&lt;p&gt;I’m seeking constructive comments—things that can help me make the lesson better and more accessible to users without a technical background. This includes places where you were confused, got stuck, quit, wanted more details, etc. I’m interested in both how I can make the lesson better for &lt;em&gt;you specifically&lt;/em&gt;, and how you think I could improve the lesson for other users (especially those who may not have as much digital experience as you).&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Programming Historian&lt;/em&gt; has &lt;a href=&quot;http://programminghistorian.org/reviewer-guidelines&quot;&gt;reviewer guidelines&lt;/a&gt; with more information about how to be a good, friendly reviewer and how their peer review process works.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-programming-historian&quot;&gt;What’s the Programming Historian?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Programming Historian&lt;/em&gt; is a collaborative web project offering “novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate their research”. PH features “lessons” written by digital humanists; each lesson is a thorough, novice-friendly walk-through of not just how to use a specific digital humanities tool, but &lt;em&gt;why&lt;/em&gt; you might want to. As such, they’re not classroom lesson plans (though they can be used as part of one!), but rather a pedagogical form of research writing where the new knowledge produced by the writer is all about making a methodology accessible to new users. (&lt;em&gt;That’s how I’m explaining this work to my faculty review committee, by the way.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in finding out more about digital ways of engaging with the humanities, check out the &lt;em&gt;Programming Historian&lt;/em&gt;’s list of peer-reviewed lessons &lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;here&lt;/a&gt; (they aren’t just for historians, by the way). They’re all fantastic lessons, and run the range from more foundational concepts like &lt;a href=&quot;http://programminghistorian.org/lessons/preserving-your-research-data&quot;&gt;preserving research data&lt;/a&gt; (by James Baker) or &lt;a href=&quot;http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions&quot;&gt;cleaning up digital text scanned from print books&lt;/a&gt; (by Laura Turner O’Hara), to methods of distant reading or a full set of lessons on learning the coding language Python.&lt;/p&gt;
+
+&lt;p&gt;I especially recommend Miriam Posner’s “&lt;a href=&quot;http://programminghistorian.org/lessons/up-and-running-with-omeka&quot;&gt;Up and Running with Omeka.net&lt;/a&gt;” (if you’d like to create a website to show off a collection of digital or physical artifacts, like stuff from an archival collection or museum) or Matthew Lincoln’s “&lt;a href=&quot;http://programminghistorian.org/lessons/graph-databases-and-SPARQL&quot;&gt;Using SPARQL to access Linked Open Data&lt;/a&gt;” (if you keep hearing about how collections like “the &lt;a href=&quot;http://collection.britishmuseum.org&quot;&gt;British Museum&lt;/a&gt;, &lt;a href=&quot;http://labs.europeana.eu/api/linked-open-data-introduction&quot;&gt;Europeana&lt;/a&gt;, the &lt;a href=&quot;http://americanart.si.edu&quot;&gt;Smithsonian American Art Museum&lt;/a&gt;, and the &lt;a href=&quot;http://britishart.yale.edu/collections/using-collections/technology/linked-open-data&quot;&gt;Yale Center forBritish Art&lt;/a&gt;” are publishing “APIs” or “linked open data” and want to know how this might be useful in your research/teaching).&lt;/p&gt;
+
+&lt;p&gt;You might also &lt;a href=&quot;http://dhcommons.org/journal/issue-1/editorial-sustainability-and-open-peer-review-programming-historian&quot;&gt;read more about PH’s peer review process in this “How did they make that?” article on the DH Commons journal&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 -0400</pubDate>
+        <link>/2016/03/15/peer-review-programming-historian-jekyll</link>
+        <guid isPermaLink="true">/2016/03/15/peer-review-programming-historian-jekyll</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Service +/- collaboration for digital humanities in the library (a DH job talk)</title>
-        <description>&lt;p&gt;Here’s the job talk I gave in July 2015 for my present role as a digital humanities assistant professor (aka “Digital Humanities Specialist” aka librarian faculty) in the Purdue Libraries (&lt;a href=&quot;/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;link to the original job ad&lt;/a&gt;). I’m hoping this can help other job seekers, so I’ve only very lightly edited this (all cited sources are gathered in &lt;a href=&quot;tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography&lt;/a&gt;). The requested presentation topic:&lt;/p&gt;
+        <description>&lt;p&gt;Here’s the job talk I gave in July 2015 for my present role as a digital humanities assistant professor (aka “Digital Humanities Specialist” aka librarian faculty) in the Purdue Libraries (&lt;a href=&quot;/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;link to the original job ad&lt;/a&gt;). I’m hoping this can help other job seekers, so I’ve only very lightly edited this (all cited sources are gathered in &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography&lt;/a&gt;). The requested presentation topic:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“&lt;strong&gt;Digital humanities and the research library:&lt;/strong&gt; opportunities and challenges for academic libraries and librarians. Draw upon your experience and knowledge as well as citing research literature in library/archival/information science, and/or disciplinary literature relating to digital humanities.” (Audience: Libraries staff and faculty)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;A lot’s been said about DH +/- Libraries, by people who have had their head in that particular space longer than me (between my information master’s degree and now, my head was in DH from the angle of a literature PhD student and web developer). So instead of rehashing others’ thoughts, I put together &lt;a href=&quot;tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography of some of these recent discussions&lt;/a&gt; and pointed listeners wanting to know more to that link.&lt;/p&gt;
+&lt;p&gt;A lot’s been said about DH +/- Libraries, by people who have had their head in that particular space longer than me (between my information master’s degree and now, my head was in DH from the angle of a literature PhD student and web developer). So instead of rehashing others’ thoughts, I put together &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography of some of these recent discussions&lt;/a&gt; and pointed listeners wanting to know more to that link.&lt;/p&gt;
 
 &lt;p&gt;After working in four roles at MITH 2009-2015, consulting and events at various other DH centers, and different levels of involvement on roughly 40 DH projects, I have strong feelings about the kinds of DH relationships and infrastructures that do and don’t work out per situation. I was wary of the “Lone DHer” positions I’ve seen advertised at some institutions, tasking too much on one person; many places want one person to do it all without clear freedom and support to do very much (see the Library Loon’s &lt;a href=&quot;http://gavialib.com/2011/12/the-c-word/&quot;&gt;post on “coordinator syndrome”&lt;/a&gt;). Or they require a new DH hire to have a research background, but don’t continue to support that kind of person with contractual personal research time, a tenure or promotion track, or other ways of continuing research and professionalization inside a job.&lt;/p&gt;
 
@@ -29,7 +1044,7 @@
 
 &lt;h2 id=&quot;service---collaboration-for-digital-humanities-in-the-library&quot;&gt;Service +/- collaboration for digital humanities in the library&lt;/h2&gt;
 
-&lt;p&gt;I wanted to start a discussion about DH in the library today, but: there are already many recent voices defining what the digital humanities (or DH) is, what a library does, and exactly how much DH and libraries overlap as academic fields. I didn’t want to rehash those debates, so I put together an online Zotero bibliography with bunch of pertinent readings, which you can access via &lt;a href=&quot;tinyurl.com/dhlibraries&quot;&gt;tinyurl.com/dhlibraries&lt;/a&gt;. You’ll also be able to find any work I cite in this talk there.&lt;/p&gt;
+&lt;p&gt;I wanted to start a discussion about DH in the library today, but: there are already many recent voices defining what the digital humanities (or DH) is, what a library does, and exactly how much DH and libraries overlap as academic fields. I didn’t want to rehash those debates, so I put together an online Zotero bibliography with bunch of pertinent readings, which you can access via &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;tinyurl.com/dhlibraries&lt;/a&gt;. You’ll also be able to find any work I cite in this talk there.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.002.jpeg&quot; alt=&quot;PurdueJobTalkImages.002&quot; /&gt;&lt;/p&gt;
 
@@ -388,215 +1403,6 @@ Making “internet comments”, web annotation, and other types of online commun
         <category>scholarly-web-design-and-coding</category>
         
         <category>infinite-ulysses</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>The future of a thing is a return to its values</title>
-        <description>&lt;p&gt;&lt;h2&gt;I keep pulling the same tool out of my bag this year: does &lt;strong&gt;the thing we&#39;ve built&lt;/strong&gt; match &lt;strong&gt; the values behind why we built it?&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Must&lt;/em&gt; a dissertation have written chapters?&lt;/strong&gt; (&lt;em&gt;No.&lt;/em&gt;) Or is the value of a dissertation that it lets you practice and prove the values and skills your scholarly field needs its members to share, and are there other methods for doing that than writing a proto-monograph? (&lt;em&gt;Easy answer: yes &amp; yes, see my example at &lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Must&lt;/em&gt; a digital edition focus on the same methods as a scholarly print edition?&lt;/strong&gt; Recension, conjecture, work at the word-level (or below) of a text are key methods for many scholarly editors, but work that pushes the field of textual scholarship ahead can also look like &lt;a href=&quot;http://maker.uvic.ca/ulysses/&quot;&gt;a museum exhibit&lt;/a&gt;, &lt;a href=&quot;http://www.digitalstudies.org/ojs/index.php/digital_studies/article/view/264/329&quot;&gt;iPad app&lt;/a&gt;, or &lt;a href=&quot;http://individual.utoronto.ca/alangaley/visualizingvariation/&quot;&gt;experimental code&lt;/a&gt;: what matters is attention to the core values of textual scholarship, like clearly arguing for your methodology, establishing the authority of your text, etc. (see &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;Section 4: Reimagining Editions in my recent whitepaper&lt;/a&gt; for lots more plus real examples!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Separating original values from how they ended up manifested—and not making the mistake that the final artifact is the same thing as the originating values—has been a productive thought experiment for me this year. (Of course, I don&#39;t ignore questions about how those &quot;originating values&quot; came together in the first place, and how they might be altered or replaced for the better...)&lt;/p&gt;
-
-&lt;p&gt;Dr. Jennifer Steenshorne just distributed a short survey on the future of scholarly editions via the &lt;a href=&quot;http://dhhumanist.org/&quot;&gt;HUMANIST listserv&lt;/a&gt;; you can contribute to the survey yourself &lt;a href=&quot;https://www.surveymonkey.com/r/XXPZWNH&quot;&gt;here&lt;/a&gt;! She writes that the survey is for a round table discussion at the 2016 Annual Meeting of the American Historical Association, &quot;&lt;a href=&quot;https://aha.confex.com/aha/2016/webprogram/Session13356.html&quot;&gt;Documentary Editors Engage the 21st Century&lt;/a&gt;&quot;.&lt;/p&gt;
-
-&lt;p&gt;Since the survey got me to summarize some thinking about digital editions vs. scholarly digital editions over the past year, I share my answers here as well. All question headings are from Dr. Steenshorne&#39;s survey.&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;&quot;How do you define a digital scholarly edition?&quot;&lt;/h3&gt;&lt;br&gt;
-I think using &quot;scholarly digital edition&quot; (SDE) for something that digitally approximates a scholarly print edition is useful for our community: we want an easy way of calling out when the same (or digital counterparts of) scholarly activities of versioning, recension, word-level decisions, etc. are involved.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Differently&lt;/strong&gt;, a &lt;em&gt;digital edition* to me&lt;/em&gt; is a broader category sitting above the SDE, meaning *any* digital work (site, performance, museum exhibit) that show it values the same values motivating scholarly editing activities as an SDE, but possibly in different and often experimental ways: that is, imagining other means of manifesting textual scholarship&#39;s core values (authority, clearly defined and discussed methodology...). Unlike a scholarly digital edition, digital editions are a more open term allowing scholar-creators to experiment with new ways of manifesting these core field values.&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;&quot;What are the most useful buzz words or concepts (like Big Data) in digital humanities, particularly for scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
-Public literature, participatory edition/archive, citizen scholars, meaningful crowdsourcing, linked open data, exportable data, web annotation. I&#39;d like to see more room for discussions of textual materiality, screen essentialism, e-lit and artistic design, interface design, user testing and usability, audiences, diversity (what authors get edition projects funded &amp; popular; who makes editions and who gets the credit; the audiences for which editions get made).&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;&quot;What are the most annoying or overused buzz words or concepts (like Big Data) in digital humanities, particularly for scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
-(&lt;em&gt;Aside: I like and understand what this question is asking, but I&#39;m a tiny bit uncomfortable with IDing &quot;buzz words&quot;, as thinking of something as &quot;buzzwordy&quot; is an easy way to dismiss it instead of at least acknowledge that someone is thinking critically about it, and it probably has a history of critical thought stretching back way before it became popular enough for people not involved in it to randomly hear about it (e.g. I&#39;m a digital humanist, and I&#39;ve both seen others dismiss DH as a buzzword, and encountered people actually using it as a buzzword &quot;the funders will want to see us include&quot;). I know it&#39;s shorthand for &quot;I wish we&#39;d talk about this thing more too/instead if time is limited&quot;, but shorthand isn&#39;t the most useful thing if it has a high misfire rate for interpretation... so it&#39;s something I want to notice and be careful about using myself.)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But things I wish we&#39;d talk about more—and on the flip side, the concepts I think distract from the discussions I wish we were having? I&#39;d like to see more room for discussions of textual materiality, screen essentialism, e-lit and artistic design, interface design, user testing and usability, audiences, diversity (what authors get edition projects funded &amp; popular; who makes editions and who gets the credit; the audiences for which editions get made).&lt;/p&gt;
-&lt;p&gt;I&#39;ve moved from TEI/textual markup to work focused on the things I listed above, so sometimes I&#39;m sad when a conversation about digital textual scholarship means a discussion solely focused on markup instead of also including other aspects of textual scholarship, &lt;em&gt;but&lt;/em&gt; on the other hand I&#39;m extremely privileged and happy that such strong work on textual encoding exists and continues, and that I feel like I can focus on other aspects of a textual project knowing this area of textual work has both a past and a rich present of strong exploration.&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;&quot;What are some of the most exciting new scholarly digital edition projects you have seen and why?&quot;&lt;/h3&gt;&lt;br&gt;
-&lt;ol&gt;&lt;li&gt;The &lt;a href=&quot;http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/i#/p1&quot;&gt;Shelley-Godwin Archive&lt;/a&gt; is doing interesting work in involving editors at different stages of expertise (from students on up) and signaling to users what degree of quality a given set of markup guarantees (instead of hiding everything from public use until it&#39;s all 100% checked by a professional editor).&lt;/li&gt;
-&lt;li&gt;The SHORE consortium is bringing together a number of key scholarly editors, edition developers, and scholarly period societies so that when one edition develops a new tool (e.g. Infinite Ulysses&#39; social annotation), all participating editions will share the same technical backend and can therefore also use the new tool. Additionally, we&#39;ll start to gather a dataset of both scholarly and public literary annotations across the literary periods (medieval, modern, Victorian...) and be able to learn new things about digital reading and research. The first example site fully migrated into SHORE is &lt;a href=&quot;http://CoveCollective.org&quot;&gt;CoveCollective.org&lt;/a&gt; (currently under alpha testing, but there&#39;s a consortium meeting and public talks at Purdue in May 2016).&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&quot;http://ride.i-d-e.de/&quot;&gt;RIDE digital edition review journal&lt;/a&gt; is building scholarly review for SDEs that is aware of technical and design work as a critical component.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; uniquely invites the public into the critical conversation around James Joyce&#39;s challenging novel Ulysses via user-authored social annotation. Additionally, the edition experiments with mechanics for social curation and moderation of the annotations, and attempts to personalize the annotations displayed to each reader&#39;s expertise, needs, and interests.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;My recent digital dissertation&lt;/a&gt; was based around this project—&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;&quot;&#39;How can you love a work, if you don&#39;t know it?&#39;: Critical Code and Design toward Participatory Digital Editions&quot;&lt;/a&gt; used entirely digital humanities methods (design, code, blogging, user testing) to create and analyze various theories about public and social digital editions (especially those supporting social annotation).&lt;/li&gt;
-&lt;li&gt;To explain why &lt;a href=&quot;InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; is a digital edition but &lt;em&gt;not&lt;/em&gt; a scholarly digital edition, part of &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;my whitepaper on the Infinite Ulysses project and dissertation around it&lt;/a&gt; deals directly with a number of edition and edition-like objects (&lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;PDF link&lt;/a&gt; and see Section 4: Reimagining Editions).&lt;/li&gt;
-&lt;/ol&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h3&gt;&quot;What would you like to see more of in scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
-Things related to making our hard scholarly effort reach people outside the professoriate (editions for new students, for new readers; a more public literature, enabled by textual scholarship plus digital humanities), and to making sure that work lasts in an accessible form beyond the next decade.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;You can annotate this blog post via Hypothesis by clicking this link: &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2016/01/04/scholarlydigitaleditions&quot;&gt;https://via.hypothes.is/http://literaturegeek.com/2016/01/04/scholarlydigitaleditions&lt;/a&gt;. Eventually I&#39;ll set up canonical URLs so these annotations show up on the blog&#39;s front page as well...&lt;/em&gt;&lt;/p&gt;</description>
-        <pubDate>Mon, 04 Jan 2016 13:00:00 -0500</pubDate>
-        <link>/2016/01/04/scholarlydigitaleditions</link>
-        <guid isPermaLink="true">/2016/01/04/scholarlydigitaleditions</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>textual-scholarship</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introducing Static Sites for Digital Humanities Projects (why &amp; what are Jekyll, GitHub, etc.?)</title>
-        <description>&lt;p&gt;I&#39;m working with my university press on new models for DH scholarship... and as I started typing up a description of using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and GitHub for a proposed DH book project, I ended up discussing not just Jekyll and GitHub but also defining static vs. dynamic sites, git and versioning, and GitHub pages.&lt;/p&gt;&lt;p&gt;Thought I&#39;d share this as a starting point for others! (&lt;em&gt;Caveat emptor: this is one of those emails that turned into a huge email that turned into a blog post.&lt;/em&gt;) If you want to be superfancy, you can click &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2015-12-08-WhyJekyllGitHub&quot;&gt;this link to annotate the page with questions and requests for clarification, comments, and suggestions&lt;/a&gt; using the magic of &lt;a href=&quot;https://hypothes.is/&quot;&gt;Hypothesis&lt;/a&gt;, and I&#39;ll work on refining this into a more exhaustive FAQ as time allows.&lt;/p&gt;
-
-&lt;h2&gt;What are.... dynamic versus static websites?&lt;/h2&gt;
-&lt;p&gt;Dynamic sites (like Drupal or WordPress) pull information from a database to populate a page; when you search for some words on Amazon.com, for example, the search results page you are shown didn’t already exist as a full HTML page—Amazon.com has a template for search results page with things they all share like their main menu and logo, but it queries the database to insert the results of that search you initiated. Jekyll is a “static site generator” in that it takes page templates (those things like main menus and footers, shared across all the web pages) and other files with specific information (e.g. a file for each blog post on the site) and combines these into full HTML pages for the site visitors to see (i.e. generating a static site, aka a folder of HTML files)—and these are already put together and ready to serve up when you&#39;re visiting the site. That is, Jekyll doesn’t need to do anything like querying a database when you visit a page; it’s already got the pages fully formed, and it just updates them when and if they ever change. (For someone who took more time to think through a metaphor for static site generation, &lt;a href=&quot;https://davidwalsh.name/introduction-static-site-generators&quot;&gt;check out this post&lt;/a&gt;!)&lt;/p&gt;
-
-&lt;h2&gt;How is Jekyll like Drupal/WordPress/Omeka/[other CMS]?&lt;/h2&gt;
-&lt;p&gt;Jekyll is like software called content management systems (CMSs) such as Drupal or WordPress in that it’s a set of code that makes a website run and handles certain repeated tasks like displaying a logo and menubar on every page, creating a searchable archive of blog posts, etc. Unlike CMSs, though, Jekyll doesn’t have a web “dashboard” (that shiny UI you use to administrate the website: moderating comments, writing a blog post from within the live site...). And! Jekyll does not use a database (the source of a lot of code and security headaches in CMSs like Drupal). If you don’t need the power and possibilities behind these CMSs, it’s often better for effort, security, and preservation not to use them. Or if you &lt;em&gt;need&lt;/em&gt; some of the things that Jekyll particularly offers...&lt;/p&gt;
-
-&lt;h2&gt;Why/when Jekyll?&lt;/h2&gt;
-&lt;p&gt;Versioning! Security (no database hacking) and less sysadminy hassle in general. Speed of loading pages. Free and easy to set up and host with GitHub Pages, and it&#39;s then linked into the GitHub.com ecosystem of code versioning, sharing, and reuse.&lt;/p&gt;
-
-&lt;p&gt;Jekyll doesn’t work as well if you have a site like Amazon.com that basically lets visitors create a huge number of custom pages by making complex searches from a huge set of things, since it’s easier for Amazon.com to create search result pages on the fly from their database than to store an HTML page for each possible search result combination. But for a site where you can largely imagine now what all the pages will look like (e.g. a digital book), Jekyll is faster, lighter, and better for longterm security and preservation.&lt;/p&gt;
-
-&lt;h2&gt;GitHub.com, git, and repos&lt;/h2&gt;
-&lt;p&gt;GitHub.com is a site where people share code they’ve written so others can reuse it, build on it, and report bugs and feature requests. It’s based on git, which is software for versioning code: keeping track of the various changes in code over time as people add, subtract, and otherwise edit that text. People use GitHub.com for things other than code including blogging and professional writing, since it supports keeping track of multiple versions of a text and is friendly to collaboratively authored text. (Other sites besides GitHub use git, and you can use git without GitHub.com. GitHub.com is just a wildly popular public platform for sharing and working on versioned code.)&lt;/p&gt;
-
-&lt;p&gt;GitHub “repos&quot; (repositories) are just collections of code; for example, I have &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-dissertation&quot;&gt;one repo with all the code involved in my dissertation&lt;/a&gt;, and &lt;a href=&quot;https://github.com/amandavisconti/EncodedCurtain&quot;&gt;another repo that shares an old Omeka maintenance-page hack I wrote&lt;/a&gt;. &lt;/p&gt;
-
-&lt;h2&gt;GitHub Pages&lt;/h2&gt;
-&lt;p&gt;GitHub Pages can be located for free at a GitHub subdomain such as amandavisconti.github.io/SGAPedagogyPage (where amandavisconti is my GitHub username and SGAPedagogyPage is the name of the GitHub repository holding its web files). You can also purchase from elsewhere and use your own domain name with the same site (as I did for LiteratureGeek.com). Custom domain names aren’t permanently bought, so you need to renew your license over them from time to time (you can do this once a year or buy a bunch of years at a time; the type of domain names a DHer might want to acquire usually cost around $10-20 each per year... except if you want DH.center, they will overcharge you for that!).&lt;/p&gt;
-
-&lt;p&gt;You don’t need to use GitHub or GitHub pages to use Jekyll; you could, for example, use commercial or university web hosting. I like GitHub Pages hosting because it’s free, uses git (which manages multiple versions and drafts of collaboratively authored/edited texts nicely), is set up to make Jekyll use easier, and because GitHub is already the most popular place for DH data sharing, code and text versioning, etc.&lt;/p&gt;
-
-&lt;h2&gt;Can I use these for projects that might have a commercial aspect (e.g. a book series with digital components)?&lt;/h2&gt;
-&lt;p&gt;I think so. Jekyll is free and open-source. &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Its code&lt;/a&gt; can be used for commercial projects (&lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/LICENSE&quot;&gt;its MIT License file&lt;/a&gt; with its attribution to the Jekyll creator should be kept with the rest of the files). &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; are webpages hosted for free on GitHub.com. GitHub Pages can run Jekyll. My &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com research blog&lt;/a&gt; is an example of a site using Jekyll to run the site and GitHub Pages to host the site. According to this page, commercial use of GitHub Pages is allowed, though because GitHub retains the right to alter that, anyone using it in a book project should have a backup plan in place (something very simple: time required, who to contact, cost of transferring to university or commercial web hosting).&lt;/p&gt;
-&lt;p&gt;If you do begin to use GitHub for multiple DH projects, you’ll want to look into their various plans, as the default free plans are set up for individual use and public repositories (e.g. you might want multiple private repositories so sites can be developed there before going public). There are various options including free plans for educational and non-profit uses.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;There you have it, an only slightly-cleaned-up email turned into a blog post! It isn&#39;t meant to be a universal resource, but feel free to comment/suggest using &lt;a href=&quot;https://via.hypothes.is/http://literaturegeek.com/2015-12-08-WhyJekyllGitHub&quot;&gt;Hypothesis via this link&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</description>
-        <pubDate>Tue, 08 Dec 2015 07:00:00 -0500</pubDate>
-        <link>/2015/12/08/WhyJekyllGitHub</link>
-        <guid isPermaLink="true">/2015/12/08/WhyJekyllGitHub</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
-        
-        <category>scholarly-web-design-and-coding</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ACH Executive Council</title>
-        <description>&lt;p&gt;I&#39;m running for a seat on the Executive Council of the ACH (Association for Computers and the Humanities), the professional society for the digital humanities. If you&#39;re a member, please consider voting for me! I&#39;d bring a focus on&lt;/p&gt; 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;support for undergrad and grad students&lt;/strong&gt; (particularly in getting their DH work fully accepted as scholarship, whether as coursework or dissertation) and on &lt;/li&gt;&lt;li&gt;&lt;strong&gt;improving the DH social media community&lt;/strong&gt; (making it easier for new DHers to be involved, expanding the teaching/learning we do via social media, and improving how backchannels like Twitter and &lt;a href=&quot;http://bit.ly/1jI8VUx&quot;&gt;Slack&lt;/a&gt; are preserved and made accessible).&lt;/li&gt;&lt;/ul&gt;
-
-&lt;h2&gt;Candidate statement&lt;/h2&gt;
-&lt;p&gt;I&#39;m honored to be nominated for a position on the ACH Executive Council. As a recent Ph.D., I&#39;m especially interested in &lt;strong&gt;advocating for student digital humanists&lt;/strong&gt;, such as reaching out to the Undergraduate Network for Research in the Humanities (UNRH) and assembling a central web resource for digital humanities dissertations: case studies, administrative documents used by successful dissertators, and links to supporting arguments and tutorials for DH forms of graduate research. (&lt;em&gt;The structure of this resource could be cloned to support a paired second site focused on review and promotion applications by those in DH job roles—managed by another ACH volunteer—as there are considerable overlaps in these two challenging areas.&lt;/em&gt;)&lt;/p&gt;
-&lt;p&gt;I&#39;m also interested in &lt;strong&gt;supporting and improving the ways the digital humanities community uses Twitter and other social media&lt;/strong&gt;, especially as developing technologies such as Slack (online messaging and chat rooms) and Hypothes.is (web annotation) become part of our online ecosystem. In the case of Slack, anchoring &lt;a href=&quot;http://bit.ly/1jI8VUx&quot;&gt;the new DH Slack team&lt;/a&gt; I&#39;ve organized—which now has 197 digital humanist members!—to ACH would let us argue for non-profit status, which confers benefits like better chat history and search.&lt;/p&gt;
-&lt;p&gt;I&#39;d like to &lt;strong&gt;standardize how we preserve DH social media&lt;/strong&gt;, particularly tweets using various DH conference hashtags, by exploring whether a specific ACH role could be in charge of capturing these in a given year and storing them in a publicly accessible space. I&#39;d also like to &lt;strong&gt;investigate ways of encouraging the DH Q &amp; A site as a first-stop intro to DH&lt;/strong&gt; (e.g. a wiki for FAQs like what conference acronyms and hashtags stand for) and whether social mechanics (favoriting, badges) might motivate more DHers to ask and answer questions on the site.&lt;/p&gt;
-
-&lt;h2&gt;Biography&lt;/h2&gt;
-&lt;p&gt;I am a DH hybrid: a web developer, as well as librarian, assistant professor, and the Digital Humanities Specialist at the Purdue University Libraries. I recently completed a digital humanities dissertation in the University of Maryland English Department, and I also hold a master&#39;s degree from the University of Michigan School of Information, where I tailored a Digital Humanities HCI specialization. I worked in a number of positions at the Maryland Institute for Technology in the Humanities (MITH) fromm 2009-2015, beginning as an IMLS Model Digital Humanities Intern and ending as the Winnemore Digital Dissertation Fellow. I&#39;ve been a professional web developer for over eight years, and most of my research takes the form of making things for the web.&lt;p&gt;
-&lt;p&gt;I&#39;ve been active in the digital humanities community since 2009, tweeting &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@Literature_Geek&lt;/a&gt; and keeping a popular DH blog at &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt; (11 posts have been highlighted on DH Now; LiteratureGeek.com/tag/dh-now). My major projects include co-organizing the inaugural THATCamp Games with Anastasia Salter, applying one of the inaugural ACH Microgrants (now Incubator Grants) to visualize Digital Humanities Quarterly&#39;s citation network, the creation of a participatory digital edition (&lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;; over 13,000 unique visitors during its first month of open beta), and successfully designing and defending a unique &quot;born-digital&quot; digital humanities dissertation consisting of design, code, user-testing, blogging, and a whitepaper written in the final weeks of the project (&lt;a href=&quot;http://www.dr.amandavisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;).&lt;/p&gt;</description>
-        <pubDate>Fri, 20 Nov 2015 07:00:00 -0500</pubDate>
-        <link>/2015/11/20/ACH-executive-council</link>
-        <guid isPermaLink="true">/2015/11/20/ACH-executive-council</guid>
-        
-        <category>digital-humanities</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Invited Speaking</title>
-        <description>&lt;p&gt;Contact me at aviscont@purdue.edu or &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@literature_geek&lt;/a&gt; about speaking at your institution! You can read more about me on &lt;a href=&quot;http://www.literaturegeek.com/about&quot;&gt;this blog&#39;s about page&lt;/a&gt; or on &lt;a href=&quot;http://www.amandavisconti.com&quot;&gt;my online portfolio&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Possible topics:&lt;/h2&gt;
-&lt;h3&gt;Digital humanities&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What is the digital humanities&lt;/strong&gt; and why is it good for my department/university? How can I get started in the digital humanities?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Participatory digital editions&lt;/strong&gt; and other DH projects that invite and support a &lt;strong&gt;public humanities&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scholarly social media&lt;/strong&gt; for better and happier research (blogging and Twitter in particular)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Research blogging&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Digital humanities dissertations&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Designing and pursuing a successful digital dissertation&lt;/strong&gt; (I successfully defended &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;a wholly digital, no-chapters literature dissertation&lt;/a&gt; in April 2015 and am now in a tenure-track assistant professorship… and I blogged throughout both about my research and about the dissertation process.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Supporting digital dissertations&lt;/strong&gt; and other digital student work: &lt;strong&gt;how to evaluate digital work&lt;/strong&gt;, support it and track effort while it’s happening, and how to argue for the necessity of a digital format and/or method&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Digital humanities technology &amp; training&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Designing digital humanities websites&lt;/strong&gt; (and other interfaces)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web annotation&lt;/strong&gt; for research, teaching, and learning&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Digital humanities web development, design, and user/usability testing&lt;/strong&gt;, including workshops on specific skills like GitHub/git for the classroom, Omeka for textual scholars, making and hosting your first web page (HTML5 and CSS3), or starting your own research blog (from setting up the website through writing your first post)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;User experience design&lt;/strong&gt; for the digital humanities&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Teaching digital humanities&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’m happy to consult informally with faculty, students, and staff interested in learning a digital skill, pursuing a digital project, or doing/mentoring a digital dissertation while on campus.&lt;/p&gt;
-
-&lt;h2&gt;Recent invited speaking includes:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Brown University&lt;/strong&gt; (November 2016). Public lecture.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Northeastern University&lt;/strong&gt; &quot;Literature together: participatory digital editions, social annotation, and the public humanities&quot; (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MIT Media Lab&lt;/strong&gt; “Public =&gt; Participatory Digital Humanities: designing the past &amp; present of human culture for everyone” (May 2015).&lt;/li&gt;
-&lt;li&gt;&quot;Culture Analytics and User Experience Design” weeklong workshop at the &lt;strong&gt;Institute for Pure and Applied Mathematics&lt;/strong&gt; (IPAM) at UCLA (April 2016).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Purdue University&lt;/strong&gt; &quot;Service +/- Collaboration for Digital Humanities in the Library” (July 2015).&lt;/li&gt;
-&lt;li&gt;Dr. Matthew Kirschenbaum’s &quot;Critical Topics in Digital Studies” graduate course at the &lt;strong&gt;University of Maryland&lt;/strong&gt; (October 2015). Skype panelist on participatory digital humanities sites and discussion of digital dissertation experience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MITH (Maryland Institute for Technology in the Humanities)&lt;/strong&gt; Digital Dialogue &quot;Do read the comments: Designing digital editions for the public humanities&quot; (April 2015).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Folger Shakespeare Library&lt;/strong&gt; sponsored panel discussant: &quot;Folger Digital Agendas III: Digital Futures&quot;. (Renaissance Society of America, March 2016).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Nebraska Forum on Digital Humanities&lt;/strong&gt; &quot;“What if we build a digital edition and everyone shows up? Public Humanities, Participatory Design, and Infinite Ulysses” (April 2014).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dr. Hans Walter Gabler&#39;s &lt;em&gt;Digital Ulysses&lt;/em&gt; Master Class at the Univeristy of Victoria&lt;/strong&gt; (June 2013).&lt;/li&gt;
-&lt;/ul&gt;</description>
-        <pubDate>Wed, 30 Sep 2015 08:00:00 -0400</pubDate>
-        <link>/2015/09/30/speaking</link>
-        <guid isPermaLink="true">/2015/09/30/speaking</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A small sample of cool digital humanities info visualization projects &amp; tools</title>
-        <description>&lt;p&gt;
-A handful of interesting projects, lesson plans, and tools for digital humanities information visualization (aka infoviz, sometimes aka data visualization). 
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://processing.org/tutorials/&#39;  &gt;Tutorials&lt;/a&gt; for making introductory information visualizations with the Processing language (&quot;a language for learning how to code within the context of the visual arts&quot;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://wefeelfine.org/&quot;&gt;We Feel Fine&lt;/a&gt; by Jonathan Harris and Sep Kamvar is a visualization project that scrapes current social media posts to explore human emotion in visually beautiful ways, and it&#39;s always been a hit with my students (the hard part is when they want to build something like it!). I couldn&#39;t get it to load in my browser this week, so it may no longer work.
-&lt;ul&gt;&lt;li&gt;&lt;a href=&#39;http://www.ted.com/talks/jonathan_harris_tells_the_web_s_secret_stories?language=en&#39;  &gt;&quot;The web&#39;s secret stories&lt;/a&gt;&quot; TED talk discusses building the project.&lt;/li&gt;&lt;/ul&gt;
-&lt;li&gt;Miriam Posner on&lt;/li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/how-did-they-make-that/#network&#39;  &gt;how to get started making a humanities network visualization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/the-case-of-the-missing-faces/&#39;  &gt;using visualization to explore an archive of historical medical photographs&lt;/a&gt; (some good research ethics questions here)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/a-fun-way-to-introduce-dh-students-to-dataviz/&#39;  &gt;&quot;A fun way to introduce DH students to dataviz&quot; lesson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://miriamposner.com/blog/getting-started-with-palladio/&#39;  &gt;&quot;Getting started with Palladio&quot;&lt;/a&gt; (&quot;&lt;a href=&#39;http://palladio.designhumanities.org/#/&#39;  &gt;Palladio&lt;/a&gt;, a product of Stanford&#39;s Humanities+Design Lab, is a web-based visualization tool for complex humanities data.&quot;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li&gt;Johanna Drucker&#39;s &lt;a href=&#39;http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html&#39;&gt;&quot;Humanities Approaches to Visual Display&quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://neatline.org/&#39;  &gt;Neatline&lt;/a&gt; (a platform for telling stories with maps and timelines)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://gephi.github.io/&#39;  &gt;The Gephi dataviz tool&lt;/a&gt; (note that you&#39;ll probably need to download the 0.8.1beta version instead of the latest; I couldn&#39;t get the latest to run on my Mac)&lt;/li&gt;
-&lt;li&gt;I have &lt;a href=&#39;http://literaturegeek.com/tag/gephi/&#39;  &gt;several blog posts on introductory use of Gephi for data visualizations&lt;/a&gt; on my &lt;a href=&#39;http://www.LiteratureGeek.com&#39;  &gt;LiteratureGeek.com&lt;/a&gt; blog&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://www.briansarnacki.com/gephi-tutorial/&#39;  &gt;&quot;The complete n00b&#39;s guide to Gephi&quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://www.scottbot.net/HIAL/?p=39600&#39;  &gt;Scott Weingart on when not to use networks&lt;/a&gt; (good for a student discussion on getting past the &quot;prettiness&quot; factor of visualizations)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://benfry.com/projects/&#39;  &gt;Ben Fry does a bunch of cool infoviz work&lt;/a&gt;, including &lt;a href=&#39;http://benfry.com/traces/&#39;  &gt;this timelapse viz of changes in the various editions of Darwin&#39;s On the Origin of Species&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://sappingattention.blogspot.com/&#39;  &gt;Ben Schmidt&#39;s work&lt;/a&gt;, including &lt;a href=&#39;http://sappingattention.blogspot.com/2015/01/state-of-union-and-corpus-comparison.html, [mapping the earth via shipping](http://sappingattention.blogspot.com/2014/03/shipping-maps-and-how-states-see.html&#39;  &gt;changing language in State of the Union addresses&lt;/a&gt; and &lt;a href=&#39;http://sappingattention.blogspot.com/2012/11/reading-digital-sources-case-study-in.html&#39;  &gt;whaling routes&lt;/a&gt;, &lt;a href=&#39;http://benschmidt.org/coverspace/&#39;  &gt;visualizing image collections&lt;/a&gt; and &lt;a href=&#39;http://bookworm.culturomics.org/&#39;  &gt;trends in collections of digitized texts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;em&gt;There&#39;s lots of other great visualization, image, and network stuff out there! This was just to blog an email of relevant links I put together after discussing a humanities visualization course that was being designed. Eventually, hoping to combine links like these from various places (Instapaper, Twitter favorites, LibGuides, Zotero) and get them nicely tagged, so pulling out DH work relevant to a project or course being designed isn&#39;t entirely based on what I can recall off the top of my head...&lt;/em&gt;</description>
-        <pubDate>Fri, 25 Sep 2015 08:00:00 -0400</pubDate>
-        <link>/2015/09/25/infovizlinks</link>
-        <guid isPermaLink="true">/2015/09/25/infovizlinks</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>gephi</category>
-        
-        <category>advice-tutorial</category>
         
         
       </item>

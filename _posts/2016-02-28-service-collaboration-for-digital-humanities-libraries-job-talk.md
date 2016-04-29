@@ -27,7 +27,7 @@ Here's the talk:
 
 ## Service +/- collaboration for digital humanities in the library
 
-I wanted to start a discussion about DH in the library today, but: there are already many recent voices defining what the digital humanities (or DH) is, what a library does, and exactly how much DH and libraries overlap as academic fields. I didn't want to rehash those debates, so I put together an online Zotero bibliography with bunch of pertinent readings, which you can access via [tinyurl.com/dhlibraries](tinyurl.com/dhlibraries). You'll also be able to find any work I cite in this talk there.
+I wanted to start a discussion about DH in the library today, but: there are already many recent voices defining what the digital humanities (or DH) is, what a library does, and exactly how much DH and libraries overlap as academic fields. I didn't want to rehash those debates, so I put together an online Zotero bibliography with bunch of pertinent readings, which you can access via [tinyurl.com/dhlibraries](http://tinyurl.com/dhlibraries). You'll also be able to find any work I cite in this talk there.
 
 ![PurdueJobTalkImages.002]({{ site.baseurl }}/assets/PurdueJobTalkImages/PurdueJobTalkImages.002.jpeg)
 
