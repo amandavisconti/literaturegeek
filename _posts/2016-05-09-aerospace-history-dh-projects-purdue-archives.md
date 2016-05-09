@@ -45,8 +45,6 @@ A **glove** astronaut Eugene Cernan wore on the moon. Sealed in a bag so as not 
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1105.jpg)
 
-![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1107.jpg)
-
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1108.jpg)
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1109.jpg)
