@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lunar dust & tapioca pudding: touring Purdue Archives' aerospace collections
+title: Lunar dust & tapioca pudding (touring Purdue Archives' aerospace collections)
 permalink: 2016/05/09/aerospace-history-dh-projects-purdue-archives
 author: 
   twitter: literature_geek
