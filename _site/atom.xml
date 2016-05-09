@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>Literature Geek</title>
+ 
+ <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2016-04-29T13:33:55-04:00</updated>
+ <link href=""/>
+ <updated>2016-05-09T08:30:31-04:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
@@ -3462,7 +3462,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
    <link href="/2012/06/26/bloomsdayvis"/>
    <updated>2012-06-26T15:01:28-04:00</updated>
    <id>/2012/06/26/bloomsdayvis</id>
-   <content type="html">&lt;p&gt;At &lt;a href=&quot;http://chnm2012.thatcamp.org&quot;&gt;THATCamp Prime&lt;/a&gt; this year, I led &lt;a href=&quot;http://chnm2012.thatcamp.org/06/14/o-rocks-celebrating-bloomsday-dh-style&quot;&gt;a hack session&lt;/a&gt; where we discussed small digital Joycean projects we might take on that day and continue hacking at over the following weeks. Session participants were Anastasia Salter, Ben Schmidt, Chad Rutkowski (part of the &lt;em&gt;&lt;a href=&quot;http://www.ulyssesseen.com&quot;&gt;Ulysses Seen&lt;/a&gt;&lt;/em&gt; team!), and Heather Prescott. I&#39;ve been working a lot with the great open-source visualization software &lt;a href=&quot;http://www.gephi.org&quot;&gt;Gephi&lt;/a&gt; recently (I&#39;ll be posting about the visualizations of &lt;em&gt;&lt;a href=&quot;http://www.digitalhumanities.org/dhq&quot;&gt;Digital Humanities Quarterly&lt;/a&gt;&lt;/em&gt; citations and articles I&#39;ve just finished up fr an ACH Microgrant later this week!), so we decided to create a dataset that could be used in Gephi to make something both informative and pretty: a log of the social interactions among characters that could be turned into a social network visualization.&lt;/p&gt;
+   <content type="html">&lt;p&gt;At &lt;a href=&quot;http://chnm2012.thatcamp.org&quot;&gt;THATCamp Prime&lt;/a&gt; this year, I led &lt;a href=&quot;http://chnm2012.thatcamp.org/06/14/o-rocks-celebrating-bloomsday-dh-style&quot;&gt;a hack session&lt;/a&gt; where we discussed small digital Joycean projects we might take on that day and continue hacking at over the following weeks. Session participants were Anastasia Salter, Ben Schmidt, Chad Rutkowski (part of the &lt;em&gt;&lt;a href=&quot;http://www.ulyssesseen.com&quot;&gt;Ulysses Seen&lt;/a&gt;&lt;/em&gt; team!), and Heather Prescott. I&#39;ve been working a lot with the great open-source visualization software &lt;a href=&quot;http://www.gephi.org&quot;&gt;Gephi&lt;/a&gt; recently (I&#39;ll be posting about the visualizations of &lt;em&gt;&lt;a href=&quot;http://www.digitalhumanities.org/dhq&quot;&gt;Digital Humanities Quarterly&lt;/a&gt;&lt;/em&gt; citations and articles I&#39;ve just finished up for an ACH Microgrant later this week!), so we decided to create a dataset that could be used in Gephi to make something both informative and pretty: a log of the social interactions among characters that could be turned into a social network visualization.&lt;/p&gt;
 &lt;p&gt;Chad read through the Wandering Rocks episode and logged a list of character interactions, which I then turned into a dataset and manipulated in Gephi to produce (click image for larger version):&lt;/p&gt;
 &lt;p&gt;&lt;img title=&quot;Wandering Rocks visualization&quot; alt=&quot;Wandering Rocks visualization&quot; src=&quot;/assets/wanderingrocks1.png&quot; width=&quot;561&quot; height=&quot;382&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Character nodes are weighted by the number of edges touching them (i.e. by how many interactions with other people a given character has), so unsurprisingly for anyone who&#39;s read &lt;em&gt;Ulysses&lt;/em&gt;, Father Conmee appears as one of the most connected characters in the episode.&lt;/p&gt;
@@ -3706,5 +3706,5 @@ We&#39;re developing an ARG (with the help of the novice design group) to run du
 &lt;p&gt;&lt;em&gt;The site, built with Omeka, was designed by Amanda Visconti of the University of Michigan under the auspicices of the IMLS-funded Digital Humanities Model Internship program, which places iSchool students in working digital humanities centers. Kari Kraus, director of the program and Assistant Professor in Maryland&#39;s iSchool and English department, comments: &quot;Amanda&#39;s work is a great example of the kind of collaboration and mutual exchange we&#39;re working to promote.&quot;&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
-
+ 
 </feed>

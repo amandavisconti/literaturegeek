@@ -1,21 +1,22 @@
 ---
 layout: default
-title: Home
+title: Blog Posts
 ---
 
-{% include intro.html %}
-
-<section class="post-list">
-  <div class="container">
-  <h2 class="front">Recent posts | <a href="{{ site.baseurl }}/tags">Post archive</a> | <a href="{{ site.baseurl }}/tag/best">Best posts</a></h2>
-{% for post in paginator.posts %}
-      <article class="post-item">
-        <p><strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> <span class="post-meta">({{ post.date | date: "%b %-d, %Y" }})</span> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">more</a></p>
-      </article>
+<div id="home">
+  <h2><i class="fa fa-book"></i> Smarter online communities via digital humanities</h2>
+  <p><strong>Amanda Visconti</strong> is a research web developer and digital humanities professor. I design, prototype, & study <strong>digital interface UX for social reading & learning</strong>, grounding my work on a strong research background (recent PhD, MS) in HCI, info science, & <strong>digital humanities</strong> and interests in annotation & user research</p>
+  <p><a href="mailto:amandavisconti@gmail.com?Subject=LitGeekBlogContact">Contact me</a> to collaborate, or check out my <a href="http://www.AmandaVisconti.com">online portfolio</a> & <a href="http://amandavisconti.com/AmandaVisconti_Resume.pdf">resume</a> & <a href="http://www.twitter.com/literature_geek">Twitter</a>.</p>
+  {% assign sorted_tags = site.data.tags | sort:"sort" %}
+  <div class="blocks">
+  <ul>{% for tag in sorted_tags %}
+    <li>{% include tag_link_formatter.html tag=tag %}</li> 
+  {% endfor %}</ul>
+  </div>
+  <h2><i class="fa fa-bookmark"></i> Blog posts</h2>
+  <ul id="blog-posts" class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date: "%b %-d, %Y" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-  </div>
-
-  <div class="container">
-    {% include pagination.html %}
-  </div>
-</section>
+  </ul>
+</div>

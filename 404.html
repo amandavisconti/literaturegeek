@@ -1,29 +1,11 @@
 ---
 layout: default
-title: "Page not found"
-permalink: 404.html
+title: 404 Page Not Found
 ---
-<article class="container">
-  <h1>Were you looking for one of these?</h1>
-  <p>If there's a / at the end of the URL you entered, try removing it and pressing enter (I'll get around to automating this soon...)</p>
-<div id="home-search" class="home">
-    <script>
-        (function() {
-            var cx = '003023042509722054646:vihivpenpra';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//www.google.com/cse/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search queryParameterName="searchString"></gcse:search>
+
+<div id="home">
+  <h2><i class="fa fa-frown-o"></i> ???</h2>
+  <ul id="blog-posts" class="posts">
+    <p>Sorry, no page with that URL exists!</p>
+  <br /></ul>
 </div>
-  {% assign sorted_tags = site.data.tags | sort:"sort" %}<ul>
-  {% for tag in sorted_tags %}
-    <li> {% include tag_link_formatter.html tag=tag %}: {{ tag.title }}</li>
-  {% endfor %}
-  <li><a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">Values page/post</a>: Offline for post-Ph.D. development, but you can read the dissertation-era version on the Internet Archive <a href="https://web.archive.org/web/20150426031333/http://www.literaturegeek.com/values/">here</a>.</li>
-  </ul>
