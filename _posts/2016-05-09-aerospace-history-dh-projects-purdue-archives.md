@@ -27,7 +27,7 @@ I've shared some of the more interesting things below (sorry for shaky photo qua
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1129.jpg)
 
-Checking out the safe inside the archives vault where artifacts are kept extra-secure, including Amelia Earhart's scrapbooks and helmet, flight suits, and the smelling salts she used to keep awake during her flights.
+Checking out the safe inside the archives vault where artifacts are kept extra-secure, including Amelia Earhart's scrapbooks and helmet, the smelling salts she used to keep awake during her flights, and flight suits.
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1090.jpg)
 
