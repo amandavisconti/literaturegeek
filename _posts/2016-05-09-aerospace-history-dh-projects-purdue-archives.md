@@ -13,7 +13,7 @@ published: true
 
 The [Purdue University Archives & Special Collections](https://www.lib.purdue.edu/spcol) (ASC) have an amazing aerospace history collection due to Purdue's many students and faculty who were pilots (Amelia Earhart was faculty), went on to be astronauts, or worked in the aerospace industry. I'm working with the ASC towards digital humanities projects that increase public and student access to our collections; in particular, we're planning to use 3D scanning and printing to make some of the more interesting, fragile, or rare artifacts more accessible to visitors and student researchers. Today, Flight Archivist Tracy Grimm kindly gave me a tour of some of the objects we're thinking about using in our DH work. 
 
-I've shared some of the more interesting things below (sorry for shaky photo quality on a couple of these!).
+I've shared some of the more interesting things below (sorry for shaky photo quality on a couple of these!). These photos were okayed for educational sharing on social media ([copyright info here](https://www.lib.purdue.edu/spcol/digital-reproduction-requests) if you're interested in using these somehow).
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1087.jpg)
 
