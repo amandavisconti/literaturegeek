@@ -55,7 +55,7 @@ A **glove** astronaut Eugene Cernan wore on the moon. Sealed in a bag so as not 
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1112.jpg)
 
-Possibly the coolest business card title: "Astronaut".
+Possibly the coolest business card title: "**Astronaut**".
 
 ![]({{ site.baseurl }}/assets/AerospaceTour/IMG_1115.jpg)
 
