@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-Infinite Ulysses's open beta (March 2015-May 2016) has ended! 
+Infinite Ulysses's open beta (March 2015-May 2016) has ended.  
 
 ## What this means for current/prospective users
 
@@ -16,7 +16,7 @@ Infinite Ulysses's open beta (March 2015-May 2016) has ended!
 
 It's time for my [InfiniteUlysses.com](http://www.InfiniteUlysses.com) participatory edition to get some serious post-beta improvements, and I've decided the best way to do this is taking some time off from moderating the site while I focus on its web development needs. 
 
-The site will remain up and readable (except for short hours-long downtimes when pushing major improvements), but I'll be closing signups for new users as well as blocking logging in/annotating by existing users for a while. Please contact [infiniteulysses@gmail.com](mailto:infiniteulysses@gmail.com) with any questions this choice raises (e.g. I can try to accommodate needs such as plans to use the site in a summer or fall course or reading group, or to demo the site on a given day.)
+The site will remain up and readable (except for short hours-long downtimes when pushing major improvements), but on July 15th I'll be closing signups for new users as well as blocking logging in/annotating by existing users for a while. Please contact [infiniteulysses@gmail.com](mailto:infiniteulysses@gmail.com) with any questions this choice raises (e.g. I can try to accommodate needs such as plans to use the site in a summer or fall course or reading group, or to demo the site on a given day.)
 
 Following [the site's public data policy](http://www.infiniteulysses.com/content/terms-use), I'll be emailing site users this week with an invitation to export their annotations during the next six weeks (before July 15th, 2016). After that date, **site users will not be able to log in until after the post-beta overhaul is complete** (currently no set date). Before July 15, logged-in users can use new links on [your user profile page](http://www.infiniteulysses.com/user) to export DOC, XML, and CSV versions of your annotations. 
 
@@ -70,7 +70,7 @@ Though there wasn't a race for quantity over quality, special thanks are due to 
 
 ![Infinite Ulysses publicity sticker]({{ site.baseurl }}/assets/IUSticker.png)
 
-*(The nose fell out of the logo… still looks like a face to me!)*
+*(The nose fell out of the logo… still looks like a face to me...)*
 
 ## The numbers are nice, but...
 
@@ -88,11 +88,11 @@ Sure, reading *Ulysses* is a significant investment of time...
 
 ...But as much as I like to see these stats as heartening, I know I have a lot of work to do in making the look and feel of the site a delightful experience, and in making major changes to the site's functionality supporting how people are most comfortable reading (a frequent request, touch annotation to allow comfy armchair reading, is held back by there not currently being a fully functioning plugin for this).
 
-In addition to the concerns above about keeping the annotations a safe, welcoming space for including diverse voices in the Ulysses conversation, I need to think through supporting a community with unusual ebbs and flows of activity. Once hooked, readers do frequently come back to *Ulysses* for many rereads. Even with rereaders, though, most users will come to the site for stretches of weeks or months, then disappear for a while. Keeping the site feeling alive meanwhile—for example, making sure readers' new questions get answered—takes regular effort that I don't have enough time to support myself.
+In addition to the concerns above about keeping the annotations a safe, welcoming space for including diverse voices in the *Ulysses* conversation, I need to think through supporting a community with unusual ebbs and flows of activity. Once hooked, print readers do frequently come back to *Ulysses* for many rereads. Even with rereaders, though, most users will come to the print book or website for stretches of weeks or months, then disappear for a while. Keeping the site feeling alive meanwhile—for example, making sure readers' new questions get answered—takes regular effort that I don't have enough time to support myself.
 
 **Annotators, assemble!** I do have some ideas for addressing this ebb and flow of the reading community, and for getting the site back into a schedule of regular improvements. I'll be thinking about how to turn the site into a community-led project: I have funding for a graduate research assistant, some offers to push improved code to the site once I've got the repo ready, and the hope that the project can be a space for students and staff to train in various areas of DH interest (coding, scholarly digital editing, social media work…). I'm also working on a project that will make sharing new functionalities between digital editions easier. 
 
-**A reading spring model.** Once the 1.0 site is ready, I'm interested in trying out a reading-sprint model, where I'd advertise an approaching spring several months in advance (optimistically, enough that any teacher could then plan to include in their course the following term), then open the site for a set period of reading by individuals, book clubs, and classes—knowing that I had team in place to support the community (curation, moderation, guidance) through that period.
+**A reading-sprint model.** Once the 1.0 site is ready, I'm interested in trying out a reading-sprint model, where I'd advertise an approaching sprint several months in advance (optimistically, enough that any teacher could then plan to include in their course the following term), then open the site for a set period of reading by individuals, book clubs, and classes—knowing that I had team in place to support the community (curation, moderation, guidance) through that period.
 
 **Removing the account requirement.** I also want to recognize that even with a delightful look and intuitive functionality, not all readers will want to annotate or sign up for the site. I need to build things so that all features except annotation and comments are open without a user account (early on, I focused over much on sign-ups as a way of tracking a threshold of site engagement—but ease of use is more important than nice stats!). 
 
@@ -106,7 +106,7 @@ Here's why I keep pushing the 1.0 version off. I had a handful of site improveme
 
 **Dissertation scope repercussions.** I was lucky in having a lovely dissertation experience. But because the final beta version of the site was built largely during the final year of my dissertation (after a lot of research and trying out other tech platforms and code libraries), I didn't have time to put in place everything I'd normally do for a professional job. Sometimes visual design suffered for the sake of functionalities I needed to move user testing forward; scope tightened and pieces dropped out (e.g. comment threading display was buggy, so I ended up just removing commenting on annotations for the beta). 
 
-**Incremental improvements are currently hard to push.** It was difficult to push incremental changes to the site; for example, simply removing the up/down voting button (an early decision) couldn't happen until I had time to modify the site's theme to accommodate the new annotation structure, or the whole display would be out of whack. The text I chose ended up having needing manual addition of Joyce's typographic choices, and having many more OCR errors than I expected—and as with other site changes, making it possible for site users to correct errors themselves wasn't an easy thing to add. There were a lot of small things like that, and the solution really needed to be a general overhaul rather than a collage of bandaids.
+**Incremental improvements are currently hard to push.** It was difficult to push incremental changes to the site; for example, simply removing the up/down voting button (an early decision) couldn't happen until I had time to modify the site's theme to accommodate how the annotation structure would shift into the resulting gap, or the whole display would be out of whack. The text I chose ended up having needing manual addition of Joyce's typographic choices, and having many more OCR errors than I expected—and as with other site changes, making it possible for site users to correct errors themselves wasn't an easy thing to add, although users were generous with locating errors. There were a lot of small things like that, and the solution really needs to be a general overhaul rather than a collage of bandaids.
 
 **Work is getting done, albeit not pushed to the live site.** Since defending the dissertation, I've been working locally on a bunch of other improvements, starting with a complete from-scratch rebuilding of the site's database and theme. I've been able to share my code for testing on development versions of several other digital editions (Romantic Circles, the Shelley-Godwin Archive, and the Victorian COVE site I'm co-PI'ing with Dino Felluga), and I made some headway toward packaging my code for easier reuse by others at the CODEX hackathon in January. 
 
@@ -114,7 +114,7 @@ But with starting a new job, settling into post-student life, and moving to a ne
 
 I also recognize that in trying to connect and grow the digital humanities community at Purdue, I might not have time to set this all up in the near future. The hope is to get the site to a place where others can participate in improving the site if they're interested in doing so, but I recognize that I've been pushing "improvements soon!" off for a while now, and that isn't the best situation for either me or the site's readers.
 
-This is a fun project, and I've been honored by the generosity of others in helping me build something better. So: I'm going to stop saying the new site will be ready soon, and wait until I can make and keep a promise about the site's next version. 
+This is a fun project, and I've been honored by the generosity of others in helping me build something better. So: I'm going to stop saying the new site will be ready soon, and wait until I can make and keep a promise about the site's next version. I hope that this is a reasonable way to do that (any suggestions or requests to improve how I'm implementing this decision are welcomed).
 
 ## Read more stuff related to Infinite Ulysses?
 
