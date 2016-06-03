@@ -4,13 +4,193 @@
  <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2016-05-09T08:30:31-04:00</updated>
+ <updated>2016-06-02T22:04:16-04:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
    <email>amandavisconti@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Infinite Ulysses beta closes for 1.0 work</title>
+   <link href="/2016/06/02/infinite-ulysses-beta-closes"/>
+   <updated>2016-06-02T00:00:00-04:00</updated>
+   <id>/2016/06/02/infinite-ulysses-beta-closes</id>
+   <content type="html">&lt;p&gt;Infinite Ulysses’s open beta (March 2015-May 2016) has ended!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-this-means-for-currentprospective-users&quot;&gt;What this means for current/prospective users&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;(If you’re just interested in future plans for the site and an overview of how the beta period went, skip this section.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s time for my &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; participatory edition to get some serious post-beta improvements, and I’ve decided the best way to do this is taking some time off from moderating the site while I focus on its web development needs. The site will remain up and readable (except for short hours-long downtimes when pushing major improvements), but I’ll be closing signups for new users as well as blocking logging in/annotating by existing users for a while. Please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; with any questions this choice raises (e.g. I can try to accommodate needs such as plans to use the site in a summer or fall course or reading group, or to demo the site on a given day.)&lt;/p&gt;
+
+&lt;p&gt;Following &lt;a href=&quot;http://www.infiniteulysses.com/content/terms-use&quot;&gt;the site’s public data policy&lt;/a&gt;, I’ll be emailing site users this week with an invitation to export their annotations during the next six weeks (before July 15th, 2016). After that date, &lt;strong&gt;site users will not be able to log in until after the post-beta overhaul is complete&lt;/strong&gt; (currently no set date). Before July 15, logged-in users can use new links on &lt;a href=&quot;http://www.infiniteulysses.com/user&quot;&gt;your user profile page&lt;/a&gt; to export DOC, XML, and CSV versions of your annotations. If you don’t export your annotations during that time, you won’t lose them—an export of all user annotations will be available &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-public/tree/master/Annotations&quot;&gt;in the GitHub repo&lt;/a&gt; (and I see no reason for it to not stay there as long as GitHub is around, so no rush). Please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; with any questions or special needs.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-a-hiatus&quot;&gt;Why a hiatus?&lt;/h2&gt;
+
+&lt;p&gt;I was hoping to have enough stuff ready to do a 1.0 release in time for this year’s Bloomsday and my speaking at the &lt;a href=&quot;https://anniversaryjoyce.com/provisional-programme/day-5-friday-17-june/&quot;&gt;XXV International James Joyce Symposium that week&lt;/a&gt; (we’re doing a full day of digital+genetic editing panels all day on Friday, including Hans Gabler and Michael Groden—pretty exciting!). Alas, I won’t have time to finish my improvements by that deadline.&lt;/p&gt;
+
+&lt;p&gt;I’m looking forward to continuing work on the site, and I do think now that I’ve settled into my new job and have some support to expand the site into a team project from a solo dissertational one, I’ll be able to release something pretty cool. But I’m not yet at a place where I can commit to a release date, and instead of continually pushing that time off, I need to make a change to reduce the moderation and community design effort the site involves, and focus on the site’s web development without feeling constantly behind where I want the site to be.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The community deserves care.&lt;/strong&gt; Running a digital community is so rewarding, but I need to acknowledge that I don’t have the time to currently do everything the site requires—especially the constant vigilance against abuse and spam that the community absolutely deserves. I didn’t have time to focus on accessibility testing as much as I should have; the reading interface only works for limited window sizes and breaks after a certain level of magnification, which is a poor reward for anyone answering my invitation to a public &lt;em&gt;Ulysses&lt;/em&gt; conversation. And I dislike continually pushing the date for the 1.0 changes back—it’s better for everyone if I wait to make a clear promise on when and what I can do with the site (more on what’s holding back changes farther below).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My research trajectory.&lt;/strong&gt; I also need to acknowledge how my research interests are developing—I’ve always been primarily interested in participatory interface design for knowledge-building, and I think of myself as more of a research programmer and textual scholar, than as a Joycean or community manager. I’m also interested in putting my research efforts more squarely toward improving student and publics access, participation, and inclusion in the humanities, and in making the humanities (researchers, topics, and audiences) more diverse. (&lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;I’ve written about this a bit in a post on why I chose Ulysses for my edition, despite this supporting the problematic canon of white male authors writing in English&lt;/a&gt;. I don’t mean to say others shouldn’t be working in Joyce studies—this is a personal decision about where I want to put my time and effort going forward). I’m interested in inviting more people into the conversations around challenging literature, and less interested in spending my future specifically wed to Joyce’s texts (although I suspect I’ll continue to do silly &lt;em&gt;Ulysses&lt;/em&gt; things like &lt;a href=&quot;http://digitalliterature.net/usurper/&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2012/02/20/anachronistic-linati-schema&quot;&gt;this&lt;/a&gt;, and &lt;a href=&quot;http://digitalliterature.net/fun/marionette.html&quot;&gt;this&lt;/a&gt;…).&lt;/p&gt;
+
+&lt;h2 id=&quot;testing-the-edition&quot;&gt;Testing the edition&lt;/h2&gt;
+
+&lt;p&gt;A variety of user testing and feedback helped shape the current site, and will be the foundation for the 1.0 version:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Informal (hallway testing, tweeted questions)&lt;/li&gt;
+  &lt;li&gt;Talk-aloud observation (single and paired)&lt;/li&gt;
+  &lt;li&gt;Participatory design (sketching ideal layouts)&lt;/li&gt;
+  &lt;li&gt;Site contact form feedback &amp;amp; emailed feedback&lt;/li&gt;
+  &lt;li&gt;GitHub issue queue&lt;/li&gt;
+  &lt;li&gt;Open beta soft launch survey with non-academic testers (March 5th, 2015)&lt;/li&gt;
+  &lt;li&gt;Open beta survey responses (March 9-30, 2015)&lt;/li&gt;
+  &lt;li&gt;Google Analytics (going forward, I want to have a clear statement to users on what kind of information I can see)&lt;/li&gt;
+  &lt;li&gt;Aggregated mapping (heatmaps, scrollmaps, clickmaps)&lt;/li&gt;
+  &lt;li&gt;Drupal statistics on frequency and authorship of annotations&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;howd-the-beta-go&quot;&gt;How’d the beta go?&lt;/h2&gt;
+
+&lt;p&gt;The open beta was a fantastic experience for me. We had some decent exposure via social media, helped in no small part by making the Hacker News Top 20 the day after my dissertation defense. As of June 2, 2016, the site had:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;22,251 unique visitors&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;776 members&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1,167 annotations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;283 unique annotation tags&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;A huge thanks to all the site’s beta testers&lt;/strong&gt;, who generously gave me feedback on the site’s design and how it fit their individual reader and research needs. (And another shout-out to all the people whose code and support made the site possible, &lt;a href=&quot;http://www.infiniteulysses.com/credits&quot;&gt;listed here&lt;/a&gt;—especially &lt;a href=&quot;https://twitter.com/mwidner&quot;&gt;Michael Widner&lt;/a&gt;, whose development of the &lt;a href=&quot;http://www.lacunastories.com/&quot;&gt;Lacuna annotation platform&lt;/a&gt; you should definitely check out!.)&lt;/p&gt;
+
+&lt;p&gt;Though there wasn’t a race for quantity over quality, special thanks are due to the site’s power annotators for their generosity to our reader community, and for helping me design the next iteration of the site to better support heavy annotation: user &lt;strong&gt;tim finnegan&lt;/strong&gt; outpacing us all with 546 excellent annotations, followed by &lt;strong&gt;bbogle&lt;/strong&gt; (159) and by three users with 20-30 annotations each—&lt;strong&gt;pbohan&lt;/strong&gt;, &lt;strong&gt;serinamarie89&lt;/strong&gt;, and &lt;strong&gt;wvarga7a1&lt;/strong&gt;. I also authored 248 annotations myself, although many of these were drawn from my earlier &lt;a href=&quot;http://www.UlyssesUlysses.com&quot;&gt;UlyssesUlysses.com&lt;/a&gt; annotations.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Hey, existing site users: I have stickers created as rewards for my alpha and beta testers now—if you used the site between now and back when it went live, send me an email with your mailing address by the end of June 2016 and I’ll ship you one! Subject to not running out of them, of course…)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/IUSticker.png&quot; alt=&quot;Infinite Ulysses publicity sticker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(The nose fell out of the logo… still looks like a face to me!)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-numbers-are-nice-but&quot;&gt;The numbers are nice, but…&lt;/h2&gt;
+
+&lt;p&gt;It’s been amazing to have so many strangers interact with something I built—and the number of people who visited the site (22k+) is probably a bit unusual for a literature dissertation? But the reality of those numbers suggests that while there’s interest in the idea of the project, most of those visitors didn’t stick around long to read and didn’t come back any or many times. Check out this spike of interest right after my defense, and the relative flatline after—over half (about 14,000) of the 22,251 visitors came within the first month of the open beta, with the remaining 8,000 trickling in over the following year:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/statriseandfall.png&quot; alt=&quot;Line chart of site visitors since the site when live, with spike in April 2015&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Interest in the digital humanities and in designing for a more participatory literature conversation is great, but that’s really just a tiny step—the real assessment is whether I can build something that goes beyond initial curiosity, and supports people reading selections or the whole book over weeks and months. Site account creation (required to annotate and use some other features) was low compared to the total number of visits, returning visits were low, and reading without annotating was largely the norm.&lt;/p&gt;
+
+&lt;p&gt;Sure, reading &lt;em&gt;Ulysses&lt;/em&gt; is a significant investment of time…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AlisonBechdelUlysses.png&quot; alt=&quot;Panel from Alison Bechdel&#39;s graphic novel Fun Home, showing the protagonist reading Ulysses and swearing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;Panel from Alison Bechdel’s highly recommended graphic novel&lt;/em&gt; Fun Home)&lt;/p&gt;
+
+&lt;p&gt;…But as much as I like to see these stats as heartening, I know I have a lot of work to do in making the look and feel of the site a delightful experience, and in making major changes to the site’s functionality supporting how people are most comfortable reading (a frequent request, touch annotation to allow comfy armchair reading, is held back by there not currently being a fully functioning plugin for this).&lt;/p&gt;
+
+&lt;p&gt;In addition to the concerns above about keeping the annotations a safe, welcoming space for including diverse voices in the Ulysses conversation, I need to think through supporting a community with unusual ebbs and flows of activity. Once hooked, readers do frequently come back to &lt;em&gt;Ulysses&lt;/em&gt; for many rereads. Even with rereaders, though, most users will come to the site for stretches of weeks or months, then disappear for a while. Keeping the site feeling alive meanwhile—for example, making sure readers’ new questions get answered—takes regular effort that I don’t have enough time to support myself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Annotators, assemble!&lt;/strong&gt; I do have some ideas for addressing this ebb and flow of the reading community, and for getting the site back into a schedule of regular improvements. I’ll be thinking about how to turn the site into a community-led project: I have funding for a graduate research assistant, some offers to push improved code to the site once I’ve got the repo ready, and the hope that the project can be a space for students and staff to train in various areas of DH interest (coding, scholarly digital editing, social media work…). I’m also working on a project that will make sharing new functionalities between digital editions easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A reading spring model.&lt;/strong&gt; Once the 1.0 site is ready, I’m interested in trying out a reading-sprint model, where I’d advertise an approaching spring several months in advance (optimistically, enough that any teacher could then plan to include in their course the following term), then open the site for a set period of reading by individuals, book clubs, and classes—knowing that I had team in place to support the community (curation, moderation, guidance) through that period.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Removing the account requirement.&lt;/strong&gt; I also want to recognize that even with a delightful look and intuitive functionality, not all readers will want to annotate or sign up for the site. I need to build things so that all features except annotation and comments are open without a user account (early on, I focused over much on sign-ups as a way of tracking a threshold of site engagement—but ease of use is more important than nice stats!).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Splitting the text.&lt;/strong&gt; I also plan to divide the site into two interlinked texts: one text with a curated set of annotations, aimed at the bulk of people arriving at the site who just want some help reading &lt;em&gt;Ulysses&lt;/em&gt;. The second text will be the place for experimenting with new features and with diverse kinds of annotation (Team Mulligan? reader injokes? annotating as the book’s characters? check, check, and check!).&lt;/p&gt;
+
+&lt;p&gt;This split into two texts should take some of the burden off human moderators—the curated text can have annotations pulled in from the experimental text as time allows, while the experimental text can be a little more open to various kinds and granularities of annotation (though I’ll still have mechanics in place to report abuse, ask for moderation, and to require a few good-faith annotations before your annotations are visible to anyone else).&lt;/p&gt;
+
+&lt;h2 id=&quot;best-laid-plans-vs-real-life&quot;&gt;Best-laid plans vs. real life&lt;/h2&gt;
+
+&lt;p&gt;Here’s why I keep pushing the 1.0 version off. I had a handful of site improvements I’d meant to release last Bloomsday (a couple weeks after my graduation), and lots of additional local work since then (e.g. moving annotations into a collapsible side drawer to aid tablet reading, and changing the theme to support smaller screens and greater screen magnification were big ones).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dissertation scope repercussions.&lt;/strong&gt; I was lucky in having a lovely dissertation experience. But because the final beta version of the site was built largely during the final year of my dissertation (after a lot of research and trying out other tech platforms and code libraries), I didn’t have time to put in place everything I’d normally do for a professional job. Sometimes visual design suffered for the sake of functionalities I needed to move user testing forward; scope tightened and pieces dropped out (e.g. comment threading display was buggy, so I ended up just removing commenting on annotations for the beta).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Incremental improvements are currently hard to push.&lt;/strong&gt; It was difficult to push incremental changes to the site; for example, simply removing the up/down voting button (an early decision) couldn’t happen until I had time to modify the site’s theme to accommodate the new annotation structure, or the whole display would be out of whack. The text I chose ended up having needing manual addition of Joyce’s typographic choices, and having many more OCR errors than I expected—and as with other site changes, making it possible for site users to correct errors themselves wasn’t an easy thing to add. There were a lot of small things like that, and the solution really needed to be a general overhaul rather than a collage of bandaids.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Work is getting done, albeit not pushed to the live site.&lt;/strong&gt; Since defending the dissertation, I’ve been working locally on a bunch of other improvements, starting with a complete from-scratch rebuilding of the site’s database and theme. I’ve been able to share my code for testing on development versions of several other digital editions (Romantic Circles, the Shelley-Godwin Archive, and the Victorian COVE site I’m co-PI’ing with Dino Felluga), and I made some headway toward packaging my code for easier reuse by others at the CODEX hackathon in January.&lt;/p&gt;
+
+&lt;p&gt;But with starting a new job, settling into post-student life, and moving to a new place, I haven’t been able to make the concentrated clumps of time I need to finish things up—just hours here and there, with days in between. Despite journaling constantly alongside my webdev work, it’s hard to pick work back up swiftly after putting it down for weeks at a time.&lt;/p&gt;
+
+&lt;p&gt;I also recognize that in trying to connect and grow the digital humanities community at Purdue, I might not have time to set this all up in the near future. The hope is to get the site to a place where others can participate in improving the site if they’re interested in doing so, but I recognize that I’ve been pushing “improvements soon!” off for a while now, and that isn’t the best situation for either me or the site’s readers.&lt;/p&gt;
+
+&lt;p&gt;This is a fun project, and I’ve been honored by the generosity of others in helping me build something better. So: I’m going to stop saying the new site will be ready soon, and wait until I can make and keep a promise about the site’s next version. Any thoughts on making this hiatus better for readers (or other ideas for the site) are always appreciated!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lunar dust & tapioca pudding (touring Purdue Archives' aerospace collections)</title>
+   <link href="/2016/05/09/aerospace-history-dh-projects-purdue-archives"/>
+   <updated>2016-05-09T00:00:00-04:00</updated>
+   <id>/2016/05/09/aerospace-history-dh-projects-purdue-archives</id>
+   <content type="html">&lt;p&gt;The &lt;a href=&quot;https://www.lib.purdue.edu/spcol&quot;&gt;Purdue University Archives &amp;amp; Special Collections&lt;/a&gt; (ASC) have an amazing aerospace history collection due to Purdue’s many students and faculty who were pilots (Amelia Earhart was faculty), went on to be astronauts, or worked in the aerospace industry. I’m working with the ASC towards digital humanities projects that increase public and student access to our collections; in particular, we’re planning to use 3D scanning and printing to make some of the more interesting, fragile, or rare artifacts more accessible to visitors and student researchers. Today, Flight Archivist Tracy Grimm kindly gave me a tour of some of the objects we’re thinking about using in our DH work.&lt;/p&gt;
+
+&lt;p&gt;I’ve shared some of the more interesting things below (sorry for shaky photo quality on a couple of these!). These photos were okayed for educational sharing on social media (&lt;a href=&quot;https://www.lib.purdue.edu/spcol/digital-reproduction-requests&quot;&gt;copyright info here&lt;/a&gt; if you’re interested in using these somehow).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1087.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Amelia Earhart’s goggles&lt;/strong&gt;. These are too fragile for regular handling; we want to explore using various types of 3D printing filament (pliable, glass-like) to replicate these as wearable facsimiles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1088.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;An ice pick Amelia Earhart used&lt;/strong&gt; to puncture open cans of tomato juice. She used these as a compact way of getting calories while flying. (I think Tracy said this was a specific brand—Beecham’s?—and that Earhart was used in their advertisements.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1128.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1129.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Checking out the safe inside the archives vault where artifacts are kept extra-secure, including Amelia Earhart’s scrapbooks and helmet, the smelling salts she used to keep awake during her flights, and flight suits.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1090.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;glove&lt;/strong&gt; astronaut Eugene Cernan wore on the moon. Sealed in a bag so as not to lose any of the &lt;strong&gt;lunar dust&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1091.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1127.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A “frangible nut” from a space shuttle flown on by astronaut Janice Voss&lt;/strong&gt;. The nut was packed with explosive charges and separated from a rocket on takeoff (presented on a commemorative plaque). It’s quite heavy, and the edges are sharp where explosives sheared off the metal. The nuts were originally around 50 lbs, so this fragment is about 25 lbs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1103.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1104.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1105.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1108.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1109.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1110.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Astronaut food&lt;/strong&gt; from the Mark N. Brown Papers collection, assumedly used during training on Earth. Each contains info on how to prepare the food. Potatoes au gratin, noodles and chicken, tapioca pudding, butter cookies! Each unit includes a small velcro dot (to anchor the food to something when there’s no gravity).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1112.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Possibly the coolest business card title: “&lt;strong&gt;Astronaut&lt;/strong&gt;”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1115.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1118.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1122.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1124.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apollo XVII LRV Map Book&lt;/strong&gt;, a commemorative binding of maps actually used on the moon by astronaut Eugene Cernan while traveling on the lunar rover. A broken fender on the lunar rover had to be repaired (while on the moon!) with 4 of the map pages (the Smithsonian has the repaired fender in its collection). The individual pages aren’t too interesting to look at, but we’re thinking about creating a digital quilt of the images and then augmenting this with historical and topographical information.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Building a static website with Jekyll and GitHub Pages</title>
