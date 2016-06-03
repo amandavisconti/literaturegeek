@@ -12,7 +12,7 @@ Infinite Ulysses's open beta (March 2015-May 2016) has ended!
 
 ## What this means for current/prospective users
 
-*(If you're just interested in future plans for the site and an overview of how the beta period went, skip this section.)*
+*(If you're just interested in future plans for the site and an overview of how the beta period went, skip to the next section.)*
 
 It's time for my [InfiniteUlysses.com](http://www.InfiniteUlysses.com) participatory edition to get some serious post-beta improvements, and I've decided the best way to do this is taking some time off from moderating the site while I focus on its web development needs. The site will remain up and readable (except for short hours-long downtimes when pushing major improvements), but I'll be closing signups for new users as well as blocking logging in/annotating by existing users for a while. Please contact [infiniteulysses@gmail.com](mailto:infiniteulysses@gmail.com) with any questions this choice raises (e.g. I can try to accommodate needs such as plans to use the site in a summer or fall course or reading group, or to demo the site on a given day.)
 
