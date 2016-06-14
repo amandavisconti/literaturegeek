@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-I recently realized that although [I thoroughly blogged my dissertation (almost 40 blog posts)](http://literaturegeek.com/tag/dissertation/) and wrote [a post after successfully defending the dissertation in April 2015](http://literaturegeek.com/2015/05/09/dissertationdefended), I never blogged my actual defense talk. In keeping with [blogging the job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) that took me into my current job, and [other DH/grad student advice](http://literaturegeek.com/tag/grad-advice/), I am now rectifying this oversight! I'll make a few comments about the defense process in this blog post, and then blog the actual talk in a separate post.
+I recently realized that although [I thoroughly blogged my dissertation (almost 40 blog posts)](http://literaturegeek.com/tag/dissertation/) and wrote [a post after successfully defending the dissertation in April 2015](http://literaturegeek.com/2015/05/09/dissertationdefended), I never blogged my actual defense talk. In keeping with [blogging the job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) that took me into my current job, and [other DH/grad student advice](http://literaturegeek.com/tag/grad-advice/), I am now rectifying this oversight! I'll make a few comments about the defense process in this blog post, and then [blog the actual talk in a separate post](http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-talk).
 
 ## Knowing what to expect
 
