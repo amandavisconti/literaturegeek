@@ -5,52 +5,21 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jun 2016 14:12:46 +0100</pubDate>
-    <lastBuildDate>Tue, 14 Jun 2016 14:12:46 +0100</lastBuildDate>
+    <pubDate>Tue, 14 Jun 2016 14:30:03 +0100</pubDate>
+    <lastBuildDate>Tue, 14 Jun 2016 14:30:03 +0100</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>Digital Humanities Dissertation Defense Talk</title>
-        <description>&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;made a few comments about the defense process in a previous blog post&lt;/a&gt;, and here I’ll blog the actual talk (resisting the urge to edit and improve—this post is a good representation of the actual talk I gave).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-talk&quot;&gt;The talk&lt;/h2&gt;
-
-&lt;p&gt;[Full text and slides coming soon!]&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/defense-slides/defense-slides.001.png&quot; alt=&quot;Image of presentation slide from the dissertation defense&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(End of formal dissertation defense presentation.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;more-about-this-dissertation&quot;&gt;More about this dissertation?&lt;/h2&gt;
-
-&lt;p&gt;If you’re interested in reading more about &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; or the dissertation around it, the dissertation exists as &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;dr.AmandaVisconti.com&lt;/a&gt; (&lt;a href=&quot;http://dissertation.amandavisconti.com&quot;&gt;dissertation.amandavisconti.com&lt;/a&gt; was the URL I used pre-defense), which functions as an umbrella documenting all the pieces of my dissertational effort: blog posts, code repositories, links, the dissertation’s whitepaper (written just in the final month before the defense, as an analytical debriefing), etc.&lt;/p&gt;
-
-&lt;p&gt;There’s also &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;the full set of blog posts written during my dissertation available here&lt;/a&gt;, which talk not only about the focus of my research (digital humanities design, Joyce, textual scholarship, annotation) but about the practical aspects of designing and pursuing a digital dissertation. Also, I’m always happy to answer questions &lt;a href=&quot;http://www.literaturegeek.com&quot;&gt;@Literature_Geek&lt;/a&gt;!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jun 2016 00:00:00 +0100</pubDate>
-        <link>/2016/06/14/digital-humanities-dissertation-defense-talk</link>
-        <guid isPermaLink="true">/2016/06/14/digital-humanities-dissertation-defense-talk</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>infinite-ulysses</category>
-        
-        <category>dissertation</category>
-        
-        <category>advice</category>
-        
-        
-      </item>
-    
-      <item>
         <title>Digital Humanities Dissertation Defense Advice</title>
-        <description>&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I’ll make a few comments about the defense process in this blog post, and then &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-talk&quot;&gt;blog the actual talk in a separate post&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I’ll make a few comments about the defense process in this blog post, and then blog the actual talk in a separate post in a few days.&lt;/p&gt;
 
 &lt;h2 id=&quot;knowing-what-to-expect&quot;&gt;Knowing what to expect&lt;/h2&gt;
 
 &lt;p&gt;I highly recommend attending at least one dissertation defense in your department, preferably early in your degree. (I was lucky to get to attend two excellent literature defenses that incorporated digital humanities: Jason Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/11161&quot;&gt;Game Fiction&lt;/a&gt;, and Lisa Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/13969&quot;&gt;Ekphrastic Revisions: Verbal-Visual Networks in 20th Century Poetry by Women&lt;/a&gt;.) It was extremely useful for me to learn early on that defenses aren’t necessarily the scary things they’re made out to be in popular culture. If things go right, you should only be defending because your advisor thinks you’re ready—at that point, you have the expertise, and the defense is your opportunity to showcase the expertise you’ve built up over the years of dissertational work.&lt;/p&gt;
 
 &lt;p&gt;The defense experience can be pretty similar to the orals/comps (&lt;a href=&quot;http://literaturegeek.com/2012/11/27/info-dump-humanities-doctoral-candidacy-exams-advice/&quot;&gt;advice on those here&lt;/a&gt;), both in terms of practical preparation you can do beforehand (anticipate questions you’ll be asked, know what the room will look like where you’ll present) and in the experience (have your first five minutes just about memorized, and after that hope to relax and enjoy the chance to discuss your work and nothing but with smart people for an hour.)&lt;/p&gt;
+
+&lt;p&gt;If you have a chance to present a version of your talk to another grad student or family—or even better, at a conference or other public venue—I’d recommend using that time to get comfortable with your talk, so that your focus just before the defense can be on the Q&amp;amp;A rather than the presentation. &lt;strong&gt;Fun fact:&lt;/strong&gt; I was going to give a Digital Dialogue at MITH the week before my defense, but the electricity across campus went out while I was on my first slide and stayed out the rest of the day, so we had to reschedule for the week &lt;em&gt;after&lt;/em&gt; my defense. Didn’t get to practice the talk publicly, but I did end up feeling like nothing worse could happen during the actual defense, so it worked out all right!&lt;/p&gt;
 
 &lt;h2 id=&quot;prepare-but-dont-worry&quot;&gt;Prepare, but don’t worry&lt;/h2&gt;
 
@@ -1472,6 +1441,47 @@ These workshops are team-taught and very hands-on, so the workshops &lt;em&gt;th
         <category>advice-tutorial</category>
         
         <category>grad-advice</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Digital Humanities Annotates (#DHannotates)</title>
+        <description>&lt;p&gt;Tech tutorials and documentation are a particularly exciting place for inline annotation, since users can indicate exactly where they got stuck or need additional information. Using the #DHannotates hashtag, we&#39;re encouraging digital humanists to annotate tutorials, documentation, and other DHy webpages as an easy way of improving these resources for the whole community. &lt;a href=&quot;https://hypothes.is&quot;&gt;Hypothesis&lt;/a&gt; annotation makes inline annotation easy! Simply&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://hypothes.is/register&quot;&gt;Create a Hypothesis account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prefix the URL of the webpage you want to annotate with &lt;strong&gt;https://via.hypothes.is/&lt;/strong&gt; (that is, cut and paste that in front of the link to the page you want to annotate!)&lt;/li&gt;
+&lt;li&gt;Annotation feels very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students&quot;&gt;this tutorial&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you&#39;ve wanted to try out a tech skill like visualization or Python before, but weren&#39;t sure how to start—or started a tutorial and got stuck—read on! (If you&#39;d like to use this in the classroom, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can&quot;&gt;see Shawn Graham&#39;s post &quot;Can we fix it? Yes we can! #DHAnnotates Feb 8-12&quot; on the Electric Archaeology site&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;h2&gt;Work through a tutorial now (and get help if you encounter a problem!)&lt;/h2&gt;
+&lt;p&gt;From now through the end of next week (February 2-12), Shawn Graham and I (and anyone else who wants to volunteer!) will address any &lt;a href=&quot;https://hypothes.is&quot;&gt;Hypothesis annotations&lt;/a&gt; created on a particular DH resource: the &lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;Programming Historian tutorials&lt;/a&gt; (resources for learning various DH tech skills, written to be friendly to humanists new to coding and other tech work). We&#39;ll answer questions when possible, and when we can&#39;t, we&#39;ll create an issue in the Programming Historian GitHub repo to make sure someone knows about it (we&#39;ll also try to find people who can answer questions via Twitter and the Digital Humanities Slack).&lt;/p&gt;
+
+&lt;h2&gt;Interesting lessons include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions&quot;&gt;Cleaning OCR&#39;d text with regular expressions&lt;/a&gt;, by Laura Turner O&#39;Hara&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/topic-modeling-and-mallet&quot;&gt;Getting Started with Topic Modeling and MALLET&lt;/a&gt;, by Shawn Graham, Scott Weingart, and Ian Milligan &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/googlemaps-googleearth&quot;&gt;Various Google Earth/mapping/GIS lessons&lt;/a&gt;, by Jim Clifford, Josh MacFadyen, and Daniel Macfarlane &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources&quot;&gt;Visualizing historical networks&lt;/a&gt;, by Marten Düring&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/up-and-running-with-omeka&quot;&gt;Using Omeka&lt;/a&gt;, by Miriam Posner&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/corpus-analysis-with-antconc&quot;&gt;Corpus Analysis with Antconc&lt;/a&gt;, by Heather Froehlich&lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/programminghistorian.org/lessons/introduction-and-installation&quot;&gt;A series of tutorials for learning Python for DH work&lt;/a&gt;, by William J. Turkel and Adam Crymble &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Questions during a tutorial? Ideas for improvements? Get stuck? Want to thank the tutorial&#39;s writers and editors? You can use Hypothesis annotation to add your thoughts.&lt;p&gt;
+
+&lt;h2&gt;If a DHer annotates, does anyone hear?&lt;/h2&gt;
+&lt;p&gt;During Feb 2-12, &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can&quot;&gt;Shawn Graham&lt;/a&gt; and I will respond to Programming Historian annotations and/or add an issue to the site&#39;s GitHub repo so that the annotation is heard and attended to (note, of course, that Programming Historian is written and run by generous volunteers, so help is dependent on volunteers&#39; time... but this is a step toward making sure questions and ideas are seen).&lt;/p&gt;
+&lt;p&gt;For beyond next week (2/2-2/12), we&#39;re discussing automating the process of turning Hypothesis annotations into GitHub issues here: &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182&quot;&gt;https://github.com/programminghistorian/jekyll/issues/182&lt;/a&gt;. Please do join the conversation!&lt;/p&gt;</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+        <link>/2016/02/02/DHannotates</link>
+        <guid isPermaLink="true">/2016/02/02/DHannotates</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>dh-now</category>
         
         
       </item>

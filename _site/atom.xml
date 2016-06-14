@@ -4,7 +4,7 @@
  <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2016-06-14T14:12:46+01:00</updated>
+ <updated>2016-06-14T14:30:03+01:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
@@ -13,40 +13,19 @@
 
  
  <entry>
-   <title>Digital Humanities Dissertation Defense Talk</title>
-   <link href="/2016/06/14/digital-humanities-dissertation-defense-talk"/>
-   <updated>2016-06-14T00:00:00+01:00</updated>
-   <id>/2016/06/14/digital-humanities-dissertation-defense-talk</id>
-   <content type="html">&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;made a few comments about the defense process in a previous blog post&lt;/a&gt;, and here I’ll blog the actual talk (resisting the urge to edit and improve—this post is a good representation of the actual talk I gave).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-talk&quot;&gt;The talk&lt;/h2&gt;
-
-&lt;p&gt;[Full text and slides coming soon!]&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/defense-slides/defense-slides.001.png&quot; alt=&quot;Image of presentation slide from the dissertation defense&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(End of formal dissertation defense presentation.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;more-about-this-dissertation&quot;&gt;More about this dissertation?&lt;/h2&gt;
-
-&lt;p&gt;If you’re interested in reading more about &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; or the dissertation around it, the dissertation exists as &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;dr.AmandaVisconti.com&lt;/a&gt; (&lt;a href=&quot;http://dissertation.amandavisconti.com&quot;&gt;dissertation.amandavisconti.com&lt;/a&gt; was the URL I used pre-defense), which functions as an umbrella documenting all the pieces of my dissertational effort: blog posts, code repositories, links, the dissertation’s whitepaper (written just in the final month before the defense, as an analytical debriefing), etc.&lt;/p&gt;
-
-&lt;p&gt;There’s also &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;the full set of blog posts written during my dissertation available here&lt;/a&gt;, which talk not only about the focus of my research (digital humanities design, Joyce, textual scholarship, annotation) but about the practical aspects of designing and pursuing a digital dissertation. Also, I’m always happy to answer questions &lt;a href=&quot;http://www.literaturegeek.com&quot;&gt;@Literature_Geek&lt;/a&gt;!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Digital Humanities Dissertation Defense Advice</title>
    <link href="/2016/06/14/digital-humanities-dissertation-defense-advice"/>
    <updated>2016-06-14T00:00:00+01:00</updated>
    <id>/2016/06/14/digital-humanities-dissertation-defense-advice</id>
-   <content type="html">&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I’ll make a few comments about the defense process in this blog post, and then &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-talk&quot;&gt;blog the actual talk in a separate post&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I’ll make a few comments about the defense process in this blog post, and then blog the actual talk in a separate post in a few days.&lt;/p&gt;
 
 &lt;h2 id=&quot;knowing-what-to-expect&quot;&gt;Knowing what to expect&lt;/h2&gt;
 
 &lt;p&gt;I highly recommend attending at least one dissertation defense in your department, preferably early in your degree. (I was lucky to get to attend two excellent literature defenses that incorporated digital humanities: Jason Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/11161&quot;&gt;Game Fiction&lt;/a&gt;, and Lisa Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/13969&quot;&gt;Ekphrastic Revisions: Verbal-Visual Networks in 20th Century Poetry by Women&lt;/a&gt;.) It was extremely useful for me to learn early on that defenses aren’t necessarily the scary things they’re made out to be in popular culture. If things go right, you should only be defending because your advisor thinks you’re ready—at that point, you have the expertise, and the defense is your opportunity to showcase the expertise you’ve built up over the years of dissertational work.&lt;/p&gt;
 
 &lt;p&gt;The defense experience can be pretty similar to the orals/comps (&lt;a href=&quot;http://literaturegeek.com/2012/11/27/info-dump-humanities-doctoral-candidacy-exams-advice/&quot;&gt;advice on those here&lt;/a&gt;), both in terms of practical preparation you can do beforehand (anticipate questions you’ll be asked, know what the room will look like where you’ll present) and in the experience (have your first five minutes just about memorized, and after that hope to relax and enjoy the chance to discuss your work and nothing but with smart people for an hour.)&lt;/p&gt;
+
+&lt;p&gt;If you have a chance to present a version of your talk to another grad student or family—or even better, at a conference or other public venue—I’d recommend using that time to get comfortable with your talk, so that your focus just before the defense can be on the Q&amp;amp;A rather than the presentation. &lt;strong&gt;Fun fact:&lt;/strong&gt; I was going to give a Digital Dialogue at MITH the week before my defense, but the electricity across campus went out while I was on my first slide and stayed out the rest of the day, so we had to reschedule for the week &lt;em&gt;after&lt;/em&gt; my defense. Didn’t get to practice the talk publicly, but I did end up feeling like nothing worse could happen during the actual defense, so it worked out all right!&lt;/p&gt;
 
 &lt;h2 id=&quot;prepare-but-dont-worry&quot;&gt;Prepare, but don’t worry&lt;/h2&gt;
 
