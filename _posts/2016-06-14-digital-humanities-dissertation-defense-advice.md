@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-I recently realized that although [I thoroughly blogged my dissertation (almost 40 blog posts)](http://literaturegeek.com/tag/dissertation/) and wrote [a post after successfully defending the dissertation in April 2015](http://literaturegeek.com/2015/05/09/dissertationdefended), I never blogged my actual defense talk. In keeping with [blogging the job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) that took me into my current job, and [other DH/grad student advice](http://literaturegeek.com/tag/grad-advice/), I am now rectifying this oversight! I'll make a few comments about the defense process in this blog post, and then blog the actual talk in a separate post in a few days.
+I recently realized that although [I thoroughly blogged my dissertation (almost 40 blog posts)](http://literaturegeek.com/tag/dissertation/) and wrote [a post after successfully defending the dissertation in April 2015](http://literaturegeek.com/2015/05/09/dissertationdefended), I never blogged my actual defense talk. In keeping with [blogging the job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) that took me into my current job, and [other DH/grad student advice](http://literaturegeek.com/tag/grad-advice/), I am now rectifying this oversight! I'll make a few comments about the defense process in this blog post, and [I blogged the actual talk in a separate post](http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk).
 
 ## Knowing what to expect
 
@@ -33,5 +33,7 @@ I'm sure I'm leaving things out, so feel free to email (aviscont@purdue.edu) or 
 ## More about this dissertation? 
 
 If you're interested in reading more about [Infinite Ulysses](http://www.infiniteulysses.com) or the dissertation around it, the dissertation exists as [dr.AmandaVisconti.com](http://dr.AmandaVisconti.com) ([dissertation.amandavisconti.com](http://dissertation.amandavisconti.com) was the URL I used pre-defense), which functions as an umbrella documenting all the pieces of my dissertational effort: blog posts, code repositories, links, the dissertation's whitepaper (written just in the final month before the defense, as an analytical debriefing), etc. 
+
+The [text and slides from my thesis defense are in this post](http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk).
 
 There's also [the full set of blog posts written during my dissertation available here](http://literaturegeek.com/tag/dissertation/), which talk not only about the focus of my research (digital humanities design, Joyce, textual scholarship, annotation) but about the practical aspects of designing and pursuing a digital dissertation.
