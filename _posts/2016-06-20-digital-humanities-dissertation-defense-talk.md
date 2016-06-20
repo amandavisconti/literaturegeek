@@ -1,0 +1,199 @@
+---
+layout: post
+title: Digital Humanities Dissertation Defense Talk
+permalink: 2016/06/20/digital-humanities-dissertation-defense-talk
+tags: [digital-humanities, infinite-ulysses, dissertation, advice]
+status: publish
+type: post
+published: true
+---
+
+I [made a few comments about the dissertation defense process in a previous blog post](http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice), and here I'll blog the actual defense talk. I'm even resisting the urge to edit and improve (although I've learned a lot about slide design and public speaking in the past year…). So, this post is a good representation of the actual defense talk I gave on April 14, 2015. If you've seen me present on [Infinite Ulysses](http://www.infiniteulysses.com) in the past year, some pieces of this may be familiar...
+
+Note that I didn't go back into the talk text and insert full citations, but anything I mention can be found in the bibliography of my dissertation whitepaper at [dr.amandavisconti.com](http://dr.amandavisconti.com). [Dr.AmandaVisconti.com](http://dr.amandavisconti.com) is also the **actual dissertation**, if you'd like to learn more about the full project (it is not the website for the dissertation—it *is* the dissertation!).
+
+*(If you didn't see [the previous post](http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice): I recently realized that although [I thoroughly blogged my dissertation (almost 40 blog posts)](http://literaturegeek.com/tag/dissertation/) and wrote [a post after successfully defending the dissertation in April 2015](http://literaturegeek.com/2015/05/09/dissertationdefended), I never blogged my actual defense talk. In keeping with [blogging the job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) that took me into my current job, and [other DH/grad student advice](http://literaturegeek.com/tag/grad-advice/), I am now rectifying this oversight!)*
+
+## The DH defense talk
+
+I started my slides early so that this slide was on the screen before the defense began; when I give invited talks or conference presentations, I make a credits list my last slide instead, so it can stay up during Q&A (I also thank a few key supporters by name: my site users and testers, my dissertation advisor and committee, Michael Widner, and MITH/UMD). Note that any stats about Infinite Ulysses site use were from before the site had surprising publicity via Hacker News (the morning after my defense, so I include those stats in the first month of open beta stats).
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.001.png)
+
+And here's the title slide! (That's the full title of my dissertation.)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.002.png)
+
+In one of my [very favorite works on textual scholarship](https://www.zotero.org/amandavisconti/items/itemKey/4F5DJ2GB/q/taylor), scholarly editor Gary Taylor asks, "How can you love a work, if you don’t know it? How can you know it, if you can’t get near it? How can you get near it, without editors?" Scholarly editors are integral to the continuum that keeps the stories of the past available to and understood by the present—but in Taylor’s formulation, the "you" is just as important: that public of readers beyond the academy, whose interest keeps the humanities alive and relevant. What if we build a digital edition and invite everyone to participate in its use? My dissertation considered this question by creating and testing the Infinite Ulysses digital edition with both readers from inside and outside the academy.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.003.png)
+
+In studying what follows from a participatory digital edition, I've grouped my research into three groups of inquiry:
+
+1. First, questions about making the humanities more public and more participatory (that is, welcoming public participation, in addition to making resources theoretically publicly available). How can we design digital editions that are not just public, but invite and assist participation in the scholarly love of a text? 
+
+
+1. My second set of questions focused on the design of digital editions, using Bethany Nowviskie's idea of edition "interfacing" to do critical textual scholarship work through design, that is different from textual editing tasks. If we design editions for the public, how do we design to handle an influx of readers and annotations on texts (questions of moderation, curation, and personalization)? And what might we learn about digital editions and their texts from the accompanying influx of site use data?
+
+
+1. My third set of questions stem from looking at Infinite Ulysses and asking, "is this an edition?" I considered whether we could separate the values of textual scholarship, from the common embodiments of these values. How might this clarification help us imagine new types of digital edition?
+
+My presentation today will start by describing my project's methods and format, offer some textual scholarship and digital humanities precedents for critical design and code work, and provide a brief tour of the Infinite Ulysses digital edition. I'll also provide an overview of this project's interventions and next steps.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.004.png)
+
+Textual scholar Morris Eaves conceives of editions not just as vessels for textual content, but also as “problem-solving mechanisms”. The problem of designing participatory digital editions was best addressed by designing, building, and testing real use of a digital edition. Analytical discussion took the form of research blogging throughout the course of the project, averaging out to about one post a month for the last three years. Analytical discussion of the project was also performed through a whitepaper authored near the end of the project; where the prospectus was a briefing for the project, with a lit review and justification of the project's exigence, the whitepaper served as a debriefing, a place to consider what was learned and what my next research steps should be. 
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.005.png)
+
+In textual scholarship, there's a history of embodying arguments both about specific texts, and about how edition interfaces function. Editing has always intertwined theory and embodied practice. Arguments about which document (or patchwork of documents) best represents the ideal of a text, for example, were practically realized through editions of specific texts. 
+
+You can see an example of textual arguments being made through textual interfaces up on the screen. On the left is a page from the print variorum edition of Darwin's On the Origin of Species. Between the first and sixth editions, the word count went up by 40,000 words. This is an edition that values giving the reader access, to the full picture of the text in all its variations. It is unpleasant to read, but it's not really intended to be read, but for researchers to focus on changes to a specific section of the text (searching rather than browsing). 
+
+On the right, is a static screenshot of Ben Fry's animated visualization of these changes in the text over time. If you visit his site, you can see the visualization shift, as new words are added or taken away from different sections over time, and you can also zoom in and read the text at any stage of its development. This is a textual interface that values awareness of the changing shape of the whole text over time (browsing rather than searching).
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.006.png)
+
+Design experiments aren't a new tactic in textual scholarship. The typographic and spatial innovations of scholarly editor Teena Rochfort Smith’s 1883 *Four-Text ‘Hamlet’ in Parallel Columns* offer one example of experimentation, that focused on editions as a form. Smith intended this prototype to provide several transcriptions of Hamlet’s quartos, as well as her own edition of the play, side-by-side. The edition employed six varieties of typeface, four inks, three kinds of underlining, and daggers, asterisks, and other symbols to call out the presence and extent of variance. Like the Darwin print variorum, this edition values giving the reader access to a fuller picture of the text in all its variations, but this edition also values its user being able to access each work fully—something made possible by the parallel columns and notation, instead of a single column of inline variants.
+
+This prototype would have been nearly impossible to typeset and print in 1883. Smith worked toward a simpler final version of the edition after circulating this prototype. This suggests Smith's initial focus was on an experiment with the form of a prototyped edition, rather than a fully realized edition with a focus on its text.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.007.png)
+
+A recent example of text-specific critical design is seen in Jeffrey Masten's edition *A/The Old Law*.
+
+On the left we have a page from the EEBO scan of the early modern Middleton Rowley play, and on the right we have one of the pages as edited by Masten. He argues that for texts like this one, multiple readings of single words were the historical reality, due to puns, bad printing, and non-standardized spelling. Masten views this play as very much about multiple possible interpretations of laws legal, moral, and Biblical. He reflects this emphasis in print design by arbitrarily flipping between the use of side and footnotes, throughout the pages of his edition. Because he also includes his textual commentary in these notes, this randomizing makes it difficult for the reader to *only* read the “real” text of the play, or to ignore reading about these possible variants. 
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.008.png)
+
+I'm most interested in experiments that are somewhat text-agnostic—that have a focus on what *editions* can do, not what *an edition* can do for *a specific text*. Alan Galey’s Visualizing Variation coding project is another recent example of textual experimentation, that focuses on edition form over any one text. His code set is a scholarly response, to the early modern experience of reading, when spellings varied wildly, and a reader was accustomed to holding multiple possible meanings for badly printed or ambiguously spelled words in their mind at the same time. 
+
+For example, his “Animated Variants” code cycles which word to display in the reading text, for contended words such as Hamlet's sallied/solid/sullied, so that the reader isn’t biased by a word's placement in the main text, rather than in the footnotes. By experimenting with digital means of approximating this historical experience, Galey moves theorists past discussing that this different experience of texts occurred. Instead, scholars can now respond to an actual participation in that historical experience. Galey’s coded textual experiments are themselves critical arguments about edition design. His example of a project where the principal investigator is also the lead programmer was a helpful model for my coding work.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.009.png)
+
+We've seen how textual scholarship uses edition design experiments, to develop interpretive interfaces. I'd like to switch now to discussing how those edition interfaces are used, when exposed to public readers and researchers.
+Lindsey Thomas notes that making something freely available online does not necessarily guarantee that thing is public, or that it will be used as a public resource. It isn't enough to make something theoretically publicly accessible to advance a public humanities. We need to prioritize accessibility, inclusion, and education, if we want to create a real conversation among academics and the public.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.010.png)
+
+My project both designed for participation by public readers, and used participatory design by incorporating users' feedback during the design process. In the world of textual scholarship, my edition has precedents in digital editions that allowed site visitors to transcribe, mark up, and annotate texts. The Shelley-Godwin Archive has worked toward public participation, envisioning an eventual "work-site for scholars, students, and the general public" with "contributions in the form of transcriptions, corrections, and annotations". 
+
+You can see the valuing of participation from all levels of expertise even in the beta site, where a stoplight icon visually signals the reliability of a text's transcription, allowing non-expert markup and transcription to be made public more quickly. The New York Public Library's *Candide 2.0* offered public annotation alongside the novel: stating "the margin is a public space where readers can congregate, discuss and debate the book together, in intimate proximity to the text". Participation privileges developed in stages: commissioned annotators seeded the edition with expert commentary, after which the edition was opened to public annotation for a trial period. The London Lives project similarly used a graded approach to participation.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.011.png)
+
+I've distilled my review of pertinent literature into several calls for further work:
+
+1. We need models for conducting and analyzing user studies in the digital humanities and textual studies.
+
+2. We need digital editions that are both public and participatory. Designing and coding participatory digital editions lets textual scholars serve more than one of the field’s intellectual values: *both* our mandate as humanists to preserve and renew the relevance of past culture, *and* the focus on more intimate knowledge of texts via edition-building and the interpretive work that entails.
+
+3. What a digital Ulysses would do has been theorized; recent changes to the text's digital availability mean we now need to build and test those theories.
+
+I'll next give you a brief tour of the edition I created in response to these calls to action.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.012.png)
+
+This is the current front page of the edition. The images give a high level tour of the edition's features: you can highlight parts of the book and annotate those highlights; read others' annotations; and personalize what annotations you see to your background, interests, and needs.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.013.png)
+
+For an allusion to Hamlet, an annotator might explain the reference and also tag the annotation with tags like "meaning" (a tag we've been using to call out answers to "what does this mean?") as well as tags like "Shakespeare", "Hamlet", and "intertextuality". Other popular tags mark if an annotation translates a specific language, refers to a specific author or book or to Joyce's biography, or relates to a topic such as Modernist style, colonialism, or religion.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.014.png)
+
+Readers click on highlighted text to see any annotations tied to that highlight; these annotations appear in the sidebar.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.015.png)
+
+Each annotation on the text can receive either one upvote or one downvote from each reader. Annotation votes accrue to the user who authored those annotations, so that helpfulness and credibility of annotators can also be very roughly assessed. These votes allow readers to prioritize what annotations they are shown, when a word or phrase has multiple annotations. For example, a reader can choose to see the top-rated annotations first, or the newest annotations.
+
+Readers can also favorite annotations to save them into a personal list; I hope to eventually tie this feature into the filtering system so that users can share links to "custom" editions only showing their curated annotations.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.016.png)
+
+Readers can filter annotations to only display annotations dealing with areas of interest (e.g. if you’re interested in references to Shakespeare's plays). Readers can also filter to only display annotations authored by certain users.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.017.png)
+
+The edition, after being open in beta or testing mode about one month, has a couple hundred user accounts (367 on Sunday) and a couple hundred annotations (416 on Sunday) (***Post-defense note: when I quote the first month of open beta stats in my talks, the numbers are much, much higher: that's because Infinite Ulysses made the Daily Top 20 on Hacker News the morning after my defense, bringing in thousands of site visitors***). 
+
+The number of those user accounts who are actually actively annotating while reading is very low so far. There were two fairly active users on the site besides myself (they added 60 and 19 annotations), with 10 users authoring 5 or more annotations, 20 users authoring 2 or more annotations, and 32 site users authoring at least 1 annotation. All but 4 of those 29 annotators are people I'd never met before. I expect site activity to pick up as more of the book is annotated, and several teachers are already planning to use the site with classes this summer and fall. It's also worth noting that the first two chapters of the book are fairly thickly annotated by me already (around 240 annotations), so new readers might not have felt they had as much to add.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.018.png)
+
+In terms of code, my biggest intervention was to create a module that ties the highlighting of text from the Annotator tool, into how Drupal lets you add metadata to, filter, and sort units of content such as annotations. These social features, filtering, and sorting addressed a need already present even at the level of a few hundreds readers on the site. 
+
+The most-annotated page on the site after four weeks of the open beta had 45 annotations, with the next ten most-annotated pages each having between 10 and 25 annotations per page. Even at the level of an edition just beginning to see use, there are already too many annotations per page for most readers; we already need a way to filter out the distraction of the annotations that don't fit our interests. In particular, the site has been read by both first-time readers of the novel and professors who have taught the text; sorting and filtering helps get the appropriate granularity of annotation to each reader, whether that's "what does this word mean?" or "how does this dialogue fit into what we know about Joyce's opinions on Irish politics?"
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.019.png)
+
+Infinite Ulysses and the dissertational project around it modeled small but actionable changes to the fields of the digital humanities and textual scholarship.
+
+In the area of participatory projects, Infinite Ulysses provided an example of a small but eager audience for a participatory digital humanities project; although the data gathered on site visits is early, there were over 2000 sessions of site use and over 1500 unique site visitors during this first month of open testing. The code and design work that allows textual annotations to be curated and moderated are being tested on at least two other digital editions (the Shelley-Godwin Archive and Romantic Circles); further work toward packaging and documenting the code will allow for digital humanists with less technical expertise to set up similar participatory annotation projects for their own texts, theories, and testing. Early site use data suggests that the site's design and functionalities do represent a working route, for digital editions to support public participation, through personalization of annotations to reader and researcher needs.
+
+In the area of meaningful crowdsourcing, Infinite Ulysses provided a modest example of public digital edition visitors adding value to a text, through contextualizing and interpretive annotations over a trial month. The project also outlined a number of ways digital humanities researchers may use non-critical participation to advance scholarly knowledge.
+
+In the area of edition design and data, Infinite Ulysses experimented with digital edition editorial statements by providing a detailed explanation of how scholarly values were manifested through specific instances of project design and code. Preliminary data gathering and analysis provided support and pointed out flaws in my digital edition design, while also providing text-agnostic knowledge about user testing methods for participatory digital editions, that can be used by other textual scholars.
+
+In the area of textual scholarship field boundaries, I've explored scholarly textual artifacts that draw on the values and skills of textual scholarship, without necessarily looking like a scholarly edition. By distilling textual scholarship values from their common embodiments and saving the term "scholarly edition" for a very specific type of edition, we can let the term "edition" invite broader types of textual projects that still hold true to textual scholarship values. Re-examining core assumptions about technologies like the edition can open new possibilities for humanities knowledge, and it can also help edition reviewers provide more constructive critique that better fits individual digital editions.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.020.png)
+
+New questions, not unexpectedly, arose from my research. I'll want to explore the possibilities for "non-critical" but meaningful participation I've listed in the whitepaper, looking for projects that have tested these possibilities, and creating wireframes and prototypes exploring the untested participation methods among my suggestions.
+
+- I'll want to think further about design that specifically scaffolds critical digital edition participation: how can we teach critical ways of reading Ulysses without belaboring existing theories? (Teach methods, not content.) I'll also continue analysis of site data and user feedback, using these to reassess the edition's curation and moderation functionalities as more readers and classrooms use the edition. 
+- Finally, I'll add to the discussion around editorial statements for digital editions by crafting a more detailed methodological statement for Infinite Ulysses, one that focuses on the choices of design and code that perform the edition's values, and then seeking a platform for peer review of my methodology. 
+- My distillation of textual scholarly values would only benefit from drawing in more diverse examples from the history of the field, as well as circulating my arguments for feedback and refinement. And I think the field would benefit from drawing up suggested guidelines for reviewing editions that aim at participation, something I hope to think through with members of the Shelley-Godwin team.
+  These steps should both improve Infinite Ulysses as a textual resource, and add to our body of knowledge about designing a more public, participatory digital humanities.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.021.png)
+
+*(End of formal dissertation defense presentation.)*
+
+## More about this dissertation?
+
+If you're interested in reading more about [Infinite Ulysses](http://www.infiniteulysses.com) or the dissertation around it, the dissertation exists as [dr.AmandaVisconti.com](http://dr.AmandaVisconti.com) ([dissertation.amandavisconti.com](http://dissertation.amandavisconti.com) was the URL I used pre-defense), which functions as an umbrella documenting all the pieces of my dissertational effort: blog posts, code repositories, links, the dissertation's whitepaper (written just in the final month before the defense, as an analytical debriefing), etc. 
+
+There's also [the full set of blog posts written during my dissertation available here](http://literaturegeek.com/tag/dissertation/), which talk not only about the focus of my research (digital humanities design, Joyce, textual scholarship, annotation) but about the practical aspects of designing and pursuing a digital dissertation. Also, I'm always happy to answer questions [@Literature_Geek](http://www.literaturegeek.com)!
+
+## Bonus slides
+
+I had some extra slides and talking points ready for questions I anticipated, or for things I didn't have time for in the presentation but wanted to be sure to cover. One of the anticipated questions was "Is Infinite Ulysses an edition?", so I was very prepared to argue that it isn't a *scholarly digital edition* (which is a term of art meaning certain methods and rigor), but that it *is* a digital edition. I blog that argument soon, for anyone who hasn't heard me present on it.
+
+If any of these slides intrigue you, feel free to contact me, or check out my dissertation whitepaper at [dr.AmandaVisconti.com](http://dr.AmandaVisconti.com) for more info.
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.025.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.026.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.027.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.028.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.030.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.031.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.032.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.033.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.035.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.036.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.038.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.039.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.047.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.050.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.061.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.056.png)
+
+![Image of presentation slide from the dissertation defense]({{ site.baseurl }}/assets/defense-slides/defense-slides.057.png)
