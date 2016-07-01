@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-*A [DH Now Editors' Choice post](http://digitalhumanitiesnow.org/2016/06/digital-humanities-dissertation-defense-talk/)!*
+*A [DH Now Editors' Choice post](http://digitalhumanitiesnow.org/2016/06/digital-humanities-dissertation-defense-talk/)! (See [this page](http://literaturegeek.com/tag/dh-now/) for more Literature Geek posts highlighted by DH Now.)*
 
 I [made a few comments about the dissertation defense process in a previous blog post](http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice), and here I'll blog the actual defense talk. I'm even resisting the urge to edit and improve (although I've learned a lot about slide design and public speaking in the past year…). So, this post is a good representation of the actual defense talk I gave on April 14, 2015. If you've seen me present on [Infinite Ulysses](http://www.infiniteulysses.com) in the past year, some pieces of this may be familiar...
 
