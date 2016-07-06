@@ -12,7 +12,7 @@ Come join the Digital Humanities Slack, a set of DHy chatrooms! (Visit [tinyurl.
 
 ## DH Slack stats
 
-The DH Slack was created in October 2016 after a suggestion from Ed Summers, and was built by the channel creation and chatting of its members. Nine months later (as of July 6, 2016), we have:
+The DH Slack was created in October 2015 after a suggestion from Ed Summers, and was built by the channel creation and chatting of its members. Nine months later (as of July 6, 2016), we have:
 
 - 700 members (84% of which have used the Slack over the past two weeks)
 - 67 "channels" (chat rooms devoted to specific topics)
