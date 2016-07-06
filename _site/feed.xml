@@ -5,13 +5,93 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jun 2016 14:45:33 -0400</pubDate>
-    <lastBuildDate>Wed, 22 Jun 2016 14:45:33 -0400</lastBuildDate>
+    <pubDate>Wed, 06 Jul 2016 12:47:14 -0400</pubDate>
+    <lastBuildDate>Wed, 06 Jul 2016 12:47:14 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
+        <title>The Digital Humanities Slack</title>
+        <description>&lt;p&gt;Come join the Digital Humanities Slack, a set of DHy chatrooms! (Visit &lt;a href=&quot;tinyurl.com/DHslack&quot;&gt;tinyurl.com/DHslack&lt;/a&gt; to join.) &lt;strong&gt;We are open to anyone&lt;/strong&gt; with a curiosity about DH and/or related interests (e.g. digital libraries, museums, and archives). Absolutely no expertise needed, and we have several specific chat rooms (called “channels” on Slack) devoted to DH beginners, students, job seekers, and asking all kinds of DHy and digital methods questions. (&lt;a href=&quot;https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users&quot;&gt;Here’s a good overview of what Slack is/how to use it&lt;/a&gt;. I’m happy to answer questions about how to use Slack or what it is via &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#118;&amp;#105;&amp;#115;&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#064;&amp;#112;&amp;#117;&amp;#114;&amp;#100;&amp;#117;&amp;#101;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;email&lt;/a&gt;, too.)&lt;/p&gt;
+
+&lt;h2 id=&quot;dh-slack-stats&quot;&gt;DH Slack stats&lt;/h2&gt;
+
+&lt;p&gt;The DH Slack was created in October 2016 after a suggestion from Ed Summers, and was built by the channel creation and chatting of its members. Nine months later (as of July 6, 2016), we have:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;700 members (84% of which have used the Slack over the past two weeks)&lt;/li&gt;
+  &lt;li&gt;67 “channels” (chat rooms devoted to specific topics)&lt;/li&gt;
+  &lt;li&gt;21.3k messages sent&lt;/li&gt;
+  &lt;li&gt;About 60% of messages are on public channels, with the other 40% being DMs&lt;/li&gt;
+  &lt;li&gt;180 files (shared code, documents, screenshots…) have been shared and stored on the Slack&lt;/li&gt;
+  &lt;li&gt;Matthew Lincoln set up Slack loading screen messages to quote definitions of DH from a variety of practitioners! And when someone types “what is the digital humanities”, a bot should respond by pointing you to the 800+ definitions over at &lt;a href=&quot;http://whatisdigitalhumanities.com&quot;&gt;whatisdigitalhumanities.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Channels (chat rooms) are Slack user-created, and the names of channels are represented with a pound sign and no space (#wordlefans). The current channels include:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Socializing and community info:&lt;/strong&gt; #introductions (share a little about your DH interests and what you do, or let people know about a new channel you created), #conferences, #off-topic (water cooler space for non-DHy chat and GIFs), #jobs, #announcements (events, CFPs, new projects), #hottopic (chat about current general DH issues, like that LARB piece…), #reading (share recent DH and entertainment reading and discuss books), #weeklies (weekly fun themes/survey questions)&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Regional and language channels:&lt;/strong&gt; #dh-california, #dh_humanidadesdigital, #dh-tennessee, #dh-bay-area, #dh-baltimore&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Fields:&lt;/strong&gt; #libraries, #dh-archives, #museums, #publichistory, #arthistory, #envirohumanities, #mediastudies, #elit, #publishing, #openaccess, #copyright&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Getting started:&lt;/strong&gt; #DHanswers (both pulls from the DH Q&amp;amp;A site, and a space for asking new questions), #students (talk about the experience of being a student, doing DH as a student…), #beginners (welcoming space for those just getting started in DH), #tutorialplease (ask for pointers to good tutorials on something you want to learn) and #tutorials (share useful tutorials as you run across them)&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Specific DH methods and practices:&lt;/strong&gt; #methodology, #visualization, #data-sharing, #annotation (plus a channel specifically about #hypothes-is annotation), #geospatial, #networks, #coding, #design, #linkeddata, #bots, #crowdsourcing, #gaming, #linux, #machinelearning, #databases, #physcomp, #topicmodel, #bibliography, #textencoding, #texthacking, #textanalysis, #datacuration, #philosophy, #simulation, #music, #sound, #3dscholarship, #codesnippets&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Teaching/learning:&lt;/strong&gt; #teachingDH, #digitalpedagogy, #programminghistorian (for discussions around the DH tutorial website)&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;And #meta&lt;/strong&gt; (to discuss the DH Slack itself)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;community-design-decisions&quot;&gt;Community design decisions&lt;/h2&gt;
+
+&lt;p&gt;Slack is a comparatively new platform (vs. Twitter), so DHers are still figuring out how it can be useful and how to best run the DH Slack. Anyone can join the DH Slack (&lt;a href=&quot;tinyurl.com/DHslack&quot;&gt;tinyurl.com/DHslack&lt;/a&gt;) and then visit the #meta channel to participate in decisions about our community design.&lt;/p&gt;
+
+&lt;p&gt;Thank you to everyone who shared thoughts on improving the DH Slack on the Slack, via email, or on Twitter, including DH Slack members Sam Abrams, Kristen Mapes, Matthew Lincoln, Ed Summers, Alan G. Pike, Liz Lorang, Hyperverses, timfinnegan, Jeremy Throne, Brandon Locke, Lincoln Mullen, Brian Croxall, and Micah Vandegrift, and others via Twitter and email.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;: &lt;em&gt;After community discussion, we’re keeping the DH Slack as ephemeral (no longterm archive of all messages) and not allowing people who aren’t signed into the Slack to read it. I’d be happy to chat with and amplify the platform of anyone who wants to make a DH Slack alternative that does either/both of these things, and I agree that it would be nice to have a place where Twitter conversations could be comfortably and publicly expanded (e.g. &lt;a href=&quot;http://Hypothes.is&quot;&gt;Hypothes.is&lt;/a&gt; annotation?)—it’s just that the place to do that right now isn’t the DH Slack.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Below are some of the issues we’ve been thinking through. I’ve heard reasonable arguments for public readability and/or archiving from people who haven’t been using the Slack. Hearing from non-Slacker users is good, since we want to be careful about decisions that deter others from joining; on the other hand, submitting feedback after using this Slack shows both an understanding of how people have been using it, and buy-in to the outcome of these decisions. (That’s what my thinking has been in weighing input from inside and outside the Slack.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code of conduct&lt;/strong&gt;. &lt;a href=&quot;https://github.com/amandavisconti/DHslack/blob/master/CodeOfConduct.md&quot;&gt;Our evolving code of conduct lives here&lt;/a&gt;, and Slack members are encouraged to suggest additions or changes via #meta. To summarize, we’re dedicated to a harassment-free experience for everyone, with a particular reminder that dismissing or belittling lack of DH, tech, or other experience (e.g. answering questions with links to Let Me Google That For You) is not allowed. We provide a list with specific examples of what constitutes harassment and a statement on handling of “reverse-isms”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public reading.&lt;/strong&gt; Thanks to Sava Saheli for pointing out that the problem with moving unwieldy Twitter conversations to the DH Slack is that this adds a barrier to public reading not present on Twitter (anyone can sign up for the DH Slack and start using it right away, but you do need to sign up and know how to navigate Slack).&lt;/p&gt;
+
+&lt;p&gt;Both Slack and the self-hosted OS Slack alternative Mattermost (that I’ll discuss below) don’t allow non-signed-in (public) reading. Our workaround would be &lt;a href=&quot;https://github.com/mdlincoln/jekyll-slack&quot;&gt;Matthew Lincoln’s nice solution for exporting Slack messages to a GitHub Pages-hosted Jekyll website&lt;/a&gt;. This would require someone to remember to periodically manually export the Slack’s messages and upload them to GitHub, and I’m not sure if our 10k message limit would cause a problem (each export would be missing earlier messages, so new exports to GitHub might overwrite old ones, meaning older messages would disappear from the public site–insofar as anything disappears from the web given Internet Archive, screenshots, etc.). One option would be to only export certain channels that are visibly marked as public-readable, rather than exporting the entire DH Slack.&lt;/p&gt;
+
+&lt;p&gt;We discussed whether allowing public reading this way would make people more or less comfortable using the DH Slack, reaching out both on the DH Slack to active users, and on Twitter to inactive users and people who haven’t joined the DH Slack. I heard more people as neutral or against making any of the DH Slack publicly readable this way, making me think we shouldn’t pursue it for now. A twice-cited reason was that a code of conduct is useful when applied not just to people writing on the Slack, but to people reading it as well; if only signed-in people can read the DH Slack, then we can block anyone who harasses from continuing to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Message archive.&lt;/strong&gt; We’re at 21.3k Slack messages, and Slack limits its free plan users to seeing the most recent 10k messages. We discussed whether we should pursue a plan that gives us access to the full archive of messages (or come up with a hack to preserve these on our own, like Matthew Lincoln’s solution discussed above). I heard more people who were neutral or against doing this, so we won’t do it. One cited reason was that ephemerality was freeing: people tend to use the Slack as a place for informal chat, memes, and gifs as well as scholarship, and knowing you’re on the record for whatever you say has a chilling effect on that use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Slack alternative?&lt;/strong&gt; Micki Kaufman suggested &lt;a href=&quot;https://github.com/mattermost&quot;&gt;Mattermost&lt;/a&gt; as a Slack alternative: Mattermost is open-source, not run by a for-profit company, self-hosted, and has a tool to import users from Slack. I think this is a really promising platform, and if we were back in October I’d probably have tried it first before Slack.&lt;/p&gt;
+
+&lt;p&gt;For a couple reasons, we’re not moving the DH Slack to Mattermost—but anyone is welcomed to set up their own Mattermost install on their servers and create a DH community. I’d happily advertise such as platform on the DH Slack! One reason we’re not moving right now is buy-in: people already use Slack for other teams (work, participating in project discussions like &lt;a href=&quot;https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform&quot;&gt;Documenting the Now’s awesome chatroom around social media archiving ethics&lt;/a&gt;) and can move between those and the DH Slack in the same app, instead of having an additional platform open. We’re at 700 members, so although the Mattermost user import tool sounds very useful, we’d need to secure permission and interest from our users to move to that platform, and when this possibility was raised, no one was interested in moving. Someone would also need to provide the web hosting and be willing to maintain and upgrade the installation longterm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DH scholarly organization oversight?&lt;/strong&gt; We originally approached a DH scholarly organization about sponsoring the DH Slack because doing so would let us use Slack’s free non-profit plan, which gives you access to a permanent archive of all your Slack’s messages (the free Slack plan we’re using now only gives you access to the last 10k messages, although it doesn’t delete the hidden messages—you can get access back by upgrading your plan). Just paying for a Slack plan (even with the education discount) is cost-prohibitive as cost is calculated by number of users.&lt;/p&gt;
+
+&lt;p&gt;We’ve decided to no longer seek sponsorship for the Slack non-profit plan, but we’re still discussing other ways the DH scholarly organization might sponsor or collaborate with the DH Slack. The way Slack forces one person with super admin privileges to “own” a Slack team is weird and undemocratic in our case, when this Slack exists and thrives because of all its members. I think it would still be worth considering a DH scholarly organization being involved just to help with moderation, and to prevent my using my admin privileges to replace all messages with Hamilton memes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hamiltonisawesome.jpg&quot; alt=&quot;Screenshot of Facebook post: &amp;quot;Washington: we are outgunned! outmanned! Hamilton: I have 3 friends if that helps&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, though, it isn’t good for one person to control something with so many members (even assuming my good intentions and trying to mitigate personal biases, I could e.g. be hit by a bus). DH scholarly organization involvement could just mean the organization would let members know about the Slack, but another option could be having a couple people from the organization (possibly from its communications committee) who would explicitly commit to helping with moderation/code of conduct issues if they arise. We might even switch the Slack “owner” to an account that several explicit moderators could use, instead of it just being my personal account, so the community can continue without resting on a single person.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contribute:&lt;/strong&gt; I’ve been trying to synthesize the discussions around these issues, and it’s very possible we’re missing some issues or that my biases are making me interpret people’s responses wrong. Please feel free to tell me so via &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#097;&amp;#118;&amp;#105;&amp;#115;&amp;#099;&amp;#111;&amp;#110;&amp;#116;&amp;#064;&amp;#112;&amp;#117;&amp;#114;&amp;#100;&amp;#117;&amp;#101;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;email&lt;/a&gt;—your name won’t be shared with anyone unless you want it to be. Or if you disagree or think of more reasons why we should reconsider these choices, please let me know! Finally, this isn’t a binding decision—we can definitely revisit these questions at any time in the future as issues arise or the Slack evolves.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jul 2016 00:00:00 -0400</pubDate>
+        <link>/2016/07/06/digital-humanities-slack</link>
+        <guid isPermaLink="true">/2016/07/06/digital-humanities-slack</guid>
+        
+        <category>digital-humanities</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Digital Humanities Dissertation Defense Talk</title>
-        <description>&lt;p&gt;I &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;made a few comments about the dissertation defense process in a previous blog post&lt;/a&gt;, and here I’ll blog the actual defense talk. I’m even resisting the urge to edit and improve (although I’ve learned a lot about slide design and public speaking in the past year…). So, this post is a good representation of the actual defense talk I gave on April 14, 2015. If you’ve seen me present on &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; in the past year, some pieces of this may be familiar…&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;A &lt;a href=&quot;http://digitalhumanitiesnow.org/2016/06/digital-humanities-dissertation-defense-talk/&quot;&gt;DH Now Editors’ Choice post&lt;/a&gt;! (See &lt;a href=&quot;http://literaturegeek.com/tag/dh-now/&quot;&gt;this page&lt;/a&gt; for more Literature Geek posts highlighted by DH Now.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;made a few comments about the dissertation defense process in a previous blog post&lt;/a&gt;, and here I’ll blog the actual defense talk. I’m even resisting the urge to edit and improve (although I’ve learned a lot about slide design and public speaking in the past year…). So, this post is a good representation of the actual defense talk I gave on April 14, 2015. If you’ve seen me present on &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; in the past year, some pieces of this may be familiar…&lt;/p&gt;
 
 &lt;p&gt;Note that I didn’t go back into the talk text and insert full citations, but anything I mention can be found in the bibliography of my dissertation whitepaper at &lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;dr.amandavisconti.com&lt;/a&gt;. &lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt; is also the &lt;strong&gt;actual dissertation&lt;/strong&gt;, if you’d like to learn more about the full project (it is not the website for the dissertation—it &lt;em&gt;is&lt;/em&gt; the dissertation!).&lt;/p&gt;
 
@@ -224,6 +304,8 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
         <category>dissertation</category>
         
         <category>advice</category>
+        
+        <category>dh-now</category>
         
         
       </item>
@@ -1488,180 +1570,6 @@ others interested in these goals to meet, exchange ideas, and plan future collab
         <category>digital-humanities</category>
         
         <category>advice-tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Service +/- collaboration for digital humanities in the library (a DH job talk)</title>
-        <description>&lt;p&gt;Here’s the job talk I gave in July 2015 for my present role as a digital humanities assistant professor (aka “Digital Humanities Specialist” aka librarian faculty) in the Purdue Libraries (&lt;a href=&quot;/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;link to the original job ad&lt;/a&gt;). I’m hoping this can help other job seekers, so I’ve only very lightly edited this (all cited sources are gathered in &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography&lt;/a&gt;). The requested presentation topic:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“&lt;strong&gt;Digital humanities and the research library:&lt;/strong&gt; opportunities and challenges for academic libraries and librarians. Draw upon your experience and knowledge as well as citing research literature in library/archival/information science, and/or disciplinary literature relating to digital humanities.” (Audience: Libraries staff and faculty)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A lot’s been said about DH +/- Libraries, by people who have had their head in that particular space longer than me (between my information master’s degree and now, my head was in DH from the angle of a literature PhD student and web developer). So instead of rehashing others’ thoughts, I put together &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;a Zotero bibliography of some of these recent discussions&lt;/a&gt; and pointed listeners wanting to know more to that link.&lt;/p&gt;
-
-&lt;p&gt;After working in four roles at MITH 2009-2015, consulting and events at various other DH centers, and different levels of involvement on roughly 40 DH projects, I have strong feelings about the kinds of DH relationships and infrastructures that do and don’t work out per situation. I was wary of the “Lone DHer” positions I’ve seen advertised at some institutions, tasking too much on one person; many places want one person to do it all without clear freedom and support to do very much (see the Library Loon’s &lt;a href=&quot;http://gavialib.com/2011/12/the-c-word/&quot;&gt;post on “coordinator syndrome”&lt;/a&gt;). Or they require a new DH hire to have a research background, but don’t continue to support that kind of person with contractual personal research time, a tenure or promotion track, or other ways of continuing research and professionalization inside a job.&lt;/p&gt;
-
-&lt;p&gt;It didn’t sound like Purdue Libraries wanted that (for one thing, it’s a tenure-track position without a teaching load), but if I was wrong I wanted to know up front. So: I made my job talk about why this new DH role needed to be about creating and growing collaborations, rather than a purely service role—and since Purdue Libraries was already in enthusiastic agreement with this model, I’m working here today! (For what it’s worth, the first comment after my talk was from our &lt;a href=&quot;http://www.ala.org/news/press-releases/2016/02/james-l-mullins-wins-2016-hugh-c-atkinson-memorial-award&quot;&gt;ALA-award-winning&lt;/a&gt; Dean of Libraries James Mullins, encouraging me to move even &lt;em&gt;more&lt;/em&gt; towards collaboration on the spectrum from service to collaboration I’d described—which was what I also thought best, but I hadn’t wanted to get my hopes up too high… so see my note in the talk adjusting my expectations for the role for an even better reality. Go Purdue Libraries!)&lt;/p&gt;
-
-&lt;p&gt;Here’s the talk:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.001.jpeg&quot; alt=&quot;PurdueJobTalkImages.001&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;service---collaboration-for-digital-humanities-in-the-library&quot;&gt;Service +/- collaboration for digital humanities in the library&lt;/h2&gt;
-
-&lt;p&gt;I wanted to start a discussion about DH in the library today, but: there are already many recent voices defining what the digital humanities (or DH) is, what a library does, and exactly how much DH and libraries overlap as academic fields. I didn’t want to rehash those debates, so I put together an online Zotero bibliography with bunch of pertinent readings, which you can access via &lt;a href=&quot;http://tinyurl.com/dhlibraries&quot;&gt;tinyurl.com/dhlibraries&lt;/a&gt;. You’ll also be able to find any work I cite in this talk there.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.002.jpeg&quot; alt=&quot;PurdueJobTalkImages.002&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pulling together over fifty works defining DH and libraries, and strategizing this combination, wasn’t difficult. It was harder to find &lt;em&gt;case studies&lt;/em&gt; of the specific, day-to-day &lt;em&gt;tactics&lt;/em&gt; of successful combinations of DH and libraries. So, in wanting to discuss the specific question of DH library &lt;em&gt;service&lt;/em&gt; today, I’ll try to give some specific examples, spoken and on screen, of the types of events, workflows, and services I’m envisioning. I’d like to focus on what both the strategy and the &lt;em&gt;tactics&lt;/em&gt; of a user-focused service ethic look like, when combined with 1) the digital humanities commitment to collaboration, and 2) recognizing scholarship in all areas of professional practice. I’ll be talking for around 15 minutes, after which we’ll have a lot of time for discussion. &lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.004.jpeg&quot; alt=&quot;PurdueJobTalkImages.004&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Purdue has the collections and staff expertise to support DH and digital scholarship, and is already doing so at an award-winning level (&lt;em&gt;worth a future blog post, but see e.g. &lt;a href=&quot;http://www.ala.org/news/press-releases/2015/01/2015-acrl-excellence-academic-libraries-award-winners-announced&quot;&gt;the Purdue Libraries winning a 2015 ACRL award&lt;/a&gt;, the History Department’s Dr. Kim Gallon’s &lt;a href=&quot;http://blackpressresearchcollective.org/&quot;&gt;DH research on the black press&lt;/a&gt; and &lt;a href=&quot;http://nehspaceandplaceblstinstitute.org/&quot;&gt;upcoming co-running of an NEH ODH Advanced Institute&lt;/a&gt;, and Purdue Libraries’ dedicated Libraries IT unit plus further units focusing on digital work like digitization and repository building&lt;/em&gt;). From my outsider’s view, what I see a DH Specialist providing here is a bridge, a translator, and an advocate: &lt;strong&gt;someone whose mission is specifically 100% focused on creating and strengthening relationships among library users and the thinking, projects, methods, and platforms of digital humanities and related work&lt;/strong&gt;. To better discuss what a DH Specialist could do in the Purdue Libraries, I’ll first highlight what I see as some key features of the digital humanities as a field.&lt;/p&gt;
-
-&lt;p&gt;The digital humanities uses digital tools and methods to research, teach, and learn in the humanities. Beyond this basic definition, though, many see DH as a community of relationships, where research is publicly discussed and debated from the beginning of a project onward, from Twitter conversations and public Google Hangouts, through “mid-state” review and requests for feedback on blog posts and early drafts of books, with those books eventually to be published both in print and in open-access digital versions as with volumes in the &lt;em&gt;Debates in DH&lt;/em&gt; series.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.006.jpeg&quot; alt=&quot;PurdueJobTalkImages.006&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With projects attracting peer feedback from diverse fields and professions, the digital humanities is necessarily interdisciplinary in content and method, and highly collaborative. This means that team authorship of scholarly work is more and more supported and encouraged. As you can see onscreen, unlike some non-DH humanities conferences, Scott Weingart’s analysis of recent ADHO Digital Humanities conferences suggests there’s no penalty—and possibly a benefit—to pursuing collaborative work over solo projects.&lt;/p&gt;
-
-&lt;p&gt;Public, community-authored statements, like the NEH-funded Collaborators’ Bill of Rights and the more recent UCLA Student Collaborators’ Bill of Rights, show DH practitioners striving to support every person involved in scholarly collaborative work through full and correct credit and attribution, regardless of academic rank or the kind of work someone contributed. Reading through the grant opportunities offered by the NEH’s Office of Digital Humanities also shows a preference to fund collaborative efforts that impact the wider scholarly community, pedagogy, and beyond.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.008.jpeg&quot; alt=&quot;PurdueJobTalkImages.008&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So, digital humanists care about and support collaboration and diverse collaborators. But lately, a number of respected DH scholars including Bethany Nowviskie, Trevor Munoz, and Miriam Posner have spoken against &lt;em&gt;DH in the library as a service&lt;/em&gt;, arguing that thriving, longterm, widely impactful projects can be hampered by an approach to service that looks like a kind of IT service shop. This is, of course, a delicate topic for many library DHers, because many  (including myself) use the word “service” to embody one of the things that we love most about the work we do: reaching, helping, and teaching others.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.009.jpeg&quot; alt=&quot;PurdueJobTalkImages.009&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Death by a bounty of Firebug-authored LibGuide tabs…)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Miriam Posner argues: “Many of the problems we have experienced ‘supporting’ digital humanities work, may stem from the fact that digital humanities projects in general do not need supporters — they need collaborators.” &lt;strong&gt;I’ve found that statements that appear to be “anti-support” or “anti-service” at first glance are, however, actually deeply pro-service—it’s a question of semantics.&lt;/strong&gt; The pushback against the word “service” is an attempt to parse the flow of faculty library-support needs, into on one hand—one-time support that can already be well met by campus academic IT units—and on the other hand, research that calls for deeper applied scholarly expertise and commitment to developing interpersonal scholarly relationships over the longterm.&lt;/p&gt;
-
-&lt;p&gt;Digital humanities methods and output are so bound up in each other, that most DH involvement requires some scholarly interest and commitment regardless of whether you’re outlining a research question or building a database for a DH project. The “digital humanities” as a field &lt;strong&gt;isn’t&lt;/strong&gt; so much the &lt;em&gt;digitized&lt;/em&gt; humanities—things like putting up a simple website about your print book—so much as it &lt;strong&gt;is&lt;/strong&gt; rather often defined by the inclusion of and critical thought about scholarly digital methods and tools in your project.&lt;/p&gt;
-
-&lt;p&gt;Digital humanities is inherently meta, with an interest in thinking critically &lt;em&gt;about the tools used&lt;/em&gt; being part of the interest in the question itself. Digital humanists often interrogate not just the topic of their research, but also the methods and forms used to reach their scholarly conclusions; we think about the subjectivity and inherent bias of the digital tools and coding languages we apply to a research problem. (&lt;em&gt;Addition: I now focus my DH definition on several perceived+ideal community values, including foremost the making &amp;amp; sharing of new knowledge, whether that looks like a journal article, publicly documenting the best scanner calibrations to capture certain historical book materials, or sharing about a new way of incorporating making/thinking about the digital in the classroom. More in a future post, but this has helped set expectations for my role and separate my work from related ideas like digitization and digital pedagogy (which are DH, but aren’t the goal of my position, or daily services offered by my role).&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.011.jpeg&quot; alt=&quot;PurdueJobTalkImages.011&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I absolutely believe longtime library core values like our user-focused service ethic should and do hold true in library DH, although sometimes the tactics with which we realize these values may radically change to fit current user needs.&lt;/p&gt;
-
-&lt;p&gt;So here are two scenarios—both showing a good library service ethic, but with only the latter showing a service ethic that recognizes how digital humanities projects can best come into being, thrive, and give back to users on campus and beyond:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In scenario A&lt;/strong&gt;, an English professor drops a print book off at the library…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.012.jpeg&quot; alt=&quot;PurdueJobTalkImages.012&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;…and gets a digital file containing the OCR’d text back promptly via email. End of interaction.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In Scenario B&lt;/strong&gt;, an English professor drops off a print book they want digitized to &lt;strong&gt;the DH Specialist&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.013.jpeg&quot; alt=&quot;PurdueJobTalkImages.013&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The DH Specialist asks questions like: why do they want the book digitized? Perhaps the faculty member wants to get a word count for how many times the word “Modernism” is mentioned in the book, and where.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.014.jpeg&quot; alt=&quot;PurdueJobTalkImages.014&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The DH Specialist can then format and clean the file appropriately for how it will be used, and return it to the professor. (&lt;em&gt;Actually, this isn’t what happens: I don’t offer digitization or data curation services, and I don’t do one-off work like this that doesn’t forward the mission of the Libraries. See note below…&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.015.jpeg&quot; alt=&quot;PurdueJobTalkImages.015&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And… the DH Specialist can also suggest more powerful tools, than a simple word cloud, for looking at word frequency and placement. The DH Specialist may demonstrate how related tactics like topic modeling, could open further research. The professor, in turn, might describe how existing tools don’t quite fit her data or research question, and the DH Specialist might be able to code a patch or plugin, to make the tool better support the professor’s work and future work like it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.016.jpeg&quot; alt=&quot;PurdueJobTalkImages.016&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Specialist might then mentor the professor in learning topic modeling, if the professor desires, &lt;em&gt;or&lt;/em&gt; the Specialist might do some topic modeling, &lt;em&gt;for&lt;/em&gt; the professor, while helping the professor to a good general understanding of the process involved, so that the professor can understand and build on the resulting models.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.017.jpeg&quot; alt=&quot;PurdueJobTalkImages.017&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Maybe the professor and the DH Specialist later co-teach a class, combining literary theory and hands-on work, with the students learning to use digital tools as part of literary research.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.018.jpeg&quot; alt=&quot;PurdueJobTalkImages.018&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And then maybe this course results in undergrads or grad students, interested in DH, &lt;em&gt;and&lt;/em&gt; with the tech skill training to help out that professor in future research—a new or related project.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.019.jpeg&quot; alt=&quot;PurdueJobTalkImages.019&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Or, some of the students might get interested enough to attend further DH training workshops, and eventually consult with the DH Specialist toward designing a digital dissertation their department recognizes as appropriate scholarship. In this second scenario, there’s a cascade of collaboration, a back-and-forth of mutual learning and scholarship that creates a foundation for future projects and teaching opportunities.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Not in my job talk, but some info about how I’m shaping the job:&lt;/strong&gt; Since I began working at Purdue in August, &lt;u&gt;I realized this second scenario is flawed&lt;/u&gt;—instead of taking the book and processing it, I’d direct the individual to possible resources on and off campus for accomplishing their goal, and then hold a consultation session looking for possible collaboration opportunities as well as needs a future DH center could help support. &lt;strong&gt;I can’t better the DH community on campus by doing one-on-one service work, or using all my time to support and reach just a few faculty members&lt;/strong&gt;: instead, I’m balancing two types of activity:&lt;/p&gt;
-
-  &lt;p&gt;1) Being available with an open ear for DH consultations for anyone in our campus community (and actively working so not just faculty but adjuncts, students, and staff know I’m available for their needs). Consultations include emailed followups with links to tutorials, readings, etc. and may turn into future collaborations with me (e.g. co-PI’ing grant projects, developing an academic certificate program) as well as additions to a public directory of available DH collaborators on campus.&lt;/p&gt;
-
-  &lt;p&gt;2) Devoting the bulk of my time to building a campus infrastructure to bring together existing and future DH: growing the diverse skills that will let DH widely improve campus research and learning, creating a community of experts who can train one another, and extending both institutional memory and future momentum for DH on campus (with DH consultations helping me survey needs and research toward a future DH space)&lt;/p&gt;
-
-  &lt;p&gt;&lt;em&gt;Back to the job talk!&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.020.jpeg&quot; alt=&quot;PurdueJobTalkImages.020&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The careful attitude around the word “service” we sometimes see in the digital humanities springs mostly from economy: given the time the DH Specialist has in a week, matching up the support someone on campus needs to the right service provider can help balance a DH Specialist’s time so that the number of people on campus supported—and supported well—is maximized.&lt;/p&gt;
-
-&lt;p&gt;Library DHers encourage interaction and collaboration as an investment in people. Bethany Nowviskie challenges a service model she describes as “librarians striving to not distract the researcher from his or her work”. &lt;strong&gt;Nowviskie argues that we need to spend as much effort building up relationships among people on campus, as among tools and platforms—surfacing and explaining tacit library knowledges, rather than effacing them.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.021.jpeg&quot; alt=&quot;PurdueJobTalkImages.021&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve worked since 2009 in various roles at a thriving, library-based DH center, the &lt;a href=&quot;http://mith.umd.edu&quot;&gt;Maryland Institute of Technology in the Humanities&lt;/a&gt;, (or “MITH”), on a wide variety of projects (logos for some of these projects are on the screen). I’ve had the chance to experience a spectrum of approaches to DH service in the library, from sometimes more service-style DH website and tool creation, moving over the years to largely focus on collaboration and growing campus relationships.&lt;/p&gt;
-
-&lt;p&gt;MITH in particular has honed their model for faculty fellowships so that faculty are highly engaged in the digital pieces of their projects. These engaged faculty were keen to gain some agency in the DH process by having at least a high-level overview of the tech involved, or sometimes learning a coding language; they then became ambassadors for the digital humanities back in their own departments. MITH moved from emphasizing projects to emphasizing collaborations: by nurturing members of the campus digital humanities community, good projects and research followed, and the net worth to the campus community was maximized. One testament to the success of this trend at MITH is that they recently received a 1.5 million dollar Mellon grant to pursue &lt;em&gt;specifically&lt;/em&gt; collaborative DH &amp;amp; African-American Studies work, &lt;em&gt;specifically&lt;/em&gt; incorporating research from multiple academic departments, students, faculty, staff, and post-docs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.023.jpeg&quot; alt=&quot;PurdueJobTalkImages.023&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;MITH has even improved on their successful model of more engaged fellowships through a series of &lt;a href=&quot;http://mith.umd.edu/research/digital-humanities-incubator-2012-13/&quot;&gt;“DH Incubator” workshops&lt;/a&gt; led by Trevor Munoz and Jennifer Guiliano. These workshops took place throughout a term and were open to any library faculty curious about DH (workshops for other types of researcher, such as last year’s workshops on research with social media, drew attendees from across campus including non-humanities departments). In the first of these incubator workshops, librarians learn foundational DH concepts and approaches, and at the end of the term, those who want to go on and try a DH project, pitch one in front of the group. MITH then picked among these pitches when choosing who to support for its next round of library faculty fellowships.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.024.jpeg&quot; alt=&quot;PurdueJobTalkImages.024&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This incubator model serves a couple purposes: librarians across the library become ambassadors for DH, and gain some new tools for their scholarship. Also, the DH center takes on some new projects, from library staff who are already daily saturated in the collection they’re hoping to digitally work with. 
-These workshops are team-taught and very hands-on, so the workshops &lt;em&gt;themselves&lt;/em&gt;, model how to be the kind of collaborator, who’s a valued member of a DH project team. This incubator model could work well for faculty outside the library too. A DH incubator for &lt;em&gt;students&lt;/em&gt;, could teach the skills of working in a small and interdisciplinary team, that humanities students often don’t get much of a chance to build.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.026.jpeg&quot; alt=&quot;PurdueJobTalkImages.026&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;DH &lt;em&gt;collaborations as service&lt;/em&gt; aren’t moving away from the Libraries’ user focus, but rather opening the door for longer and better scholarly relationships, among librarian and students, faculty, and staff. Collaboration lets us serve the campus more widely by offering different levels of collaborative service, from informal consultations through full, grant-funded project collaboration.&lt;/p&gt;
-
-&lt;p&gt;So, what does this collaboration-as-service look like on the day-to-day level? The DH Specialist can provide consultations modeled on library reference interviews, where instead of helping the researcher answer a question, the Specialist gives them the tools and map to not only answer their own question efficiently, but to go on to pursue related research.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.027.jpeg&quot; alt=&quot;PurdueJobTalkImages.027&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(&lt;em&gt;Image from DC Comics PSA by Jack Schiff, in&lt;/em&gt; Superman &lt;em&gt;#197&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;A DH Specialist would place someone in the library who’s 100% focused on holding an up-to-date overview of the latest DH tools, debates, projects, and challenges. But the DH Specialist can also connect faculty and students to existing Libraries expertise, such as the GIS Specialist’s.&lt;/p&gt;
-
-&lt;p&gt;In this situation, I see at least two key benefits added by placing a DH Specialist into the workflow. First, the DH Specialist acts as a proactive ambassador for the digital humanities, making sure people outside the Libraries know about campus support for digital scholarship, that projects like DH ones exist, and that this “GIS” thing is in fact related to their interest in locations and space. Even at UMD, where a strong DH center has existed in the library since 1999, maintaining a campus that knows that resources and mentors and projects and tools exist, for this kind of work, is a difficult and ongoing task.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.028.jpeg&quot; alt=&quot;PurdueJobTalkImages.028&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Second, the DH Specialist acts as a &lt;em&gt;translator&lt;/em&gt; for humanists, helping a professor with a mapping-related query define the questions they should bring the GIS specialist, locate an appropriate and friendly dataset, and refine the scope of the prospective project. After the professor works with the GIS Specialist, the professor might return to the DH Specialist for help building a platform to publish drafts of their work for public feedback, or for help with other theoretical or practical aspects of the whole digital humanities project. By having an ambassador and translator for the digital humanities, the library can draw and support a larger number and scale of scholarly projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/PurdueJobTalkImages/PurdueJobTalkImages.029.jpeg&quot; alt=&quot;PurdueJobTalkImages.029&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I don’t think I can overemphasize that everything I’ve just said is just the approaches with which I’d &lt;em&gt;begin&lt;/em&gt; a DH Specialist position. I strongly believe that libraries and the digital humanities per campus have their own flavors, needs, and values. My first step on the job would be intense listening and dialogue with existing campus constituents. This includes practical concerns:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;what skills are hard to learn on campus currently?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;are there DH-related service requests that couldn’t be met in the near past?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;how can we help students imagine the careers, DH skills and project experience open to them?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Listening also means becoming more familiar with existing campus DH projects and colleagues (such as the Research Data Unit and Scholarly Publishing team), and seeing where and how I can best help out. With this caveat of needing to listen, in mind, I believe a service ethic that values planting and tending the seeds for longterm, collaborative commitments—to people as well as projects—offers a trusty route to a significant digital humanities presence at Purdue. Thank you!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Feb 2016 00:00:00 -0500</pubDate>
-        <link>/2016/02/28/DHjobtalk</link>
-        <guid isPermaLink="true">/2016/02/28/DHjobtalk</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>best</category>
-        
-        <category>advice-tutorial</category>
-        
-        <category>grad-advice</category>
         
         
       </item>
