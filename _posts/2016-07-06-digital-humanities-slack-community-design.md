@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Digital Humanities Slack
-permalink: 2016/07/06/digital-humanities-slack
+title: The Digital Humanities Slack & Community Design
+permalink: 2016/07/06/digital-humanities-slack-community-design
 tags: [digital-humanities]
 status: publish
 type: post
