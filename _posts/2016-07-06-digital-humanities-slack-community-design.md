@@ -43,7 +43,7 @@ Channels (chat rooms) are Slack user-created, and the names of channels are repr
 
 Slack is a comparatively new platform (vs. Twitter), so DHers are still figuring out how it can be useful and how to best run the DH Slack. Anyone can join the DH Slack ([tinyurl.com/DHslack](http://tinyurl.com/DHslack)) and then visit the #meta channel to participate in decisions about our community design. 
 
-Thank you to everyone who shared thoughts on improving the DH Slack on the Slack, via email, or on Twitter, including DH Slack members Sam Abrams, Kristen Mapes, Matthew Lincoln, Ed Summers, Alan G. Pike, Liz Lorang, Hyperverses, timfinnegan, Jeremy Throne, Brandon Locke, Lincoln Mullen, Brian Croxall, and Micah Vandegrift, and others via Twitter and email.
+Thank you to everyone who shared thoughts on improving the DH Slack on the Slack, via email, or on Twitter, including DH Slack members Sam Abrams, Kristen Mapes, Matthew Lincoln, Ed Summers, Alan G. Pike, Liz Lorang, Hyperverses, timfinnegan, Jeremy Throne, Brandon Locke, Lincoln Mullen, Brian Croxall, Jeff Godin, and Micah Vandegrift, and others via Twitter and email.
 
 **tl;dr**: *After community discussion, we're keeping the DH Slack as ephemeral (no longterm archive of all messages) and not allowing people who aren't signed into the Slack to read it. I'd be happy to chat with and amplify the platform of anyone who wants to make a DH Slack alternative that does either/both of these things, and I agree that it would be nice to have a place where Twitter conversations could be comfortably and publicly expanded (e.g. [Hypothes.is](http://Hypothes.is ) annotation?)—it's just that the place to do that right now isn't the DH Slack.*
 
