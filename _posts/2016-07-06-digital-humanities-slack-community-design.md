@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-Come join the Digital Humanities Slack, a set of DHy chatrooms! (Visit [tinyurl.com/DHslack](tinyurl.com/DHslack) to join.) **We are open to anyone** with a curiosity about DH and/or related interests (e.g. digital libraries, museums, and archives). Absolutely no expertise needed, and we have several specific chat rooms (called "channels" on Slack) devoted to DH beginners, students, job seekers, and asking all kinds of DHy and digital methods questions. ([Here's a good overview of what Slack is/how to use it](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users). I'm happy to answer questions about how to use Slack or what it is via [Twitter](http://www.twitter.com/literature_geek) or [email](mailto:aviscont@purdue.edu), too.)
+Come join the Digital Humanities Slack, a set of DHy chatrooms! (Visit [tinyurl.com/DHslack](http://tinyurl.com/DHslack) to join.) **We are open to anyone** with a curiosity about DH and/or related interests (e.g. digital libraries, museums, and archives). Absolutely no expertise needed, and we have several specific chat rooms (called "channels" on Slack) devoted to DH beginners, students, job seekers, and asking all kinds of DHy and digital methods questions. ([Here's a good overview of what Slack is/how to use it](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users). I'm happy to answer questions about how to use Slack or what it is via [Twitter](http://www.twitter.com/literature_geek) or [email](mailto:aviscont@purdue.edu), too.)
 
 ## DH Slack stats
 
@@ -39,7 +39,7 @@ Channels (chat rooms) are Slack user-created, and the names of channels are repr
 
 ## Community design decisions
 
-Slack is a comparatively new platform (vs. Twitter), so DHers are still figuring out how it can be useful and how to best run the DH Slack. Anyone can join the DH Slack ([tinyurl.com/DHslack](tinyurl.com/DHslack)) and then visit the #meta channel to participate in decisions about our community design. 
+Slack is a comparatively new platform (vs. Twitter), so DHers are still figuring out how it can be useful and how to best run the DH Slack. Anyone can join the DH Slack ([tinyurl.com/DHslack](http://tinyurl.com/DHslack)) and then visit the #meta channel to participate in decisions about our community design. 
 
 Thank you to everyone who shared thoughts on improving the DH Slack on the Slack, via email, or on Twitter, including DH Slack members Sam Abrams, Kristen Mapes, Matthew Lincoln, Ed Summers, Alan G. Pike, Liz Lorang, Hyperverses, timfinnegan, Jeremy Throne, Brandon Locke, Lincoln Mullen, Brian Croxall, and Micah Vandegrift, and others via Twitter and email.
 
