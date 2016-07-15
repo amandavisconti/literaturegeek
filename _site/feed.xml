@@ -5,9 +5,34 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jul 2016 10:46:42 -0400</pubDate>
-    <lastBuildDate>Wed, 13 Jul 2016 10:46:42 -0400</lastBuildDate>
+    <pubDate>Fri, 15 Jul 2016 14:39:11 -0400</pubDate>
+    <lastBuildDate>Fri, 15 Jul 2016 14:39:11 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Infinite Ulysses in the New York Times and other recent DH activity</title>
+        <description>&lt;p&gt;Lots of DH stuff cooking lately:&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; project was mentioned and linked in the &lt;em&gt;The New York Times&lt;/em&gt;! The piece, by J.D. Biersdorfer, &lt;a href=&quot;http://www.nytimes.com/2016/07/17/books/review/cant-get-through-ulysses-digital-help-is-on-the-way.html&quot;&gt;appeared online July 13, 2016 as “Can’t Get Through ‘Ulysses’? Digital Help Is on the Way”&lt;/a&gt; and in print on Sunday, July 17, 2016 in the “Sunday Book Review” section of the paper under the headline “Virtual Odyssey”.&lt;/p&gt;
+
+&lt;p&gt;I joined &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; editorial team as an editor and also ombudsperson. &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; is an online, peer-reviewed, novice-friendly platform for humanities scholars wishing to learn digital methods and tools. (You might remember I published a lesson, “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;”, with &lt;em&gt;PH&lt;/em&gt; earlier this year.)&lt;/p&gt;
+
+&lt;p&gt;I’ll be presenting to the &lt;a href=&quot;https://www.diglib.org/&quot;&gt;Digital Library Federation&lt;/a&gt; (DLF) &lt;a href=&quot;https://www.diglib.org/groups/e-research-network/&quot;&gt;eResearch Network&lt;/a&gt; as their DH speaker in a six-talk series on digital library research and data management practice, on July 20th. I’ll cover what digital humanities is, why it can be good for you and your institution, and how to get started in DH. The slides and talk video should go online shortly after.&lt;/p&gt;
+
+&lt;p&gt;The DH 2016 conference just finished up (check out &lt;a href=&quot;http://hawksey.info/tagsexplorer/arc.html?key=1zlUFubccXY7Pekfs0bXgxzIbNalJPGvU_SJIlmLTI50&amp;amp;gid=400689247&quot;&gt;the #DHdiversity tweets&lt;/a&gt; especially), so incoming new ACH executive officers Scott Weingart, Micki Kaufman, and me have begun our 2016-2020 terms, along with Jen Guiliano as the new ACH president 2016-2018 and Matt Gold as the new vice-president 2016-2018 and 2018-2020.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/NYTimesUlysses.png&quot; alt=&quot;Screenshot of digital Ulysses article on New York Times online front page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/NYTimesUlysses2.png&quot; alt=&quot;Screenshot of digital Ulysses article in New York Times mentioning and linking to Infinite Ulysses&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 -0400</pubDate>
+        <link>/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</link>
+        <guid isPermaLink="true">/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</guid>
+        
+        <category>digital-humanities</category>
+        
+        
+      </item>
     
       <item>
         <title>How the Digital Humanities uses Slack to support and build a geographically dispersed intellectual community</title>
@@ -1470,110 +1495,6 @@ others interested in these goals to meet, exchange ideas, and plan future collab
         <guid isPermaLink="true">/2016/03/24/making-it-public-knight-foundation-news-challenge</guid>
         
         <category>digital-humanities</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Better tech via annotation (using Hypothesis to improve your technical documentation, code, and tutorials)</title>
-        <description>&lt;p&gt;&lt;em&gt;This piece originally appeared as &lt;a href=&quot;https://hypothes.is/blog/better-tech-via-annotation/&quot;&gt;a guest post on the Hypothes.is blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Hypothesis makes inline annotation on any web resource possible: a visually small change from comment sections at the end of resources, but a change with a big impact. Whatever your relationship to tech, we’ve all been here: you’re reading through some technical resource (code, documentation, or tutorial) and something doesn’t work the way the page says it should. Maybe you want to add details or a better example; maybe you run into an error message or have a questions specific to your circumstances. Maybe you just want to let the author know “you lost me here”.&lt;/p&gt;
-
-&lt;p&gt;For tech resources where understanding succeeds or fails line-by-line instead of by paragraph or section, inline annotation—the ability to highlight specific text and discuss it right next to where it occurs—is a vast improvement. Even those resources with comment sections at the bottom have problems specific to that positioning, like low-quality comments stemming from commentators not responding to any actual statement on the page, or having trouble identifying where a tutorial lost them. In this post, I’ll cover how a community used Hypothesis to improve a technical resource: how we got our users involved, the types of annotations we observed, and how we’re working to automate the workflow from a new annotation to an improved tech resource.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-community-annotates&quot;&gt;A community annotates&lt;/h2&gt;
-
-&lt;p&gt;I’m a member of the digital humanities (DH) community—we’re builders, users, teachers, and thinkers around innovative digital tools for literature, history, and other cultural heritage fields (stuff like &lt;a href=&quot;http://scholarslab.org/uncategorized/preserving-reconstructing-teaching-in-3d/&quot;&gt;3D printing for archaeology&lt;/a&gt;, &lt;a href=&quot;http://viraltexts.org/&quot;&gt;text analysis of historical memes in newspapers&lt;/a&gt;, and &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;interfaces that let readers interpret and discuss challenging novels&lt;/a&gt;). During the first two weeks in February, &lt;a href=&quot;http://electricarchaeology.ca/about/&quot;&gt;Shawn Graham&lt;/a&gt; and I used the &lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates&lt;/a&gt; tag to encourage DHers to switch from passively reading tech resources to actively annotating them via Hypothesis. We focused on one resource: the amazing &lt;a href=&quot;http://programminghistorian.org/&quot;&gt;Programming Historian site&lt;/a&gt;, where novice-friendly lessons on DH tech skills like the following are &lt;a href=&quot;http://programminghistorian.org/project-team&quot;&gt;authored, edited, and peer-reviewed by community volunteers&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions&quot;&gt;Cleaning OCR’d [scanned and digitized] text with regular expressions&lt;/a&gt;, by Laura Turner O’Hara&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/topic-modeling-and-mallet&quot;&gt;Getting started with topic modeling and MALLET&lt;/a&gt;, by Shawn Graham, Scott Weingart, and Ian Milligan&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources&quot;&gt;Visualizing historical networks&lt;/a&gt;, by Marten Düring&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/corpus-analysis-with-antconc&quot;&gt;Corpus analysis with Antconc&lt;/a&gt;, by Heather Froehlich&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(Links to all Hypothesis-augmented versions of all the Programming Historian tutorials &lt;a href=&quot;https://gist.github.com/amandavisconti/89edd34f998c35705409&quot;&gt;can be perused here&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;p&gt;Maybe you’d like developers to leave comments as they work through your documentation or code. Or maybe you want to support a wider user community. Questions during a tutorial? Ideas for improvements? Get stuck? Want to thank the tutorial’s writers and editors? Users can use Hypothesis annotation to add their thoughts and discuss a resource right in its margins.&lt;/p&gt;
-
-&lt;h2 id=&quot;invite-your-users-to-interact-with-your-code-documentation-or-tutorials&quot;&gt;Invite your users to interact with your code, documentation, or tutorials&lt;/h2&gt;
-
-&lt;p&gt;Want to see the kinds of questions and suggestions for improvement Hypothesis enables your users to share? Our &lt;a href=&quot;http://literaturegeek.com/2016/02/02/DHannotates&quot;&gt;#DHannotates&lt;/a&gt; event drew annotations on tech tutorials such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVKjiwTOvTW_3w8LyrtI&quot;&gt;Short tips to avoid problems later in the tutorial&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hypothes.is/a/AVLRKEnQvTW_3w8Ly4k7&quot;&gt;Further examples of how you can customize a command&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVKjrSUbvTW_3w8Lyryw&quot;&gt;On tutorials written from a Mac/Linux perspective, notes on what Windows users should do differently&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://hypothes.is/a/AVLH3b1vvTW_3w8Ly17O&quot;&gt;Aggregated reports of error messages encountered while following a tutorial&lt;/a&gt; (the more annotations from stymied users, the more an issue might be broadly affecting your community)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hypothes.is/a/AVK7W2hnvTW_3w8Lyx3i&quot;&gt;Request for definitions for abbreviations used in the tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182#issuecomment-183466725&quot;&gt;see a full list here&lt;/a&gt; of the types of feedback &lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates&lt;/a&gt; garnered on &lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;the Programming Historian tutorials&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-i-get-my-user-community-interested&quot;&gt;How do I get my user community interested?&lt;/h2&gt;
-
-&lt;p&gt;To stir up interest, we invited users of a specific resource (&lt;a href=&quot;http://programminghistorian.org/lessons/&quot;&gt;Programming Historian&lt;/a&gt;) from a specific user community (digital humanities) using Twitter (&lt;a href=&quot;https://twitter.com/hashtag/dhannotates&quot;&gt;#DHannotates hashtag&lt;/a&gt;) and the &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;Digital Humanities Slack&lt;/a&gt;. Two tips:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;Keep the initial focus of your encouragement narrowed to a specific webpage or set of related resources.&lt;/em&gt; We’d love the DH community to annotate all our tech resources, but we decided to start with focus on just one website to keep involvement simple.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Encourage people to try annotations &lt;strong&gt;today&lt;/strong&gt; by making it clear their thoughts will be read and responded to during the event.&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Why? Users may be more excited to immediately try out a specific experience:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Come learn markdown basics from &lt;a href=&quot;https://via.hypothes.is/http://programminghistorian.org/lessons/getting-started-with-markdown&quot;&gt;this tutorial&lt;/a&gt;! And we’ll answer any issues you run into if you annotate the lesson this week.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;then to remember there’s a new annotation tool to use, the next time they’re using your documentation or lessons and run into something they wish they could discuss. Tying annotation into involvement is a great way to attract and include new users in your tech resource’s community, too—annotation is a form of contributing that even those with little experience in your programming language can do.&lt;/p&gt;
-
-&lt;p&gt;Hypothesis makes getting started annotating easy. The instructions we shared were simple enough to fit in a tweet or two:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hypothes.is/register&quot;&gt;&lt;em&gt;Create a Hypothesis account.&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Prefix the URL of the webpage you want to annotate with https://via.hypothes.is/.&lt;/em&gt; That is, cut and paste that in front of the link to the page you want to annotate.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Annotate!&lt;/em&gt; It’s very intuitive: highlight the text you want to talk about using your mouse cursor, and then type in your comment or question. See &lt;a href=&quot;https://hypothes.is/quick-start-guide-for-students/&quot;&gt;Hypothesis’ tutorial for student annotators&lt;/a&gt; for specific steps and pictures that show you everything you can do with annotation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We also published blog posts on the project for those who wanted &lt;a href=&quot;http://literaturegeek.com/2016/02/02/DHannotates&quot;&gt;more information&lt;/a&gt; or were interested from the standpoint of &lt;a href=&quot;http://electricarchaeology.ca/2016/02/02/can-we-fix-it-yes-we-can/&quot;&gt;a teacher seeking to support student tech learning in the classroom&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-someone-annotates-does-anyone-else-know&quot;&gt;If someone annotates, does anyone else know?&lt;/h2&gt;
-
-&lt;p&gt;For #DHannotates, we encouraged annotation adoption by promising to answer questions during the weeks of the event—or if we couldn’t answer a question, we’d at least make sure the issue was recorded where a future volunteer could address it. Tactics for this included creating an issue in the Programming Historian GitHub repo, and trying to find people who can answer questions via Twitter and the &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;Digital Humanities Slack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The inline highlighting made this much simpler than responding to a comments section at the end of each lesson. By focusing on a set of specific experiences (e.g. “Now’s the time to learn basic regular expressions and get feedback on any questions as you learn”), potential annotators were encouraged to make the step over the threshold into annotation as a habit, creating a Hypothesis user account and starting to read a new tech lesson.&lt;/p&gt;
-
-&lt;p&gt;A great thing about Hypothesis annotations is that annotations are helpful as-is. In cases such as users providing very specific use cases, further information for the curious, or thanks to the authors of a tutorial, some annotations can simply live in the Hypothesis sidebar. For other annotations that suggest a needed change, like reports of error messages or the need to update a tutorial for the latest version of Python, you may want to go further…&lt;/p&gt;
-
-&lt;h2 id=&quot;automate-annotations--improvements&quot;&gt;Automate annotations =&amp;gt; improvements&lt;/h2&gt;
-
-&lt;p&gt;Once you start getting annotations on your documentation or tutorials, you’ll want a workflow to capture and build on this community input. While there isn’t yet an &lt;a href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; or &lt;a href=&quot;https://zapier.com/&quot;&gt;Zapier&lt;/a&gt; Hypothesis channel, you can easily automate managing annotations using a feed. Hypothesis lets you follow RSS or Atom feeds of your annotations in two ways (just switch out the .rss for .atom if using the latter):&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A stream of all annotations with a given tag (https://hypothes.is/stream.rss?tags=DHannotates)&lt;/li&gt;
-  &lt;li&gt;A stream per annotated URL (e.g. https://hypothes.is/stream.rss?uri=http://programminghistorian.org/lessons/intro-to-the-zotero-api)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can follow the latest annotations through your RSS reader, use a Slack RSS integration to post new annotations to a dedicated Slack channel, or create an issue for each new annotation in your GitHub issue queue to make sure the annotation gets looked at. If you’re concerned about cluttering your issues queue, check out the discussion of tactics among the Programming Historian and #DHannotates group happening on &lt;a href=&quot;https://github.com/programminghistorian/jekyll/issues/182&quot;&gt;this GitHub issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Interested in trying Hypothesis with your own tech resource? Ideas, questions, and suggestions related to using Hypothesis to improve tech resources can be shared using the Hypothesis (&lt;a href=&quot;https://groups.google.com/forum/#!forum/hypothesis-forum&quot;&gt;general product&lt;/a&gt; and &lt;a href=&quot;https://groups.google.com/forum/#!forum/hypothesis-users&quot;&gt;users forums&lt;/a&gt;), or by &lt;a href=&quot;https://github.com/hypothesis/h/issues&quot;&gt;adding a GitHub issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This guest post was written by &lt;a href=&quot;http://www.amandavisconti.com&quot;&gt;Dr. Amanda Visconti&lt;/a&gt;, a UX designer/developer &amp;amp; digital humanities assistant professor at Purdue University Libraries. You can follow her &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@Literature_Geek&lt;/a&gt; or read her posts on digital humanities web development and other DH experimentation at &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Mar 2016 00:00:00 -0400</pubDate>
-        <link>/2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials</link>
-        <guid isPermaLink="true">/2016/03/22/better-tech-via-annotation-hypothesis-documentation-code-tutorials</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
         
         
       </item>
