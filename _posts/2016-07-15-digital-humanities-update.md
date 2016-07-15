@@ -16,7 +16,7 @@ I joined *[The Programming Historian](http://programminghistorian.org/)* editori
 
 I'll be presenting to the [Digital Library Federation](https://www.diglib.org/) (DLF) [eResearch Network](https://www.diglib.org/groups/e-research-network/) as their DH speaker in a six-talk series on digital library research and data management practice, on July 20th. I'll cover what digital humanities is, why it can be good for you and your institution, and how to get started in DH. The slides and talk video should go online shortly after.
 
-The DH 2016 conference just finished up (check out [the #DHdiversity tweets](http://hawksey.info/tagsexplorer/arc.html?key=1zlUFubccXY7Pekfs0bXgxzIbNalJPGvU_SJIlmLTI50&gid=400689247) especially), so incoming new ACH executive officers Scott Weingart, Micki Kaufman, and me have begun our 2016-2020 terms, along with Jen Guiliano as the new ACH president 2016-2018 and Matt Gold as the new vice-president 2016-2018 and 2018-2020.
+The DH 2016 conference just finished up (check out [the #DHdiversity tweets](http://hawksey.info/tagsexplorer/arc.html?key=1zlUFubccXY7Pekfs0bXgxzIbNalJPGvU_SJIlmLTI50&gid=400689247) especially), so incoming new ACH executive officers Scott Weingart, Micki Kaufman, and I have begun our 2016-2020 terms, along with Jen Guiliano as the new ACH president 2016-2018 and Matt Gold as the new vice-president 2016-2018 and 2018-2020.
 
 ![Screenshot of digital Ulysses article on New York Times online front page]({{ site.baseurl }}/assets/NYTimesUlysses.png)
 
