@@ -94,7 +94,7 @@ There’s a basic level of creating “access” to information, where someone�
 
 But, the website is hard to use if you’re not used to working with research data collections every day—that is, if you’re not a researcher. And it doesn’t have tools or other design aimed explicitly at helping students and the public see why these photos are interesting and relevant to them. What the LOC staff have done (especially despite their past [problematic management](https://www.washingtonpost.com/entertainment/museums/americas-national-library-is-behind-the-digital-curve-a-new-report-finds/2015/03/31/fad54c3a-d3fd-11e4-a62f-ee745911a4ff_story.html) and with limited resources) is truly amazing scholarship, so I want to emphasize that this is awesome work, and I believe we need projects aimed just at researchers just like this project is—it’s just that I want researchers to be making more things that are aimed at people besides ourselves, also.
 
-(*Below is a 50-second clip I made ochecking out the [Photogrammar project](http://photogrammar.yale.edu/)… although since this is a blog post rather than a live presentation, I highly encourage [just playing around with Photogrammar yourself](http://photogrammar.yale.edu/)! It's extremely intuitive and impressive.*)
+(*Below is a 50-second clip I made checking out the [Photogrammar project](http://photogrammar.yale.edu/)… although since this is a blog post rather than a live presentation, I highly encourage [just playing around with Photogrammar yourself](http://photogrammar.yale.edu/)! It's extremely intuitive and impressive.*)
 
 <iframe src="https://player.vimeo.com/video/175695252?title=0&byline=0&portrait=0" width="600" height="434" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -236,7 +236,7 @@ Other places to scope DH and related digital library jobs include:
 * [HASTAC jobs and fellowships](https://www.hastac.org/events-opportunities/jobs-and-fellowships)
 * [Digital Library Federation job postings](https://www.diglib.org/contact/jobs/)
 
-If you start to see a lot of projects that fit your interest coming from one DH center or department, it can’t hurt to follow their website's RSS feed to hear about new job openings. And when you apply, remember that DH gives you particular skills beyond technical ones, and you should demonstrate these skills to potential emlpoyers: the ability to handle project management (even more, often for projects with less precedents than usual precedents in academia!), experience with collaboration and interdisciplinarity, and learning to communicate in voices suited to multiple audiences and with relevancy for who you're talking to.
+If you start to see a lot of projects that fit your interest coming from one DH center or department, it can’t hurt to follow their website's RSS feed to hear about new job openings. And when you apply, remember that DH gives you particular skills beyond technical ones, and you should demonstrate these skills to potential employers: the ability to handle project management (even more, often for projects with less precedents than usual precedents in academia!), experience with collaboration and interdisciplinarity, and learning to communicate in voices suited to multiple audiences and with relevancy for who you're talking to.
 
 ![]({{ site.baseurl }}/assets/DH_DLFtalk/Slide39.png)
 
