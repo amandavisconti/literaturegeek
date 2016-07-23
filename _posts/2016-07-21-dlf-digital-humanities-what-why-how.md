@@ -58,6 +58,10 @@ DH can look like...
 
 DH can look like many kinds of methods and/or publication forms, and those methods should be inclusive of all kinds of critical thinking and contributions to shared knowledge—things that don't always get credited as scholarship but should be, like coding, teaching, cleaning your data, building bibliographies, and documentation of how to use a humanities tool.
 
+*(Edit: Thanks to [Michelle Moravec](https://twitter.com/ProfessMoravec/) and [Aimée Morrison](https://twitter.com/digiwonk) for their #inclusivesyllabi tweets and work, which encouraged me to try to define DH with a diverse list of examples. Ways I can improve the list before my next talk: check if authorship %s are good, and include teaching, community & outside-university work, student work, & LGBTQ examples. Suggestions for authors and representations of DH my list is missing warmly welcomed! [Note that I'm not looking for more <u>general</u> intro to DH resources, just examples of diverse DH work that I've failed to represent with my list.]*
+
+*Current suggestions from DHers: [examples of minimal computing aka #mincomp](https://twitter.com/elotroalex/status/756865619757260800), plus [a larger list of DH places to read/write/go/etc.](a larger list of DH places to read/write/go/etc.) both via [Alex Gil](https://twitter.com/elotroalex).)*
+
 ### What isn't DH?
 
 If all this can be DH, maybe we want to say, *fine, what isn't DH*? 
@@ -208,7 +212,7 @@ If you have a project idea that needs funding, DH funders including [Mellon](htt
 
 ![]({{ site.baseurl }}/assets/DH_DLFtalk/Slide37.png)
 
-Here are some of the good places to read about and publish in DH:
+Here are some of the good places to read about and publish in DH *(note: resources linked in this section are very much non-exhaustive as there are lots more places to read/share/do DH, but this blog represents a time-limited talk rather than an exhaustive resource—see [this](https://t.co/mswEpAIS9K) for more stuff!):*
 
 * [DH Now](http://digitalhumanitiesnow.org/) is an aggregator of DH online content; I use it to hear about new blog posts on DH topics, but it also aggregates DH events, CFPs, and job openings. You can follow via [Twitter](https://twitter.com/dhnow) or RSS feed. But DH now isn’t just a good way to hear about DH, it’s a good place to get started in DH social media. You can [volunteer as an editor of DH Now](http://digitalhumanitiesnow.org/editors-corner/volunteer/), which means that during a specific week you’ll curate a feed of incoming content from [a huge set of DH blogs and websites](http://digitalhumanitiesnow.org/subscribed-feeds/), and recommend the best stuff for sharing. This is a great way to get an overview of who you might want to follow on Twitter or who’s doing work related to your interests.
 * Another option is [The Programming Historian](http://programminghistorian.org/lessons/) website (*I should note that I’ve just joined the site’s editorial team last week because I like the project so much—so I’m biased, but for a good reason*). *The Programming Historian* offers peer-reviewed, novice-friendly lessons on DH tools and methods; it’s not only pitched at the right place for someone who wants to learn a skill but doesn’t already know other digital methods; each lesson tries to explain why a humanities researcher might want to use the tool, and how. In addition to being a good place for learning, it’s also [a place to do peer-reviewed publication of DH lessons and tutorials](http://programminghistorian.org/contribute). If you need peer-reviewed pieces for promotion or tenure in your job, this can be a way to get credit for skills you already know, while at the same time mentoring others you want to learn those skills.
