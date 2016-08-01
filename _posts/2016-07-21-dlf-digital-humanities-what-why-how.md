@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-*I gave the following talk on the what, why, and how of digital humanities to the Digital Library Federation (DLF) Research Network on July 20, 2016. The audience was librarians interested in digital things, but this talk is broadly applicable; if you're a grad student or thinking about becoming one, though, you might also be interested in my [posts on doing DH as a student](http://literaturegeek.com/tag/grad-advice/) or [on my now-completed DH literature dissertation](http://literaturegeek.com/tag/dissertation/).*
+*I gave the following talk on the what, why, and how of digital humanities to the Digital Library Federation (DLF) Research Network on July 20, 2016 ([video](https://clir.adobeconnect.com/_a960001693/p9qmqw2b9w5/?launcher=false&fcsContent=true&pbMode=normal), [syllabus](https://github.com/clirdlf/eresearchnetwork/blob/master/syllabus-ern-2016.md#digital-scholarship-digital-humanities-data-visualization)). The audience was librarians interested in digital things, but this talk is broadly applicable; if you're a grad student or thinking about becoming one, though, you might also be interested in my [posts on doing DH as a student](http://literaturegeek.com/tag/grad-advice/) or [on my now-completed DH literature dissertation](http://literaturegeek.com/tag/dissertation/).*
 
 Today I'm going to share my personal answers to some related digital humanities (or "DH") questions:
 
