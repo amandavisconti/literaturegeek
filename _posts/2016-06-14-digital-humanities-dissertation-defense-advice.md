@@ -2,7 +2,7 @@
 layout: post
 title: Digital Humanities Dissertation Defense Advice
 permalink: 2016/06/14/digital-humanities-dissertation-defense-advice
-tags: [digital-humanities, infinite-ulysses, dissertation, advice]
+tags: [digital-humanities, infinite-ulysses, dissertation, advice-tutorial]
 status: publish
 type: post
 published: true

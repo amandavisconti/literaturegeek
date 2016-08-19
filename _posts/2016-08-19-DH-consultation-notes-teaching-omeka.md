@@ -2,7 +2,7 @@
 layout: post
 title: Teaching with Omeka (DH consultation notes)
 permalink: 2016/08/19/DH-consultation-notes-teaching-omeka
-tags: [digital-humanities, advice]
+tags: [digital-humanities, advice-tutorial]
 status: publish
 type: post
 published: true

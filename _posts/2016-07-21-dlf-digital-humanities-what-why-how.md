@@ -2,7 +2,7 @@
 layout: post
 title: A Digital Humanities What, Why, & How (DLF eResearch Network Talk)
 permalink: 2016/07/21/dlf-digital-humanities-what-why-how
-tags: [digital-humanities, advice]
+tags: [digital-humanities, advice-tutorial, best]
 status: publish
 type: post
 published: true
