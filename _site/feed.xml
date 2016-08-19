@@ -5,9 +5,49 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Aug 2016 12:11:23 -0400</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2016 12:11:23 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Aug 2016 10:22:13 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Aug 2016 10:22:13 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Teaching with Omeka (DH consultation notes)</title>
+        <description>&lt;p&gt;&lt;em&gt;When I provide DH consultations via email or in person, I try to also share the resources mentioned as a blog post here when they seem broadly useful. These notes aren’t representative of everything available on a topic, just some info for those new to a topic getting their feet wet. See this blog’s &lt;a href=&quot;http://literaturegeek.com/tag/advice-tutorial/&quot;&gt;advice category&lt;/a&gt; for more posts with advice and tutorials, and let me know if you’d like more in-depth resources around a specific DH topic.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the best online lessons I know of are these two on the peer-reviewed &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;Programming Historian&lt;/a&gt;&lt;/em&gt; website: “&lt;a href=&quot;http://programminghistorian.org/lessons/up-and-running-with-omeka&quot;&gt;Up and Running with Omeka.net&lt;/a&gt;” by Miriam Posner, followed by “&lt;a href=&quot;http://programminghistorian.org/lessons/creating-an-omeka-exhibit&quot;&gt;Creating an Omeka Exhibit&lt;/a&gt;” by Miriam Posner and Megan R. Brett. These do a thorough walkthrough of setting up and filling out your Omeka website (and include frequent screenshots!).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do you know where you want students to create their websites?&lt;/strong&gt; I’ve found the easiest thing is having each student create an account on &lt;a href=&quot;http://www.omeka.net/&quot;&gt;Omeka.net&lt;/a&gt; using the free plan (500MB storage, 15 available plugins that add extra site features, and 5 themes that change the look of your site). An Omeka.net account gives each student a free Omeka website (at something like mycustomtitle.omeka.net) , plus &lt;a href=&quot;http://info.omeka.net/&quot;&gt;lots of documentation&lt;/a&gt; for any questions that come up. Some examples of Omeka.net sites are &lt;a href=&quot;http://info.omeka.net/showcase/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note that Omeka.net is different from Omeka.org&lt;/strong&gt;; Omeka.net lets you build Omeka sites right on the Omeka.net website, while Omeka.org is the Omeka code, which you can download and on your own server to have more control and customization options.&lt;/p&gt;
+
+&lt;p&gt;For a more in-depth project where students would want to be altering Omeka code, installing the code on their own web server, using plugins (things that add features like commenting) or themes (change the look of your website) not available on Omeka.net, or purchasing and using a more customized domain name (MyCustomSite.com instead of MyCustomSite.omeka.net), you’d want to explore the resources on Omeka.org. This is considerably more technically intensive than using Omeka.net and is comparable to running your own WordPress blog instead of using WordPress.net (if you’re familiar with those). But! For both Omeka options (.net and .org), there’s amazing and thorough documentation, user forums, and tutorials focused on teaching with Omeka; you just need to decide how much effort you or your students want to devote to web development.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you do choose Omeka.org&lt;/strong&gt;, your university IT may or may not be willing to install the code for you on your free university web space (like Drupal or WordPress, Omeka requires not just web code but a database). If the cost is not prohibitive, I highly recommend considering pointing students to &lt;a href=&quot;https://reclaimhosting.com/&quot;&gt;Reclaim Hosting&lt;/a&gt; instead; this gives them greater control over their website, especially after they graduate or otherwise leave the university. Reclaim has &lt;a href=&quot;a $25/year option&quot;&gt;a $25/year option&lt;/a&gt; that includes excellent custom service knowledgable about academics’ needs, a free custom domain name (e.g. MyCoolOmekaSite.com), and installation of Omeka at the push of a button.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A few additional resources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Amanda French’s &lt;a href=&quot;http://amandafrench.net/2013/11/12/introduction-to-omeka-lesson-plan/&quot;&gt;Omeka lesson plan&lt;/a&gt; (detailed outline for what to cover in class when introducing Omeka)&lt;/li&gt;
+  &lt;li&gt;Miriam Posner’s “&lt;a href=&quot;http://miriamposner.com/blog/how-did-they-make-that/&quot;&gt;How did they make that?&lt;/a&gt;”, a blog post showing several DH projects (including an Omeka one) and explaining in non-technical language the tools and work involved in creating each project&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://omeka.org/files/docs/OmekaWorkshopTipSheet.pdf&quot;&gt;This Omeka PDF&lt;/a&gt; has links for understanding Omeka terminology like metadata and Dublin Core&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://teachinghistory.org/digital-classroom/tech-for-teachers/25115&quot;&gt;This lesson&lt;/a&gt; at TeachingHistory.org is another option for getting started with Omeka&lt;/li&gt;
+  &lt;li&gt;Jeffrey W. McClurken on “&lt;a href=&quot;http://chronicle.com/blogs/profhacker/teaching-with-omeka/26078&quot;&gt;Teaching with Omeka&lt;/a&gt;”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://omeka.org/codex/Teach_with_Omeka&quot;&gt;Some examples&lt;/a&gt; of Omeka class projects&lt;/li&gt;
+  &lt;li&gt;Sheila Brennan’s &lt;a href=&quot;http://omeka.org/blog/2013/08/20/back-to-school-edition-use-omeka-in-your-class/&quot;&gt;Omeka resource roundup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Alexandra Bolintineanu’s &lt;a href=&quot;https://omekagym.omeka.net/about&quot;&gt;Omeka Gym&lt;/a&gt;, a website collecting Omeka assignments, resources, examples, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many more excellent Omeka resources out there, so if you’re seeking help with something specific, consider an online search to turn up the many Omeka-focused teacher’s blog posts and presentation, then posting to &lt;a href=&quot;https://forum.omeka.org/&quot;&gt;Omeka’s support forums&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Aug 2016 00:00:00 -0400</pubDate>
+        <link>/2016/08/19/DH-consultation-notes-teaching-omeka</link>
+        <guid isPermaLink="true">/2016/08/19/DH-consultation-notes-teaching-omeka</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice</category>
+        
+        
+      </item>
     
       <item>
         <title>A Digital Humanities What, Why, &amp; How (DLF eResearch Network Talk)</title>
@@ -1646,60 +1686,6 @@ gem &#39;github-pages&#39;
         <category>advice-tutorial</category>
         
         <category>best</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Talking social web annotation at the Folger Digital Futures panel</title>
-        <description>&lt;p&gt;Early modern DH projects have focused on things like transcription, tagging, and data mining of texts; what else can DH projects around Elizabethan plays, old recipe manuscripts, and other early modern content do? I was part of a Folger Shakespeare Library sponsored &lt;a href=&quot;http://tinyurl.com/nbrgcxg&quot;&gt;panel on “digital futures”&lt;/a&gt; at the Renaissance Society of American annual conference (4/1/2016) that discussed possible next steps, and I gave a brief talk about the opportunities &lt;strong&gt;social annotation&lt;/strong&gt; on such projects could support.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-kind-of-annotation&quot;&gt;What kind of annotation?&lt;/h2&gt;
-
-&lt;p&gt;I’m interested in letting modern readers add annotations to digital editions and similar textual projects. Where we may be used to pre-publication annotation by textual scholars, I’m interested in post-publication annotation by readers.&lt;/p&gt;
-
-&lt;p&gt;Online, this often looks like dragging your cursor to highlight words or sentences and typing in your annotation (with an expanded audience of annotators, this might mean a comment, question, interpretation,contextualization, translation, illustration, locations, or something else…). Then, you can see that annotation plus the annotations of other readers displayed somewhere alongside the digital text.&lt;/p&gt;
-
-&lt;p&gt;Open, public social annotation hasn’t yet been as supported by DH projects as activities like transcription or tagging. Compounding this, I’m not an early modernist, so if anyone knows of early modern projects supporting public annotation, please let me know! You can check out non-early-modern examples in the NYPL’s &lt;a href=&quot;http://candide.nypl.org/text/&quot;&gt;Candide 2.0&lt;/a&gt;, or my own project at &lt;a href=&quot;http://candide.nypl.org/text/&quot;&gt;InfiniteUlysses.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m especially interested in ways we can open up the conversations around literature to those outside universities, so I’m going to briefly talk about a couple ideas for social web annotation that serve reading audiences such as students and public enthusiasts:&lt;/p&gt;
-
-&lt;h2 id=&quot;personalized--customized-annotated-editions&quot;&gt;Personalized &amp;amp; customized annotated editions&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;…Letting readers and researchers filter the visible annotations on a digital edition to just those matching personal interests and needs.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;If we open texts to social annotation, even beyond basic moderation and curation to make sure annotations should be exposed to the public (e.g. that they’re not spam or off-topic…), we’ll quickly get more annotationson any page than most readers or scholars will want to see.&lt;/p&gt;
-
-&lt;p&gt;By gathering metadata such as the date the annotation was authored, the subjects the annotation discusses (e.g. slang or religion), and the type of annotation (is it interpretation? a translation? an illustration?), we can begin to allow filtering what annotations are displayed to each reader’s needs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;E.g.only show interpretations or contextualizations; don’t show translations; only show feminist readings; only show me annotations written by actors&lt;/li&gt;
-  &lt;li&gt;E.g. a classroom version, first-time reader version, version accompanying a scholarly article annotating specific textual proof&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’ll briefly mention a few other filters provided by social curation of a website’s annotations: voting (problematic!), flagging for usefulness, tagging by annotation affect (funny, thoughtful). These carry their own issues–you want to have readers see ideas that challenge them, and give a voice in the conversation around a text to people who haven’t been invited in the past, so the various ways you make social annotation practically readable are very much under experimentation and debate. It’s important that projects allowing annotation filtering are prepared to test, assess, and change their interface to better support their user communities.&lt;/p&gt;
-
-&lt;h2 id=&quot;annotation-framework-as-an-interactive-introduction-to-textual-scholarship&quot;&gt;Annotation framework as an interactive introduction to textual scholarship&lt;/h2&gt;
-
-&lt;p&gt;I’m imagining a kind of “Choose Your Own Edition” website that walks you through various locations of possible editorial intervention on a single interesting textual page, lets you choose from possible interventions or write in your own, and at the end recommends short writings and scholarly editions by editors who both strongly match and strongly oppose your line of reasoning.&lt;/p&gt;
-
-&lt;p&gt;At a very basic level, this makes clear to readers that “editing” is additional things beyond transcription, and that transcription is a complex and critical activity itself.&lt;/p&gt;
-
-&lt;p&gt;(I wireframed “Choose Your Own Edition” during a seminar at the Folger Shakespeare Library taught by Dr. Jeffrey Masten, and I’m hoping to further prototype the idea in partnership with Dr. Liz Mercier, who has been working on paleography pedagogy through her own site at &lt;a href=&quot;http://purduepaleography.cla.purdue.edu/index.html&quot;&gt;http://purduepaleography.cla.purdue.edu/index.html&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;In a classroom, different groups of students might be assigned to read the same section of a digital edition, but with a different “editorial theory” filter turned on for each group. Class discussion could then explore how reading differed when supplemented by annotations coming from different schools of thought and interests.&lt;/p&gt;
-
-&lt;p&gt;Or, after annotating scenes in a play, annotators could find out what kind of readings their annotations matched. E.g. did people into certain theories or readings tend to find certain passages especially interesting?&lt;/p&gt;
-
-&lt;p&gt;I see more digital editions in the future simply allowing post-publication social annotation, where annotation of a digital edition is an ongoing activity open to the public (or some subset, such as invited literature scholars), rather than just having finished digital editions containing annotations released to the public. Social annotations can let the conversation around a text grow and be iterative as new ideas, new performances, and new relevant events occur. Annotations can increase public interest in illustrative materials and lesser known texts. And perhaps most importantly, annotation can support participation and inclusion of citizen humanists.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 11 Apr 2016 00:00:00 -0400</pubDate>
-        <link>/2016/04/11/folger-digital-futures-social-web-annotation</link>
-        <guid isPermaLink="true">/2016/04/11/folger-digital-futures-social-web-annotation</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>scholarly-web-design-and-coding</category>
         
         
       </item>
