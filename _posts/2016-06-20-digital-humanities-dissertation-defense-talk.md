@@ -2,7 +2,7 @@
 layout: post
 title: Digital Humanities Dissertation Defense Talk
 permalink: 2016/06/20/digital-humanities-dissertation-defense-talk
-tags: [digital-humanities, infinite-ulysses, dissertation, advice, dh-now]
+tags: [digital-humanities, infinite-ulysses, dissertation, advice, dh-now, best]
 status: publish
 type: post
 published: true

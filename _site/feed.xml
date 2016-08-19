@@ -5,8 +5,8 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Aug 2016 10:26:12 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2016 10:26:12 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Aug 2016 10:27:08 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Aug 2016 10:27:08 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -485,6 +485,8 @@ I also want to recognize that there are negative results of this habit: not ever
         
         <category>digital-humanities</category>
         
+        <category>best</category>
+        
         
       </item>
     
@@ -707,6 +709,8 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
         <category>advice</category>
         
         <category>dh-now</category>
+        
+        <category>best</category>
         
         
       </item>
