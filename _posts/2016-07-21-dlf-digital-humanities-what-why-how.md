@@ -60,7 +60,7 @@ DH can look like many kinds of methods and/or publication forms, and those metho
 
 *(Edit: Thanks to [Michelle Moravec](https://twitter.com/ProfessMoravec/) and [Aimée Morrison](https://twitter.com/digiwonk) for their #inclusivesyllabi tweets and work, which encouraged me to try to define DH with a diverse list of examples. Ways I can improve the list before my next talk: check if authorship %s are good, and include teaching, community & outside-university work, student work, & LGBTQ examples. I'm keeping of things I need to add [here in a GitHub issue](https://github.com/amandavisconti/digitalhumanities/issues/7), and [updating the list as on GitHub](https://github.com/amandavisconti/digitalhumanities/blob/master/DiverseDHExampleList.md) so I can easily compare it to past versions as it changes over time). Suggestions for authors and representations of DH my list is missing warmly welcomed! [Note that I'm not looking for more <u>general</u> intro to DH resources, just examples of diverse DH work that I've failed to represent with my list.]*
 
-*Current suggestions from DHers: [examples of minimal computing aka #mincomp](https://twitter.com/elotroalex/status/756865619757260800), plus [a larger list of DH places to read/write/go/etc.](a larger list of DH places to read/write/go/etc.) both via [Alex Gil](https://twitter.com/elotroalex).)*
+*Current suggestions from DHers: [examples of minimal computing aka #mincomp](https://twitter.com/elotroalex/status/756865619757260800), plus [a larger list of DH places to read/write/go/etc.](https://github.com/dh-notes/dhnotes) both via [Alex Gil](https://twitter.com/elotroalex).)*
 
 ### What isn't DH?
 
