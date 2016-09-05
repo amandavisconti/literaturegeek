@@ -3,6 +3,11 @@
   title: All digital humanities posts (honestly, this is almost every post I write...)
   sort: 1
   
+- slug: meta-dh
+  name: Meta digital humanities
+  title: Everything about the digital humanities, building a DH Center, designing DH projects, etc.
+  sort: 0
+  
 - slug: scholarly-web-design-and-coding
   name: scholarly web design and coding
   title: All posts on scholarly web design and coding
