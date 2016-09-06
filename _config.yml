@@ -39,4 +39,4 @@ author:
 twitter_card: "summary_large_image"
 twitter_site: "@literature_geek"
 
-exclude: ["Gemfile", "Gemfile.lock"]
+exclude: ["Gemfile", "Gemfile.lock", ".DS_Store"]
