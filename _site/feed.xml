@@ -5,9 +5,120 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Sep 2016 07:37:03 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Sep 2016 07:37:03 -0400</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2016 19:06:00 -0400</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2016 19:06:00 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Designing a Digital Humanities Initiative: Background &amp; Campus DH Survey</title>
+        <description>&lt;p&gt;I’m designing a digital humanities (DH) initiative here at the Purdue University Libraries, and “initiative” means our whole vision for DH, support for which is now enshrined as a specific point in our department strategic policy. To kick off &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;a series of blog posts&lt;/a&gt; covering this infrastructure and community design work I’ve been up to, this post provides some background to the policies and plans I’ll be sharing in later writing, as well as a some of the findings of the campus DH climate survey I conducted over the past year.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-role--the-purdue-libraries&quot;&gt;My role &amp;amp; the Purdue Libraries&lt;/h2&gt;
+
+&lt;p&gt;I’m a digital humanities assistant professor and specialist librarian in the Purdue University Libraries. The Libraries here is its own department, including faculty who can teach in other departments. We don’t have an academic program of our own for listing courses within the Libraries, and I don’t believe anyone has a required teaching load (our faculty who are reference librarians do share reference desk shifts, and our roles each have other requirements that result in varying degrees of keeping to a schedule). The norm for our faculty and many of our professional staff is to frequently teach/co-teach formal courses, or to do other sorts of teaching and training like leading skill workshops or visiting classes to present “one-shot” lectures on a specific topic.&lt;/p&gt;
+
+&lt;h2 id=&quot;purdue&quot;&gt;Purdue&lt;/h2&gt;
+
+&lt;p&gt;Purdue is located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieve tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Purdue people call ourselves Boilermakers, which started as a classist insult from a rival school we soundly trounced at football. We have a miniature steam engine that drives around town and toots its tiny horn and gives people rides to football games and is generally adorable (maybe just for people who think trains are neat?).&lt;/p&gt;
+
+&lt;h2 id=&quot;dh-in-the-purdue-libraries&quot;&gt;DH in the Purdue Libraries&lt;/h2&gt;
+
+&lt;p&gt;Purdue has past and existing DH activity, such as History Professor &lt;a href=&quot;https://twitter.com/blackdigitalhum&quot;&gt;Kim Gallon&lt;/a&gt;’s extensive work including the &lt;a href=&quot;http://blackpressresearchcollective.org/&quot;&gt;Black Press Research Collective&lt;/a&gt;, recent NEH Institute for Advanced Topics in DH on &lt;a href=&quot;Space and Place in Africana/Black Studies&quot;&gt;Space and Place in Africana/Black Studies&lt;/a&gt; co-organized with Hamilton Professor Angel David Nieves, and a &lt;a href=&quot;http://dhdebates.gc.cuny.edu/debates/text/55&quot;&gt;recent chapter in &lt;em&gt;Debates in DH.&lt;/em&gt;&lt;/a&gt; Another DHer is English Professor Dino Felluga, whose work includes Victorian textual scholarship and the development of the &lt;a href=&quot;http://www.branchcollective.org/&quot;&gt;BRANCH Collective&lt;/a&gt; as a scholarly publishing alternative.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recent DH hiring.&lt;/strong&gt; Libraries department was deliberately slow in hiring for DH, instead waiting and observing as these roles began to proliferate at other institutions. Waiting a bit let the department identify problems with those roles’ designs as these issues became more obvious and slightly more avoidable. The Library Loon’s “&lt;a href=&quot;http://gavialib.com/2011/12/the-c-word/&quot;&gt;Coordinator Syndrome&lt;/a&gt;” seems to be a frequent complaint of the solo DH “&lt;a href=&quot;https://twitter.com/elotroalex/status/709495906790408194&quot;&gt;Miracle Worker&lt;/a&gt;” hire (to use &lt;a href=&quot;https://twitter.com/elotroalex&quot;&gt;Alex Gil&lt;/a&gt;’s term), and Miriam Posner’s piece &lt;a href=&quot;http://miriamposner.com/blog/money-and-time/&quot;&gt;on DH shortstaffing&lt;/a&gt; and its resulting tiring out of DHers identifies a widespread issue. The Purdue Libraries were able to address some of these issues in the job ad (it’s a tenure-track faculty position, so the research background they required is rewarded by strong support for continuing to do that research), and awareness of other issues is helping me not overextend myself or my scope for the DH we commit to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A healthy department&lt;/strong&gt;. Because Purdue Libraries has a strong ethos of collaboration over service from the dean on down, I’ve been able to enter into reasonable collaborations based on my assessment of projects and people, rather than feel pressured to fulfill all service requests. I deliberately gave &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk here&lt;/a&gt; on why a collaboration rather than a service model for our DH would be better for everyone to gauge what their description or valuing collaboration meant. The dean’s first comment after I completed my talk was to encourage me to move &lt;em&gt;even closer&lt;/em&gt; to the collaboration end of the collaboration-service spectrum than I’d articulated. It’s empowering to be enfranchised to say “no” to requests that aren’t appropriate to your role or that you don’t have time for, and to define the scope of your role and the DH group you represent. I wish more departments relied enough on the expertise of the DHers they hire to allow these experts to define the terms of their role and to define where the department’s funding and hiring abilities limit what they can accomplish.&lt;/p&gt;
+
+&lt;h2 id=&quot;designing-a-libraries-dh-initiative-basic-questions&quot;&gt;Designing a Libraries DH initiative: basic questions&lt;/h2&gt;
+
+&lt;p&gt;The culmination of my first eight months on the job was to present a proposal for just what we should be doing with our DH initiative (this will be shared in my future posts!). The user testing and project management aspects of my DH experience helped me address questions like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How do we (as Purdue Libraries, and as a DH initiative inside the department) &lt;strong&gt;define ourselves&lt;/strong&gt;, rather than letting others define us?&lt;/li&gt;
+  &lt;li&gt;At the same time, how do we &lt;strong&gt;listen to and acknowledge others needs for DH&lt;/strong&gt;? How do we responsibly and ethically solicit feedback and advice on campus DH needs? (As &lt;a href=&quot;https://twitter.com/Literature_Geek/status/774225208676872193&quot;&gt;a librarian&lt;/a&gt; and as a human, I respect the right to privacy and full informed consent in any whose behavior we want to study.)&lt;/li&gt;
+  &lt;li&gt;There are many existing and potential audiences for DH on campus, and many desires for what DH can do for those audiences. &lt;strong&gt;We can’t be everyone’s DH&lt;/strong&gt;, and trying to do so will make sure we fail at doing particular things well. We need to balance among doing specific kinds of DH well, and connecting and encouraging people and projects on campus that advance other aspects of DH. How do we define a limited scope for the DH we do?&lt;/li&gt;
+  &lt;li&gt;How do we communicate what our DH means to campus? What kind of public policies and workflows can we design to &lt;strong&gt;communicate what we do and don’t do&lt;/strong&gt;?&lt;/li&gt;
+  &lt;li&gt;How can we define ourselves not just with some over-general definition of DH (e.g. “we support innovation in humanities via digital scholarship”), but instead &lt;strong&gt;envision the DH we want to work toward&lt;/strong&gt;—making that vision our mission? How do we &lt;strong&gt;stay honest to the values we think we hold by acting on them&lt;/strong&gt; through policies for the kinds of collaboration, education, and other efforts we focus on?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Over the course of last year, I’ve constantly reshaped how I answer these questions as I learned more about Purdue’s current and past DH culture, resources, and scholars.&lt;/p&gt;
+
+&lt;h1 id=&quot;campus-dh-survey&quot;&gt;Campus DH survey&lt;/h1&gt;
+
+&lt;p&gt;I keep notes on the campus interactions that are part of my role—who I talked to, the conversation topic, the date. These notes are useful for tenure and review purposes (e.g. I can say how many DH consultations I provided in a term, and what departments I’ve been reaching; and I can remember what we talked about or project ideas we brainstormed when we pick up the thread weeks or months later). I’m currently using a Google Spreadsheet for this, but I’ve heard of others using business CRMs (customer management software) to keep track of their campus interactions.&lt;/p&gt;
+
+&lt;p&gt;These interaction records let me take a year of talking and listening (and sometimes asking direct questions about what people want for campus DH) and aggregate these conversations into an overview of our current DH climate on campus, identifying…&lt;/p&gt;
+
+&lt;h2 id=&quot;campus-strengths-to-build-on&quot;&gt;Campus strengths to build on&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;We already have a number of existing strengths right on campus for doing DH well:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My Libraries department has a strong commitment to &lt;strong&gt;collaboration over service&lt;/strong&gt; (e.g. our dean encourages Libraries faculty to collaborate on grant projects with other campus faculty as PIs or co-PIs). From successful collaborations like the IMPACT Program and two rounds of Mellon funding for “grand challenge” research teams that must include a campus librarian, the campus is already aware of us as potential collaborators.&lt;/p&gt;
+
+&lt;p&gt;We’ve been pre-emptive in &lt;strong&gt;defining&lt;/strong&gt; what the Libraries is, rather than letting pre-conceived notions of what a campus library does shape our strategy.&lt;/p&gt;
+
+&lt;p&gt;From my first conversations with my colleagues, we’ve discussed our DH initiative as providing an interdisciplinary space where we help train people to spread DH knowledge; connect, amplify, and record existing DH; and support other campus communities in imagining and implementing their own local DH. I feel supported in trying at most to develop &lt;strong&gt;a campus hub for DH, rather than trying to hoard (or be all) DH&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our strategic plan includes improving information &lt;strong&gt;access, diversity, and inclusion&lt;/strong&gt;, so my desire to focus on a DH advancing these goals is tied into our department’s founding document. (&lt;em&gt;More on this in later posts on identifying our values and translating these to policies and projects&lt;/em&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Many units and roles already exist in the Libraries that support &lt;strong&gt;areas overlapping or adjacent with DH&lt;/strong&gt;, such as our humanities specialist librarians, Digital Programs, Research Data,  our three repositories (PURR, e-Pubs, and e-Archives), the Purdue University Press and Scholarly Publishing Services (which are situated within the Libraries), our Engineering Library’s makerspace, Archives and Special Collections resources and staff research and teaching expertise, a GIS Specialist Librarian and GIS Analyst, and Libraries IT.&lt;/p&gt;
+
+&lt;p&gt;There are strong &lt;strong&gt;collaborations among these Libraries units&lt;/strong&gt;, too, such as previous course co-taught by the Head of Scholarly Publishing and a faculty librarian where students published a print book based on research in the Archives and Special Collections.&lt;/p&gt;
+
+&lt;p&gt;Some of these collaborations were &lt;strong&gt;perfectly set up to add a DH component&lt;/strong&gt;; in particular, collaborating with my colleagues in our Archives and Special Collections and our University Press and Scholarly Publishing Services has helped us work toward a better ASC-&amp;gt;DH-&amp;gt;Press workflow. We’re now exploring how we can make research and teaching with our ASC collections and experts flow into DH teaching, research, and publication forms, and how do these both have a natural extension to the Press’ interest in innovative scholarly communication and born-digital publication?&lt;/p&gt;
+
+&lt;p&gt;A history of &lt;strong&gt;well-known and well-funded campus DH research&lt;/strong&gt;: in particular, History Professor Kim Gallon’s and English Professor Dino Felluga’s respective grants-winning scholarship.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Collaborative work with other campus DH faculty&lt;/strong&gt; from the start of my job, including successfully co-PIing two grant proposals during my second month here.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;decent faculty interest in DH&lt;/strong&gt; in our liberal arts and interdisciplinary studies departments (e.g. ~25 CLA faculty attended a meeting on DH despite it being held during the end of term).&lt;/p&gt;
+
+&lt;p&gt;Interest from these departments in DH’s contribution to &lt;strong&gt;alternative academic career&lt;/strong&gt; mentorship and teaching for students.&lt;/p&gt;
+
+&lt;p&gt;A number of &lt;strong&gt;past courses on or including DH&lt;/strong&gt;, and a number of past courses taught, co-taught, or otherwise supported by Libraries staff.&lt;/p&gt;
+
+&lt;p&gt;The university’s Honors College as &lt;strong&gt;a space for Libraries faculty to propose and list their own courses&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Existing student DH activity&lt;/strong&gt;, such as graduate student independent projects and GA work, student DH and tech working groups in several humanities departments.&lt;/p&gt;
+
+&lt;h2 id=&quot;campus-needs-dh-might-address&quot;&gt;Campus needs DH might address&lt;/h2&gt;
+
+&lt;p&gt;I’ve also identified areas where the Libraries DH initiative can address campus needs, including:&lt;/p&gt;
+
+&lt;p&gt;DH is happening on campus, but largely among collaborators who found each other by chance rather than some kind of DH collaboration support network or center. We don’t yet have a DH Center or other entity that &lt;strong&gt;connects DH on campus&lt;/strong&gt;, to help researchers make connections to other people, get feedback on ideas, or mentorship around learning DH. I’m proposing we act as this connecting hub both through a virtual DH@Purdue website and through a physical space (a DH lab that may eventually become a center).&lt;/p&gt;
+
+&lt;p&gt;A resource linking existing or past campus DH projects as well as &lt;strong&gt;modeling different DH project method and publication possibilities&lt;/strong&gt; is needed. (That DH@Purdue website I mentioned.)&lt;/p&gt;
+
+&lt;p&gt;We don’t have a place safekeeping &lt;strong&gt;institutional memory for DH&lt;/strong&gt; (e.g. no one can easily answer how many DH courses have been taught in the last decade). It can be difficult to &lt;strong&gt;communicate DH workshops, events, or course listings&lt;/strong&gt; to everyone who might be interested in these offerings. (That DH@Purdue website, as well as starting communication sources like the #PurdueDH hashtag, a listserv for event announcements and collaboration requests, and an RSS feed for new DH resources as I add them to the website, mostly directly from DH Twitter.)&lt;/p&gt;
+
+&lt;p&gt;We could do more to develop and participate in &lt;strong&gt;regional DH&lt;/strong&gt; (e.g. with IU, IUPUI, Notre Dame, Ball State), and particularly with IUPUI’s HILT training and THATCamp Indiana. (E.g. inviting speakers, attending nearby events, conference calls with set topics, creating a regional channel on &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;the DH Slack&lt;/a&gt;?)&lt;/p&gt;
+
+&lt;p&gt;Some of our digitized resources could use DHer input to identify the kinds of metadata and processing that would make &lt;strong&gt;DH teaching and research reuse&lt;/strong&gt; easiest. Some of our digitized resources are well-used, but in ways that suggest addition of DH methods such as an annotation framework could further support this use.&lt;/p&gt;
+
+&lt;p&gt;Students and faculty want easy ways to create websites that include maps, timelines, and annotation. I’ve heard interest in learning Omeka, Neatline, and Scalar.&lt;/p&gt;
+
+&lt;p&gt;For those with funding for DH projects but without technical experience or interest, not knowing &lt;strong&gt;where to find skilled collaborators&lt;/strong&gt; with these characteristics is an issue. (The College of Liberal Arts started a directory of student workers with IT skills in the past, but it proved difficult to keep up-to-date.)&lt;/p&gt;
+
+&lt;p&gt;Some CLA faculty and students aren’t aware of how they might benefit from some Libraries resources, which are sometimes &lt;strong&gt;pitched toward a STEM audience&lt;/strong&gt; or use terms unfamiliar to humanities scholars (e.g. our repository for research datasets has few humanities collections). Part of my work will be translating what our various units, experts, and resources offer to humanists and DHers.&lt;/p&gt;
+
+&lt;p&gt;I want to address findings like these, while at the same time &lt;strong&gt;encouraging other departments to fully invest in DH&lt;/strong&gt; through their own hiring and policies. For example, some of the DHy needs I heard expressed were more oriented toward IT service or digital pedagogy expertise, and the best solution would be making our advice available for those departments during their job design and hiring process for such positions.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-dh-response-to-this-campus-survey&quot;&gt;A DH response to this campus survey&lt;/h2&gt;
+
+&lt;p&gt;My next &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;meta-DH&lt;/a&gt; post will discuss identifying the values and goals for our DH initiative, and how those translated into my initial proposal to the department. Thanks for reading, and let me know any questions &lt;a href=&quot;https://twitter.com/Literature_Geek&quot;&gt;@Literature_Geek&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Sep 2016 00:00:00 -0400</pubDate>
+        <link>/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</link>
+        <guid isPermaLink="true">/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-DH</category>
+        
+        
+      </item>
     
       <item>
         <title>Meta-DH, or Designing and Building a DH Initiative</title>
@@ -943,73 +1054,6 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
         <category>scholarly-web-design-and-coding</category>
         
         <category>best</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Lunar dust &amp; tapioca pudding (touring Purdue Archives&#39; aerospace collections)</title>
-        <description>&lt;p&gt;The &lt;a href=&quot;https://www.lib.purdue.edu/spcol&quot;&gt;Purdue University Archives &amp;amp; Special Collections&lt;/a&gt; (ASC) have an amazing aerospace history collection due to Purdue’s many students and faculty who were pilots (Amelia Earhart was faculty), went on to be astronauts, or worked in the aerospace industry. I’m working with the ASC towards digital humanities projects that increase public and student access to our collections; in particular, we’re planning to use 3D scanning and printing to make some of the more interesting, fragile, or rare artifacts more accessible to visitors and student researchers. Today, Flight Archivist Tracy Grimm kindly gave me a tour of some of the objects we’re thinking about using in our DH work.&lt;/p&gt;
-
-&lt;p&gt;I’ve shared some of the more interesting things below (sorry for shaky photo quality on a couple of these!). These photos were okayed for educational sharing on social media (&lt;a href=&quot;https://www.lib.purdue.edu/spcol/digital-reproduction-requests&quot;&gt;copyright info here&lt;/a&gt; if you’re interested in using these somehow).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1087.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Amelia Earhart’s goggles&lt;/strong&gt;. These are too fragile for regular handling; we want to explore using various types of 3D printing filament (pliable, glass-like) to replicate these as wearable facsimiles.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1088.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;An ice pick Amelia Earhart used&lt;/strong&gt; to puncture open cans of tomato juice. She used these as a compact way of getting calories while flying. (I think Tracy said this was a specific brand—Beecham’s?—and that Earhart was used in their advertisements.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1128.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1129.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Checking out the safe inside the archives vault where artifacts are kept extra-secure, including Amelia Earhart’s scrapbooks and helmet, the smelling salts she used to keep awake during her flights, and flight suits.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1090.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;glove&lt;/strong&gt; astronaut Eugene Cernan wore on the moon. Sealed in a bag so as not to lose any of the &lt;strong&gt;lunar dust&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1091.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1127.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A “frangible nut” from a space shuttle flown on by astronaut Janice Voss&lt;/strong&gt;. The nut was packed with explosive charges and separated from a rocket on takeoff (presented on a commemorative plaque). It’s quite heavy, and the edges are sharp where explosives sheared off the metal. The nuts were originally around 50 lbs, so this fragment is about 25 lbs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1103.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1104.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1105.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1108.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1109.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1110.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Astronaut food&lt;/strong&gt; from the Mark N. Brown Papers collection, assumedly used during training on Earth. Each contains info on how to prepare the food. Potatoes au gratin, noodles and chicken, tapioca pudding, butter cookies! Each unit includes a small velcro dot (to anchor the food to something when there’s no gravity).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1112.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Possibly the coolest business card title: “&lt;strong&gt;Astronaut&lt;/strong&gt;”.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1115.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1118.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1122.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AerospaceTour/IMG_1124.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Apollo XVII LRV Map Book&lt;/strong&gt;, a commemorative binding of maps actually used on the moon by astronaut Eugene Cernan while traveling on the lunar rover. A broken fender on the lunar rover had to be repaired (while on the moon!) with 4 of the map pages (the Smithsonian has the repaired fender in its collection). The individual pages aren’t too interesting to look at, but we’re thinking about creating a digital quilt of the images and then augmenting this with historical and topographical information.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 May 2016 00:00:00 -0400</pubDate>
-        <link>/2016/05/09/aerospace-history-dh-projects-purdue-archives</link>
-        <guid isPermaLink="true">/2016/05/09/aerospace-history-dh-projects-purdue-archives</guid>
-        
-        <category>digital-humanities</category>
         
         
       </item>
