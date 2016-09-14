@@ -5,8 +5,8 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Sep 2016 12:01:43 -0400</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2016 12:01:43 -0400</lastBuildDate>
+    <pubDate>Wed, 14 Sep 2016 03:46:02 -0400</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2016 03:46:02 -0400</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -116,6 +116,8 @@
         <category>digital-humanities</category>
         
         <category>meta-dh</category>
+        
+        <category>dh-now</category>
         
         
       </item>
