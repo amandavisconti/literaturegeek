@@ -12,7 +12,7 @@ I'm designing a digital humanities (DH) initiative here at the Purdue University
 
 ## My role & the Purdue Libraries
 
-I'm a digital humanities assistant professor and specialist librarian in the Purdue University Libraries. The Libraries here is its own department, including faculty who can teach in other departments. We don't have an academic program of our own for listing courses within the Libraries, and I don't believe anyone has a required teaching load (our faculty who are reference librarians do share reference desk shifts, and our roles each have other requirements that result in varying degrees of keeping to a schedule). The norm for our faculty and many of our professional staff is to frequently teach/co-teach formal courses, or to do other sorts of teaching and training like leading skill workshops or visiting classes to present "one-shot" lectures on a specific topic.
+I'm a digital humanities assistant professor and specialist librarian in the Purdue University Libraries. The Libraries here is its own department, including faculty who can teach in other departments. We don't have an academic program of our own for listing courses within the Libraries, and I don't believe anyone has a required teaching load. The norm for our faculty and many of our professional staff is to frequently teach/co-teach formal courses, or to do other sorts of teaching and training like leading skill workshops or visiting classes to present "one-shot" lectures on a specific topic.
 
 ## Purdue
 
