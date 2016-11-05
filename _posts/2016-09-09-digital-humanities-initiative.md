@@ -16,7 +16,7 @@ I'm a digital humanities assistant professor and specialist librarian in the Pur
 
 ## Purdue
 
-Purdue isa Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read [my job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) in this post, and here's [the ad for the position](http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf). 
+Purdue is a Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read [my job talk](http://literaturegeek.com/2016/02/28/DHjobtalk) in this post, and here's [the ad for the position](http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf). 
 
 ## DH in the Purdue Libraries
 
