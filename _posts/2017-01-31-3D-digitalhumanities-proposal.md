@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proposing a hardware purchase (3D scanner & printer for archival DH research)
+title: Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer)
 permalink: 2017/01/31/2017-01-31-3D-digitalhumanities-proposal
 tags: [digital-humanities, meta-dh]
 status: publish
