@@ -8,7 +8,7 @@ type: post
 published: true
 ---
 
-Early last year, I wrote a proposal for my department (Purdue Libraries) to purchase 3D scanning and printing equipment dedicated to archival digital humanities research. This was in response to a call to appropriately use some outstanding funds remaining in an equipment-funding account; the audience was department administration. I'm sharing the proposal now [as part of a series of posts documenting practical, administrative, and infrastructural work that makes DH go](http://literaturegeek.com/tag/meta-dh/). If you're interested in possible DH applications of 3D printing, or more generally in researching and making a case for DH equipment, I hope this post is useful to you!
+Early last year, I wrote a (successfully funded!) proposal for my department (Purdue Libraries) to purchase 3D scanning and printing equipment dedicated to archival digital humanities research. This was in response to a call to appropriately use some outstanding funds remaining in an equipment-funding account; the audience was department administration. I'm sharing the proposal now [as part of a series of posts documenting practical, administrative, and infrastructural work that makes DH go](http://literaturegeek.com/tag/meta-dh/). If you're interested in possible DH applications of 3D printing, or more generally in researching and making a case for DH equipment, I hope this post is useful to you!
 
 [You can see the actual PDF I submitted here]({{ site.baseurl }}/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf), if you prefer reading that to the blog post transcript below (it includes the budget and cost comparisons I didn't feel like reformatting to paste into the blog text).
 
