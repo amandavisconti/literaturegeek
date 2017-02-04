@@ -4,7 +4,7 @@
  <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2017-02-04T06:33:31-05:00</updated>
+ <updated>2017-02-04T09:01:47-05:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
@@ -86,9 +86,10 @@
 
 &lt;p&gt;That should do it! You can compare your site look and files with mine, if needed:&lt;/p&gt;
 
-&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;http://localhost:4000//JekyllDemoThemed&quot;&gt;http://localhost:4000//JekyllDemoThemed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The repo containing the code that runs the hacker demo site &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The repo containing the code that runs the hacker demo site:
+&lt;a href=&quot;https://github.com/amandavisconti/jekylldemothemed&quot;&gt;https://github.com/amandavisconti/jekylldemothemed&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

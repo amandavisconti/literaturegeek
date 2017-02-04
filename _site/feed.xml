@@ -5,8 +5,8 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Feb 2017 06:33:31 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Feb 2017 06:33:31 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2017 09:01:47 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2017 09:01:47 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -80,9 +80,10 @@
 
 &lt;p&gt;That should do it! You can compare your site look and files with mine, if needed:&lt;/p&gt;
 
-&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;http://localhost:4000//JekyllDemoThemed&quot;&gt;http://localhost:4000//JekyllDemoThemed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The repo containing the code that runs the hacker demo site &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The repo containing the code that runs the hacker demo site:
+&lt;a href=&quot;https://github.com/amandavisconti/jekylldemothemed&quot;&gt;https://github.com/amandavisconti/jekylldemothemed&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Feb 2017 00:00:00 -0500</pubDate>
         <link>/2017/02/04/building-research-website-with-jekyll-githubpages-theming</link>

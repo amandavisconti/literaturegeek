@@ -63,6 +63,7 @@ so that we're starting from where [my lesson](http://programminghistorian.org/le
 
 That should do it! You can compare your site look and files with mine, if needed:
 
-My new demo site using the Hacker theme: [http://localhost:4000//JekyllDemoThemed](http://localhost:4000//JekyllDemoThemed)
+My new demo site using the Hacker theme: [https://amandavisconti.github.io/JekyllDemoThemed/](https://amandavisconti.github.io/JekyllDemoThemed/)
 
-The repo containing the code that runs the hacker demo site [https://amandavisconti.github.io/JekyllDemoThemed/](https://amandavisconti.github.io/JekyllDemoThemed/)
+The repo containing the code that runs the hacker demo site:
+[https://github.com/amandavisconti/jekylldemothemed](https://github.com/amandavisconti/jekylldemothemed)
