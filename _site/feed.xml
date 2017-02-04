@@ -5,9 +5,239 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Oct 2016 14:16:34 -0400</pubDate>
-    <lastBuildDate>Sun, 23 Oct 2016 14:16:34 -0400</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2017 06:33:31 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2017 06:33:31 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Theming Jekyll: Customizing the look of your GitHub Pages-hosted, Jekyll-generated website</title>
+        <description>&lt;p&gt;If you’d like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control—such as a scholarly blog, project website, or online portfolio—using Jekyll and GitHub Pages is a good option. I wrote &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;a peer-reviewed lesson that will get you started&lt;/a&gt; over at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; (which is a really cool site full of peer-reviewed &lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;lessons&lt;/a&gt; for lots of digital humanities skills and methods). My lesson, like many of the lessons at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt;, assumes no technical knowledge and is specifically aimed at people who haven’t coded or created a website before.&lt;/p&gt;
+
+&lt;p&gt;That lesson takes you through publishing a basic website that will look much like this &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo/&quot;&gt;demo website&lt;/a&gt;. If you enjoy the lesson and want to further customize the look of your website, this blog post will help you do that! (&lt;em&gt;This post assumes you’ve read &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; already.&lt;/em&gt;) Thanks to Daniel Akacki for motivation to write this post!&lt;/p&gt;
+
+&lt;h2 id=&quot;theming&quot;&gt;Theming&lt;/h2&gt;
+
+&lt;p&gt;As I mentioned in &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, “theming” means changing the visual appearance (and sometimes behavior, like adding a comment section or a new menu) of your website. “Styling” is often used to mean changing a site’s appearance through CSS (the language that tells a browser how to display things, much like HTML tells a browser how to structure content on a page); “theming” more often means that you’re achieving styling through not just changes to existing CSS, but by reusing, customizing, or creating a set of multiple files that change the site’s visual appearance.&lt;/p&gt;
+
+&lt;p&gt;Before you dive into learning CSS, you can simply reuse (and then tweak or more heavily customize) any of the many existing themes for Jekyll-generated sites. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a good place to start looking for free themes, and most of the themes have a demo website set up so you can navigate around a site using the theme and really get a feel for how it would look on your website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4510&quot;&gt;Jekyll moved recently&lt;/a&gt; from themes that consisted of just adding files to your site folder (some CSS, HTML layouts, images, Javascript, etc.), to themes that you install as Ruby Gems (the way you already had to install Jekyll plugins). This is useful in some ways (e.g. improvements the theme creator makes to their theme can be updated on your website just by your updating the gem), but it can also be confusing for people who aren’t familiar with Ruby.&lt;/p&gt;
+
+&lt;p&gt;Below, I explain how I took the website you should have at the end of &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, and changed the site to have a new theme. This isn’t the only way to theme, but I think it’s currently the easiest way if you’re new to web development.&lt;/p&gt;
+
+&lt;h2 id=&quot;switching-to-the-hacker-theme&quot;&gt;Switching to the “Hacker” theme&lt;/h2&gt;
+
+&lt;p&gt;We’ll be switching to the “Hacker” theme, for which &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;you can find the code here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/jekyllhackertheme.png&quot; alt=&quot;Screenshot of Jekyll-generated GitHub Pages site using the Hacker theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I set up a duplicate of&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo&quot;&gt;https://amandavisconti.github.io/JekyllDemo&lt;/a&gt; site I created for my lesson&lt;/li&gt;
+  &lt;li&gt;at &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;so that we’re starting from where &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; left off.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I went to &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;https://github.com/pages-themes/hacker&lt;/a&gt;, clicked on the green “clone or download” button on the right, and choose to download the files as a ZIP and then unpack the ZIP (usually doubleclicking the ZIP icon will do this).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I made a copy of my original site files elsewhere, then deleted everything &lt;em&gt;inside&lt;/em&gt; my website folder (/JekyllDemoThemed)—but not the folder itself. I then pasted in everything &lt;em&gt;inside&lt;/em&gt; that unpacked ZIP folder—rather than pasting in the whole folder and its contents.&lt;/p&gt;
+
+    &lt;p&gt;We made a copy of your original files so that we can later paste in any posts or pages you want to keep from your original site.&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;A skippable aside, if you’re interested:&lt;/em&gt; Making a copy of your website files before deleting them actually isn’t a huge need, since if you’ve followed my lesson you already have those files committed on GitHub, and can always go back to that or other earlier versions of your site (it’s just more hassle, which is why we’re making a local copy instead). Also, you &lt;em&gt;could&lt;/em&gt; keep your original site files as-is and just add in the needed files (and/or code inside files) from the theme, but as someone newer to Jekyll it might be difficult to figure out which files need to be changed and which can stay, which is why we’re instead starting from the theme ZIP and importing anything from your original site you want to keep.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the terminal, cd into the website folder. For my file setup, that meant entering &lt;code class=&quot;highlighter-rouge&quot;&gt;cd /Volumes/Vault101/Documents/GitHubGeneral/JekyllDemoTheme&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enter &lt;code class=&quot;highlighter-rouge&quot;&gt;script/bootstrap&lt;/code&gt;. Let it finish running.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open your _config.yml file and paste in the following (replacing &lt;em&gt;/JekyllDemoThemed&lt;/em&gt; with the name of your website folder):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: &quot;/JekyllDemoThemed&quot;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;url: &quot;localhost:4000&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Paste in the /_posts folder from that copy you made of your old site (if you want the posts from the old site). Paste in the pages from the old site (&lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt;) if you want them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;These pages and posts from the old site reference a layout file that existed for the Minima theme (the theme that your first Jekyll site defaults to), but not for the Hacker theme. So, you need to open each page and change &lt;strong&gt;layout: page &lt;/strong&gt;to &lt;strong&gt;layout: default&lt;/strong&gt;, and open each post and change &lt;strong&gt;layout: post&lt;/strong&gt; to &lt;strong&gt;layout: default&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’re using the default text in the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt; files I used in my demo site, you need to erase two bits of code from each of these pages. Erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages and erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages. (The Minima theme knew how to handle those calls to include icon images, but the Hacker theme doesn’t, so they will make your site not run.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Hacker theme doesn’t automatically add pages to a header menu (like the Minima theme did), but you can still access your pages by typing in their URL, e.g. by visiting &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/about&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/about&lt;/a&gt; for the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; page. You can also add links to these into your theme or the &lt;a href=&quot;http://index.md/&quot;&gt;index.md&lt;/a&gt; page. I often try to find another theme that has a feature I want—such as a fancy header menu—and then copy and paste pieces of its code into my site by trial and error. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a great place to look, and trial-and-error copying and pasting from other themes is a great way to get more familiar with how your site works.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That should do it! You can compare your site look and files with mine, if needed:&lt;/p&gt;
+
+&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;http://localhost:4000//JekyllDemoThemed&quot;&gt;http://localhost:4000//JekyllDemoThemed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The repo containing the code that runs the hacker demo site &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Feb 2017 00:00:00 -0500</pubDate>
+        <link>/2017/02/04/building-research-website-with-jekyll-githubpages-theming</link>
+        <guid isPermaLink="true">/2017/02/04/building-research-website-with-jekyll-githubpages-theming</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>scholarly-web-design-and-coding</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer)</title>
+        <description>&lt;p&gt;Early last year, I wrote a (successfully funded!) proposal for my department (Purdue Libraries) to purchase 3D scanning and printing equipment dedicated to archival digital humanities research. This was in response to a call to appropriately use some outstanding funds remaining in an equipment-funding account; the audience was department administration. I’m sharing the proposal now &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;as part of a series of posts documenting practical, administrative, and infrastructural work that makes DH go&lt;/a&gt;. If you’re interested in possible DH applications of 3D printing, or more generally in researching and making a case for DH equipment, I hope this post is useful to you!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;You can see the actual PDF I submitted here&lt;/a&gt;, if you prefer reading that to the blog post transcript below (it includes the budget and cost comparisons I didn’t feel like reformatting to paste into the blog text).&lt;/p&gt;
+
+&lt;p&gt;I try to start any proposal with a summary—this one has too long of a summary, and too long of an overall document. I was new to how the department handles purchase requests, and wanted to preemptively answer expected questions (e.g. you can see that I’m both trying to explain what 3D technology does and why purchasing it for open maker space service wasn’t my initial goal). I now try to keep reports and requests to a single page that’s easily skiable for key points like cost, value, and timeline, but I think this writeup might still be useful to someone seeking to familiarize their team with DH uses of 3D printing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Notes:&lt;/em&gt; Redactions are summarized [in brackets]—these are things where specific names were involved or ideas that we might want to use in competitive grant proposals. The “ASC” is Purdue’s Virginia Kelly Karnes Archives &amp;amp; Special Collections.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-ticket-request-digital-humanities-3d-setup&quot;&gt;Big Ticket Request: Digital Humanities 3D Setup&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Summary/definition of 3D terms&lt;/li&gt;
+  &lt;li&gt;General plans for the 3D Setup&lt;/li&gt;
+  &lt;li&gt;Location&lt;/li&gt;
+  &lt;li&gt;IT support&lt;/li&gt;
+  &lt;li&gt;ASC support&lt;/li&gt;
+  &lt;li&gt;Budget&lt;/li&gt;
+  &lt;li&gt;Why not use the Engineering Library 3D setup?&lt;/li&gt;
+  &lt;li&gt;Examples of possible projects&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarydefinition-of-3d-terms&quot;&gt;Summary/definition of 3D terms&lt;/h3&gt;
+
+&lt;p&gt;I propose a dedicated setup for digital humanities 3D &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; as research and
+teaching:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;3D scanning&lt;/strong&gt; lets you capture a three-dimensional digital model of an object such as a spacesuit or a model plane (much like a flat scanner lets you capture a two-dimensional model of a book page).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D modeling&lt;/strong&gt; uses that scanning to create a digital object you can manipulate, label, and otherwise augment on a computer. (&lt;em&gt;3D models don’t necessarily need to be printed to be useful; for example, we could scan a model airplane propeller and then create a digital animation of the propeller in use.&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D printing&lt;/strong&gt; produces three-dimensional physical, tangible objects representing either actual artifacts or visualizations of data:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Artifacts:&lt;/strong&gt; Print out in plastic (or other materials) a three-dimensional copy of the original object (or a miniature, magnified, or otherwise altered version) for display and handling, further research (e.g. with previously hard-to-decipher engravings or texture), and experimentation (e.g comparison of behavior of historical airplane propellers by printing and powering miniature versions).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt; Digital files can also be created from scratch to produce 3D visualizations such as timelines, graphs, globes, and scale models (e.g. create a 3D model of a historic satellite orbit that can be viewed from multiple angles).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The DH Center’s 3D printing setup would support &lt;em&gt;research&lt;/em&gt;, with a focus on how to best scan, digitally model and animate, and print facsimiles of archival and humanities artifacts for research and teaching use. Much of our time will be spent experimenting with scanner, printer, and software settings to produce accurately representative 3D models, and it is critical that researchers have full access to the equipment to do this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requested funding:&lt;/strong&gt;  $7596.98 (see budget below)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;  Amanda Visconti (aviscont@purdue.edu)&lt;/p&gt;
+
+&lt;h3 id=&quot;general-plans-for-the-3d-setup&quot;&gt;General plans for the 3D Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Initial internal experimentation:&lt;/strong&gt; A one-year initial trial period will focus on experimenting with ASC artifacts suggested by the archivists, and on documenting best practices for creating accurate and useful digital and physical facsimiles for use in further DH research and teaching.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DH project use:&lt;/strong&gt; After this trial period, we will also begin to support humanities projects around campus that require our specific setup rather than the Engineering Library’s current printing service (e.g. a history class where students digitally “repair”, extend, label, or animate historicalartifacts using a computer). This outreach will be on the same case-by-case basis as other collaborative projects proposed to the DH Center, rather than as a drop-in service.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;External collaborations:&lt;/strong&gt; [grant project idea]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;location&quot;&gt;Location&lt;/h3&gt;
+
+&lt;p&gt;The setup will be located in the future DH Center; until that space is inaugurated, the setup will be located
+in the DH Specialist’s office (table along the wall opposite the door).&lt;/p&gt;
+
+&lt;h3 id=&quot;it-support&quot;&gt;IT support&lt;/h3&gt;
+
+&lt;p&gt;IT for the setup will be entirely supported by the Digital Humanities Specialist (installation, support, maintenance). The DH Specialist would develop a contract with Libraries IT to record this understanding.
+This is an excellent test case to create a workflow for DH in the libraries that includes DH control and
+support for software, hardware, and policies.&lt;/p&gt;
+
+&lt;h3 id=&quot;asc-support&quot;&gt;ASC support&lt;/h3&gt;
+
+&lt;p&gt;I have discussed a possible 3D setup with [colleagues] in the ASC, and they have helped me identify specific artifacts and collections that would benefit from 3D support. We will collaborate on a workflow for secure handling and scanning on any ASC artifacts to be scanned, and think about how future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/p&gt;
+
+&lt;h3 id=&quot;budget&quot;&gt;Budget&lt;/h3&gt;
+
+&lt;p&gt;Research into appropriate equipment included speaking with humanists doing archaeological and archival
+3D work at [institutions]. We’re attempting to strike a balance between the cheapest options (assuming in the short run we’d need to upgrade to intermediate options, costing more total) and highest grade options (e.g. the $25k Artec Spider might one day be useful, but I’d want several years of prior 3D work, successful class and research use, and external funding for an investment that large). &lt;strong&gt;Total requested: $7596.98.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;For the budget table and cost comparisons, see this PDF of the request (pasting it into the post was taking too much time).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Future possible costs that will be supported from DH Specialist startup funding and other sources:&lt;/em&gt; protected cart for bringing artifacts from ASC; blue painter’s tape for printing bed improvement, sink for cleanup; ventilation/fan; table covering; dedicated computer, monitor, keyboard, mouse, cables; lockable space for storage; shared ASC+DH graduate research assistant to assist with project design, 3D work, training others.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-not-use-the-engineering-library-3d-setup&quot;&gt;Why not use the Engineering Library 3D setup?&lt;/h3&gt;
+
+&lt;p&gt;The Libraries already supports a 3D &lt;em&gt;printing&lt;/em&gt; setup in the Engineering Library, but for various reasons this is not adequate for digital humanities &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; work:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Most of our research focus with the dedicated 3D setup will revolve around calibrating and customizing the setup to create accurate, representative facsimiles of historical artifacts, which requires DH and ASC experts to have hands-on oversight of the process. 3D printing setup in the Engineering Library is designed as a &lt;em&gt;service&lt;/em&gt; producing finished print-outs to those who submit files, rather than letting you calibrate settings and experiment to make the most representative facsimile for your given research use.&lt;/li&gt;
+  &lt;li&gt;DH research use necessitates iterative experimentation; the listed wait time for a print from the Engineering Library setup is up to a week.&lt;/li&gt;
+  &lt;li&gt;Transporting rare and fragile artifacts safely and securely from the ASC is simplified by keeping the equipment in-building. Future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/li&gt;
+  &lt;li&gt;This expertise will allow experimentation focused toward publishing best practices for &lt;em&gt;humanities&lt;/em&gt; research, without competition from other (e.g. STEM) uses of existing equipment and without needing to constantly recalibrate from others using the equipment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;examples-of-possible-projects&quot;&gt;Examples of possible projects&lt;/h3&gt;
+
+&lt;p&gt;Ideas that could be developed into full lesson plans, courses, or collaborative DH projects seeking external funding.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;General classroom use&lt;/strong&gt;. The 3D setup will allow students to have a dedicated space to explore digital interactions with the objects in ASC’s rich collections, where humanities students and faculty could experiment directly with the machines while getting archivists’ support in handling items and negotiating file/image reuse/sharing/copyright.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A classroom module would be designed around scanning some of the more interestingly structured Flight/Space Archive artifacts, such as Neil Armstrong’s model of a lunar landing module. Students would then be able to access, extend, and handle these artifacts extensively without damaging the original artifact and with options such as printing magnified versions of an object to better assess its texture and structure.&lt;/li&gt;
+  &lt;li&gt;[A specific professor’s] course around writing historical material object analyses currently asks students to write about a speculative archival artifact; we could support students creating and printing these speculative artifacts, possibly by combining digital files of real artifacts into a chimera object.&lt;/li&gt;
+  &lt;li&gt;Use 3D facial models for a direct connection with historical personages that would be otherwise difficult to gain, beginning with our John Purdue death mask. [Possible research project idea.]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How close can we get 3D models and printing to the originals?&lt;/strong&gt; Teaching archival concerns around authenticity, materiality, and representation (e.g. presentation differs depending on what significant property you’re focusing on) through experimentation with equipment calibration, materials, and post-printing processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can 3D scanning and modeling improve current archival processing workflows?&lt;/strong&gt; Augment existing digital collection items with 3D files; interactive 360+ degrees animations of artifacts; packaged lesson plans for K-16 including videos explaining archival artifacts, their details, differences in models, and possible discussion questions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Students “adopt” significant artifacts to explore multiple paths of documenting, describing, narrating, and the metadata and narratives they create are incorporated into the archive for future learners.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we meet the need for archival facsimiles?&lt;/strong&gt; Meet the need for exhibits around Purdue and ASC history for external institutions (e.g. recent Indianapolis Symphony exhibit), the West/Lafayette community, and Purdue’s 2019 dual 50th moon landing / 150th Purdue founding anniversaries. Create facsimiles for hand-outs at Libraries and Alumni events, to pique interest in humanities projects and ASC collections (e.g. wearable facsimiles of Amelia Earhart’s flight goggles, possibly with add-on to hold smartphones a la Google Cardboard and display related Purdue history projects or apps).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tangibility.&lt;/strong&gt; The ability to touch and manipulate objects and representations of data inspires the curiosity and questions of learners. Additionally, tangibility adds accessibility to visualizations, timelines, maps, and graphs for the visually challenged. Building on existing museum work allowing visitor access to facsimiles (e.g. the Art Institute of Chicago offers a range of sculpture with which visitors can feel the differences of various materials and compare the effects of erosion over time), we will attempt to make the learning and research outcomes of tangible access to artifacts more rigorous.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving active participation with research involving rare and fragile artifacts.&lt;/strong&gt; In addition to increasing access to artifacts, 3D scanning and printing would allow those without archival training to directly handle a fragile object like Neil Armstrong’s model lunar lander module, experiencing first-hand detail, dimensions, and texture. But students could do much more than just touch these artifacts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Digital 3D versions of, for example, the lunar module model can be explored on a computer: magnified to better see details (the Smithsonian was actually able to read eroded engravings on old armor by scanning the armor and then manipulating the scan file on a computer), included in animated tutorials (historical airplane propellers and windflow; orbit paths), labeled and cross-sectioned, and digitally manipulated (e.g. students could see what a statue missing a piece would look like in its complete state, or digital files for objects on which colors had faded or washed away could be colored again).&lt;/li&gt;
+  &lt;li&gt;These same activities could also happen with the printed-out plastic copy of an artifact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Access to off-campus artifacts.&lt;/strong&gt; The purchased scanner will be reasonably mobile, so that scans of artifacts held off-campus (e.g. in museums in an astronaut’s hometown) can be made when ASC staff visit them, then brought back to campus and printed so that a class can tangibly experience a remote artifact.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Copies of these artifacts could be printed here on-demand when a class requires, and kept for future use by the teacher of that class (we could also provide storage to “check out” already printed versions of artifacts, but we expect teachers will like having their own copy of a few key artifacts to use frequently in their own teaching).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving world access to Purdue’s artifacts.&lt;/strong&gt; Purdue Libraries could host downloadable 3D image files of some of our ASC’s artifacts; we’d begin by identifying 5 key objects that are some combination of highly interesting and difficult for non-archivists to access (rare, fragile, not well represented by photograph).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Grant project idea]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specific ASC collections or artifacts tagged for projects include:&lt;/strong&gt;  a 3D tour of the ASC vault, pliable/wearable 3D print of the lunar glove, Earhart flight suit, historical planes/propellers, artists’ books, Armstrong lunar lander module model. Anything that is fragile, rare, dangerous (lunar dust, jet fuel…) in the ASC—things that students or even researchers can’t currently touch or see. Anything in the ASC that would benefit from a cross-section (even if the insides don’t exist or can’tbe scanned, because these can be digitally modeled) or demonstration of them item in context and/or in use (historic propellers).&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 00:00:00 -0500</pubDate>
+        <link>/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</link>
+        <guid isPermaLink="true">/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
     
       <item>
         <title>Designing a Digital Humanities Initiative: Background &amp; Campus DH Survey</title>
@@ -19,7 +249,7 @@
 
 &lt;h2 id=&quot;purdue&quot;&gt;Purdue&lt;/h2&gt;
 
-&lt;p&gt;Purdue isa Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Purdue is a Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dh-in-the-purdue-libraries&quot;&gt;DH in the Purdue Libraries&lt;/h2&gt;
 
@@ -871,188 +1101,6 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
         <category>advice</category>
         
         <category>dh-now</category>
-        
-        <category>best</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Digital Humanities Dissertation Defense Advice</title>
-        <description>&lt;p&gt;I recently realized that although &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;I thoroughly blogged my dissertation (almost 40 blog posts)&lt;/a&gt; and wrote &lt;a href=&quot;http://literaturegeek.com/2015/05/09/dissertationdefended&quot;&gt;a post after successfully defending the dissertation in April 2015&lt;/a&gt;, I never blogged my actual defense talk. In keeping with &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;blogging the job talk&lt;/a&gt; that took me into my current job, and &lt;a href=&quot;http://literaturegeek.com/tag/grad-advice/&quot;&gt;other DH/grad student advice&lt;/a&gt;, I am now rectifying this oversight! I’ll make a few comments about the defense process in this blog post, and &lt;a href=&quot;http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk&quot;&gt;I blogged the actual talk in a separate post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;knowing-what-to-expect&quot;&gt;Knowing what to expect&lt;/h2&gt;
-
-&lt;p&gt;I highly recommend attending at least one dissertation defense in your department, preferably early in your degree. (I was lucky to get to attend two excellent literature defenses that incorporated digital humanities: Jason Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/11161&quot;&gt;Game Fiction&lt;/a&gt;, and Lisa Rhody’s defense of &lt;a href=&quot;http://hdl.handle.net/1903/13969&quot;&gt;Ekphrastic Revisions: Verbal-Visual Networks in 20th Century Poetry by Women&lt;/a&gt;.) It was extremely useful for me to learn early on that defenses aren’t necessarily the scary things they’re made out to be in popular culture. If things go right, you should only be defending because your advisor thinks you’re ready—at that point, you have the expertise, and the defense is your opportunity to showcase the experience you’ve built up over the years of dissertational work.&lt;/p&gt;
-
-&lt;p&gt;The defense experience can be pretty similar to the orals/comps (&lt;a href=&quot;http://literaturegeek.com/2012/11/27/info-dump-humanities-doctoral-candidacy-exams-advice/&quot;&gt;advice on those here&lt;/a&gt;), both in terms of practical preparation you can do beforehand (anticipate questions you’ll be asked, know what the room will look like where you’ll present) and in the experience (have your first five minutes just about memorized, and after that hope to relax and enjoy the chance to discuss your work—and nothing but!—with smart people for an hour.)&lt;/p&gt;
-
-&lt;p&gt;If you have a chance to present a version of your talk to another grad student or family—or even better, at a conference or other public venue—I’d recommend using that time to get comfortable with your talk, so that your focus just before the defense can be on the Q&amp;amp;A rather than the presentation. &lt;strong&gt;Fun fact:&lt;/strong&gt; I was going to give a Digital Dialogue at MITH the week before my defense, but the electricity across campus went out while I was on my first slide and stayed out the rest of the day, so we had to reschedule for the week &lt;em&gt;after&lt;/em&gt; my defense. Didn’t get to practice the talk publicly, but I did end up feeling like nothing worse could happen during the actual defense, so it worked out all right!&lt;/p&gt;
-
-&lt;h2 id=&quot;prepare-but-dont-worry&quot;&gt;Prepare, but don’t worry&lt;/h2&gt;
-
-&lt;p&gt;I’m lucky and privileged to have had &lt;a href=&quot;http://dr.amandavisconti.com/#preservation&quot;&gt;an amazing committee&lt;/a&gt;, an audience with some friendly faces (thanks, Porter, Kyle, and Jordan!), and a really positive experience—but I recognize that you should also be prepared for less ideal outcomes. We’ve all heard about questioners showing up without reading the full dissertation, and questions framed as interrogation rather than an invitation for you to share your unique expertise. At the same time, I really want to emphasize that &lt;strong&gt;the defense isn’t something to overly worry about&lt;/strong&gt;: compared to all the work you’ve done to get to this point, the defense is a time-limited situation, specific to what you’ve been thinking and working on for years, and at this moment &lt;strong&gt;you&lt;/strong&gt; are better prepared for it than anyone else in the world.&lt;/p&gt;
-
-&lt;p&gt;Some things you can do, if you are in a situation where it’s not clear the room will be entirely friendly: Practice phrases for steering confusing questions and defining the discussion in your own terms. In particular, I’d practice “double evasion” of off-topic questions, since I’ve seen this fluster conference speakers: if an audience member asks you about something that you’re not claiming expertise in via your dissertation, you can start by noting this difference but speculating briefly on possibilities, then have a statement ready if they press you again to talk about some topic outside your focus (e.g. “As I said, x and not y was the focus of my research, and you might be interested to know that [thing about x tangentially related to y and segue back into your area of research]”).&lt;/p&gt;
-
-&lt;p&gt;My awesome advisor (Matt Kirschenbaum) also talked me through all the possible outcomes of the defense (I think these were: accepted without revisions, accepted pending revisions, or requiring a second defense? The norm tended toward being accepted with or without revisions, and if I needed revisions I shouldn’t feel bad about it). It was good to know what the best through worst possible outcomes could be (and that none were too terrible). Also, this let me emotionally prepare myself for being okay with a request for revisions (against a perfectionist streak I’m sure I share with a majority of people doing graduate studies). (I did end up passing without needing revisions, yay!)&lt;/p&gt;
-
-&lt;p&gt;We also talked about an unlikely but possible scenario for any grad student doing DH work: that someone with an ax to grind about digital scholarship shows up to the public part of the defense and makes trouble. This felt unlikely enough that I was able to not worry about it, but at the same time I had prepared for public challenges to the scholarly nature of my work. A weekly email to my advisor as a record of what I’d been doing wasn’t just motivation for me, it also kept a log we could produce if what I had been doing was questioned.&lt;/p&gt;
-
-&lt;p&gt;I’m sure I’m leaving things out, so feel free to email (aviscont@purdue.edu) or tweet (&lt;a href=&quot;http://www.twitter.com/Literature_Geek&quot;&gt;@Literature_Geek&lt;/a&gt;) me with any questions about the defense process (note that particulars will vary by university and department, of course). I’ll share my actual defense talk in the next post early next week when I’m back from the Joyce conference.&lt;/p&gt;
-
-&lt;h2 id=&quot;more-about-this-dissertation&quot;&gt;More about this dissertation?&lt;/h2&gt;
-
-&lt;p&gt;If you’re interested in reading more about &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; or the dissertation around it, the dissertation exists as &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;dr.AmandaVisconti.com&lt;/a&gt; (&lt;a href=&quot;http://dissertation.amandavisconti.com&quot;&gt;dissertation.amandavisconti.com&lt;/a&gt; was the URL I used pre-defense), which functions as an umbrella documenting all the pieces of my dissertational effort: blog posts, code repositories, links, the dissertation’s whitepaper (written just in the final month before the defense, as an analytical debriefing), etc.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk&quot;&gt;text and slides from my thesis defense are in this post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There’s also &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;the full set of blog posts written during my dissertation available here&lt;/a&gt;, which talk not only about the focus of my research (digital humanities design, Joyce, textual scholarship, annotation) but about the practical aspects of designing and pursuing a digital dissertation.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jun 2016 00:00:00 -0400</pubDate>
-        <link>/2016/06/14/digital-humanities-dissertation-defense-advice</link>
-        <guid isPermaLink="true">/2016/06/14/digital-humanities-dissertation-defense-advice</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>infinite-ulysses</category>
-        
-        <category>dissertation</category>
-        
-        <category>advice-tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Infinite Ulysses beta closes for 1.0 work</title>
-        <description>&lt;p&gt;Infinite Ulysses’s open beta (March 2015-May 2016) has ended.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-this-means-for-currentprospective-users&quot;&gt;What this means for current/prospective users&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;(If you’re just interested in future plans for the site and an overview of how the beta period went, skip to the next section.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s time for my &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; participatory edition to get some serious post-beta improvements, and I’ve decided the best way to do this is taking some time off from moderating the site while I focus on its web development needs.&lt;/p&gt;
-
-&lt;p&gt;The site will remain up and readable (except for short hours-long downtimes when pushing major improvements), but on July 15th I’ll be closing signups for new users as well as blocking logging in/annotating by existing users for a while. Please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; with any questions this choice raises (e.g. I can try to accommodate needs such as plans to use the site in a summer or fall course or reading group, or to demo the site on a given day.)&lt;/p&gt;
-
-&lt;p&gt;Following &lt;a href=&quot;http://www.infiniteulysses.com/content/terms-use&quot;&gt;the site’s public data policy&lt;/a&gt;, I’ll be emailing site users this week with an invitation to export their annotations during the next six weeks (before July 15th, 2016). After that date, &lt;strong&gt;site users will not be able to log in until after the post-beta overhaul is complete&lt;/strong&gt; (currently no set date). Before July 15, logged-in users can use new links on &lt;a href=&quot;http://www.infiniteulysses.com/user&quot;&gt;your user profile page&lt;/a&gt; to export DOC, XML, and CSV versions of your annotations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note there’s no necessity to export your annotations&lt;/strong&gt;—they’ll still be there on the 1.0 site. Since from July 15, 2016 onward until the 1.0 release is ready there will be no new site signups and no logging in or annotating for existing users, I wanted to give you access to your annotations. If you don’t export your annotations during that time, you won’t lose them—an export of all user annotations will be available &lt;a href=&quot;https://github.com/amandavisconti/infinite-ulysses-public/tree/master/Annotations&quot;&gt;in the GitHub repo&lt;/a&gt; (and I see no reason for it to not stay there as long as GitHub is around, so no rush). Please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#105;&amp;#110;&amp;#102;&amp;#105;&amp;#110;&amp;#105;&amp;#116;&amp;#101;&amp;#117;&amp;#108;&amp;#121;&amp;#115;&amp;#115;&amp;#101;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; with any questions or special needs.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-a-hiatus&quot;&gt;Why a hiatus?&lt;/h2&gt;
-
-&lt;p&gt;I was hoping to have enough stuff ready to do a 1.0 release in time for this year’s Bloomsday and my speaking at the &lt;a href=&quot;https://anniversaryjoyce.com/provisional-programme/day-5-friday-17-june/&quot;&gt;XXV International James Joyce Symposium that week&lt;/a&gt; (we’re doing a full day of digital+genetic editing panels all day on Friday, including Hans Gabler and Michael Groden—pretty exciting!). Alas, I won’t have time to finish my improvements by that deadline.&lt;/p&gt;
-
-&lt;p&gt;I’m looking forward to continuing work on the site, and I do think now that I’ve settled into my new job and have some support to expand the site into a team project from a solo dissertational one, I’ll be able to release something pretty cool. But I’m not yet at a place where I can commit to a release date, and instead of continually pushing that time off, I need to make a change to reduce the moderation and community design effort the site involves, and focus on the site’s web development without feeling constantly behind where I want the site to be.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The community deserves care.&lt;/strong&gt; Running a digital community is so rewarding, but I need to acknowledge that I don’t have the time to currently do everything the site requires—especially the constant vigilance against abuse and spam that the community absolutely deserves. I didn’t have time to focus on accessibility testing as much as I should have; the reading interface only works for limited window sizes and breaks after a certain level of magnification, which is a poor reward for anyone answering my invitation to a public &lt;em&gt;Ulysses&lt;/em&gt; conversation. And I dislike continually pushing the date for the 1.0 changes back—it’s better for everyone if I wait to make a clear promise on when and what I can do with the site (more on what’s holding back changes farther below).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;My research trajectory.&lt;/strong&gt; I also need to acknowledge how my research interests are developing—I’ve always been primarily interested in participatory interface design for knowledge-building, and I think of myself as more of a research programmer and textual scholar, than as a Joycean or community manager. I’m also interested in putting my research efforts more squarely toward improving student and publics access, participation, and inclusion in the humanities, and in making the humanities (researchers, topics, and audiences) more diverse. (&lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;I’ve written about this a bit in a post on why I chose Ulysses for my edition, despite this supporting the problematic canon of white male authors writing in English&lt;/a&gt;. I don’t mean to say others shouldn’t be working in Joyce studies—this is a personal decision about where I want to put my time and effort going forward). I’m interested in inviting more people into the conversations around challenging literature, and less interested in spending my future specifically wed to Joyce’s texts (although I suspect I’ll continue to do silly &lt;em&gt;Ulysses&lt;/em&gt; things like &lt;a href=&quot;http://digitalliterature.net/usurper/&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2012/02/20/anachronistic-linati-schema&quot;&gt;this&lt;/a&gt;, and &lt;a href=&quot;http://digitalliterature.net/fun/marionette.html&quot;&gt;this&lt;/a&gt;…).&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-the-edition&quot;&gt;Testing the edition&lt;/h2&gt;
-
-&lt;p&gt;A variety of user testing and feedback helped shape the current site, and will be the foundation for the 1.0 version:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Informal (hallway testing, tweeted questions)&lt;/li&gt;
-  &lt;li&gt;Talk-aloud observation (single and paired)&lt;/li&gt;
-  &lt;li&gt;Participatory design (sketching ideal layouts)&lt;/li&gt;
-  &lt;li&gt;Site contact form feedback &amp;amp; emailed feedback&lt;/li&gt;
-  &lt;li&gt;GitHub issue queue&lt;/li&gt;
-  &lt;li&gt;Open beta soft launch survey with non-academic testers (March 5th, 2015)&lt;/li&gt;
-  &lt;li&gt;Open beta survey responses (March 9-30, 2015)&lt;/li&gt;
-  &lt;li&gt;Google Analytics (going forward, I want to have a clear statement to users on what kind of information I can see)&lt;/li&gt;
-  &lt;li&gt;Aggregated mapping (heatmaps, scrollmaps, clickmaps)&lt;/li&gt;
-  &lt;li&gt;Drupal statistics on frequency and authorship of annotations&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;howd-the-beta-go&quot;&gt;How’d the beta go?&lt;/h2&gt;
-
-&lt;p&gt;The open beta was a fantastic experience for me. We had some decent exposure via social media, helped in no small part by making the Hacker News Top 20 the day after my dissertation defense. As of June 2, 2016, the site had:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;22,251 unique visitors&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;776 members&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;1,167 annotations&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;283 unique annotation tags&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;A huge thanks to all the site’s beta testers&lt;/strong&gt;, who generously gave me feedback on the site’s design and how it fit their individual reader and research needs. (And another shout-out to all the people whose code and support made the site possible, &lt;a href=&quot;http://www.infiniteulysses.com/credits&quot;&gt;listed here&lt;/a&gt;—especially &lt;a href=&quot;https://twitter.com/mwidner&quot;&gt;Michael Widner&lt;/a&gt;, whose development of the &lt;a href=&quot;http://www.lacunastories.com/&quot;&gt;Lacuna annotation platform&lt;/a&gt; you should definitely check out!.)&lt;/p&gt;
-
-&lt;p&gt;Though there wasn’t a race for quantity over quality, special thanks are due to the site’s power annotators for their generosity to our reader community, and for helping me design the next iteration of the site to better support heavy annotation: user &lt;strong&gt;tim finnegan&lt;/strong&gt; outpacing us all with 546 excellent annotations, followed by &lt;strong&gt;bbogle&lt;/strong&gt; (159) and by three users with 20-30 annotations each—&lt;strong&gt;pbohan&lt;/strong&gt;, &lt;strong&gt;serinamarie89&lt;/strong&gt;, and &lt;strong&gt;wvarga7a1&lt;/strong&gt;. I also authored 248 annotations myself, although many of these were drawn from my earlier &lt;a href=&quot;http://www.UlyssesUlysses.com&quot;&gt;UlyssesUlysses.com&lt;/a&gt; annotations.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Hey, existing site users: I have stickers created as rewards for my alpha and beta testers now—if you used the site between now and back when it went live, send me an email with your mailing address by the end of June 2016 and I’ll ship you one! Subject to not running out of them, of course…)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/IUSticker.png&quot; alt=&quot;Infinite Ulysses publicity sticker&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(The nose fell out of the logo… still looks like a face to me…)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-numbers-are-nice-but&quot;&gt;The numbers are nice, but…&lt;/h2&gt;
-
-&lt;p&gt;It’s been amazing to have so many strangers interact with something I built—and the number of people who visited the site (22k+) is probably a bit unusual for a literature dissertation? But the reality of those numbers suggests that while there’s interest in the idea of the project, most of those visitors didn’t stick around long to read and didn’t come back any or many times. Check out this spike of interest right after my defense, and the relative flatline after—over half (about 14,000) of the 22,251 visitors came within the first month of the open beta, with the remaining 8,000 trickling in over the following year:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/statriseandfall.png&quot; alt=&quot;Line chart of site visitors since the site when live, with spike in April 2015&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Interest in the digital humanities and in designing for a more participatory literature conversation is great, but that’s really just a tiny step—the real assessment is whether I can build something that goes beyond initial curiosity, and supports people reading selections or the whole book over weeks and months. Site account creation (required to annotate and use some other features) was low compared to the total number of visits, returning visits were low, and reading without annotating was largely the norm.&lt;/p&gt;
-
-&lt;p&gt;Sure, reading &lt;em&gt;Ulysses&lt;/em&gt; is a significant investment of time…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/AlisonBechdelUlysses.png&quot; alt=&quot;Panel from Alison Bechdel&#39;s graphic novel Fun Home, showing the protagonist reading Ulysses and swearing&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(&lt;em&gt;Panel from Alison Bechdel’s highly recommended graphic novel&lt;/em&gt; Fun Home)&lt;/p&gt;
-
-&lt;p&gt;…But as much as I like to see these stats as heartening, I know I have a lot of work to do in making the look and feel of the site a delightful experience, and in making major changes to the site’s functionality supporting how people are most comfortable reading (a frequent request, touch annotation to allow comfy armchair reading, is held back by there not currently being a fully functioning plugin for this).&lt;/p&gt;
-
-&lt;p&gt;In addition to the concerns above about keeping the annotations a safe, welcoming space for including diverse voices in the &lt;em&gt;Ulysses&lt;/em&gt; conversation, I need to think through supporting a community with unusual ebbs and flows of activity. Once hooked, print readers do frequently come back to &lt;em&gt;Ulysses&lt;/em&gt; for many rereads. Even with rereaders, though, most users will come to the print book or website for stretches of weeks or months, then disappear for a while. Keeping the site feeling alive meanwhile—for example, making sure readers’ new questions get answered—takes regular effort that I don’t have enough time to support myself.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Annotators, assemble!&lt;/strong&gt; I do have some ideas for addressing this ebb and flow of the reading community, and for getting the site back into a schedule of regular improvements. I’ll be thinking about how to turn the site into a community-led project: I have funding for a graduate research assistant, some offers to push improved code to the site once I’ve got the repo ready, and the hope that the project can be a space for students and staff to train in various areas of DH interest (coding, scholarly digital editing, social media work…). I’m also working on a project that will make sharing new functionalities between digital editions easier.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A reading-sprint model.&lt;/strong&gt; Once the 1.0 site is ready, I’m interested in trying out a reading-sprint model, where I’d advertise an approaching sprint several months in advance (optimistically, enough that any teacher could then plan to include in their course the following term), then open the site for a set period of reading by individuals, book clubs, and classes—knowing that I had team in place to support the community (curation, moderation, guidance) through that period.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Removing the account requirement.&lt;/strong&gt; I also want to recognize that even with a delightful look and intuitive functionality, not all readers will want to annotate or sign up for the site. I need to build things so that all features except annotation and comments are open without a user account (early on, I focused over much on sign-ups as a way of tracking a threshold of site engagement—but ease of use is more important than nice stats!).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Splitting the text.&lt;/strong&gt; I also plan to divide the site into two interlinked texts: one text with a curated set of annotations, aimed at the bulk of people arriving at the site who just want some help reading &lt;em&gt;Ulysses&lt;/em&gt;. The second text will be the place for experimenting with new features and with diverse kinds of annotation (Team Mulligan? reader injokes? annotating as the book’s characters? check, check, and check!).&lt;/p&gt;
-
-&lt;p&gt;This split into two texts should take some of the burden off human moderators—the curated text can have annotations pulled in from the experimental text as time allows, while the experimental text can be a little more open to various kinds and granularities of annotation (though I’ll still have mechanics in place to report abuse, ask for moderation, and to require a few good-faith annotations before your annotations are visible to anyone else).&lt;/p&gt;
-
-&lt;h2 id=&quot;best-laid-plans-vs-real-life&quot;&gt;Best-laid plans vs. real life&lt;/h2&gt;
-
-&lt;p&gt;Here’s why I keep pushing the 1.0 version off. I had a handful of site improvements I’d meant to release last Bloomsday (a couple weeks after my graduation), and lots of additional local work since then (e.g. moving annotations into a collapsible side drawer to aid tablet reading, and changing the theme to support smaller screens and greater screen magnification were big ones).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dissertation scope repercussions.&lt;/strong&gt; I was lucky in having a lovely dissertation experience. But because the final beta version of the site was built largely during the final year of my dissertation (after a lot of research and trying out other tech platforms and code libraries), I didn’t have time to put in place everything I’d normally do for a professional job. Sometimes visual design suffered for the sake of functionalities I needed to move user testing forward; scope tightened and pieces dropped out (e.g. comment threading display was buggy, so I ended up just removing commenting on annotations for the beta).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Incremental improvements are currently hard to push.&lt;/strong&gt; It was difficult to push incremental changes to the site; for example, simply removing the up/down voting button (an early decision) couldn’t happen until I had time to modify the site’s theme to accommodate how the annotation structure would shift into the resulting gap, or the whole display would be out of whack. The text I chose ended up having needing manual addition of Joyce’s typographic choices, and having many more OCR errors than I expected—and as with other site changes, making it possible for site users to correct errors themselves wasn’t an easy thing to add, although users were generous with locating errors. There were a lot of small things like that, and the solution really needs to be a general overhaul rather than a collage of bandaids.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Work is getting done, albeit not pushed to the live site.&lt;/strong&gt; Since defending the dissertation, I’ve been working locally on a bunch of other improvements, starting with a complete from-scratch rebuilding of the site’s database and theme. I’ve been able to share my code for testing on development versions of several other digital editions (Romantic Circles, the Shelley-Godwin Archive, and the Victorian COVE site I’m co-PI’ing with Dino Felluga), and I made some headway toward packaging my code for easier reuse by others at the CODEX hackathon in January.&lt;/p&gt;
-
-&lt;p&gt;But with starting a new job, settling into post-student life, and moving to a new place, I haven’t been able to make the concentrated clumps of time I need to finish things up—just hours here and there, with days in between. Despite journaling constantly alongside my webdev work, it’s hard to pick work back up swiftly after putting it down for weeks at a time.&lt;/p&gt;
-
-&lt;p&gt;I also recognize that in trying to connect and grow the digital humanities community at Purdue, I might not have time to set this all up in the near future. The hope is to get the site to a place where others can participate in improving the site if they’re interested in doing so, but I recognize that I’ve been pushing “improvements soon!” off for a while now, and that isn’t the best situation for either me or the site’s readers.&lt;/p&gt;
-
-&lt;p&gt;This is a fun project, and I’ve been honored by the generosity of others in helping me build something better. So: I’m going to stop saying the new site will be ready soon, and wait until I can make and keep a promise about the site’s next version. I hope that this is a reasonable way to do that (any suggestions or requests to improve how I’m implementing this decision are welcomed).&lt;/p&gt;
-
-&lt;h2 id=&quot;read-more-stuff-related-to-infinite-ulysses&quot;&gt;Read more stuff related to Infinite Ulysses?&lt;/h2&gt;
-
-&lt;p&gt;The Infinite Ulysses site will remain available for looking at &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;here&lt;/a&gt; until it’s ready for further interactive use. If you’re interested in reading more about the work behind Infinite Ulysses, you might fancy the dissertation around the edition at &lt;a href=&quot;http://dr.AmandaVisconti.com&quot;&gt;dr.AmandaVisconti.com&lt;/a&gt;, including a whitepaper discussing stuff like designing interfaces for a public humanities, how public humanities participation can be meaningful without necessarily using full “critical” academic rhetoric, an analysis of past annotation and digital &lt;em&gt;Ulysses&lt;/em&gt; projects as well as my Infinite Ulysses user testing, and some thoughts on whether Infinite Ulysses is an edition (for my textual scholarship peeps.) There’s also &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;the full set of blog posts written during my dissertation available here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jun 2016 00:00:00 -0400</pubDate>
-        <link>/2016/06/02/infinite-ulysses-beta-closes</link>
-        <guid isPermaLink="true">/2016/06/02/infinite-ulysses-beta-closes</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>infinite-ulysses</category>
-        
-        <category>scholarly-web-design-and-coding</category>
         
         <category>best</category>
         

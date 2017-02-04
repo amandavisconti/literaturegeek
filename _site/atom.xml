@@ -4,13 +4,229 @@
  <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2016-10-23T14:16:34-04:00</updated>
+ <updated>2017-02-04T06:33:31-05:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
    <email>amandavisconti@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Theming Jekyll: Customizing the look of your GitHub Pages-hosted, Jekyll-generated website</title>
+   <link href="/2017/02/04/building-research-website-with-jekyll-githubpages-theming"/>
+   <updated>2017-02-04T00:00:00-05:00</updated>
+   <id>/2017/02/04/building-research-website-with-jekyll-githubpages-theming</id>
+   <content type="html">&lt;p&gt;If you’d like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control—such as a scholarly blog, project website, or online portfolio—using Jekyll and GitHub Pages is a good option. I wrote &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;a peer-reviewed lesson that will get you started&lt;/a&gt; over at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; (which is a really cool site full of peer-reviewed &lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;lessons&lt;/a&gt; for lots of digital humanities skills and methods). My lesson, like many of the lessons at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt;, assumes no technical knowledge and is specifically aimed at people who haven’t coded or created a website before.&lt;/p&gt;
+
+&lt;p&gt;That lesson takes you through publishing a basic website that will look much like this &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo/&quot;&gt;demo website&lt;/a&gt;. If you enjoy the lesson and want to further customize the look of your website, this blog post will help you do that! (&lt;em&gt;This post assumes you’ve read &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; already.&lt;/em&gt;) Thanks to Daniel Akacki for motivation to write this post!&lt;/p&gt;
+
+&lt;h2 id=&quot;theming&quot;&gt;Theming&lt;/h2&gt;
+
+&lt;p&gt;As I mentioned in &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, “theming” means changing the visual appearance (and sometimes behavior, like adding a comment section or a new menu) of your website. “Styling” is often used to mean changing a site’s appearance through CSS (the language that tells a browser how to display things, much like HTML tells a browser how to structure content on a page); “theming” more often means that you’re achieving styling through not just changes to existing CSS, but by reusing, customizing, or creating a set of multiple files that change the site’s visual appearance.&lt;/p&gt;
+
+&lt;p&gt;Before you dive into learning CSS, you can simply reuse (and then tweak or more heavily customize) any of the many existing themes for Jekyll-generated sites. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a good place to start looking for free themes, and most of the themes have a demo website set up so you can navigate around a site using the theme and really get a feel for how it would look on your website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4510&quot;&gt;Jekyll moved recently&lt;/a&gt; from themes that consisted of just adding files to your site folder (some CSS, HTML layouts, images, Javascript, etc.), to themes that you install as Ruby Gems (the way you already had to install Jekyll plugins). This is useful in some ways (e.g. improvements the theme creator makes to their theme can be updated on your website just by your updating the gem), but it can also be confusing for people who aren’t familiar with Ruby.&lt;/p&gt;
+
+&lt;p&gt;Below, I explain how I took the website you should have at the end of &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, and changed the site to have a new theme. This isn’t the only way to theme, but I think it’s currently the easiest way if you’re new to web development.&lt;/p&gt;
+
+&lt;h2 id=&quot;switching-to-the-hacker-theme&quot;&gt;Switching to the “Hacker” theme&lt;/h2&gt;
+
+&lt;p&gt;We’ll be switching to the “Hacker” theme, for which &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;you can find the code here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/jekyllhackertheme.png&quot; alt=&quot;Screenshot of Jekyll-generated GitHub Pages site using the Hacker theme&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I set up a duplicate of&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo&quot;&gt;https://amandavisconti.github.io/JekyllDemo&lt;/a&gt; site I created for my lesson&lt;/li&gt;
+  &lt;li&gt;at &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;so that we’re starting from where &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; left off.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I went to &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;https://github.com/pages-themes/hacker&lt;/a&gt;, clicked on the green “clone or download” button on the right, and choose to download the files as a ZIP and then unpack the ZIP (usually doubleclicking the ZIP icon will do this).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I made a copy of my original site files elsewhere, then deleted everything &lt;em&gt;inside&lt;/em&gt; my website folder (/JekyllDemoThemed)—but not the folder itself. I then pasted in everything &lt;em&gt;inside&lt;/em&gt; that unpacked ZIP folder—rather than pasting in the whole folder and its contents.&lt;/p&gt;
+
+    &lt;p&gt;We made a copy of your original files so that we can later paste in any posts or pages you want to keep from your original site.&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;A skippable aside, if you’re interested:&lt;/em&gt; Making a copy of your website files before deleting them actually isn’t a huge need, since if you’ve followed my lesson you already have those files committed on GitHub, and can always go back to that or other earlier versions of your site (it’s just more hassle, which is why we’re making a local copy instead). Also, you &lt;em&gt;could&lt;/em&gt; keep your original site files as-is and just add in the needed files (and/or code inside files) from the theme, but as someone newer to Jekyll it might be difficult to figure out which files need to be changed and which can stay, which is why we’re instead starting from the theme ZIP and importing anything from your original site you want to keep.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the terminal, cd into the website folder. For my file setup, that meant entering &lt;code class=&quot;highlighter-rouge&quot;&gt;cd /Volumes/Vault101/Documents/GitHubGeneral/JekyllDemoTheme&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enter &lt;code class=&quot;highlighter-rouge&quot;&gt;script/bootstrap&lt;/code&gt;. Let it finish running.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open your _config.yml file and paste in the following (replacing &lt;em&gt;/JekyllDemoThemed&lt;/em&gt; with the name of your website folder):&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: &quot;/JekyllDemoThemed&quot;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;url: &quot;localhost:4000&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Paste in the /_posts folder from that copy you made of your old site (if you want the posts from the old site). Paste in the pages from the old site (&lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt;) if you want them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;These pages and posts from the old site reference a layout file that existed for the Minima theme (the theme that your first Jekyll site defaults to), but not for the Hacker theme. So, you need to open each page and change &lt;strong&gt;layout: page &lt;/strong&gt;to &lt;strong&gt;layout: default&lt;/strong&gt;, and open each post and change &lt;strong&gt;layout: post&lt;/strong&gt; to &lt;strong&gt;layout: default&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’re using the default text in the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt; files I used in my demo site, you need to erase two bits of code from each of these pages. Erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages and erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages. (The Minima theme knew how to handle those calls to include icon images, but the Hacker theme doesn’t, so they will make your site not run.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Hacker theme doesn’t automatically add pages to a header menu (like the Minima theme did), but you can still access your pages by typing in their URL, e.g. by visiting &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/about&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/about&lt;/a&gt; for the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; page. You can also add links to these into your theme or the &lt;a href=&quot;http://index.md/&quot;&gt;index.md&lt;/a&gt; page. I often try to find another theme that has a feature I want—such as a fancy header menu—and then copy and paste pieces of its code into my site by trial and error. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a great place to look, and trial-and-error copying and pasting from other themes is a great way to get more familiar with how your site works.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That should do it! You can compare your site look and files with mine, if needed:&lt;/p&gt;
+
+&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;http://localhost:4000//JekyllDemoThemed&quot;&gt;http://localhost:4000//JekyllDemoThemed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The repo containing the code that runs the hacker demo site &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer)</title>
+   <link href="/2017/01/31/2017-01-31-3D-digitalhumanities-proposal"/>
+   <updated>2017-01-31T00:00:00-05:00</updated>
+   <id>/2017/01/31/3D-digitalhumanities-proposal</id>
+   <content type="html">&lt;p&gt;Early last year, I wrote a (successfully funded!) proposal for my department (Purdue Libraries) to purchase 3D scanning and printing equipment dedicated to archival digital humanities research. This was in response to a call to appropriately use some outstanding funds remaining in an equipment-funding account; the audience was department administration. I’m sharing the proposal now &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;as part of a series of posts documenting practical, administrative, and infrastructural work that makes DH go&lt;/a&gt;. If you’re interested in possible DH applications of 3D printing, or more generally in researching and making a case for DH equipment, I hope this post is useful to you!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;You can see the actual PDF I submitted here&lt;/a&gt;, if you prefer reading that to the blog post transcript below (it includes the budget and cost comparisons I didn’t feel like reformatting to paste into the blog text).&lt;/p&gt;
+
+&lt;p&gt;I try to start any proposal with a summary—this one has too long of a summary, and too long of an overall document. I was new to how the department handles purchase requests, and wanted to preemptively answer expected questions (e.g. you can see that I’m both trying to explain what 3D technology does and why purchasing it for open maker space service wasn’t my initial goal). I now try to keep reports and requests to a single page that’s easily skiable for key points like cost, value, and timeline, but I think this writeup might still be useful to someone seeking to familiarize their team with DH uses of 3D printing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Notes:&lt;/em&gt; Redactions are summarized [in brackets]—these are things where specific names were involved or ideas that we might want to use in competitive grant proposals. The “ASC” is Purdue’s Virginia Kelly Karnes Archives &amp;amp; Special Collections.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-ticket-request-digital-humanities-3d-setup&quot;&gt;Big Ticket Request: Digital Humanities 3D Setup&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Summary/definition of 3D terms&lt;/li&gt;
+  &lt;li&gt;General plans for the 3D Setup&lt;/li&gt;
+  &lt;li&gt;Location&lt;/li&gt;
+  &lt;li&gt;IT support&lt;/li&gt;
+  &lt;li&gt;ASC support&lt;/li&gt;
+  &lt;li&gt;Budget&lt;/li&gt;
+  &lt;li&gt;Why not use the Engineering Library 3D setup?&lt;/li&gt;
+  &lt;li&gt;Examples of possible projects&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;summarydefinition-of-3d-terms&quot;&gt;Summary/definition of 3D terms&lt;/h3&gt;
+
+&lt;p&gt;I propose a dedicated setup for digital humanities 3D &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; as research and
+teaching:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;3D scanning&lt;/strong&gt; lets you capture a three-dimensional digital model of an object such as a spacesuit or a model plane (much like a flat scanner lets you capture a two-dimensional model of a book page).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D modeling&lt;/strong&gt; uses that scanning to create a digital object you can manipulate, label, and otherwise augment on a computer. (&lt;em&gt;3D models don’t necessarily need to be printed to be useful; for example, we could scan a model airplane propeller and then create a digital animation of the propeller in use.&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D printing&lt;/strong&gt; produces three-dimensional physical, tangible objects representing either actual artifacts or visualizations of data:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;Artifacts:&lt;/strong&gt; Print out in plastic (or other materials) a three-dimensional copy of the original object (or a miniature, magnified, or otherwise altered version) for display and handling, further research (e.g. with previously hard-to-decipher engravings or texture), and experimentation (e.g comparison of behavior of historical airplane propellers by printing and powering miniature versions).&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt; Digital files can also be created from scratch to produce 3D visualizations such as timelines, graphs, globes, and scale models (e.g. create a 3D model of a historic satellite orbit that can be viewed from multiple angles).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The DH Center’s 3D printing setup would support &lt;em&gt;research&lt;/em&gt;, with a focus on how to best scan, digitally model and animate, and print facsimiles of archival and humanities artifacts for research and teaching use. Much of our time will be spent experimenting with scanner, printer, and software settings to produce accurately representative 3D models, and it is critical that researchers have full access to the equipment to do this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requested funding:&lt;/strong&gt;  $7596.98 (see budget below)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;  Amanda Visconti (aviscont@purdue.edu)&lt;/p&gt;
+
+&lt;h3 id=&quot;general-plans-for-the-3d-setup&quot;&gt;General plans for the 3D Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Initial internal experimentation:&lt;/strong&gt; A one-year initial trial period will focus on experimenting with ASC artifacts suggested by the archivists, and on documenting best practices for creating accurate and useful digital and physical facsimiles for use in further DH research and teaching.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DH project use:&lt;/strong&gt; After this trial period, we will also begin to support humanities projects around campus that require our specific setup rather than the Engineering Library’s current printing service (e.g. a history class where students digitally “repair”, extend, label, or animate historicalartifacts using a computer). This outreach will be on the same case-by-case basis as other collaborative projects proposed to the DH Center, rather than as a drop-in service.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;External collaborations:&lt;/strong&gt; [grant project idea]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;location&quot;&gt;Location&lt;/h3&gt;
+
+&lt;p&gt;The setup will be located in the future DH Center; until that space is inaugurated, the setup will be located
+in the DH Specialist’s office (table along the wall opposite the door).&lt;/p&gt;
+
+&lt;h3 id=&quot;it-support&quot;&gt;IT support&lt;/h3&gt;
+
+&lt;p&gt;IT for the setup will be entirely supported by the Digital Humanities Specialist (installation, support, maintenance). The DH Specialist would develop a contract with Libraries IT to record this understanding.
+This is an excellent test case to create a workflow for DH in the libraries that includes DH control and
+support for software, hardware, and policies.&lt;/p&gt;
+
+&lt;h3 id=&quot;asc-support&quot;&gt;ASC support&lt;/h3&gt;
+
+&lt;p&gt;I have discussed a possible 3D setup with [colleagues] in the ASC, and they have helped me identify specific artifacts and collections that would benefit from 3D support. We will collaborate on a workflow for secure handling and scanning on any ASC artifacts to be scanned, and think about how future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/p&gt;
+
+&lt;h3 id=&quot;budget&quot;&gt;Budget&lt;/h3&gt;
+
+&lt;p&gt;Research into appropriate equipment included speaking with humanists doing archaeological and archival
+3D work at [institutions]. We’re attempting to strike a balance between the cheapest options (assuming in the short run we’d need to upgrade to intermediate options, costing more total) and highest grade options (e.g. the $25k Artec Spider might one day be useful, but I’d want several years of prior 3D work, successful class and research use, and external funding for an investment that large). &lt;strong&gt;Total requested: $7596.98.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;For the budget table and cost comparisons, see this PDF of the request (pasting it into the post was taking too much time).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Future possible costs that will be supported from DH Specialist startup funding and other sources:&lt;/em&gt; protected cart for bringing artifacts from ASC; blue painter’s tape for printing bed improvement, sink for cleanup; ventilation/fan; table covering; dedicated computer, monitor, keyboard, mouse, cables; lockable space for storage; shared ASC+DH graduate research assistant to assist with project design, 3D work, training others.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-not-use-the-engineering-library-3d-setup&quot;&gt;Why not use the Engineering Library 3D setup?&lt;/h3&gt;
+
+&lt;p&gt;The Libraries already supports a 3D &lt;em&gt;printing&lt;/em&gt; setup in the Engineering Library, but for various reasons this is not adequate for digital humanities &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; work:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Most of our research focus with the dedicated 3D setup will revolve around calibrating and customizing the setup to create accurate, representative facsimiles of historical artifacts, which requires DH and ASC experts to have hands-on oversight of the process. 3D printing setup in the Engineering Library is designed as a &lt;em&gt;service&lt;/em&gt; producing finished print-outs to those who submit files, rather than letting you calibrate settings and experiment to make the most representative facsimile for your given research use.&lt;/li&gt;
+  &lt;li&gt;DH research use necessitates iterative experimentation; the listed wait time for a print from the Engineering Library setup is up to a week.&lt;/li&gt;
+  &lt;li&gt;Transporting rare and fragile artifacts safely and securely from the ASC is simplified by keeping the equipment in-building. Future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/li&gt;
+  &lt;li&gt;This expertise will allow experimentation focused toward publishing best practices for &lt;em&gt;humanities&lt;/em&gt; research, without competition from other (e.g. STEM) uses of existing equipment and without needing to constantly recalibrate from others using the equipment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;examples-of-possible-projects&quot;&gt;Examples of possible projects&lt;/h3&gt;
+
+&lt;p&gt;Ideas that could be developed into full lesson plans, courses, or collaborative DH projects seeking external funding.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;General classroom use&lt;/strong&gt;. The 3D setup will allow students to have a dedicated space to explore digital interactions with the objects in ASC’s rich collections, where humanities students and faculty could experiment directly with the machines while getting archivists’ support in handling items and negotiating file/image reuse/sharing/copyright.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A classroom module would be designed around scanning some of the more interestingly structured Flight/Space Archive artifacts, such as Neil Armstrong’s model of a lunar landing module. Students would then be able to access, extend, and handle these artifacts extensively without damaging the original artifact and with options such as printing magnified versions of an object to better assess its texture and structure.&lt;/li&gt;
+  &lt;li&gt;[A specific professor’s] course around writing historical material object analyses currently asks students to write about a speculative archival artifact; we could support students creating and printing these speculative artifacts, possibly by combining digital files of real artifacts into a chimera object.&lt;/li&gt;
+  &lt;li&gt;Use 3D facial models for a direct connection with historical personages that would be otherwise difficult to gain, beginning with our John Purdue death mask. [Possible research project idea.]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How close can we get 3D models and printing to the originals?&lt;/strong&gt; Teaching archival concerns around authenticity, materiality, and representation (e.g. presentation differs depending on what significant property you’re focusing on) through experimentation with equipment calibration, materials, and post-printing processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can 3D scanning and modeling improve current archival processing workflows?&lt;/strong&gt; Augment existing digital collection items with 3D files; interactive 360+ degrees animations of artifacts; packaged lesson plans for K-16 including videos explaining archival artifacts, their details, differences in models, and possible discussion questions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Students “adopt” significant artifacts to explore multiple paths of documenting, describing, narrating, and the metadata and narratives they create are incorporated into the archive for future learners.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How can we meet the need for archival facsimiles?&lt;/strong&gt; Meet the need for exhibits around Purdue and ASC history for external institutions (e.g. recent Indianapolis Symphony exhibit), the West/Lafayette community, and Purdue’s 2019 dual 50th moon landing / 150th Purdue founding anniversaries. Create facsimiles for hand-outs at Libraries and Alumni events, to pique interest in humanities projects and ASC collections (e.g. wearable facsimiles of Amelia Earhart’s flight goggles, possibly with add-on to hold smartphones a la Google Cardboard and display related Purdue history projects or apps).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tangibility.&lt;/strong&gt; The ability to touch and manipulate objects and representations of data inspires the curiosity and questions of learners. Additionally, tangibility adds accessibility to visualizations, timelines, maps, and graphs for the visually challenged. Building on existing museum work allowing visitor access to facsimiles (e.g. the Art Institute of Chicago offers a range of sculpture with which visitors can feel the differences of various materials and compare the effects of erosion over time), we will attempt to make the learning and research outcomes of tangible access to artifacts more rigorous.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving active participation with research involving rare and fragile artifacts.&lt;/strong&gt; In addition to increasing access to artifacts, 3D scanning and printing would allow those without archival training to directly handle a fragile object like Neil Armstrong’s model lunar lander module, experiencing first-hand detail, dimensions, and texture. But students could do much more than just touch these artifacts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Digital 3D versions of, for example, the lunar module model can be explored on a computer: magnified to better see details (the Smithsonian was actually able to read eroded engravings on old armor by scanning the armor and then manipulating the scan file on a computer), included in animated tutorials (historical airplane propellers and windflow; orbit paths), labeled and cross-sectioned, and digitally manipulated (e.g. students could see what a statue missing a piece would look like in its complete state, or digital files for objects on which colors had faded or washed away could be colored again).&lt;/li&gt;
+  &lt;li&gt;These same activities could also happen with the printed-out plastic copy of an artifact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Access to off-campus artifacts.&lt;/strong&gt; The purchased scanner will be reasonably mobile, so that scans of artifacts held off-campus (e.g. in museums in an astronaut’s hometown) can be made when ASC staff visit them, then brought back to campus and printed so that a class can tangibly experience a remote artifact.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Copies of these artifacts could be printed here on-demand when a class requires, and kept for future use by the teacher of that class (we could also provide storage to “check out” already printed versions of artifacts, but we expect teachers will like having their own copy of a few key artifacts to use frequently in their own teaching).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving world access to Purdue’s artifacts.&lt;/strong&gt; Purdue Libraries could host downloadable 3D image files of some of our ASC’s artifacts; we’d begin by identifying 5 key objects that are some combination of highly interesting and difficult for non-archivists to access (rare, fragile, not well represented by photograph).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Grant project idea]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specific ASC collections or artifacts tagged for projects include:&lt;/strong&gt;  a 3D tour of the ASC vault, pliable/wearable 3D print of the lunar glove, Earhart flight suit, historical planes/propellers, artists’ books, Armstrong lunar lander module model. Anything that is fragile, rare, dangerous (lunar dust, jet fuel…) in the ASC—things that students or even researchers can’t currently touch or see. Anything in the ASC that would benefit from a cross-section (even if the insides don’t exist or can’tbe scanned, because these can be digitally modeled) or demonstration of them item in context and/or in use (historic propellers).&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Designing a Digital Humanities Initiative: Background & Campus DH Survey</title>
@@ -25,7 +241,7 @@
 
 &lt;h2 id=&quot;purdue&quot;&gt;Purdue&lt;/h2&gt;
 
-&lt;p&gt;Purdue isa Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Purdue is a Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dh-in-the-purdue-libraries&quot;&gt;DH in the Purdue Libraries&lt;/h2&gt;
 
