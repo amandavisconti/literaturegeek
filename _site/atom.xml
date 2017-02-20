@@ -4,7 +4,7 @@
  <title>The blog of Literature Geek</title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2017-02-19T14:11:40-05:00</updated>
+ <updated>2017-02-20T10:11:28-05:00</updated>
  <id></id>
  <author>
    <name>Amanda Visconti</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>DH 2017 Long Paper & Panel Acceptances</title>
+   <title>DH 2017 Long Paper &amp; Panel Acceptances</title>
    <link href="/2017/02/19/dh-2017-paper-accepted"/>
    <updated>2017-02-19T00:00:00-05:00</updated>
    <id>/2017/02/19/dh-2017-paper-accepted</id>
@@ -327,7 +327,7 @@ support for software, hardware, and policies.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Designing a Digital Humanities Initiative: Background & Campus DH Survey</title>
+   <title>Designing a Digital Humanities Initiative: Background &amp; Campus DH Survey</title>
    <link href="/2016/09/11/designing-digital-humanities-initiative-background-campus-survey"/>
    <updated>2016-09-09T00:00:00-04:00</updated>
    <id>/2016/09/11/digital-humanities-initiative</id>
@@ -507,7 +507,7 @@ support for software, hardware, and policies.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>A Digital Humanities What, Why, & How (DLF eResearch Network Talk)</title>
+   <title>A Digital Humanities What, Why, &amp; How (DLF eResearch Network Talk)</title>
    <link href="/2016/07/21/dlf-digital-humanities-what-why-how"/>
    <updated>2016-07-21T00:00:00-04:00</updated>
    <id>/2016/07/21/dlf-digital-humanities-what-why-how</id>
@@ -846,7 +846,7 @@ I also want to recognize that there are negative results of this habit: not ever
  </entry>
  
  <entry>
-   <title>The Digital Humanities Slack & Community Design</title>
+   <title>The Digital Humanities Slack &amp; Community Design</title>
    <link href="/2016/07/06/digital-humanities-slack-community-design"/>
    <updated>2016-07-06T00:00:00-04:00</updated>
    <id>/2016/07/06/digital-humanities-slack-community-design</id>
@@ -1299,7 +1299,7 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
  </entry>
  
  <entry>
-   <title>Lunar dust & tapioca pudding (touring Purdue Archives' aerospace collections)</title>
+   <title>Lunar dust &amp; tapioca pudding (touring Purdue Archives&#39; aerospace collections)</title>
    <link href="/2016/05/09/aerospace-history-dh-projects-purdue-archives"/>
    <updated>2016-05-09T00:00:00-04:00</updated>
    <id>/2016/05/09/aerospace-history-dh-projects-purdue-archives</id>
@@ -2719,7 +2719,7 @@ Things related to making our hard scholarly effort reach people outside the prof
  </entry>
  
  <entry>
-   <title>Introducing Static Sites for Digital Humanities Projects (why & what are Jekyll, GitHub, etc.?)</title>
+   <title>Introducing Static Sites for Digital Humanities Projects (why &amp; what are Jekyll, GitHub, etc.?)</title>
    <link href="/2015/12/08/WhyJekyllGitHub"/>
    <updated>2015-12-08T07:00:00-05:00</updated>
    <id>/2015/12/08/WhyJekyllGitHub</id>
@@ -2822,7 +2822,7 @@ Things related to making our hard scholarly effort reach people outside the prof
  </entry>
  
  <entry>
-   <title>A small sample of cool digital humanities info visualization projects & tools</title>
+   <title>A small sample of cool digital humanities info visualization projects &amp; tools</title>
    <link href="/2015/09/25/infovizlinks"/>
    <updated>2015-09-25T08:00:00-04:00</updated>
    <id>/2015/09/25/infovizlinks</id>
@@ -3854,7 +3854,7 @@ Jane              Jim              2&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>"Suppose there's some connection": Visualizing Character Interactions in Ulysses for Bloomsday 2013</title>
+   <title>&quot;Suppose there&#39;s some connection&quot;: Visualizing Character Interactions in Ulysses for Bloomsday 2013</title>
    <link href="/2013/09/09/bloomsday2013results"/>
    <updated>2013-09-09T08:00:14-04:00</updated>
    <id>/2013/09/09/bloomsday2013results</id>
@@ -4116,7 +4116,7 @@ br {mso-data-placement:same-cell;}&lt;br&gt;
  </entry>
  
  <entry>
-   <title>Cat GIFs & Mrkgnao: Ulysses, Reddit, and What Digital Editions Can Learn from Online Communities</title>
+   <title>Cat GIFs &amp; Mrkgnao: Ulysses, Reddit, and What Digital Editions Can Learn from Online Communities</title>
    <link href="/2013/07/29/redditulysses"/>
    <updated>2013-07-29T08:00:21-04:00</updated>
    <id>/2013/07/29/redditulysses</id>
@@ -4216,7 +4216,7 @@ br {mso-data-placement:same-cell;}&lt;br&gt;
  </entry>
  
  <entry>
-   <title>"Exquisite handicraft" or "book ghouls"? Grangerizing and Book Materiality</title>
+   <title>&quot;Exquisite handicraft&quot; or &quot;book ghouls&quot;? Grangerizing and Book Materiality</title>
    <link href="/2013/07/18/grangerizingessay"/>
    <updated>2013-07-18T15:23:30-04:00</updated>
    <id>/2013/07/18/grangerizingessay</id>
@@ -4331,7 +4331,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>O rocks, again: More Info Visualization of James Joyce's Ulysses (Bloomsday 2013 Project)</title>
+   <title>O rocks, again: More Info Visualization of James Joyce&#39;s Ulysses (Bloomsday 2013 Project)</title>
    <link href="/2013/05/10/ulyssesinfoviz2013"/>
    <updated>2013-05-10T07:00:15-04:00</updated>
    <id>/2013/05/10/ulyssesinfoviz2013</id>
@@ -4345,7 +4345,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>"Electronic Literature after Flash": Weirding Credible Digital Platforms to Tell Stories</title>
+   <title>&quot;Electronic Literature after Flash&quot;: Weirding Credible Digital Platforms to Tell Stories</title>
    <link href="/2013/04/11/elitafterflash"/>
    <updated>2013-04-11T14:00:24-04:00</updated>
    <id>/2013/04/11/elitafterflash</id>
@@ -4357,7 +4357,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>Building for the Great Conversation: Participatory Digital Design & the Urgency of the Public Humanities</title>
+   <title>Building for the Great Conversation: Participatory Digital Design &amp; the Urgency of the Public Humanities</title>
    <link href="/2013/04/11/dhdisspublichumanities"/>
    <updated>2013-04-11T05:33:44-04:00</updated>
    <id>/2013/04/11/dhdisspublichumanities</id>
@@ -4420,7 +4420,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>Monograph Writing Isn't the Only Scholarly Act: Chronicle Interview on Digital Dissertations</title>
+   <title>Monograph Writing Isn&#39;t the Only Scholarly Act: Chronicle Interview on Digital Dissertations</title>
    <link href="/2013/02/11/monograph-writing-aint-the-only-scholarly-act-chronicle-interview-on-digital-dissertations/"/>
    <updated>2013-02-11T14:31:28-05:00</updated>
    <id>/2013/02/11/monograph-writing-aint-the-only-scholarly-act-chronicle-interview-on-digital-dissertations</id>
@@ -4528,7 +4528,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>Book Ghouls: Grangerizing as Book Hacking's Black Sheep</title>
+   <title>Book Ghouls: Grangerizing as Book Hacking&#39;s Black Sheep</title>
    <link href="/2012/11/04/book-ghouls-grangerizing-as-book-hackings-black-sheep"/>
    <updated>2012-11-04T21:04:30-05:00</updated>
    <id>/2012/11/04/book-ghouls-grangerizing-as-book-hackings-black-sheep</id>
@@ -4708,7 +4708,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>The beauty of DH: We're all continually n00bs at something</title>
+   <title>The beauty of DH: We&#39;re all continually n00bs at something</title>
    <link href="/2012/10/07/the-beauty-of-dh-were-all-continually-n00bs-at-something"/>
    <updated>2012-10-07T05:25:33-04:00</updated>
    <id>/2012/10/07/the-beauty-of-dh-were-all-continually-n00bs-at-something</id>
@@ -4841,7 +4841,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>Mapping the Flow of Knowledge with "View DHQ": ACH Microgrant Award</title>
+   <title>Mapping the Flow of Knowledge with &quot;View DHQ&quot;: ACH Microgrant Award</title>
    <link href="/2012/04/19/ach-microgrant-award"/>
    <updated>2012-04-19T18:35:16-04:00</updated>
    <id>/2012/04/19/ach-microgrant-award</id>
@@ -4855,7 +4855,7 @@ UlyssesUlysses does some interesting things in terms of customizing the learning
  </entry>
  
  <entry>
-   <title>“How Can You Love a Work If You Don't Know It?”: Six Lessons on Digital Editing from Team MARKUP</title>
+   <title>“How Can You Love a Work If You Don&#39;t Know It?”: Six Lessons on Digital Editing from Team MARKUP</title>
    <link href="/2012/04/19/how-can-you-love-a-work-if-you-dont-know-it-six-lessons-from-team-markup"/>
    <updated>2012-04-19T04:19:49-04:00</updated>
    <id>/2012/04/19/how-can-you-love-a-work-if-you-dont-know-it-six-lessons-from-team-markup</id>
