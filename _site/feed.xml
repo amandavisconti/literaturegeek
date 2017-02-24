@@ -5,8 +5,8 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Feb 2017 18:41:28 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Feb 2017 18:41:28 -0500</lastBuildDate>
+    <pubDate>Fri, 24 Feb 2017 06:06:42 -0500</pubDate>
+    <lastBuildDate>Fri, 24 Feb 2017 06:06:42 -0500</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -164,6 +164,37 @@
         <category>digital-humanities</category>
         
         <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>New role: Scholars&#39; Lab Managing Director</title>
+        <description>&lt;p&gt;I’m starting as Managing Director of the University of Virginia’s Scholars’ Lab later this spring! Academic Director Alison Booth wrote &lt;a href=&quot;http://scholarslab.org/uncategorized/amanda-visconti-is-our-new-managing-director/&quot;&gt;a lovely post about my hire on the Scholars’ Lab blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/SLphoto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Scholars’ Lab is a digital humanities center at the University of Virginia Libraries, and a founding member of the &lt;a href=&quot;http://dhcenternet.org/&quot;&gt;CenterNet&lt;/a&gt; international network of DH centers. The Lab has &lt;a href=&quot;http://scholarslab.org/people/&quot;&gt;an amazing team of DH experts&lt;/a&gt; (including new Head of Graduate Programs &lt;a href=&quot;https://twitter.com/walshbr&quot;&gt;Brandon Walsh&lt;/a&gt;), &lt;a href=&quot;http://scholarslab.org/about/charter/&quot;&gt;a team-authored charter&lt;/a&gt; I deeply respect, and past and current work including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://neatline.org/&quot;&gt;Neatline&lt;/a&gt;, “a mix-and-match toolset for the creation of interlinked timelines and maps as interpretive expressions of the literary or historical content of archival collections”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codespeak.scholarslab.org/&quot;&gt;Speaking in Code&lt;/a&gt;, a symposium of advanced DH developers discussing tacit DH tech knowledge&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://praxis.scholarslab.org/&quot;&gt;Praxis Program&lt;/a&gt; and &lt;a href=&quot;http://praxis-network.org/&quot;&gt;Network&lt;/a&gt;—innovative models of DH student training, where students have collaboratively created projects such as &lt;a href=&quot;http://prism.scholarslab.org/&quot;&gt;Prism&lt;/a&gt; and an &lt;a href=&quot;http://ivanhoe.scholarslab.org/&quot;&gt;Ivanhoe reboot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;An &lt;a href=&quot;http://scholarslab.org/makerspace/&quot;&gt;experimental humanities Makerspace&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Leadership Alliance Mellon Initiative (LAMI) fellows (supporting minority students interested in graduate studies)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And even more work captured in this 2016 &lt;a href=&quot;http://scholarslab.org/uncategorized/whats-the-scholars-lab/&quot;&gt;blog post&lt;/a&gt; by Alison Booth and on the &lt;a href=&quot;http://scholarslab.org/research/&quot;&gt;Scholars’ Lab research page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m deeply honored to join and excited to work with the Scholars’ Lab team and community, and looking forward to being back in the VA/MD area.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://literaturegeek.com/2017/02/23/scholars-lab-dh-center-managing-director-job-talk&quot;&gt;next post on this blog&lt;/a&gt; will share the job talk I gave while interviewing for this role, and you could also check out &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my previous role’s job talk&lt;/a&gt; if you’re interested in interviewing for DHy positions.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 -0500</pubDate>
+        <link>/2017/02/22/scholars-lab-dh-center-managing-director</link>
+        <guid isPermaLink="true">/2017/02/22/scholars-lab-dh-center-managing-director</guid>
+        
+        <category>digital-humanities</category>
         
         
       </item>
@@ -1000,61 +1031,6 @@ I also want to recognize that there are negative results of this habit: not ever
         <pubDate>Fri, 15 Jul 2016 00:00:00 -0400</pubDate>
         <link>/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</link>
         <guid isPermaLink="true">/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</guid>
-        
-        <category>digital-humanities</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>How the Digital Humanities uses Slack to support and build a geographically dispersed intellectual community</title>
-        <description>&lt;p&gt;&lt;em&gt;I was invited to write a piece on the Digital Humanities Slack for the London School of Economics blog (&lt;a href=&quot;http://blogs.lse.ac.uk/impactofsocialsciences/2016/07/13/using-slack-to-support-a-geographically-dispersed-community/&quot;&gt;link&lt;/a&gt;), and I’m crossposting it here.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m a member of the digital humanities (DH) community—we’re builders, tech users, teachers, and thinkers around digital tools exploring literature, history, and other cultural heritage fields (stuff like &lt;a href=&quot;http://scholarslab.org/uncategorized/preserving-reconstructing-teaching-in-3d/&quot;&gt;3D printing for archaeology&lt;/a&gt;, &lt;a href=&quot;http://viraltexts.org/&quot;&gt;text analysis of historical memes in newspapers&lt;/a&gt;, and &lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;interfaces that let readers interpret and discuss challenging novels&lt;/a&gt;). One of the more recent ways we communicate is via a Digital Humanities Slack.&lt;/p&gt;
-
-&lt;p&gt;Slack is a digital platform (web or desktop/mobile app) much like a set of chatrooms for a team of people: you can chat in real-time, and create ongoing “channels” (chatrooms) around specific themes or topics (&lt;a href=&quot;https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users&quot;&gt;here’s a good overview of what Slack is/how to use it&lt;/a&gt;). Slack is a bit different from chatting you might have done in the past, in that it’s set up to integrate with a variety of web services that help in project management, website monitoring, social media, and other needs of business teams. Because Slack is built with limited teams from inside one business in mind, we needed to use &lt;a href=&quot;https://github.com/dherbst/slack-invite-script&quot;&gt;Darrel Herbst’s Slack invite script&lt;/a&gt; to instead allow anyone to sign up.&lt;/p&gt;
-
-&lt;p&gt;The Digital Humanities Slack is open to anyone with a curiosity about DH and/or related interests (e.g. digital libraries, museums, and archives)—those interested just visit &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;tinyurl.com/DHslack&lt;/a&gt; to join. Absolutely no DH expertise is required, and we have several specific channels devoted to DH beginners, students, job seekers, and asking all kinds of DHy questions.&lt;/p&gt;
-
-&lt;p&gt;The DH Slack was created in October 2015 after a suggestion from Ed Summers, and was built by the channel creation and chatting of its members. Nine months later (as of July 6, 2016), we have:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;700 members (84% of which have used the Slack over the past two weeks)&lt;/li&gt;
-  &lt;li&gt;67 “channels” (chat rooms devoted to specific topics)&lt;/li&gt;
-  &lt;li&gt;21.3k messages sent&lt;/li&gt;
-  &lt;li&gt;About 60% of messages are on public channels, with the other 40% being DMs&lt;/li&gt;
-  &lt;li&gt;180 files (shared code, documents, screenshots…) have been shared and stored on the Slack&lt;/li&gt;
-  &lt;li&gt;Loading screen messages that quote definitions of DH from a variety of practitioners (thanks to Matthew Lincoln), and when someone types “what is the digital humanities”, a bot responds by pointing you to the 800+ definitions for DH over at &lt;a href=&quot;http://whatisdigitalhumanities.com&quot;&gt;whatisdigitalhumanities.com&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Channels (chat rooms) are user-created, and the names of channels are represented with a pound sign and no spaces (#DHteaching). The current channels cover&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;socializing and academic community information (e.g. #hottopic for chatting about current DH issues like the latest LARB interview, and channels to share upcoming conferences and job opportunities)&lt;/li&gt;
-  &lt;li&gt;regions and languages (e.g. a Spanish-language channel, channels for DHers in Baltimore, the Bay Area, and Tennessee)&lt;/li&gt;
-  &lt;li&gt;academic fields (e.g. people working in libraries, museums, publishing, and environmental humanities)&lt;/li&gt;
-  &lt;li&gt;getting started in the digital humanities (e.g. a place to ask for tutorials to learn specific skills, a channel for talking about what being a DH student is like)&lt;/li&gt;
-  &lt;li&gt;specific DH methods and practices (e.g. visualization, linked open data, coding, crowdsourcing, machine learning, teaching DH)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;plus a #meta channel to discuss the DH Slack community itself.&lt;/p&gt;
-
-&lt;p&gt;Slack is a comparatively new platform for DHers, who have been blogging and using Facebook and Twitter as part of their intellectual life almost since those platforms began. For example, I use Twitter to share blog posts on my in-progress work and teaching; hear about others’ blog posts, projects, and publications; discover potential project collaborators and mentors (including people who don’t work in academia); and as a backchannel to share and discuss conference presentations in real-time.&lt;/p&gt;
-
-&lt;p&gt;We’re still figuring out how Slack can be useful: Can it allow different kinds of conversations than Twitter? Can we use it to teach and support people interested in DH who don’t have mentors geographically near them, or who aren’t inside academia? Like Twitter, Slack allows coexisting formal use (posting job opportunities, discussing theories) with informal socializing (which is really part of professional work, since it lays good foundations for future collaboration and problem-solving). Interesting uses of the DH Slack I’ve seen so far include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A user creating a channel around their specific research interests, and chatting in that channel as a sort of live-blog of the different approaches they’re trying and how they address issues as they arise (other Slack members can read or ask questions in the channel, too)&lt;/li&gt;
-  &lt;li&gt;If an interesting discussion on Twitter starts to feel stifled or miscommunicated because of Twitter’s size constraints, moving the conversation to the DH Slack allows more freedom while also keeping the conversation semi-public (it’s more public than moving to an email conversation, but anyone wanting to follow the conversation does need to join the DH Slack first)&lt;/li&gt;
-  &lt;li&gt;Mentoring and socializing: I’ve seen Slack members walk each other through fixing a coding bug or suggest lesson plans, and we use the #weeklies channel for weekly sharing around a fun theme (e.g. what’s a book that changed your way of thinking?)&lt;/li&gt;
-  &lt;li&gt;A user sharing a digital humanities method tutorial, then offering to be available on the DH Slack for a certain evening to answer any questions about the tutorial (with the idea that people are encouraged to try working through the tutorial, knowing they will have help if they get stuck or have a question)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We’ve collectively discussed the design of our community, deciding by lazy consensus issues like whether we should keep a permanent archive of all messages sent on the Slack, or keep things ephemeral (check out &lt;a href=&quot;http://literaturegeek.com/2016/07/06/digital-humanities-slack-community-design&quot;&gt;this blog post&lt;/a&gt; for a discussion and more examples of that collective community design). &lt;a href=&quot;https://github.com/amandavisconti/DHslack/blob/master/CodeOfConduct.md&quot;&gt;Our evolving code of conduct lives here&lt;/a&gt;, and Slack members are encouraged to suggest additions or changes via #meta. We’re dedicated to a harassment-free experience for everyone, with a particular reminder that dismissing or belittling lack of DH, tech, or other experience (e.g. answering questions with links to Let Me Google That For You) is not allowed. This code helps us set expectations for behavior and promote the Slack as a safe and welcoming space for everyone. With the code and open community design discussion in place, we’re finding that Slack works pretty well at supporting a broad, geographically dispersed intellectual community!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 Jul 2016 00:00:00 -0400</pubDate>
-        <link>/2016/07/13/digital-humanities-slack-london-school-economics</link>
-        <guid isPermaLink="true">/2016/07/13/digital-humanities-slack-london-school-economics</guid>
         
         <category>digital-humanities</category>
         
