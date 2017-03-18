@@ -14,6 +14,8 @@ I'm starting as Managing Director of the University of Virginia's Scholars' Lab 
 
 I've blogged the projects I shared in my talk ([Infinite Ulysses](http://www.infiniteulysses.com) and the [DH Slack](http://tinyurl.com/DHSlack)) in previous posts on this website, but I'm sharing the talk regardless as the overall framing of my projects in response to the prompt might be of interest to someone.
 
+When scholars share their job talks after being hired, DH and libraries interviewing processes become a little less mysterious. Academia has many genres of presentation. It can be difficult to draft your first job talk without seeing how others in your field translate a job ad's requirements into a job talk's expression of their unique expertise. <a href="http://readywriting.org/uncategorized/faculty-development-for-the-21st-century-and-beyond/">Lee Skallerup Bessette</a>, <a href="http://celestesharpe.com/onward/">Celeste Tuong Vy Sharpe</a>, <a href="https://chrisbourg.wordpress.com/2015/07/12/infrastructure-and-culture-a-job-talk/">Chris Bourg</a>, and <a href="http://scholarslab.org/digital-humanities/in-out-across-with-collaborative-education-and-digital-humanities-job-talk-for-head-of-graduate-programs/">Brandon Walsh</a> all share successful DHy job talks on their websites (I shared the <a href="http://literaturegeek.com/2016/02/28/DHjobtalk">talk</a> for my previous faculty role, too).
+
 ## The presentation
 
 ![]({{ site.baseurl }}/assets/UVaJobTalkSlides/UVaManagingDirector.001.png)
