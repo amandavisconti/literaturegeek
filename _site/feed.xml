@@ -4,13 +4,13 @@
     <title>Literature Geek</title>
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Apr 2017 09:02:01 -0400</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2017 09:02:01 -0400</lastBuildDate>
-    <generator>Jekyll v3.0.2</generator>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 May 2017 09:16:52 -0400</pubDate>
+    <lastBuildDate>Thu, 18 May 2017 09:16:52 -0400</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>DH Job Talk (for my new role!): Scholars&#39; Lab Managing Director</title>
+        <title>DH Job Talk (for my new role!): Scholars' Lab Managing Director</title>
         <description>&lt;p&gt;I’m starting as Managing Director of the University of Virginia’s Scholars’ Lab digital humanities center later this spring! I shared &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;the job talk I did for my previous role&lt;/a&gt; after I was hired, and here I’ll do the same for this new position (&lt;a href=&quot;http://scholarslab.org/announcements/are-you-our-new-managing-director/&quot;&gt;check out the job ad here&lt;/a&gt;). Where my previous job’s interview presentation asked me to comment on the broad trends in libraries + DH citing current literature, this talk asked for a discussion of my past projects:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -160,8 +160,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.031.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 23 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</link>
-        <guid isPermaLink="true">/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</guid>
+        <link>http://localhost:4000/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</guid>
         
         <category>digital-humanities</category>
         
@@ -171,7 +171,7 @@
       </item>
     
       <item>
-        <title>New role: Scholars&#39; Lab Managing Director</title>
+        <title>New role: Scholars' Lab Managing Director</title>
         <description>&lt;p&gt;I’m starting as Managing Director of the University of Virginia’s Scholars’ Lab later this spring! Academic Director Alison Booth wrote &lt;a href=&quot;http://scholarslab.org/uncategorized/amanda-visconti-is-our-new-managing-director/&quot;&gt;a lovely post about my hire on the Scholars’ Lab blog&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/SLphoto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -193,8 +193,8 @@
 &lt;p&gt;The &lt;a href=&quot;http://literaturegeek.com/2017/02/23/scholars-lab-dh-center-managing-director-job-talk&quot;&gt;next post on this blog&lt;/a&gt; will share the job talk I gave while interviewing for this role, and you could also check out &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my previous role’s job talk&lt;/a&gt; if you’re interested in interviewing for DHy positions.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/2017/02/22/scholars-lab-dh-center-managing-director</link>
-        <guid isPermaLink="true">/2017/02/22/scholars-lab-dh-center-managing-director</guid>
+        <link>http://localhost:4000/2017/02/22/scholars-lab-dh-center-managing-director</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/22/scholars-lab-dh-center-managing-director</guid>
         
         <category>digital-humanities</category>
         
@@ -294,8 +294,8 @@
 &lt;p&gt;Warwick, C., Melissa Terras, P. Huntington, and N. Pappa. “If You Build It Will They Come? The LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities through Statistical Analysis of User Log Data”. &lt;em&gt;Literary and Linguistic Computing&lt;/em&gt;. 23(1). 2008. 85-102.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/2017/02/19/dh-2017-paper-accepted</link>
-        <guid isPermaLink="true">/2017/02/19/dh-2017-paper-accepted</guid>
+        <link>http://localhost:4000/2017/02/19/dh-2017-paper-accepted</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/19/dh-2017-paper-accepted</guid>
         
         <category>digital-humanities</category>
         
@@ -383,8 +383,8 @@
 &lt;a href=&quot;https://github.com/amandavisconti/jekylldemothemed&quot;&gt;https://github.com/amandavisconti/jekylldemothemed&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/2017/02/04/building-research-website-with-jekyll-githubpages-theming</link>
-        <guid isPermaLink="true">/2017/02/04/building-research-website-with-jekyll-githubpages-theming</guid>
+        <link>http://localhost:4000/2017/02/04/building-research-website-with-jekyll-githubpages-theming</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/04/building-research-website-with-jekyll-githubpages-theming</guid>
         
         <category>digital-humanities</category>
         
@@ -527,8 +527,8 @@ support for software, hardware, and policies.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Specific ASC collections or artifacts tagged for projects include:&lt;/strong&gt;  a 3D tour of the ASC vault, pliable/wearable 3D print of the lunar glove, Earhart flight suit, historical planes/propellers, artists’ books, Armstrong lunar lander module model. Anything that is fragile, rare, dangerous (lunar dust, jet fuel…) in the ASC—things that students or even researchers can’t currently touch or see. Anything in the ASC that would benefit from a cross-section (even if the insides don’t exist or can’tbe scanned, because these can be digitally modeled) or demonstration of them item in context and/or in use (historic propellers).&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 00:00:00 -0500</pubDate>
-        <link>/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</link>
-        <guid isPermaLink="true">/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</guid>
+        <link>http://localhost:4000/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</guid>
         
         <category>digital-humanities</category>
         
@@ -636,8 +636,8 @@ support for software, hardware, and policies.&lt;/p&gt;
 &lt;p&gt;My next &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;meta-DH&lt;/a&gt; post will discuss identifying the values and goals for our DH initiative, and how those translated into my initial proposal to the department. Thanks for reading, and let me know any questions &lt;a href=&quot;https://twitter.com/Literature_Geek&quot;&gt;@Literature_Geek&lt;/a&gt;!&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</link>
-        <guid isPermaLink="true">/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</guid>
+        <link>http://localhost:4000/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</guid>
         
         <category>digital-humanities</category>
         
@@ -687,8 +687,8 @@ support for software, hardware, and policies.&lt;/p&gt;
 &lt;p&gt;If there’s something not on that list you’d like to read about, let me know on Twitter &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@literature_geek&lt;/a&gt; or by email aviscont@purdue.edu.&lt;/p&gt;
 </description>
         <pubDate>Mon, 05 Sep 2016 00:00:00 -0400</pubDate>
-        <link>/2016/09/05/meta-dh</link>
-        <guid isPermaLink="true">/2016/09/05/meta-dh</guid>
+        <link>http://localhost:4000/2016/09/05/meta-dh</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/05/meta-dh</guid>
         
         <category>digital-humanities</category>
         
@@ -729,8 +729,8 @@ support for software, hardware, and policies.&lt;/p&gt;
 &lt;p&gt;There are many more excellent Omeka resources out there, so if you’re seeking help with something specific, consider an online search to turn up the many Omeka-focused teacher’s blog posts and presentation, then posting to &lt;a href=&quot;https://forum.omeka.org/&quot;&gt;Omeka’s support forums&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Aug 2016 00:00:00 -0400</pubDate>
-        <link>/2016/08/19/DH-consultation-notes-teaching-omeka</link>
-        <guid isPermaLink="true">/2016/08/19/DH-consultation-notes-teaching-omeka</guid>
+        <link>http://localhost:4000/2016/08/19/DH-consultation-notes-teaching-omeka</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/19/DH-consultation-notes-teaching-omeka</guid>
         
         <category>digital-humanities</category>
         
@@ -962,12 +962,14 @@ I also want to recognize that there are negative results of this habit: not ever
   &lt;li&gt;&lt;a href=&quot;http://dhcommons.org/&quot;&gt;DH Commons&lt;/a&gt; is both a platform for sharing DH projects and &lt;a href=&quot;http://dhcommons.org/collaborators&quot;&gt;volunteering as a collaborator&lt;/a&gt; for things like beta-testing new DH work, and also &lt;a href=&quot;http://dhcommons.org/journal&quot;&gt;an online, peer-reviewed journal&lt;/a&gt;. This journal &lt;a href=&quot;http://dhcommons.org/journal/submission-guidelines&quot;&gt;supports submitting peer-reviewed publications&lt;/a&gt; of two DHy types: you can submit DH project statements (explanations of the work that went into your DH research) and you can submit  “How did they make that?” pieces (explaining the tech/design/methods that went into making what you made, based on &lt;a href=&quot;https://twitter.com/miriamkp&quot;&gt;Miriam Posner&lt;/a&gt;’s highly recommended &lt;a href=&quot;http://miriamposner.com/blog/how-did-they-make-that/&quot;&gt;blog post of the same title&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Other journals friendly to DH publication (and free to read online!) include:
-* &lt;a href=&quot;http://www.digitalhumanities.org/dhq/&quot;&gt;Digital Humanities Quarterly&lt;/a&gt; 
-* &lt;a href=&quot;http://www.digitalstudies.org/ojs/index.php/digital_studies&quot;&gt;Digital Studies&lt;/a&gt; 
-* &lt;a href=&quot;http://journalofdigitalhumanities.org/&quot;&gt;The Journal of Digital Humanities&lt;/a&gt; (on hiatus, but past articles are interesting to read)
-* &lt;a href=&quot;http://vectorsjournal.org/&quot;&gt;Vectors&lt;/a&gt;, a journal for publishing multimedia work in DH and related areas. I believe they take all kinds of DH pieces (websites, visualizations, etc.) but may have a preference for things authored using the &lt;a href=&quot;http://scalar.usc.edu/scalar/&quot;&gt;Scalar&lt;/a&gt; tool?
-* &lt;a href=&quot;http://digitalhumanities.berkeley.edu/resources/digital-humanities-journals&quot;&gt;Digital Humanities at Berkeley’s great overview of these and other DH publications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Other journals friendly to DH publication (and free to read online!) include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.digitalhumanities.org/dhq/&quot;&gt;Digital Humanities Quarterly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.digitalstudies.org/ojs/index.php/digital_studies&quot;&gt;Digital Studies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://journalofdigitalhumanities.org/&quot;&gt;The Journal of Digital Humanities&lt;/a&gt; (on hiatus, but past articles are interesting to read)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://vectorsjournal.org/&quot;&gt;Vectors&lt;/a&gt;, a journal for publishing multimedia work in DH and related areas. I believe they take all kinds of DH pieces (websites, visualizations, etc.) but may have a preference for things authored using the &lt;a href=&quot;http://scalar.usc.edu/scalar/&quot;&gt;Scalar&lt;/a&gt; tool?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://digitalhumanities.berkeley.edu/resources/digital-humanities-journals&quot;&gt;Digital Humanities at Berkeley’s great overview of these and other DH publications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/DH_DLFtalk/Slide38.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -980,12 +982,14 @@ I also want to recognize that there are negative results of this habit: not ever
   &lt;li&gt;If you’re interested in government DHy jobs (e.g. NEH ODH, IMLS, Smithsonian…), besides searching by institution on the USA Jobs site, you can follow NEH ODH Senior Program Officer &lt;a href=&quot;https://twitter.com/jenserventi&quot;&gt;Jennifer Serventi&lt;/a&gt; on Twitter, where she periodically shares these humanities-focused jobs (&lt;a href=&quot;https://twitter.com/JenServenti/status/755926991388315648&quot;&gt;for example&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Other places to scope DH and related digital library jobs include:
-* &lt;a href=&quot;https://www.h-net.org/jobs/job_search.php?category_id=29&quot;&gt;H-Net DH jobs&lt;/a&gt;
-* &lt;a href=&quot;http://jobs.code4lib.org/jobs/digital-humanities/&quot;&gt;Code 4 Lib DH jobs&lt;/a&gt;
-* &lt;a href=&quot;https://www.hastac.org/events-opportunities/jobs-and-fellowships&quot;&gt;HASTAC jobs and fellowships&lt;/a&gt;
-* &lt;a href=&quot;https://www.diglib.org/contact/jobs/&quot;&gt;Digital Library Federation job postings&lt;/a&gt;
-* &lt;a href=&quot;http://acrl.ala.org/dh/&quot;&gt;DH+Lib website&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/dh+lib&quot;&gt;@DH+lib Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Other places to scope DH and related digital library jobs include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.h-net.org/jobs/job_search.php?category_id=29&quot;&gt;H-Net DH jobs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jobs.code4lib.org/jobs/digital-humanities/&quot;&gt;Code 4 Lib DH jobs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hastac.org/events-opportunities/jobs-and-fellowships&quot;&gt;HASTAC jobs and fellowships&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.diglib.org/contact/jobs/&quot;&gt;Digital Library Federation job postings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://acrl.ala.org/dh/&quot;&gt;DH+Lib website&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/dh+lib&quot;&gt;@DH+lib Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;If you start to see a lot of projects that fit your interest coming from one DH center or department, it can’t hurt to follow their website’s RSS feed to hear about new job openings. And when you apply, remember that DH gives you particular skills beyond technical ones, and you should demonstrate these skills to potential employers: the ability to handle project management (even more, often for projects with less precedents than usual precedents in academia!), experience with collaboration and interdisciplinarity, and learning to communicate in voices suited to multiple audiences and with relevancy for who you’re talking to.&lt;/p&gt;
 
@@ -1002,8 +1006,8 @@ I also want to recognize that there are negative results of this habit: not ever
 &lt;p&gt;&lt;em&gt;P.S. I can’t find the original creator of the GIF on my first slide (museum gallery with framed loading icons). Let me know if you know—I’d like to credit them!&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Jul 2016 00:00:00 -0400</pubDate>
-        <link>/2016/07/21/dlf-digital-humanities-what-why-how</link>
-        <guid isPermaLink="true">/2016/07/21/dlf-digital-humanities-what-why-how</guid>
+        <link>http://localhost:4000/2016/07/21/dlf-digital-humanities-what-why-how</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/21/dlf-digital-humanities-what-why-how</guid>
         
         <category>digital-humanities</category>
         
@@ -1031,8 +1035,8 @@ I also want to recognize that there are negative results of this habit: not ever
 &lt;p&gt;&lt;img src=&quot;/assets/NYTimesUlysses2.png&quot; alt=&quot;Screenshot of digital Ulysses article in New York Times mentioning and linking to Infinite Ulysses&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 00:00:00 -0400</pubDate>
-        <link>/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</link>
-        <guid isPermaLink="true">/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</guid>
+        <link>http://localhost:4000/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</guid>
         
         <category>digital-humanities</category>
         

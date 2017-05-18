@@ -2,12 +2,11 @@
 layout: page
 title: Invited Speaking
 ---
-<p>Contact me at AmandaVisconti@Gmail.com or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution! You can read more about me on <a href="http://www.amandavisconti.com">my online portfolio at AmandaVisconti.com</a>. Recent invited talks are listed below, followed by possible speaking topics.</p>
+<p>Contact me at Visconti@Virginia.edu or <a href="http://www.twitter.com/literature_geek">@literature_geek</a> about speaking at your institution! You can read more about me on <a href="http://www.amandavisconti.com">my online portfolio at AmandaVisconti.com</a>. Recent invited talks are listed below, followed by possible speaking topics.</p>
 
 <h2>Recent invited speaking includes:</h2>
 <ul>
 <li><strong>Keynote at Vanderbilt University THATCamp Symposium</strong> (October 2016)</li>
-<li><strong>National University of Ireland Galway</strong> (November 2016)</li>
 <li><strong>Digital Library Federation (DLF) eResearch Network</strong> (July 2016)</li>
 <li><strong>Brown University</strong> Libraries and Cogut Center for the Humanities (November 2015)</li>
 <li><strong>Northeastern University</strong> "Literature together: participatory digital editions, social annotation, and the public humanities" (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course</li>
