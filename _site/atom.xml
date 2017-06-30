@@ -4,13 +4,44 @@
  <title>The blog of Literature Geek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2017-05-18T09:16:52-04:00</updated>
+ <updated>2017-06-30T14:14:39-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Amanda Visconti</name>
    <email>amandavisconti@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Making a pneumatic tube messaging system</title>
+   <link href="http://localhost:4000/2017/06/30/making"/>
+   <updated>2017-06-30T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2017/06/30/making</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Progression of stuff leading to my new project:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had a shower thought about how pneumatic tube messaging systems work (vacuums? but how exactly, when they’re not sealed because messages go in and out? what are the differences between Hyperloop and a tube system?).&lt;/p&gt;
+
+&lt;p&gt;I’m now co-directing the &lt;a href=&quot;http://www.scholarslab.org&quot;&gt;Scholars’ Lab&lt;/a&gt; (the DH center at the University of Virginia’s Library).&lt;/p&gt;
+
+&lt;p&gt;We have an awesome Makerspace, staffed by experts in a variety of digital and crafting methods.&lt;/p&gt;
+
+&lt;p&gt;I googled “DIY pneumatic tube” and found a number of tutorials and videos showing how a small-scale system could be built using a shopvac.&lt;/p&gt;
+
+&lt;p&gt;We have a shopvac!&lt;/p&gt;
+
+&lt;p&gt;Everyone on our staff has 20% of their time devoted to personal research, learning, and development.&lt;/p&gt;
+
+&lt;p&gt;My first R&amp;amp;D project will be building a pneumatic tube messaging system!&lt;/p&gt;
+
+&lt;p&gt;Today, I started working through comparisons of the various tutorials to figure out what supplies I need to order. I have not made much stuff in my life? (I did a bit of Lilypad Arduino work with Kari Kraus and Beth Bonsignore—sewing conductive thread and LEDs that were controlled with a bit of Processing code—and that was awesome.) I’m going to blog from the beginning, before I know anything about how to do this (much less how to do this well.) I don’t even know basic information like what length of tubing our shopvac can support! I’ll blog as I learn.&lt;/p&gt;
+
+&lt;p&gt;Besides getting me comfortable with building and using our Makerspace, the tube is part of a larger idea—rebuilding a set of historical communication devices as a means of personally understanding how significant various small innovations to a given tool were. I’m thinking a telegraph, light signals, audio signals (drums?), a drone carrier pigeon. A fax machine? (maybe hacking one, not building one.) Radio? (Maybe learning HAM radio, and also building a radio?) Any other ideas?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/historic-pneumatic-tube-system.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Public domain photo, work of an unknown employee of the United States Farm Security Administration or Office of War Information domestic photographic units.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>DH Job Talk (for my new role!): Scholars' Lab Managing Director</title>

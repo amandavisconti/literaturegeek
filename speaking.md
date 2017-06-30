@@ -6,7 +6,9 @@ title: Invited Speaking
 
 <h2>Recent invited speaking includes:</h2>
 <ul>
+<li>Dr. Matthew Kirschenbaum’s "Critical Topics in Digital Studies” graduate course at the <strong>University of Maryland</strong> (March 2017). Skype panelist on participatory digital humanities sites and discussion of digital dissertation experience</li>
 <li><strong>Keynote at Vanderbilt University THATCamp Symposium</strong> (October 2016)</li>
+<li><strong>Digital Scholarship & Publishing Studio, University of Iowa</strong> (October 2016)</li>
 <li><strong>Digital Library Federation (DLF) eResearch Network</strong> (July 2016)</li>
 <li><strong>Brown University</strong> Libraries and Cogut Center for the Humanities (November 2015)</li>
 <li><strong>Northeastern University</strong> "Literature together: participatory digital editions, social annotation, and the public humanities" (October 2015). Public lecture plus guest lecture for NUlab graduate practicum course</li>

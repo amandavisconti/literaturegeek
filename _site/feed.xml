@@ -5,9 +5,44 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 May 2017 09:16:52 -0400</pubDate>
-    <lastBuildDate>Thu, 18 May 2017 09:16:52 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Jun 2017 14:14:39 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Jun 2017 14:14:39 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Making a pneumatic tube messaging system</title>
+        <description>&lt;p&gt;&lt;em&gt;Progression of stuff leading to my new project:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had a shower thought about how pneumatic tube messaging systems work (vacuums? but how exactly, when they’re not sealed because messages go in and out? what are the differences between Hyperloop and a tube system?).&lt;/p&gt;
+
+&lt;p&gt;I’m now co-directing the &lt;a href=&quot;http://www.scholarslab.org&quot;&gt;Scholars’ Lab&lt;/a&gt; (the DH center at the University of Virginia’s Library).&lt;/p&gt;
+
+&lt;p&gt;We have an awesome Makerspace, staffed by experts in a variety of digital and crafting methods.&lt;/p&gt;
+
+&lt;p&gt;I googled “DIY pneumatic tube” and found a number of tutorials and videos showing how a small-scale system could be built using a shopvac.&lt;/p&gt;
+
+&lt;p&gt;We have a shopvac!&lt;/p&gt;
+
+&lt;p&gt;Everyone on our staff has 20% of their time devoted to personal research, learning, and development.&lt;/p&gt;
+
+&lt;p&gt;My first R&amp;amp;D project will be building a pneumatic tube messaging system!&lt;/p&gt;
+
+&lt;p&gt;Today, I started working through comparisons of the various tutorials to figure out what supplies I need to order. I have not made much stuff in my life? (I did a bit of Lilypad Arduino work with Kari Kraus and Beth Bonsignore—sewing conductive thread and LEDs that were controlled with a bit of Processing code—and that was awesome.) I’m going to blog from the beginning, before I know anything about how to do this (much less how to do this well.) I don’t even know basic information like what length of tubing our shopvac can support! I’ll blog as I learn.&lt;/p&gt;
+
+&lt;p&gt;Besides getting me comfortable with building and using our Makerspace, the tube is part of a larger idea—rebuilding a set of historical communication devices as a means of personally understanding how significant various small innovations to a given tool were. I’m thinking a telegraph, light signals, audio signals (drums?), a drone carrier pigeon. A fax machine? (maybe hacking one, not building one.) Radio? (Maybe learning HAM radio, and also building a radio?) Any other ideas?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/historic-pneumatic-tube-system.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Public domain photo, work of an unknown employee of the United States Farm Security Administration or Office of War Information domestic photographic units.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Jun 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/06/30/making</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/30/making</guid>
+        
+        <category>digital-humanities</category>
+        
+        
+      </item>
     
       <item>
         <title>DH Job Talk (for my new role!): Scholars' Lab Managing Director</title>
@@ -1014,31 +1049,6 @@ I also want to recognize that there are negative results of this habit: not ever
         <category>advice-tutorial</category>
         
         <category>best</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Infinite Ulysses in the New York Times and other recent DH activity</title>
-        <description>&lt;p&gt;Lots of DH stuff cooking lately:&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; project was mentioned and linked in the &lt;em&gt;The New York Times&lt;/em&gt;! The piece, by J.D. Biersdorfer, &lt;a href=&quot;http://www.nytimes.com/2016/07/17/books/review/cant-get-through-ulysses-digital-help-is-on-the-way.html&quot;&gt;appeared online July 13, 2016 as “Can’t Get Through ‘Ulysses’? Digital Help Is on the Way”&lt;/a&gt; and in print on Sunday, July 17, 2016 in the “Sunday Book Review” section of the paper under the headline “Virtual Odyssey”.&lt;/p&gt;
-
-&lt;p&gt;I joined &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; editorial team as an editor and also ombudsperson. &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org/&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; is an online, peer-reviewed, novice-friendly platform for humanities scholars wishing to learn digital methods and tools. (You might remember I published a lesson, “&lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt;”, with &lt;em&gt;PH&lt;/em&gt; earlier this year.)&lt;/p&gt;
-
-&lt;p&gt;I’ll be presenting to the &lt;a href=&quot;https://www.diglib.org/&quot;&gt;Digital Library Federation&lt;/a&gt; (DLF) &lt;a href=&quot;https://www.diglib.org/groups/e-research-network/&quot;&gt;eResearch Network&lt;/a&gt; as their DH speaker in a six-talk series on digital library research and data management practice, on July 20th. I’ll cover what digital humanities is, why it can be good for you and your institution, and how to get started in DH. The slides and talk video should go online shortly after.&lt;/p&gt;
-
-&lt;p&gt;The DH 2016 conference just finished up (check out &lt;a href=&quot;http://hawksey.info/tagsexplorer/arc.html?key=1zlUFubccXY7Pekfs0bXgxzIbNalJPGvU_SJIlmLTI50&amp;amp;gid=400689247&quot;&gt;the #DHdiversity tweets&lt;/a&gt; especially), so incoming new ACH executive officers Scott Weingart, Micki Kaufman, and I have begun our 2016-2020 terms, along with Jen Guiliano as the new ACH president 2016-2018 and Matt Gold as the new vice-president 2016-2018 and 2018-2020.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/NYTimesUlysses.png&quot; alt=&quot;Screenshot of digital Ulysses article on New York Times online front page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/NYTimesUlysses2.png&quot; alt=&quot;Screenshot of digital Ulysses article in New York Times mentioning and linking to Infinite Ulysses&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Jul 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/07/15/digital-humanities-update-infinite-ulysses-new-york-times</guid>
-        
-        <category>digital-humanities</category>
         
         
       </item>
