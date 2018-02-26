@@ -4,13 +4,42 @@
  <title>The blog of Literature Geek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2017-06-30T14:14:39-04:00</updated>
+ <updated>2018-02-26T10:52:45-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Amanda Visconti</name>
    <email>amandavisconti@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Starter kit for considering a DH dissertation</title>
+   <link href="http://localhost:4000/2018/02/26/digital-humanities-dissertation-starter-kit"/>
+   <updated>2018-02-26T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2018/02/26/digital-humanities-dissertation-starter-kit</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Cross-posted on the Modern Languages Association (MLA) &lt;a href=&quot;https://infotech.mla.hcommons.org/2018/digital-humanities-dissertation-starter-kit/&quot;&gt;Committee on Info Tech blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Successful non-traditional dissertations include a comic book (&lt;a href=&quot;http://spinweaveandcut.com/unflattening/&quot;&gt;Nick Sousanis&lt;/a&gt;), a hip-hop album (&lt;a href=&quot;http://phd.aydeethegreat.com/&quot;&gt;A.D. Carson&lt;/a&gt;), code and design without written chapters (&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;me&lt;/a&gt;), and the use of digital formats and methods such as a Tumblog counter-narrative (&lt;a href=&quot;http://vintageblackbeauty.tumblr.com/&quot;&gt;Jade E. Davis&lt;/a&gt;) or topic modeling (&lt;a href=&quot;http://www.lisarhody.com/revising-ekphrasis/&quot;&gt;Lisa Rhody&lt;/a&gt;). Are you curious about using digital methods or forms to pursue your dissertation research questions? Or maybe dissertational gate-tenders (advisors, mentors, departments) have you seeking successful examples of DH as part of the dissertation. Wherever you’re coming from, here’s a short selection of readings to get you started exploring digital humanities as doctoral scholarship:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Humanities Commons &lt;a href=&quot;https://hcommons.org/deposits/?facets%5Bgenre_facet%5D%5B%5D=Dissertation&quot;&gt;hosts around 70 dissertations&lt;/a&gt;; you can search for “digital humanities” to whittle these down to around 10 DHy theses such as &lt;a href=&quot;https://hcommons.org/deposits/item/hc:11773/&quot;&gt;Jason Rhody’s &lt;em&gt;Game Fiction&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://hcommons.org/deposits/item/mla:61/&quot;&gt;Alex Gil’s &lt;em&gt;Migrant Textuality&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;DH discussions under the aegis of scholarly organizations like MLA or AHA spend a good portion of time on concerns around evaluation and promotion relevant to the dissertation process. Resources you might check out on Humanities Commons include the &lt;a href=&quot;https://hcommons.org/groups/digital-humanists/&quot;&gt;Digital Humanists Group&lt;/a&gt; and events like &lt;a href=&quot;https://medicalhumanities.mla.hcommons.org/2018/02/07/online-forum-digital-humanities-medicine/&quot;&gt;the Online Forum on DH and Medicine&lt;/a&gt; recently posted on the Medical Humanities site.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/remixthediss-models&quot;&gt;#RemixtheDiss Models&lt;/a&gt; (hosted by the Futures Initiative at the Graduate Center CUNY and HASTAC) A collaboratively built GoogleDoc with information on a variety of dissertations using new formats and methods, including digital humanities approaches. Info includes each dissertation’s university and department, tools and media used, status of the dissertation (possibly outdated), and contact addresses for getting on touch with these dissertators.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://praxis.scholarslab.org&quot;&gt;The Praxis Program&lt;/a&gt; (hosted by the &lt;a href=&quot;http://scholarslab.org&quot;&gt;Scholars’ Lab&lt;/a&gt; at the University of Virginia Library) Now in its seventh year, the Praxis Program offers &lt;a href=&quot;http://praxis.scholarslab.org/projects/&quot;&gt;7 examples&lt;/a&gt; of what a small team of (usually pre-ABD) humanities graduate students new to DH can learn, research, and build over the course of two semesters.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zotero.org/amandavisconti/items/collectionKey/V9DA47T7&quot;&gt;DH Guidelines for Dissertations and Tenure Zotero Library&lt;/a&gt; (46 items) Tenure and promotion cases can be models for DH dissertations, with the same issues of evaluation, effort, packaging, and translation at stake.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hastac.org/&quot;&gt;HASTAC&lt;/a&gt; (the Humanities, Arts, Science, and Technology Alliance and Collaboratory) A good community to read what other students in similar fields and stages of the degree to yours are thinking about, and for becoming comfortable with scholarly blogging. See especially those posts tagged as &lt;a href=&quot;https://www.hastac.org/explore/humanities-arts-media/digital-humanities&quot;&gt;digital humanities&lt;/a&gt; or &lt;a href=&quot;https://www.hastac.org/groups/digital-dissertations&quot;&gt;digital dissertations&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Some of the materials I created before or during my completed DH dissertation might also be relevant:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/assets/ExamsSharingCopy.pdf&quot;&gt;My PhD Exams reading list&lt;/a&gt;, including an introductory argument for the items on the list and two sets of materials: broad digital humanities readings, and textual scholarship with a focus on digital scholarly editing. Among other benefits, making DH a focus of your exams reading can help you understand your exam committee’s (as a potential dissertation committee) attitudes toward DH. A &lt;a href=&quot;https://www.zotero.org/amandavisconti/items/collectionKey/MXZR7HFN&quot;&gt;Zotero library of some of the list’s readings is here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;My dissertation itself is a website: &lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;. The focus of the dissertation was the design, building, and analysis of a participatory digital edition, &lt;a href=&quot;http://InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;blogged&lt;/a&gt; throughout the dissertation process. I particularly recommend the linked posts on &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;defense advice&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk&quot;&gt;the actual defense talk&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2014/09/30/evaluating-non-traditional-digital-humanities-dissertations&quot;&gt;evaluating a DH dissertation&lt;/a&gt;, thinking through &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;diversity and inclusion in your dissertation scholarship&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2014/04/28/affinitywallarticle&quot;&gt;planning out the many pieces of a dissertation project&lt;/a&gt;, and &lt;a href=&quot;http://literaturegeek.com/2014/04/02/digitaldissformat&quot;&gt;choosing the best format (chapters? something else?) for your scholarship&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Making a pneumatic tube messaging system</title>
@@ -40,6 +69,153 @@
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/historic-pneumatic-tube-system.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Public domain photo, work of an unknown employee of the United States Farm Security Administration or Office of War Information domestic photographic units.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>???</title>
+   <link href="http://localhost:4000/2017/04/05/???"/>
+   <updated>2017-04-05T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2017/04/05/???</id>
+   <content type="html">&lt;p&gt;This can be concurrent or complementary to the DH Slack continuing to work just how it works now&lt;/p&gt;
+
+&lt;p&gt;DH Slack isn’t overtly unsafe or unhealthy—extremely minor active moderation labor, but vigilance; mostly a guess, but: but some diversity of occupation/affiliation (more among lurkers than participants) but not of race, ethnicity, nationality, and other&lt;/p&gt;
+
+&lt;p&gt;It can be smaller scale, hosted at the Scholars’ Lab (downside: less distributed moderation &amp;amp; community design labor means we’d need to screen new signups more carefully, which would deter people from joining and unfairly block those without, e.g., an institutional email address or online profile)&lt;/p&gt;
+
+&lt;p&gt;It can be larger scale (taking the development of THATCamps toward a THATCamp Council as one model). The startup and ongoing work would be intense, but if we could actually create a healthy and safe space for DH social media, it would help us move DH more toward where we want it to be. To have a chance of achieving that, we’d want to start with intense community debate and a diverse advisory council (I can’t realize a heathy community myself, given my blindspots), and prepare tools like a FAQ on why we use the code of conduct we did, positive recommendations for using the platform (in addition to the code of conduct’s negative “don’t do this”s), templates for moderation of common situations, credit and reward for labor, ideas for encouraging lurkers-&amp;gt; participants and conversations, inviting more events (#resisthate, ProgHist, ACH); preservation and shutdown plan, terms of use, storage plan (videos etc hosting or linking?), what positive promises we can make users and which we can’t&lt;/p&gt;
+
+&lt;p&gt;Don’t share (danger), can’t share (stalker), shares but receives hate&lt;/p&gt;
+
+&lt;p&gt;new tl;dr&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;current Slack issues (10k limit = problem even if don’t want permanent archive, moderation untenable and can’t ensure safe/healthy, can’t increase openness and inclusion without that; recognizing emotional labor)&lt;/li&gt;
+  &lt;li&gt;Distributing labor or reducing labor (but reducing who can join to those with social media or institutional presences, and/or reducing what channels new signups can access until they’ve messaged for a while, which disadvantages lurkers unless we make channels open to public view w/o signup, which opens users to the same issues of surveillance and harassment by random readers who e.g. find their email or knwo where they work): small project or big project?&lt;/li&gt;
+  &lt;li&gt;Mattermost, Mastodon (digital humanities.club)&lt;/li&gt;
+  &lt;li&gt;Making a safer platform in general, for academia, or for DH isn’t a new idea, and if there are existing solutions we can point people to instead (or volunteer labor toward), that would be great. Same for crediting and building on existing thinking about issues with social media platforms and with racism etc in DH in general, e.g. Roopika’s+others’ social justice DH primer)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At this point, for any group who wants to keep using the DH Slack as is, I think I’d want to transfer Slack ownership and let users know the code of conduct in use / extent of moderation/safety promised in that space, and focus my labor on a platform that’s open enough that we can build in the settings that support our labor and protect our users&lt;/p&gt;
+
+&lt;p&gt;Also, DH Q&amp;amp;A.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Everyone (1,300+ users!) is already on the DH Slack.&lt;/em&gt; Mattermost automates inviting all Slack users to transfer their account to its platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The DH Slack works because many already have the Slack app open for work or interest Slack teams.&lt;/em&gt; I worry about this a lot—adding Slack to people’s existing open tabs/apps is already a strain, and for those keeping Slack for other teams adding an additional platform is extra messy.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I don’t want the DH Slack to be public / have a permanent archive&lt;/em&gt; (since being readable by non-logged-in people means there will be copies out there, even if we don’t keep an archive ourselves)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I do want the DH Slack to be public.&lt;/em&gt; Accountability because others can see what you write?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Is the DH Slack going away?&lt;/em&gt; As long as enough people willing to reliably moderate the DH Slack stay around, I’m happy to transfer ownership of the DH Slack to someone else. I don’t want to see the DH Slack namespace become an unhealthy or spamfilled space, but honestly if we’re not using the name anymore, at some point it will become up for grabs again and anyone can use it any way they want. On the other hand, I don’t want to destroy something that many others have built together, if people still want to use it. (I would like to shift my moderation/community design labor to a platform we can make more reliably safe and healthy.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Thoughts on the future of the DH Slack and other DH online communities. Link to ideas list for the future of DH Slack/other DH social platforms. Link to older post explaining what the DH Slack is and how we decided on its current structure.&lt;/p&gt;
+
+&lt;p&gt;It matters less which platform we choose and more whether we have a good system in place for keeping our community healthy and safe.&lt;/p&gt;
+
+&lt;p&gt;Recent Mastodon RT = size helps, just like w/DH Slack&lt;/p&gt;
+
+&lt;h1 id=&quot;tldr&quot;&gt;tl;dr&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I set up a Mastodon (Twitter alternative w/options for enforcing codes of conduct) instance at &lt;a href=&quot;http://www.digitalhumanities.club&quot;&gt;digitalhumanities.club&lt;/a&gt; (how was that domain name not taken yet). &lt;em&gt;Not open for signups until stuff discussed below is figured out.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;I set up a &lt;a href=&quot;https://about.mattermost.com/&quot;&gt;Mattermost&lt;/a&gt; (open-source Slack alternative with options allowing scaling to more users) instance at &lt;a href=&quot;http://dh-chat.herokuapp.com&quot;&gt;dh-chat.herokuapp.com&lt;/a&gt; (will get a better custom domain if we end up using this). &lt;em&gt;Not open for signups until stuff discussed below is figured out.&lt;/em&gt; HT to &lt;a href=&quot;http://www.mickikaufman.com/&quot;&gt;Micki Kaufman&lt;/a&gt; for pointing me to Mattermost!&lt;/li&gt;
+  &lt;li&gt;DH Twitter can be awesome—&lt;em&gt;if&lt;/em&gt; you can use it without being disrespected or threatened online and in your professional and personal lives (including whether just the likelihood of this happening keeps you from interacting on Twitter fully or at all). DH reliance on Twitter cuts out community members who are already discriminated against.&lt;/li&gt;
+  &lt;li&gt;Let’s talk about how we can structure the moderation/curation of one or more of these platforms (&lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;DH Slack&lt;/a&gt;, Mattermost, Mastodon) such that it’s a safe and respectful place for current and potential DHers—i.e. how do we scale effective enforcement of a code of conduct to the level of hundreds of international users?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;it-isnt-the-tech-its-how-you-use-it&quot;&gt;It isn’t the tech, it’s how you use it&lt;/h1&gt;
+
+&lt;p&gt;#4 (as a way of trying to improve #3) is the challenge; one-button deployment of Mastodon and Mattermost on Heroku make setup easy if you’re already familiar with setting up a website (DNS configuration and simple command line pasting).&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://geekfeminism.wikia.com/wiki/Community_anti-harassment&quot;&gt;Geek Feminism Wiki&lt;/a&gt; provides a great template (e.g. “prioritizing marginalized people’s safety over privileged people’s comfort”) for building codes of conduct (the &lt;a href=&quot;http://tinyurl.com/DHSlackCode&quot;&gt;DH Slack code&lt;/a&gt; builds on it). Projects like &lt;a href=&quot;https://blocktogether.org/&quot;&gt;BlockTogether&lt;/a&gt; have shown how Twitter could easily make its platform a safer place if it cared to, but we don’t need a technical-only “solution”, we need social effort (supported by some helpful technology).&lt;/p&gt;
+
+&lt;p&gt;Mastodon’s ability to define and enforce a code of conduct on a Twitter-like platform is an opportunity.  DH Slack has a &lt;a href=&quot;http://tinyurl.com/DHSlackCode&quot;&gt;code of conduct&lt;/a&gt; that has been carried through when appropriate. But a code of conduct is worse than useless if not carried through (i.e. moderation), and carrying through means the non-trivial labor not just of discussing problems, warning users, and banning. Moderation also means constant monitoring of the platform to quickly catch any problems and reduce the number of community members exposed.&lt;/p&gt;
+
+&lt;p&gt;Of next importance is curation of the community—encouraging conversations, highlighting good conversations (with the participants’ consent), generally making it easier to get involved as someone new to DH and/or Slack, and growing to meet growing platform adoption.&lt;/p&gt;
+
+&lt;p&gt;Scholarship, to me, means critical thinking plus &lt;strong&gt;sharing that thinking with a community&lt;/strong&gt; that can learn and build on your thoughts (HT Mark Sample’s awesome “&lt;a href=&quot;http://www.samplereality.com/2013/02/08/when-does-service-become-scholarship/&quot;&gt;When Does Service Become Scholarship?&lt;/a&gt;”). Being a &lt;em&gt;scholar&lt;/em&gt; rather than someone who “just” researches involves respectful communication and listening. That thinking and sharing includes the meta activities of analyzing and improving our intellectual communities and institutions. Scholars including &lt;a href=&quot;http://nataliacecire.blogspot.com/2014/07/on-neoliberal-rhetoric-of-harm.html&quot;&gt;Natalia Cecire&lt;/a&gt;, &lt;a href=&quot;http://lklein.com/2015/06/the-carework-and-codework-of-the-digital-humanities/&quot;&gt;Lauren Klein&lt;/a&gt;, and &lt;a href=&quot;http://avidly.lareviewofbooks.org/2014/06/06/editing-as-carework-the-gendered-labor-of-public-intellectuals/&quot;&gt;Sarah Blackwood&lt;/a&gt; have discussed similar “carework” as often feminized and pushed outside what it means to be a responsible scholar, despite community design, care, and other forms of intellectual building and tending being very much scholarship.&lt;/p&gt;
+
+&lt;h1 id=&quot;dh-slack-moderation&quot;&gt;DH Slack moderation&lt;/h1&gt;
+
+&lt;p&gt;I applaud the generous scholarship of Alan G. Pike, Sam Abrams, Alex Gil, Ed Summers, and Paige C. Morgan, who are the DH Slack’s moderators. I don’t think the current system of moderation isn’t sustainable, unfortunately. I don’t mean it’s been much work (for me, at least), but it has meant checking in on the Slack at least once a day during a time when it’s healthy to be able to disconnect from the internet as strength requires.&lt;/p&gt;
+
+&lt;p&gt;(can’t join all channels, private channels and DM can’t see, more admins have unlogged? ban and delete privs so can’t share widely)&lt;/p&gt;
+
+&lt;p&gt;(Adding new users, look up names but sometimes can’t verify and want to open to non-DH/non-academic people)&lt;/p&gt;
+
+&lt;p&gt;So what does this mean for the DH Slack? I’m ignoring the issues of platform adoption, code scaling, and federating Mastodon instances for now, but I’m certainly forgetting or ignoring things, so please do share ideas! (I’ll add yours to the list with the credit of your choice, if not undesired.)&lt;/p&gt;
+
+&lt;h1 id=&quot;dh-slack-curation&quot;&gt;DH Slack curation&lt;/h1&gt;
+
+&lt;h1 id=&quot;hows-the-dh-slack-going&quot;&gt;How’s the DH Slack going?&lt;/h1&gt;
+
+&lt;p&gt;Decently, I think?&lt;/p&gt;
+
+&lt;p&gt;one warning/ban, one possible spammer (the user entered one message that was a short string of random characters, so who knows, maybe it was art)&lt;/p&gt;
+
+&lt;p&gt;quote tweets used in job talk&lt;/p&gt;
+
+&lt;p&gt;can stay casual&lt;/p&gt;
+
+&lt;p&gt;what’s good with current&lt;/p&gt;
+
+&lt;p&gt;i may be overthinking things or should pass on ownership to someone else&lt;/p&gt;
+
+&lt;p&gt;can’t leave unmoderated&lt;/p&gt;
+
+&lt;h1 id=&quot;why-change-anything&quot;&gt;Why change anything?&lt;/h1&gt;
+
+&lt;p&gt;what’s not great with current&lt;/p&gt;
+
+&lt;p&gt;Problems with not being public&lt;/p&gt;
+
+&lt;p&gt;Desire for archive&lt;/p&gt;
+
+&lt;p&gt;Moderation labor&lt;/p&gt;
+
+&lt;p&gt;Curation labor&lt;/p&gt;
+
+&lt;p&gt;Mastodon: not just one instance, but opportunity to connect (still trusting instance owners to make good choices on which instances they federate with, which leads to chains of trust that will sometimes maybe make you see stuff against your individual instance’s code of conduct? i’m not sure. still very likely better than what you see on twitter?)&lt;/p&gt;
+
+&lt;p&gt;can try to make up for the many who can’t safely be on dh twitter; but emotional labor is considerable&lt;/p&gt;
+
+&lt;p&gt;no plan (unlike iu)&lt;/p&gt;
+
+&lt;p&gt;“join twitter”, but not safe&lt;/p&gt;
+
+&lt;p&gt;iu pres plan, none for slack&lt;/p&gt;
+
+&lt;h1 id=&quot;ideas&quot;&gt;Ideas&lt;/h1&gt;
+
+&lt;p&gt;In addition to not doing anything, or not doing anything but passing on ownership&lt;/p&gt;
+
+&lt;p&gt;3-year grant to pay for paid plan? (with plan for end of funding, possibly day of dh or medled on it consortium/pass around model)&lt;/p&gt;
+
+&lt;p&gt;create separate slack-clone but keep dh slack as is
+create separate slack-clone and migrate to it (close dh slack or hand off to other moderators)&lt;/p&gt;
+
+&lt;p&gt;partially because can’t support more
+partially so it isn’t mine
+(also partially to shut up and listen)&lt;/p&gt;
+
+&lt;p&gt;Matthew Lincoln’s to Jekyll/GH script (manual, not private DMs/channels? which is probably for the better?)&lt;/p&gt;
+
+&lt;p&gt;slack plan downsides (link to post on deciding ephemerality)
+but would like ephemerality to not limit each channel—we’re getting to the degree of usage where you can’t read two topics back in some channels&lt;/p&gt;
+
+&lt;p&gt;migration problem (people already have slack app open because of work, vs needing to visit somewhere; but has migration tool)&lt;/p&gt;
+
+&lt;p&gt;if going to develop, how to equitably share moderation duties and keep community healthy?
+permanent adoption by dh center?
+rotating adoption, like day of dh?
+dhnow-style editors?
+ach microgrant fellowship for year’s moderators?&lt;/p&gt;
+
+&lt;p&gt;vs. twitter not talking about activism (okay? good? bad?) but #resisthate, #adminannouncements, #sustainingdh, ach announcement&lt;/p&gt;
 </content>
  </entry>
  
@@ -2927,7 +3103,7 @@ Public literature, participatory edition/archive, citizen scholars, meaningful c
 &lt;li&gt;The &lt;a href=&quot;http://ride.i-d-e.de&quot;&gt;RIDE digital edition review journal&lt;/a&gt; is building scholarly review for SDEs that is aware of technical and design work as a critical component.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; uniquely invites the public into the critical conversation around James Joyce's challenging novel Ulysses via user-authored social annotation. Additionally, the edition experiments with mechanics for social curation and moderation of the annotations, and attempts to personalize the annotations displayed to each reader's expertise, needs, and interests.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;My recent digital dissertation&lt;/a&gt; was based around this project—&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;&quot;'How can you love a work, if you don't know it?': Critical Code and Design toward Participatory Digital Editions&quot;&lt;/a&gt; used entirely digital humanities methods (design, code, blogging, user testing) to create and analyze various theories about public and social digital editions (especially those supporting social annotation).&lt;/li&gt;
-&lt;li&gt;To explain why &lt;a href=&quot;InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; is a digital edition but &lt;em&gt;not&lt;/em&gt; a scholarly digital edition, part of &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;my whitepaper on the Infinite Ulysses project and dissertation around it&lt;/a&gt; deals directly with a number of edition and edition-like objects (&lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;PDF link&lt;/a&gt; and see Section 4: Reimagining Editions).&lt;/li&gt;
+&lt;li&gt;To explain why &lt;a href=&quot;http://InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt; is a digital edition but &lt;em&gt;not&lt;/em&gt; a scholarly digital edition, part of &lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;my whitepaper on the Infinite Ulysses project and dissertation around it&lt;/a&gt; deals directly with a number of edition and edition-like objects (&lt;a href=&quot;http://dr.amandavisconti.com/AmandaVisconti_DigitalDissertationWhitepaper_OfficialSubmission.pdf&quot;&gt;PDF link&lt;/a&gt; and see Section 4: Reimagining Editions).&lt;/li&gt;
 &lt;/ol&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt;&quot;What would you like to see more of in scholarly digital editions?&quot;&lt;/h3&gt;&lt;br&gt;
