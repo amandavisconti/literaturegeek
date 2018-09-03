@@ -17,13 +17,10 @@ provider : all
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 paginate: 3
 paginate_path: "/page:num"
-
-#sass:
-#  sass_dir: assets/scss
-#  style: compressed
 
 author:
   name     : Amanda Visconti
