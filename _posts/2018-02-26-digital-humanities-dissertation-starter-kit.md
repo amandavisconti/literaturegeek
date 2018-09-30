@@ -2,7 +2,7 @@
 layout: post
 title: "Starter kit for considering a DH dissertation"
 permalink: 2018/02/26/digital-humanities-dissertation-starter-kit
-tags: [digital-humanities, advice-tutorial, dissertation, grad-advice, meta-DH]
+tags: [digital-humanities, advice-tutorial, dissertation, grad-advice, meta-DH, dh-now]
 status: publish
 type: post
 published: true
