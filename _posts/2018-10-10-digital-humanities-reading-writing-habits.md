@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I/O: Reading & writing as a digital humanist"
-permalink: 2018/10/11/digital-humanities-dissertation-reading-writing.md
+permalink: 2018/10/10/digital-humanities-reading-writing-habits
 tags: [digital-humanities, meta-DH]
 status: publish
 type: post
