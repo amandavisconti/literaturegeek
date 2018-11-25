@@ -2,7 +2,7 @@
 layout: post
 title: "Designing a Digital Humanities Initiative: Background & Campus DH Survey"
 permalink: 2016/09/11/designing-digital-humanities-initiative-background-campus-survey
-tags: [digital-humanities, meta-dh, dh-now]
+tags: [digital-humanities, meta-dh, dh-now, purdue-dh]
 status: publish
 type: post
 published: true

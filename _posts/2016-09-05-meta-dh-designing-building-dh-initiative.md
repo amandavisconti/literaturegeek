@@ -2,7 +2,7 @@
 layout: post
 title: Meta-DH, or Designing and Building a DH Initiative
 permalink: 2016/09/05/meta-dh
-tags: [digital-humanities, advice-tutorial, meta-dh]
+tags: [digital-humanities, advice-tutorial, meta-dh, purdue-dh]
 status: publish
 type: post
 published: true

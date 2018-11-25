@@ -2,7 +2,7 @@
 layout: post
 title: "I/O: Reading & writing as a digital humanist"
 permalink: 2018/10/10/digital-humanities-reading-writing-habits
-tags: [digital-humanities, meta-DH]
+tags: [digital-humanities, meta-dh]
 status: publish
 type: post
 published: true

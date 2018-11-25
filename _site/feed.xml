@@ -5,9 +5,580 @@
     <description>smarter online communities via digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Oct 2018 10:29:37 -0400</pubDate>
-    <lastBuildDate>Thu, 11 Oct 2018 10:29:37 -0400</lastBuildDate>
+    <pubDate>Sun, 25 Nov 2018 15:20:38 -0500</pubDate>
+    <lastBuildDate>Sun, 25 Nov 2018 15:20:38 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Notes: Workflows to consider before opening a DH lab (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;What workflows should I think through before the Purdue Libraries DH Lab can open its doors?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IP policy: okay to post work to GitHub? using what license?&lt;/li&gt;
+  &lt;li&gt;Project management: Basecamp? Asana? Trello? something that can connect to GitHub, IFTTT or Zapier, or the Archives &amp;amp; Special Collections unit’s Drupal workflow if it’s created there&lt;/li&gt;
+  &lt;li&gt;Code of conduct for events, interactions, collaborations, social media (including commitment to equitable representation via speakers and event participants)&lt;/li&gt;
+  &lt;li&gt;How do new or learning coders participate in technical work?: Development/experimentation server, checklists for coders and whoever is approving moves to the production site&lt;/li&gt;
+  &lt;li&gt;General server workflow: production, test, staff development, learner experimentation servers/VMs and flow among servers&lt;/li&gt;
+  &lt;li&gt;Policy on what projects we host ourselves&lt;/li&gt;
+  &lt;li&gt;Policy on best practices: usability, accessibility, public participation, outreach, research publication, technical stack (e.g. when possible build a static site)&lt;/li&gt;
+  &lt;li&gt;Workflow for preserving projects: Webrecorder, BagIt, video of narrated exploration; LOCKSS; Purdue repo’s and Archives &amp;amp; Special Collections unit; workflow for collapsing dynamic sites into static ones&lt;/li&gt;
+  &lt;li&gt;Sample contract for working with DH Lab staff: mutual agreements&lt;/li&gt;
+  &lt;li&gt;Sample contract with Libraries IT concerning technical coverage and ASC on web archiving (if interested)&lt;/li&gt;
+  &lt;li&gt;Web design and development checklist&lt;/li&gt;
+  &lt;li&gt;Usability and accessibility checklist (web, events, publications)&lt;/li&gt;
+  &lt;li&gt;Best practices doc for digital editions: who locates, transcribes/digitizes/proofs, uploads (as individual pages) text?; signed documentation of IP right for use of text?&lt;/li&gt;
+  &lt;li&gt;Workflow for working with Archives &amp;amp; Special Collections artifacts: security, moving objects between offices/buildings&lt;/li&gt;
+  &lt;li&gt;Workflow for staff adding resources, people, etc. to “DH at Purdue” site&lt;/li&gt;
+  &lt;li&gt;Social media policy: tone, etiquette, access, schedule for Twitter, blog, Facebook&lt;/li&gt;
+  &lt;li&gt;IT workflow (negotiating how we work alongside the Libraries’ existing IT team): meet early in project/grant design, accessibility/video captioning, service contract, data plan w/security, accessibility compliance, longterm hosting plans&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/workflows-before-opening-DH/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/workflows-before-opening-DH/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>notes</category>
+        
+        <category>purdue-dh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: Wise resource investments for a DH initiative (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ideas about making wise resource investments:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ask “Should we even build a center?” and explore other metaphors/options&lt;/li&gt;
+  &lt;li&gt;Convene a Libraries DH initiative advisory committee: not oversight/supervision, but resource and advocates for my DH in the department (e.g. on the hiring committee)&lt;/li&gt;
+  &lt;li&gt;Require potential faculty fellows/project members to attend one term of “introduction to DH” workshops first before committing to collaboration, using MITH’s DH Incubator model (lessons in finding, creating, cleaning, sharing, documenting data; collaboration best practices, why and how to credit everyone involved in your work: how to use GoogleDocs, Trello, Doodle polls; common mistakes using new methodologies; joining the DH online community via blogging and Twitter)&lt;/li&gt;
+  &lt;li&gt;Sign mutual contract with collaborators indicating expected deliverables and deadlines, checkpoints and what will happen if work not done, and expectations for crediting and citing all team members in publications and presentations&lt;/li&gt;
+  &lt;li&gt;Send Purdue DHers at all levels out to train (HILT in Indianapolis, RBS), then bring back to campus to give a presentation on what they learned&lt;/li&gt;
+  &lt;li&gt;Invest in collaborators, not projects&lt;/li&gt;
+  &lt;li&gt;Train the trainers (peer review, personal research &amp;amp; professionalism time for all)&lt;/li&gt;
+  &lt;li&gt;Publications (questions by Geoffrey Pullum, “To co-author, or not to co-author?” with slight alterations to fit our needs): What names will appear on title page? What order? Who/what has IP rights? Can any team members recycle paper’s content for conference presentation or for inclusion/adaptation in other work including journal articles and books? What happens if the project is dropped or one member fails to uphold their contract? Would other team members be allowed to wrap up the project or publications about the project as desired (and publish under what names)? For continuing projects, how long should all team members names stay on the front page? (All names should always stay on a history or about page).&lt;/li&gt;
+  &lt;li&gt;See also students’ (UCLA) and collaborators’ (MITH) bills of rights. Include info on assuring student mentorship for all assistance, internships, jobs, teaching, and mentoring—not e.g. data entry.&lt;/li&gt;
+  &lt;li&gt;All panels, sets of conference keynotes, and hiring should look for unconscious bias and be structured to support inclusion.&lt;/li&gt;
+  &lt;li&gt;CRM for consultation/campus DH tracking?&lt;/li&gt;
+  &lt;li&gt;Consultation appointment set up includes consent to code of conduct, optional inclusion in campus DH directory&lt;/li&gt;
+  &lt;li&gt;Public workflows a la Guelph (what we do/don’t do, what effort involved…)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/wise-resource-investments-digital-humanities-initiative/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/wise-resource-investments-digital-humanities-initiative/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>notes</category>
+        
+        <category>purdue-dh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: Planning a DH lab's physical location (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dh-lab-physical-space&quot;&gt;DH Lab physical space&lt;/h2&gt;
+&lt;p&gt;We have strong need for a space for project work (e.g. 3D scanning and printing), team meetings, class demonstrations, events, and the ability to livestream and record (e.g. for later DH website hosting, classroom watching, sharing with Archives &amp;amp; Special Collections [ASC] donors) project work, demos, and presentations. I propose we initially identify an interim location that could be used over the next 1-3 years while we pilot the projects outlined above and seek major external funding—preferably somewhere we could begin occupying with a minimum of renovation, cost, and time (the newly arrived 3D setup cannot be unpacked until we have a dedicated space). I’m calling this initial, low-cost space a “DH Lab” as we’ll be focused on research and development there.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DH Center (3-6 years in)&lt;/em&gt;. We’ll also apply for external funding for a formal “DH Center”, which could increase the types of DH we nurture from Libraries-focused R&amp;amp;D to broader campus work such as classroom tours and one-off class visits to the center.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In the long run&lt;/em&gt;, there’s strong mutual interest from the ASC and DH in locating a more formal DH Center side-by-side with the ASC, turning the HSSE 4th floor non-ASC space into the DH Center. This would both ease our daily collaborations, and visually demonstrate to the campus the flow of possible scholarship from acquisition, processing, teaching, and research in the ASC through research, teaching, and diverse publication in the DH Center. Much of our initial DH work will develop from the expertise and collaboration of the ASC, and we should improve the DH conversation (where archival expertise and labor are sometimes left out of the conversation) by visibly showcasing the ASC’s critical partnership.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DH position in the org chart&lt;/em&gt;. I’m not advocating the DH Center being positioned within the ASC, to allow for autonomy and partnerships with other campus units. However, we discussed (in the DSC) exploring changes to the current department organization structure that make collaborations and reporting better represent our developing cohesion as partnered curation and digital creation spaces. In particular, I’d like to think about where we’d be placed as a potential research center with its own staff.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-a-dedicated-dh-space-provides&quot;&gt;What a dedicated DH space provides&lt;/h2&gt;
+&lt;p&gt;It’s important to have a space where work can be left as-is without needing to be secured or tidied away; to visibly associate a set location with our DH initiative, rather than using random campus spaces for different events; and where we can customize the space to specific DH needs (including video capture and live-streaming of project work and presentations).&lt;/p&gt;
+
+&lt;p&gt;A dedicated physical DH space would&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;provide a visible, fixed physical location for DH presentations, workshops, and teaching from which the audience would always leave aware of our Libraries DH initiative, and knowing where to return (or point colleagues) with any future DH needs of their own&lt;/li&gt;
+  &lt;li&gt;include space tailored to digital project research and discussion, 3D equipment use, and both livestreaming and video-recording of project work and presentations&lt;/li&gt;
+  &lt;li&gt;showcase our own Libraries DH (and related) research as both model projects and opportunities for collaborating with us, and model best practices for collaboration&lt;/li&gt;
+  &lt;li&gt;develop space where interdisciplinary projects can grow and people across Purdue are incentivized to cross paths and locate shared interests&lt;/li&gt;
+  &lt;li&gt;allow informal overlap among Libraries staff working or interested in DH, growing DH expertise in-department via drop-in times and informal reading groups and coffee sessions&lt;/li&gt;
+  &lt;li&gt;provide the equipment necessary to DH presentation and iterative publishing needs (good projection monitors, demo’ing live websites and tools, supporting audience members downloading and tweeting, capturing a live video feed and better audio/video for later hosting on the DH website)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;A dedicated/non-reservable space&lt;/em&gt;. If we convert the CSC to a DH lab, I would like to model the room on Swaim and make the space non-reservable. This allows us to leave leave our expensive 3D equipment out when in the middle of use (because of how hot the printer gets and potential for liquid filament to stain other areas), use the space for informal ASC+Press+DH work (in addition to formal meetings) without needing to schedule these impromptu sessions, and keep areas where we’ll be working with ASC collections and 3D prints free from food and drink.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A social and experimental space&lt;/em&gt;. Longtime DHer Stephen Ramsay has said, “I cannot think of a successful digital humanities center — anywhere in the world — that did not begin with a bunch of people who had found each other through various means and who were committed to the bold and revolutionary project of talking to one another about their common interests.” DH labs thrive on supporting collaboration, not service. To accomplish this, we need to leave unscheduled, unplanned space for unexpected opportunities to arise, designing a space where you can come to chat about DH, find partners and mentors, and get help jumpstarting your research. I’ll work with Libraries strategic communication, outreach, and marketing experts to publicize our work and these opportunities once we’re ready.&lt;/p&gt;
+
+&lt;h2 id=&quot;floorplan-and-major-purchases&quot;&gt;Floorplan and major purchases&lt;/h2&gt;
+&lt;p&gt;Following approval, I would continue working with Candy on a proposed room layout, identifying furnishings we already have in the attic, and budgeting for any additional items needed from preferred vendors. I would also work with RaeLynn and Sarah to change the room’s scheduling status.&lt;/p&gt;
+
+&lt;p&gt;I have a more specific list of furnishings and proposed layout, but below is a summary of the work spaces I’m anticipating:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Individual work desks (4, pending additional DH staff and 2 post-docs, and can also be used by project collaborators)&lt;/li&gt;
+  &lt;li&gt;A conference table and seating that can be re-arranged for large group meetings, demos, and presentations (and, if we have the furniture in the attic already, a separate informal area with armchairs)&lt;/li&gt;
+  &lt;li&gt;Station for 3D imaging and printing&lt;/li&gt;
+  &lt;li&gt;Station for livestreaming, video-recording work and presentations, and video editing; including a computer and monitor that can be swiveled for use at the 3D scanning and printing station, and two dedicated external hard drives for 3D and video file backup&lt;/li&gt;
+  &lt;li&gt;And the major purchases anticipated:&lt;/li&gt;
+  &lt;li&gt;Webcam for livestreaming&lt;/li&gt;
+  &lt;li&gt;Video camera (and accessories speakers, microphone, tripods, disks, 2 HDs to store videos and 3D scans, video editing software; both cameras could be checked out by Libraries staff for non-DH events)&lt;/li&gt;
+  &lt;li&gt;Computer stations: at least one dedicated computer for 3D imaging and video editing (plus accessories: keyboard, mouse, monitor, dock)&lt;/li&gt;
+  &lt;li&gt;A presentation-size wall-mounted digital monitor (as an alternative to the projector screens that allow higher definition and better color fidelity)&lt;/li&gt;
+  &lt;li&gt;Optional: 1-2 computer monitors facing through the glass walls into the library, for display of Purdue Libraries DH projects and other interesting DH projects and visualizations to passerby&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dh-lab-users&quot;&gt;DH Lab users&lt;/h2&gt;
+&lt;p&gt;I envision our DH Lab as an R&amp;amp;D space for DH prototyping projects, teaching, and events, not as an open service space that can be booked by others. Its earliest users would be project work including experimentation with the 3D setup and formal meetings and demos (which can be livestreamed and.or video-recorded for teaching and publicity uses), a drop-in space for collaborators working on this year’s major grant proposals toward a DH Center and ASC+DH+Press/SPS co-evolution, and room for group DH consultations. If we begin to add DH graduate research assistants, staff, and/or post-docs, this will be space to work together (although retaining private offices for each staffer would allow for sometimes necessary focus or conference calls). In the near future, the space could support invited DH speakers and workshop leaders,a s well as Libraries-led intensive summer workshops for faculty and graduate students.&lt;/p&gt;
+
+&lt;p&gt;Future uses could include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;As a drop-in space, possibly jumpstarted by partnerships with student groups such as the English Department’s Graduate Technology Working Group, or by creating a new digital dissertations in Africana Studies cohort with Ron Stephens (AASRC director and professor)&lt;/li&gt;
+  &lt;li&gt;Scheduled class visits for lessons and project demos&lt;/li&gt;
+  &lt;li&gt;Hosting an experimental, Libraries-taught DH and ASC and/or Press class and associated drop-in space for students working on their class project&lt;/li&gt;
+  &lt;li&gt;We need to exist in the Libraries to increase access and cross-disciplinary collaboration in ways individual departments cannot. An actual physical space associated with regular DH speakers and training opportunities fosters a community that’s both interdisciplinary and can reduce barriers among different university roles (student, staff, faculty, librarian).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;initial-basic-physical-space-setup&quot;&gt;Initial, basic physical space setup&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Space rental cost?&lt;/li&gt;
+  &lt;li&gt;Basic renovations &amp;amp; space cleanup&lt;/li&gt;
+  &lt;li&gt;If possible, small rooms or cubicles (one director’s office, one huddle room for sharing by other staff; both with desks, desk chairs, computers, monitors, peripherals)&lt;/li&gt;
+  &lt;li&gt;Large conference table and chairs (collapsible/rolling tables to allow for different room setups)&lt;/li&gt;
+  &lt;li&gt;Lockable area for artifacts, 3D equipment&lt;/li&gt;
+  &lt;li&gt;Basic furniture (chairs, tables)&lt;/li&gt;
+  &lt;li&gt;Signage outside&lt;/li&gt;
+  &lt;li&gt;Projector, screen, large monitors, livestreaming camera, conference phone setup, presentation podium with speakers, microphone&lt;/li&gt;
+  &lt;li&gt;Cheap coffee maker (invite people to hang out and chat, rather than leave the space for coffee or chat in non-DH spaces like Starbucks)&lt;/li&gt;
+  &lt;li&gt;Clarity on who can access the space, whether the space can be booked by others or used for after-hours events by others; generally no other use should be made of the DH space, with requests for use needing to come through the DH Specialist and uses that are actually particularly in need of what the DH space uniquely offers supported if/when they don’t interrupt normal work (e.g. class visits, speakers and livestreaming talks)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ideal-room-setup-furniture&quot;&gt;Ideal room setup, furniture&lt;/h2&gt;
+&lt;p&gt;(&lt;em&gt;After large external grant for renovation/model DH center.&lt;/em&gt;)
+We would need keys or key cards and a list of everyone with access to these spaces; ideally, we’d use IDs as key cards that could let people into the class/meeting space but not into offices or areas with equipment.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Twitter scroller/blink(1) setup for server/project use status, social media oversight&lt;/li&gt;
+  &lt;li&gt;DH books and shelving&lt;/li&gt;
+  &lt;li&gt;Waiting space armchairs and coffee table&lt;/li&gt;
+  &lt;li&gt;Shelves/display for old books, old computing stuff&lt;/li&gt;
+  &lt;li&gt;Etsy neon signs with DH terms&lt;/li&gt;
+  &lt;li&gt;Window blinds&lt;/li&gt;
+  &lt;li&gt;Framed posters of cool and/or Purdue DH projects&lt;/li&gt;
+  &lt;li&gt;Door and over-door signs&lt;/li&gt;
+  &lt;li&gt;In/out/ring bell signs&lt;/li&gt;
+  &lt;li&gt;Security/rekeying of main doors&lt;/li&gt;
+  &lt;li&gt;Locked space for 3d equipment&lt;/li&gt;
+  &lt;li&gt;“This is an office; here’s how to sign up for a consultation” sign. If space is highly visible, this will deflect random walk-ins from interrupting work and inform those actually interested in DH to get in touch without interrupting work; we’ll probably have a mix of days with no sign/doors open (Mondays and Tuesdays, when consultations are scheduled or on days with visiting speakers), and days with doors closed so project team members can concentrate on their work. Will need further thinking to balance desire for a space that increases visibility and draws in passersby, with need for researchers to have interrupted focus.&lt;/li&gt;
+  &lt;li&gt;Large digital screen (like at Brown) instead of projector+screen, for presentations&lt;/li&gt;
+  &lt;li&gt;Podium, speakers, microphone, pointer, dongles&lt;/li&gt;
+  &lt;li&gt;Conference table and chairs&lt;/li&gt;
+  &lt;li&gt;Video camera + webcam&lt;/li&gt;
+  &lt;li&gt;Demo computer and monitor and peripherals&lt;/li&gt;
+  &lt;li&gt;Special ASC transport cart/checklist&lt;/li&gt;
+  &lt;li&gt;Dry-erase boards and markers and erasers&lt;/li&gt;
+  &lt;li&gt;Water, garbage, recycling, fridge, microwave, coffee maker&lt;/li&gt;
+  &lt;li&gt;Branded stickers, bookmarks, mugs/shirts for presenters only&lt;/li&gt;
+  &lt;li&gt;Office with door for director&lt;/li&gt;
+  &lt;li&gt;Analyst office?&lt;/li&gt;
+  &lt;li&gt;Cave/commons desk and 3rd huddle room with telephone and internet&lt;/li&gt;
+  &lt;li&gt;Monitors for outside walls&lt;/li&gt;
+  &lt;li&gt;Inside monitors (Big DIVA, IU, DH projects, Twitter)&lt;/li&gt;
+  &lt;li&gt;Folding chairs/tables for events&lt;/li&gt;
+  &lt;li&gt;Monitors and desk space for personal laptop hookups&lt;/li&gt;
+  &lt;li&gt;Water/fridge/microwave and coffee maker, informal area for watercooler-style chats, snacks, eating lunch together&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/planning-dh-lab-physical-location/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/planning-dh-lab-physical-location/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: A mission statement for digital humanities (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This post (everything below) is from a post I was drafting back when I was designing Purdue Libraries’ DH initiative; some parts weren’t completely fleshed out, and the “values” list doesn’t reflect my current thinking.&lt;/p&gt;
+
+&lt;p&gt;The stuff below—identifying what our values are, and stating that we mean to prioritize them—doesn’t mean that prioritizing or “doing the work” of those values will happen. This isn’t the work. The work is doing stuff that performs, amplifies, shares, teaches, argues for these values.&lt;/p&gt;
+
+&lt;p&gt;As with a code of conduct, it’s more dangerous to say you’re going to do (or are doing) something and then not stand by that promise, than to not make the promise at all. Lots of institutions say they value diversity, but either they don’t follow up on that claim at all (or enough), or they define the term so broadly as to neutralize any benefits.&lt;/p&gt;
+
+&lt;p&gt;It’s easy to say you’re going to do a thing, and harder to imbue your work with the values you think you care about. I’m sharing this publicly now for a couple reasons: I want to be held publicly accountable to show I value these things. As we get deeper into specific projects, I hope to post what each project aims for, and to follow up with periodic analysis of whether we’ve held to those goals.&lt;/p&gt;
+
+&lt;p&gt;My dissertational &lt;em&gt;&lt;a href=&quot;http://www.infinteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt;&lt;/em&gt; work, for example, has failed at doing its best to support all the values I list below—but &lt;a href=&quot;http://literaturegeek.com/2013/12/02/valuespost&quot;&gt;stating my values at the beginning of that project&lt;/a&gt; was essential to helping me realize the project’s shortcomings later on, and to build my knowledge so my future work can do better. (You can read about the most obvious problem from &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;a mid-dissertation post here&lt;/a&gt;, the conclusion of which I no longer agree with.) I also want to encourage others to document and self-reflect on their work, by contributing to the existing pool of statements and charters holding scholars to their values—just as I’ve been encouraged by work like Scott Weingart’s &lt;a href=&quot;http://scottbot.net/pledges/&quot;&gt;Pledges&lt;/a&gt; page and the &lt;a href=&quot;http://scholarslab.org/about/charter&quot;&gt;Scholars’ Lab charter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;identifying-values&quot;&gt;Identifying values&lt;/h2&gt;
+&lt;p&gt;I built on past mission statements and charters I’ve encountered (DH or otherwise). On my dry-erase board, I made a list of things I think I care about and/or I think our DH initiative should value, given our experts, resources, and department and campus mission and strategic statements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a more public and participatory humanities through DH, with engagement with non-academics recognized as scholarship&lt;/li&gt;
+  &lt;li&gt;topic, practitioner, and audience diversity and inclusion, pervasively rather than as an add-on&lt;/li&gt;
+  &lt;li&gt;move beyond the idea that libraries can be neutral: choose work that is actively good, not just not-bad (e.g. explicit anti-racist approaches)&lt;/li&gt;
+  &lt;li&gt;accessibility and universal design from the beginning of projects&lt;/li&gt;
+  &lt;li&gt;participatory design with a project’s intended audience from the beginning of projects, not just user testing at the end&lt;/li&gt;
+  &lt;li&gt;listening and amplification, e.g. through&lt;/li&gt;
+  &lt;li&gt;full credit and IP retention for all involved in making a project regardless of professional role, affiliation, or type of work performed&lt;/li&gt;
+  &lt;li&gt;fully citing &amp;amp; crediting the resources we build on (with especial care for under-cited digital resources and alt-ac scholars)&lt;/li&gt;
+  &lt;li&gt;care to not accidentally nor intentionally overstate, when stating our involvement in collaborative projects or in other scholars’ projects (and knowledge that the larger our initiative grows, the more potential there is for people to incorrectly assume any DHer or DH project on campus involves us or is ours)&lt;/li&gt;
+  &lt;li&gt;recognition of multiple publics, and funding and designing with under-supported publics&lt;/li&gt;
+  &lt;li&gt;recording today’s campus through the eyes of our community (e.g. the students who use our Archive to study past students), but only when we can do so in a rewarding, respectful, safe way&lt;/li&gt;
+  &lt;li&gt;open access, reuse, remix, and user-friendly documentation allowing these&lt;/li&gt;
+  &lt;li&gt;share about our project work during and after the work to help others understand the choices and effort that goes into various kinds of DH&lt;/li&gt;
+  &lt;li&gt;making project IP, privacy, data management clear to users (including any tracking such as Google Analytics) and a public plan for how data and site users will be impacted if funding or maintenance of the site are cut off&lt;/li&gt;
+  &lt;li&gt;projects that are sustainable &lt;em&gt;or&lt;/em&gt; explicitly ephemeral and well documented; create space for experimentation and failure&lt;/li&gt;
+  &lt;li&gt;clear ways to accept, credit, and incorporate user feedback&lt;/li&gt;
+  &lt;li&gt;only involve or build communities if you can commit to tending them well and enforcing a code of conduct that protects community members&lt;/li&gt;
+  &lt;li&gt;student mentorship, and funding and professional development support for non-tenure-track-faculty such as adjuncts, continuing lecturers, and students&lt;/li&gt;
+  &lt;li&gt;evaluable mission statements for projects&lt;/li&gt;
+  &lt;li&gt;time for reflection on past work and realigning new strategy to fix previous failures&lt;/li&gt;
+  &lt;li&gt;prioritize work that supports collaboration and offers potential for a branching impact (invest in training the trainers)&lt;/li&gt;
+  &lt;li&gt;participate in and support broader DH initiatives beyond our campus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;if-we-think-these-are-what-we-value-how-are-we-acting-on-these-values&quot;&gt;If we think these are what we value, how are we acting on these values?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ID specific actions and/or policies supporting these&lt;/li&gt;
+  &lt;li&gt;I’ll keep track of any DH visitors/speakers and ensure we’re using our funds and time to support a diverse representation of DH; projects must explicitly advance one of our stated core values (access, diversity, inclusion), with a preference for projects that include mentorship for students and credit for all team members&lt;/li&gt;
+  &lt;li&gt;What do we study? We’ll likely want to work with our many Objects That Have Been in Space and other neat aerospace history stuff—how do we keep that from pulling us toward work by and for white dudes?&lt;/li&gt;
+  &lt;li&gt;Initial philosophy-heavy proposal focused on foundational policies: what would we do, and what wouldn’t we do? how would we interact with campus IT? what funding needs will we have?&lt;/li&gt;
+  &lt;li&gt;Next step is report/request/objectives &amp;amp; goals doc that outlines how we’ll do the work over the next two years&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-dh-mission-statement&quot;&gt;A DH mission statement&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This was originally the abstract for my first proposal to the Purdue Libraries on where our DH initiative should go. I’m thinking it will evolve into charters for major projects here (like a possible DH space, and a DH team-taught course), so I’m capturing each version in a GitHub repo so we can track changes over time.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I propose we initially focus our digital humanities initiative on a collaboration among DH, the ASC (&lt;em&gt;note: Purdue Archives &amp;amp; Special Collections, a Libraries unit&lt;/em&gt;), and the University Press &amp;amp; Scholarly Publishing Services (&lt;em&gt;also located in the Libraries!&lt;/em&gt;), with a focus on &lt;strong&gt;co-evolving these units while developing infrastructure toward a more open (diverse, inclusive, accessible, participatory, real-time, relevant) humanities.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I envision a DH Center for the Open Humanities in the Purdue Libraries, serving as the hub of the campus DH community. We will build a culture of digital scholarship, assisting through incubation rather than service: connecting potential collaborators, recording DH work for institutional memory, modeling best practices and inspiring other DH work with our own experiments, showcasing the Libraries’ strengths, and raising visibility for Purdue’s digital humanities successes through diverse publication forms and audiences.&lt;/p&gt;
+
+&lt;p&gt;I take the Libraries’ valuing of diversity, inclusion, and access as core motivating ideals, and plan strong demonstrations in all three areas of the latest (2016-2019) strategic plan (particularly 1:3, 2, and 3:2-4). We should proactively develop what we want the digital humanities to be, by pursuing and publicizing projects that advance all our strategic values.&lt;/p&gt;
+
+&lt;p&gt;In practical terms, our activities will include modeling DH research and publication best practices through collaborative internal projects, cross-campus collaboration and outreach, consultations and mentorship, and hosting events including a DH visiting speaker series, a day of talks by DHers from all over campus (co-hosted with the CLA), and intensive methodological training workshops. We will additionally maintain an information-rich “DH @ Purdue” website (including a campus DH directory), and design and co-teach pilot DH+ASC+Press courses giving students theoretical, technical, and alternative academic experience in building a DH project as a collaborator. Our work will emphasize collaboration and mentorship, value a more public and inclusive humanities, and lead by modeling effective DH research and teaching for other departments. Because we currently have limited staff time and resources, we’ll focus on building a sustainable funding model, doing a few specific pilot projects extremely well, and DH networking on campus through events and consultations.&lt;/p&gt;
+
+&lt;p&gt;I propose a two-phase approach:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;[3 sentences on specific plans for fund allocation in the next two years]&lt;/li&gt;
+  &lt;li&gt;[3 sentences on specific plans for fund allocation years 3-5]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;During Phase 1, [paragraph on specific major grant project idea].&lt;/p&gt;
+
+&lt;p&gt;The rest of this document offers details on specific activities we could pursue, longterm goals for the initiative, reasoning for requested funding and hiring, and more.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rewrite this philosophy-heavy proposal into an objectives and goals report with specific requests, actions, and timeline.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/mission-statement-digital-humanities-purdue/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/mission-statement-digital-humanities-purdue/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: DH initiative scope &amp; practice (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As a followup on my philosophy-focused &lt;a href=&quot;http://literaturegeek.com/2018/11/25/mission-statement-digital-humanities-purdue&quot;&gt;mission statement post&lt;/a&gt;, this post lays out the scope of what DH we would do (and &lt;em&gt;not&lt;/em&gt; do), and what long-term success might look like for the Purdue Libraries DH initiative.&lt;/p&gt;
+
+&lt;h2 id=&quot;mission-and-plan&quot;&gt;Mission and plan&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;What is DH?&lt;/em&gt; The digital humanities is a “big tent” of a field combining humanities research (cultural heritage, literature, history, the arts, ethics…) with the design, building, use, teaching, and theorizing of digital methods (e.g. text analysis) and forms (e.g. blog posts). My DH is also defined as a community sharing interests in methods and tools that cross disciplinary boundaries. This community values open access, diversity and inclusion both in researchers and in their areas of study, a more public humanities reaching diverse audiences, and research that is real-time, collaborative, iterative, and generative of further work beyond the initial researchers. DH’s emphasis on interdisciplinary collaboration, methodologies over content, and recognition that all academic fields deal with history of the field, ethics, subjective interpretation, design, and texts will help us further connect Purdue’s CLA and Libraries departments to the university pillar of STEM excellence as well as other campus communities.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What subset of DH should we support?&lt;/em&gt; I’d welcome suggestions for projects, goals, or values you think we should include in the DH initiative. Our ability to support specific ideas will depend on funding and hiring (both how many staff we can fund, and the expertise and interests of who we hire). I’ve prioritized projects we can achieve in 1-3 years, while also recording ideas we’d love to support in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Scoping our DH.&lt;/em&gt; Even if we achieve strong funding, we’ll want to specialize and focus so that we can develop specific expertise, rather than offering shallow engagement across the broad board of DH. We’ll partner with other campus units to help them develop their own initiatives for DH support (e.g. departments must hire DH faculty if they are sincere about desiring DH scholarship and teaching). We’ll also work to connect anyone interested in an area we don’t support to resources and potential collaborators (e.g. by developing our directory of campus DHers and DH @ Purdue resource website).&lt;/p&gt;
+
+&lt;p&gt;Our DH Center would not be a service shop; our closest activities to service would be offering consultations at the beginning of projects, and pursuing DH research that also results in better support for further campus DH (e.g. improving collection metadata for use with specific DH tools). We will frame any DH Center roles as experts rather than staff, and enter into any collaborations with a clear sense of the discoveries and publications we intend to build on the experience.&lt;/p&gt;
+
+&lt;p&gt;We will try to do a few specific DH things very well, rather than be everything everyone desires of DH. We will publicly articulate this limited scope, while encouraging and advising others on campus in imagining and addressing areas outside our scope. We will also publicize and support other DH initiatives on campus, designing our DH Center as a hub rather than hoarder of campus DH.&lt;/p&gt;
+
+&lt;p&gt;Our initial main partners will be the ASC and Press/SPS, as these collaborations show the most immediate potential: experts ready to partner, past teaching experience and contacts, and realizable specific projects. Eventually, we hope to foster connections throughout the Libraries, and pursue diverse projects not bound to any one area of campus (e.g. working beyond the Libraries and CLA with departments such as CS and the Polytechnic Institute).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Strategic overlaps.&lt;/em&gt; I’ll define specific connections to the Libraries strategic plan and University mission after the next round of feedback on this proposal. As a preview, we take the Libraries’ valuing of diversity, inclusion, and access as core motivating ideals, and plan strong demonstrations in all three areas of the latest (2016-2019) strategic plan (particularly 1:3, 2, and 3:2-4). Several of the projects proposed below are currently up for discussion by the DSC.&lt;/p&gt;
+
+&lt;h2 id=&quot;mission-refined-proposed-dh-activity&quot;&gt;Mission, refined: proposed DH activity&lt;/h2&gt;
+&lt;p&gt;We should shape what we want Purdue’s DH to be, with an emphasis on access, diversity, inclusion, public and student engagement, and making the humanities open through innovative modes of publication. We should prioritize work that mentors, trains, and supports under-supported campus constituents and/or public audiences; encourage and reward collaboration over solo and silo’ed scholarship; recognize all kinds of scholars as knowledge seekers worthy of support (including undergraduate and graduate students, adjuncts and continuing lecturers, staff); and acknowledge many kinds of knowledge-seeking and -sharing as research (including teaching, coding, infrastructure design, and metadata improvement).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Enhancing collections metadata towards use with DH methods&lt;/li&gt;
+  &lt;li&gt;Identifying workflows both theoretical (what’s the ideal flow of an acquisition, from donation through to DH research and publication?) and practical (how can we augment existing processing tools to better answer questions related to research and teaching needs?)&lt;/li&gt;
+  &lt;li&gt;Creating model DH projects showcasing resources and opportunities&lt;/li&gt;
+  &lt;li&gt;Piloting DH+ASC+Press teaching are priorities for our DH efforts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of this work doesn’t have immediate payoffs. To quote a colleague, “metadata isn’t sexy”—most people don’t get excited about plans to create and improve metadata, think through workflows for making ASC collections ready for DH methodologies, or making and testing small changes to our publication repositories. But strong metadata and infrastructure are critical to strong DH projects: the things we can make and teach with clean, thorough, accurate metadata and content and well-designed hosting and publication platforms will have broad and immediate appeal.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-could-do&quot;&gt;What we could do&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build a culture of digital scholarship: connect new and experienced DHers, create institutional memory, model best practices in DH, experiment, showcase DH on campus, raise public and campus visibility of DH work&lt;/li&gt;
+  &lt;li&gt;Work that engages audiences beyond other faculty, including students and underserved publics, and that translates and motivates the humanities for these audiences. Work that welcomes and incorporates these audiences’ participation.&lt;/li&gt;
+  &lt;li&gt;Work that makes the shiny, engaging stuff go. We value and support as scholarly work often-hidden innovations increasing capacity, care, and ethical design, including metadata improvement, documentation, and other infrastructure improvement.&lt;/li&gt;
+  &lt;li&gt;Work that is generative and transformative: we invest in making things better for more people.&lt;/li&gt;
+  &lt;li&gt;Work that includes explicit mentorship or learning opportunities for others, especially in the often-hidden variety of intellectually fulfilling career paths available to students.&lt;/li&gt;
+  &lt;li&gt;Work that values diversity, inclusion, and open access. We’re particularly dedicated to supporting under-supported Purdue researchers, including undergraduate and graduate students, all levels of staff, and adjuncts and continuing lecturers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-we-wouldnt-do&quot;&gt;What we wouldn’t do&lt;/h3&gt;
+&lt;p&gt;Our DH Center would always interested in learning about digital humanities activity or curiosity on campus. To guard our time and focus, here are some things we wouldn’t tend to do:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Redundant tool or website building. We prioritize work that is reusable or extendable to support alternative uses in other fields and/or for other audiences, or otherwise innovates in line with our values.&lt;/li&gt;
+  &lt;li&gt;Hosting DH projects long-term (or otherwise beyond the length formally contracted in the mutual contract we sign with any faculty or other collaborators), unless the project has been appraised and selected for inclusion in the archives (subject to ASC interest, time, funding, and appraisal).&lt;/li&gt;
+  &lt;li&gt;Replacing the need for humanities departments to increase hiring of faculty and staff with DH expertise. We might position ourselves as an incubator (a place to connect with others, polish ideas, hear about tools and methods, and otherwise jumpstart your DH involvement). I concur with Carly’s suggestion we focus on teaching transferable skills and values rather over specific tools (e.g. making learning BitCurator about learning archival values and digital materiality, making learning Omeka about learning the interpretive nature of archives and the scholarship that goes into building humanities tools).&lt;/li&gt;
+  &lt;li&gt;Non-research service shop work (e.g. we won’t build your idea for you or set up your class blog). We can help you understand the scholarship and critical effort underlying digital work that you don’t yourself do, and we can assist you in identifying funding and experts to collaborate with on projects needing additional scholarly expertise.&lt;/li&gt;
+  &lt;li&gt;We currently do not guarantee free ongoing consultations beyond the initial consultation. If you’d be interested in a more in-depth collaboration with us, we recommend inviting us to be credited project collaborators.&lt;/li&gt;
+  &lt;li&gt;We currently consider but do not guarantee class visits, one-shot instructional sessions, or course design help. If you’d be interested in a more in-depth collaboration with us, we recommend inviting us to be listed co-teachers for the course. In all cases, we require at least one academic term of notice before any requested classroom involvement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;long-term-goals&quot;&gt;Long-term goals&lt;/h2&gt;
+&lt;p&gt;Some examples of what success might look like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Large external grant support for a DH Center in addition to individual, interdisciplinary project grants&lt;/li&gt;
+  &lt;li&gt;A good workflow for projects connecting ASC -&amp;gt; DH -&amp;gt; Press (e.g. everyone involved learns and enjoys the collaboration, and we can accurately estimate time and money needs)&lt;/li&gt;
+  &lt;li&gt;A workflow to easily support common training requests (e.g. using an ASC master timeline, Neatline exhibit spin-ups)&lt;/li&gt;
+  &lt;li&gt;A change in university structure allowing for-credit listing of undergraduate and/or graduate courses taught by DH Center staff and other Libraries experts.&lt;/li&gt;
+  &lt;li&gt;Experimentation with faculty and dissertation fellowships, seed funding, or other models to jumpstart promising DH collaborations, making sure that we pay special attention to those doing maintenance and scale work, teaching and service, and filling in humanities silences. Emulating MITH’s DH Incubator series, we could require applicant attendance at a previous “Intro to Collaborative DH” intensive workshop (preparing collaborators and letting them demonstrate longterm interest in DH engagement). This series would provide introductory training in basic skills such as using GoogleDocs to write collaborative grant proposals, creating a data plan, and proposing a project.&lt;/li&gt;
+  &lt;li&gt;A sustainable model for teaching student cohorts on DH project-based courses/fellowships/internships, including co-teaching with the ASC and Press.&lt;/li&gt;
+  &lt;li&gt;Gathering DH and related courses (possibly with a theme such as DH, curation, alternative academic careers, and/or information studies) into a certificate, minor, major, or dual DH+ graduate degree.&lt;/li&gt;
+  &lt;li&gt;A visible DH community (connected via a physical space with events, listserv, directory) energized through frequent events aimed at inspiring (e.g. speakers) and teaching (workshops, classes, seed funding).&lt;/li&gt;
+  &lt;li&gt;Increased access to and involvement with Libraries and campus resources for students and alumni through interactive digital projects.&lt;/li&gt;
+  &lt;li&gt;A reputation for ethical, useful DH work, shared widely with the public and making an impact within DH and Libraries communities.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/digital-humanities-initiative-scope-practice/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/digital-humanities-initiative-scope-practice/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: DH initiative working with existing IT expertise (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This post thinks through the DH initiative’s relation to the existing Libraries IT team.&lt;/p&gt;
+
+&lt;h2 id=&quot;libraries-it-partnership&quot;&gt;Libraries IT partnership&lt;/h2&gt;
+&lt;p&gt;We want to recognize and support the Libraries IT team’s expertise, while also recognizing that digital humanists are peculiarly, intimately involved with technical decisions at all levels of a digital project, from hardware building and calibration through long-term digital maintenance and preservation. Autonomy in technical decisions, implementation, publicity, and maintenance is an important piece of digital scholarship’s success, and we should design workflows that allow the DH Center to lead decisions about its own technical setup within the campus and departments frameworks IT oversees.&lt;/p&gt;
+
+&lt;p&gt;As part of designing the DH Center, we would explore with IT service-level contracts, routine consultations and notice to IT early in new technical projects, regular invitations to IT for involvement, and support for Libraries IT’s experts (including GAs) to attend DH events and cross-training workshops in DH tools. At each digital project’s outset, we will decide who is responsible for creation, hosting, preservation, and maintenance among the DH Center, ASC, Libraries IT, Press and Purdue repositories, another campus unit (e.g. CLA IT), or the personal hosting of a project team member.&lt;/p&gt;
+
+&lt;h2 id=&quot;dh-center-virtual-space-dh--purdue-resource-website&quot;&gt;DH Center virtual space (DH @ Purdue resource website)&lt;/h2&gt;
+&lt;p&gt;I’ve created an initial Digital Humanities @ Purdue resource website at dh.lib.purdue.edu (not yet finished with design, so hasn’t gone through final marketing and admin oversight or publication yet, although I’ve done an initial site feedback round with Paul, Libraries IT, and marketing).&lt;/p&gt;
+
+&lt;p&gt;The site’s initial goal was to provide an umbrella resource for anyone searching for DH activity at Purdue, and to show the Libraries is pursuing a DH initiative. The current basic site includes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A nascent directory of campus DHers (not yet widely advertised to other departments, but containing faculty and staff from the Libraries as well as several other departments)&lt;/li&gt;
+  &lt;li&gt;Ways to get involved with DH at Purdue (joining the DH directory or a campus DH listserv, consulting with the DH Specialist, reading about DH events on Twitter using the #PurdueDH hashtag)&lt;/li&gt;
+  &lt;li&gt;During Fall 2016, I will convert the site to Drupal and match the look of the Libraries website. I will add the following resources:&lt;/li&gt;
+  &lt;li&gt;An automated way for DH staff to add new resources (links to DH projects, tools, and writing) from their smartphones&lt;/li&gt;
+  &lt;li&gt;A section curating the resources shared at DH consultations on popular topics (e.g. designing a DH dissertation, using Omeka in the classroom, humanities visualization)&lt;/li&gt;
+  &lt;li&gt;Replacing the “DH Directory” and listserv option with a simpler page that will not need regular updating. This page will highlight how various Libraries staff, units, and resources can support DH, and also list people at Purdue working on DH under a few headings (e.g. teaching DH, DH grant proposal experience, DH students; name/role and department/email address).&lt;/li&gt;
+  &lt;li&gt;Information about the Libraries’ DH initiative, plans, and goals&lt;/li&gt;
+  &lt;li&gt;Calendar for past and future DH campus events, workshops, and opportunities&lt;/li&gt;
+  &lt;li&gt;Slides and video from past DH events (e.g. SHORE Symposium, Rikk Mulligan visit)&lt;/li&gt;
+  &lt;li&gt;Regional opportunities such as the HILT training workshop in Indianapolis and Indiana THATCamp&lt;/li&gt;
+  &lt;li&gt;Institutional memory for campus DH projects, classes and their syllabi, etc.&lt;/li&gt;
+  &lt;li&gt;Guides to getting started in various DH methodologies (e.g. visualization of humanities data; links, blog posts, example projects, Libraries units and services)&lt;/li&gt;
+  &lt;li&gt;Short video presentations on various DH topics suitable for use during a classroom session&lt;/li&gt;
+  &lt;li&gt;Blog posts documenting in-progress Libraries DH work (e.g. 3D setup installation)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am hosting this site (and all other websites that the DH Center contracts to host and maintain) on a separate dedicated DH Center server space. Libraries IT set up dh.lib.purdue.edu and dhdev.lib.purdue.edu for public and development sites; the main DH @ Purdue site will live at dh.lib.purdue.edu, while future projects will live at URLs such as dh.lib.purdue.edu/newproject.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/dh-initiative-existing-IT/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/dh-initiative-existing-IT/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Notes: DH hiring ads &amp; HR policy (Purdue version)</title>
+        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Notes from back when I was designing a DH initiative at Purdue Libraries; not my latest thinking, but still worth sharing. See also the Scholars’ Lab &lt;a href=&quot;http://scholarslab.org/announcements/job-opening-curious-about-focusing-on-dh-development/&quot;&gt;DH Developer&lt;/a&gt; and &lt;a href=&quot;http://scholarslab.org/announcements/job-opening-developer-outreach-testing-coordinator/&quot;&gt;User Advocate&lt;/a&gt; job posts for which I was one of the authors. The Scholars’ Lab job ads were created after the notes in this post, and better represent my current thinking about digital humanities HR and hiring.&lt;/p&gt;
+
+&lt;h2 id=&quot;job-ad-wording&quot;&gt;Job ad wording&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Job ad wording should allow for latent interests that the candidates’ current positions or formal academic coursework may not have allowed them to demonstrate or explore.&lt;/li&gt;
+  &lt;li&gt;Job ads should make clear that candidates need not have all mentioned attributes to apply, but more importantly not ask for characteristics that are not needed to fulfill the job satisfactorily.&lt;/li&gt;
+  &lt;li&gt;Job ads should highlight benefits of the position, such as personal research time and/or tenure-track role&lt;/li&gt;
+  &lt;li&gt;See Angela Pashia’s &lt;a href=&quot;http://angelapashia.com/2017/03/seeking-a-diverse-candidate-pool/&quot;&gt;post analyzing hiring&lt;/a&gt;, e.g. “Being willing to consider experience in other areas for transferrable skills seems like a really important factor in diversifying our field.”&lt;/li&gt;
+  &lt;li&gt;List a likely salary range using numbers (no vague “salary is competitive/will match hiree’s experience” language, no reference to arcance institutional wage structures such as “Pay Grade J”). If there’s a cost of living difference that means a position’s salary may look small but stretch farther, include that info in the ad (and perhaps a link to a calculator letting candidates compare to their current cost of living).&lt;/li&gt;
+  &lt;li&gt;Use candidates’ time well. Give as much info up front as possible (see last point: state the salary range!) and don’t ask for special work beyond a cover letter and resume during the initial application. For roles requiring previous experience, asking for e.g. a GitHub repo or link to a past project website may be appropriate (but consider e.g. who may fit your needs but not use GitHub/have an active repo), but save anything requiring new work or significant labor to curate for later stages in the interviewing process (and give candidates adequate time to prepare these when you do).&lt;/li&gt;
+  &lt;li&gt;Use references’ time well. Don’t ask for references during the initial application process, if your department allows you to do this; many folks are skittish about search committees contacting references who may not know you’re on the job market, and would appreciate knowing beforehand if you’re at the point where references will decide the hiring (give candidates time to let their bosses know first). Do let candidates know if &lt;em&gt;letters&lt;/em&gt; will be required later in the process, and only require letters rather than a phone call or email if these are judged to somehow be necessary or more fair.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-skills-are-we-seeking&quot;&gt;What skills are we seeking?&lt;/h2&gt;
+&lt;p&gt;More important than specific skills or content expertise are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interest in learning to publicly speak about the digital humanities to diverse audiences through diverse means such as Twitter, blogging, GitHub, and public speaking both on campus and at external opportunities such as conferences&lt;/li&gt;
+  &lt;li&gt;Interest in making the humanities more public&lt;/li&gt;
+  &lt;li&gt;Interest in critical thinking about the digital humanities, including areas like diversity, inclusion, ethics, and mentorship&lt;/li&gt;
+  &lt;li&gt;Interest in learning new things, and the demonstrated ability of the curiosity and ability to teach oneself new skills&lt;/li&gt;
+  &lt;li&gt;Interest in mentoring and teaching others what you’ve learned&lt;/li&gt;
+  &lt;li&gt;Interest in pursuing a personal research agenda in the digital humanities&lt;/li&gt;
+  &lt;li&gt;Interest in balancing the excitement of innovation with work that makes the digital humanities more caring about its community and projects, more productive and generative, better at long-term thinking and planning (link Nowviskie “Capacity and Care” talk)&lt;/li&gt;
+  &lt;li&gt;Ability to discuss how your research interests either extend current Purdue DH or Libraries expertise, or add new areas of expertise&lt;/li&gt;
+  &lt;li&gt;Vision for what the digital humanities could ideally be&lt;/li&gt;
+  &lt;li&gt;Interest in working with diverse colleagues and demonstrated experience contributing to an inclusive environment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;try-to-build-these-into-the-job-description-or-practicespolicy-of-their-organizational-unit&quot;&gt;Try to build these into the job description (or practices/policy of their organizational unit)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Funds for professional development&lt;/li&gt;
+  &lt;li&gt;Mentorship&lt;/li&gt;
+  &lt;li&gt;Collaborative model that will always publicly credit their contributions&lt;/li&gt;
+  &lt;li&gt;Ability to shape DH Center and campus community&lt;/li&gt;
+  &lt;li&gt;Ability to experiment and learn in their chosen areas of research&lt;/li&gt;
+  &lt;li&gt;Flexible work schedules, commitment to work-life balance, spousal placement help, childcare, and other benefits that increase access to and wellbeing in the job&lt;/li&gt;
+  &lt;li&gt;What formal (e.g. brownbag talks on what staff have been working on) and informal (water cooler) ways does your department encourage and reward collegiality?&lt;/li&gt;
+  &lt;li&gt;All staff should be able to PI; if they are not faculty and faculty status is required to PI, we should try to obtain the ability for them to PI across the board rather than per project.&lt;/li&gt;
+  &lt;li&gt;Ideally, hires should have a reasonable expectation that they can build a career here if they move here. If the work need is truly short-term (are you sure it is?) or (more likely) you’re only able to secure funding for a contract/short-term/grant-funded position, be extra diligent in including professional development opportunities and mentorship throughout the contract, and schedule work to allow the staffer to be on the job market during the final three months (including interview travel, reference requests, and time to practice job talks).&lt;/li&gt;
+  &lt;li&gt;Each role should have a clear path for promotion, increased autonomy, and other types of development (as preferred by the staffer).&lt;/li&gt;
+  &lt;li&gt;20% personal research &amp;amp; professionalism time, in-house, on projects chosen in agreement with director/supervisor.&lt;/li&gt;
+  &lt;li&gt;The shape of the DH Lab will be determined by the individual skills, interests, and experience of the staff.&lt;/li&gt;
+  &lt;li&gt;Weekly standup meeting, monthly issues discussion lunch, regular scheduled participation in DH community (to be set with staff, e.g. Wikipedia editing, Programming Historian tutorial creation, Slack/Twitter focused chats and tech support hangouts, DH Q&amp;amp;A answers, work on open-source coding projects including documentation and usertesting)?&lt;/li&gt;
+  &lt;li&gt;Develop a charter (mission, values) that whole team develops and agrees to (e.g. Scholars’ Lab charter).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/dh-hiring-ads-hr-policy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/dh-hiring-ads-hr-policy/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Designing a digital humanities initiative at Purdue: all my notes</title>
+        <description>&lt;p&gt;Some time back, I started a &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;series of “meta-dh” posts&lt;/a&gt; documenting digital humanities and digital scholarship infrastructure: the hows and whys of making DH go. Treating a project team, lab, department, or campus as itself a DH project, if you will.&lt;/p&gt;
+
+&lt;p&gt;I kicked the series off with &lt;a href=&quot;http://literaturegeek.com/2016/09/05/meta-dh&quot;&gt;an introductory post&lt;/a&gt;, and got two posts in before life (including a career change from Purdue to UVA!) intervened:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2016/09/11/designing-digital-humanities-initiative-background-campus-survey&quot;&gt;“Designing a Digital Humanities Initiative: Background &amp;amp; Campus DH Survey”&lt;/a&gt; covers basic questions you might ask when starting a DH or digital scholarship initiative at your school, and an analysis of Purdue’s (circa 2015-2016) campus strengths and needs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2017/01/31/2017-01-31-3D-digitalhumanities-proposal&quot;&gt;“Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer”)&lt;/a&gt; shares one (successful!) model for asking your unit to fund something expensive. The actual proposal I submitted is attached, and the post covers a short skimmable summary of what I was asking for (and technical terms critical to understanding budget asks, e.g. what filament is), expected audiences for and example projects we could pursue with the equipment, expected IT support and maintenance needs, the budget, and a discussion of why the existing local options didn’t meet my needs (the Engineering Library had a 3D printer already, but we wanted one for dedicated use with the Purdue Archives)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Today, I’m releasing &lt;em&gt;7 new posts&lt;/em&gt;, completing the series on designing DH infrastructure at Purdue Libraries; a table of contents listing all these posts in one place is below.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please note&lt;/em&gt; that these posts consist of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/PurdueDH/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-from-my-time-at-purdue-as-their-first-dh-librarian-2015-2017&quot;&gt;Notes from my time at Purdue as their first DH Librarian (2015-2017)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Previously released:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;job talk&lt;/a&gt; for my role at Purdue (DH Librarian, a tenure-track faculty role 2015-2017; see also the &lt;a href=&quot;http://literaturegeek.com/2017/02/23/scholars-lab-dh-center-managing-director-job-talk&quot;&gt;job talk&lt;/a&gt; for my current role co-directing the UVA Library’s Scholars’ Lab, 2017-current)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2016/09/11/designing-digital-humanities-initiative-background-campus-survey&quot;&gt;What I learned&lt;/a&gt; about DH at Purdue during my first year in this role, doing a campus DH/DS survey&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2017/01/31/2017-01-31-3D-digitalhumanities-proposal&quot;&gt;Proposing a significant expense&lt;/a&gt;: analysis a successful request to fund a DH-specific 3D scanning and printing setup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;7 new posts!:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/workflows-before-opening-DH&quot;&gt;Workflows to consider before opening a DH lab&lt;/a&gt;: What workflows should I think through before the Libraries DH Lab can open its doors?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/mission-statement-digital-humanities-purdue&quot;&gt;A mission statement for digital humanities at Purdue Libraries&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Following up on the &lt;a href=&quot;http://literaturegeek.com/2018/11/25/mission-statement-digital-humanities-purdue&quot;&gt;mission statement post&lt;/a&gt;, a post &lt;a href=&quot;http://literaturegeek.com/2018/11/25/digital-humanities-initiative-scope-practice&quot;&gt;on what that mission would look like in practice&lt;/a&gt;: defining what would and wouldn’t be in scope for the initative, and what long-term success might look like&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/dh-hiring-ads-hr-policy&quot;&gt;DH lab hiring, writing good job ads, &amp;amp; HR policy&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/planning-dh-lab-physical-location&quot;&gt;Planning a DH lab’s physical location&lt;/a&gt;: basic setup needs &amp;amp; rationale, thinking toward an eventual DH Lab physically paired with the Archives &amp;amp; Special Collections space&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Thinking through the &lt;a href=&quot;http://literaturegeek.com/2018/11/25/dh-initiative-existing-IT&quot;&gt;DH initiative’s relation to the existing Libraries IT team&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/wise-resource-investments-digital-humanities-initiative&quot;&gt;Ideas for wise management of DH initiative resources&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s a wrap on my notes from Purdue DH, I think! My future posts in this &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;meta-DH series&lt;/a&gt; will be about my current work at the UVA Library’s Scholars’ Lab.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/25/designing-dh-initiative-purdue-table-of-contents/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/25/designing-dh-initiative-purdue-table-of-contents/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        <category>purdue-dh</category>
+        
+        <category>notes</category>
+        
+        <category>best</category>
+        
+        
+      </item>
     
       <item>
         <title>I/O: Reading &amp; writing as a digital humanist</title>
@@ -57,7 +628,7 @@
         
         <category>digital-humanities</category>
         
-        <category>meta-DH</category>
+        <category>meta-dh</category>
         
         
       </item>
@@ -97,734 +668,9 @@
         
         <category>grad-advice</category>
         
-        <category>meta-DH</category>
-        
-        <category>dh-now</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Making a pneumatic tube messaging system</title>
-        <description>&lt;p&gt;&lt;em&gt;Progression of stuff leading to my new project:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I had a shower thought about how pneumatic tube messaging systems work (vacuums? but how exactly, when they’re not sealed because messages go in and out? what are the differences between Hyperloop and a tube system?).&lt;/p&gt;
-
-&lt;p&gt;I’m now co-directing the &lt;a href=&quot;http://www.scholarslab.org&quot;&gt;Scholars’ Lab&lt;/a&gt; (the DH center at the University of Virginia’s Library).&lt;/p&gt;
-
-&lt;p&gt;We have an awesome Makerspace, staffed by experts in a variety of digital and crafting methods.&lt;/p&gt;
-
-&lt;p&gt;I googled “DIY pneumatic tube” and found a number of tutorials and videos showing how a small-scale system could be built using a shopvac.&lt;/p&gt;
-
-&lt;p&gt;We have a shopvac!&lt;/p&gt;
-
-&lt;p&gt;Everyone on our staff has 20% of their time devoted to personal research, learning, and development.&lt;/p&gt;
-
-&lt;p&gt;My first R&amp;amp;D project will be building a pneumatic tube messaging system!&lt;/p&gt;
-
-&lt;p&gt;Today, I started working through comparisons of the various tutorials to figure out what supplies I need to order. I have not made much stuff in my life? (I did a bit of Lilypad Arduino work with Kari Kraus and Beth Bonsignore—sewing conductive thread and LEDs that were controlled with a bit of Processing code—and that was awesome.) I’m going to blog from the beginning, before I know anything about how to do this (much less how to do this well.) I don’t even know basic information like what length of tubing our shopvac can support! I’ll blog as I learn.&lt;/p&gt;
-
-&lt;p&gt;Besides getting me comfortable with building and using our Makerspace, the tube is part of a larger idea—rebuilding a set of historical communication devices as a means of personally understanding how significant various small innovations to a given tool were. I’m thinking a telegraph, light signals, audio signals (drums?), a drone carrier pigeon. A fax machine? (maybe hacking one, not building one.) Radio? (Maybe learning HAM radio, and also building a radio?) Any other ideas?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/historic-pneumatic-tube-system.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Public domain photo, work of an unknown employee of the United States Farm Security Administration or Office of War Information domestic photographic units.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/06/30/making</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/30/making</guid>
-        
-        <category>digital-humanities</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>DH Job Talk (for my new role!): Scholars' Lab Managing Director</title>
-        <description>&lt;p&gt;I’m starting as Managing Director of the University of Virginia’s Scholars’ Lab digital humanities center later this spring! I shared &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;the job talk I did for my previous role&lt;/a&gt; after I was hired, and here I’ll do the same for this new position (&lt;a href=&quot;http://scholarslab.org/announcements/are-you-our-new-managing-director/&quot;&gt;check out the job ad here&lt;/a&gt;). Where my previous job’s interview presentation asked me to comment on the broad trends in libraries + DH citing current literature, this talk asked for a discussion of my past projects:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The digital has the potential to be a disruptive force in humanities scholarship, giving scholars the means to critique, reimagine, and transform ideas, theories, material artifacts, and even interpersonal relationships. Using examples from your own collaborations with faculty, graduate students, and staff, please discuss how this disruption can be successfully embodied in scholarly inquiry, as well as in the cultivation of people and organizations.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’ve blogged the projects I shared in my talk (&lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; and the &lt;a href=&quot;http://tinyurl.com/DHSlack&quot;&gt;DH Slack&lt;/a&gt;) in previous posts on this website, but I’m sharing the talk regardless as the overall framing of my projects in response to the prompt might be of interest to someone.&lt;/p&gt;
-
-&lt;p&gt;When scholars share their job talks after being hired, DH and libraries interviewing processes become a little less mysterious. Academia has many genres of presentation. It can be difficult to draft your first job talk without seeing how others in your field translate a job ad’s requirements into a job talk’s expression of their unique expertise. &lt;a href=&quot;http://readywriting.org/uncategorized/faculty-development-for-the-21st-century-and-beyond/&quot;&gt;Lee Skallerup Bessette&lt;/a&gt;, &lt;a href=&quot;http://celestesharpe.com/onward/&quot;&gt;Celeste Tuong Vy Sharpe&lt;/a&gt;, &lt;a href=&quot;https://chrisbourg.wordpress.com/2015/07/12/infrastructure-and-culture-a-job-talk/&quot;&gt;Chris Bourg&lt;/a&gt;, and &lt;a href=&quot;http://scholarslab.org/digital-humanities/in-out-across-with-collaborative-education-and-digital-humanities-job-talk-for-head-of-graduate-programs/&quot;&gt;Brandon Walsh&lt;/a&gt; all share successful DHy job talks on their websites (I shared the &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;talk&lt;/a&gt; for my previous faculty role, too).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-presentation&quot;&gt;The presentation&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.001.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My digital humanities is not disruptive.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.002.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Disruption can be a force for good, especially against systemic problems. But to my ear, disruptive is not what I want DH to be.&lt;/p&gt;
-
-&lt;p&gt;Disruption is inherently non-introspective; you disrupt others, rather than looking hard at yourself.&lt;/p&gt;
-
-&lt;p&gt;Disruption can ignore a history of similar work, and the humanities can’t afford that mistake. For example, a movement to make the humanities more public that ignored the fanfiction communities’ existing public humanities—people using the web to improve one another’s close readings and counterfactual interventions—would be deeply flawed. DH has diverse roots in pre-digital humanities scholarship, including highly recognizable non-digital, algorithmic criticism of the kinds Stephen Ramsay explores in his book &lt;em&gt;Reading Machines&lt;/em&gt;. We have much to gain by connecting our efforts today to what has worked in the humanities of the past, and to the humanities that also thrives outside academia.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.004.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So when I share some of my recent collaborative DH work with you today, I’d like us to consider this work not in terms of how it &lt;em&gt;disrupts&lt;/em&gt; the humanities, but through a variety of more positive and generative lenses. DH as…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An applied humanities&lt;/li&gt;
-  &lt;li&gt;Experimental&lt;/li&gt;
-  &lt;li&gt;Public and participatory&lt;/li&gt;
-  &lt;li&gt;A radically interdisciplinary humanities, embracing social science, science, and art&lt;/li&gt;
-  &lt;li&gt;Open to any challenges to which we can bring our skills of humanities thinking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.005.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m hopeful for the humanities Bethany Nowviskie has imagined in her work “&lt;a href=&quot;http://nowviskie.org/2015/on-capacity-and-care/&quot;&gt;on capacity and care&lt;/a&gt;”. Nowviskie cautions: “Please do not mistake [capacity and care work] for something idealistic and motherly and sweet. I offer care as a hard-nosed survival strategy… to increase the reach and grasp (which is at the root of the word “capacity”—the “capture”) of the humanities.”&lt;/p&gt;
-
-&lt;p&gt;Seeing both the positive and negative sides of disruption, and turning to other concepts with different values, aren’t only reactions fueled by thinking these are good ways for a person to be in the world. There are significant gains for pushing our scholarship to be more intellectually generous, more locally interconnected, and better at crediting key emotional labor such as team-building and mentorship.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.004.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So in the next twenty minutes today, I want to tell you a bit about two of my recent DH projects, one where the bulk of the work is my own, and one where I’m only nominally the creator. This work articulates some of my hopes for what the digital humanities could be, a DH deeply part of the humanities rather than opposed to it, a DH that’s more interested in the right column up on the screen [&lt;em&gt;in the image above this paragraph, for blog readers&lt;/em&gt;]—in seeing innovation in maintainance, the quality rather than the quantity of impact, on “people over projects” (as the Scholars’ Lab puts it).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.007.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The first project I’ll discuss, &lt;em&gt;&lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt;&lt;/em&gt;, shows humanities scholarly inquiry that’s been reimagined and opened beyond academia, rather than disrupted.&lt;/p&gt;
-
-&lt;p&gt;I’m a textual scholar. I decided that instead of focusing on the scholarly editing aspect of digital editions, my skills and interest were more in line with work like that of Alan Galey, whose &lt;em&gt;Visualizing Variation&lt;/em&gt; project created code that lets editors of digital editions intervene in their texts in unique ways. Rather than creating a scholarly edition, I focused more on interface design aimed at opening a literary edition to a public audience.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.009.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I asked: What if we build a digital edition and invite everyone? What if millions of scholars, first-time readers, book clubs, teachers and their students, show up and annotate a text with their “infinite” annotations (that is, digital marginalia of interpretations, questions, contextualizations, and other comments)? How would we do that, and what would it do to the text and our understandings of it?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.010.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I worked through this speculative experiment, with its admittedly unlikely hypothetical of a massive public desire to read &lt;em&gt;Ulysses&lt;/em&gt; online. But I also built a prototype that was immediately useful in exploring these questions, through the generous annotations and feedback of an actual, modestly sized community of readers.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Infinite Ulysses&lt;/em&gt; (at &lt;a href=&quot;http://www.infiniteulysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;), is a participatory digital edition of James Joyce’s challenging novel &lt;em&gt;Ulysses&lt;/em&gt;. Its goal was to support a public conversation about the novel, bringing readers of different backgrounds into participating in the same discussion space. The design, code, usertesting, and thinking that went into this project doubled as my literature dissertation.&lt;/p&gt;
-
-&lt;p&gt;This is what reading a page on Infinite Ulysses looks like. There are three main activities you can pursue:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;While reading the novel, you can highlight parts of the text and annotate these with your questions, interpretations, reactions, translations, and other comments. &lt;/li&gt;
-  &lt;li&gt;You can also read the annotations created by other readers.&lt;/li&gt;
-  &lt;li&gt;And I tried, at a basic level, to personalize your reading experience by filtering the displayed annotations so that you could just be shown the ones that fit your needs, interests, and background. For example, a reader can choose to see the top-rated annotations first, or the newest annotations; or to not see any spoilers; or to only see annotations tagged as clues to the book’s mysteries, references to Irish politics, or jokes you might miss.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There is some solid interest in this approach. My work was cited in &lt;em&gt;The New York Times&lt;/em&gt; this past summer, drew around 13,000 unique visitors in its first month of beta testing, and drew over 25,000 unique visitors during its beta year (April 2015-2016), despite little intentional publicity after the first month. I share these numbers to show that there’s interest in this scholarship, but in doing so I feel uncomfortably close to getting caught up in the allure of large-scale impact. &lt;/p&gt;
-
-&lt;p&gt;Much more important to me, and to the humanities, are the far smaller number of people who actually repeatedly visited and annotated &lt;em&gt;Ulysses&lt;/em&gt; on the site. What matters is the students who hear about my dissertation and are encouraged to also pursue the most appropriate methods for their research questions. I care about my impact at the scale of individual readers, like the South Korean reader who found my edition more accessible for her translation and understanding. Or the 90-year-old retired man who wrote that he’d always wanted to read &lt;em&gt;Ulysses&lt;/em&gt;, and now he felt like he could take his laptop to a bar, pull up a stool, and maybe actually read the thing this time using my site.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.013.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are other facets to the scholarship of &lt;em&gt;Infinite Ulysses&lt;/em&gt;, clear areas of research inquiry:&lt;/p&gt;
-
-&lt;p&gt;My 1st research question was an interdisciplinary DH one:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;How can we design digital editions that are not just theoretically accessible to the public, but invite and assist public participation? And are there ways to design for meaningful public participation in literature, that don’t require the public to learn scholarly rhetoric?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;My 2nd question was from the field of information science:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;How can we design public DH websites to handle a huge influx of readers and annotations, so that individual user experience doesn’t suffer and diverse user needs are met? How would each user find the “signal” of the best annotations for them to read, from the noise of “infinite” public annotations?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;My 3rd question was from the field of literature:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Textual scholars often create editions as their scholarship. By separating out historical textual scholarship values from how the editions realizing those values looked, can we imagine other forms still holding true to the values of our field? What can we learn by accepting scholarly editions as just one of many ways of embodying textual scholarship values?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.016.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, I’m here to speak about collaborative DH today, and you might be wondering how a literature dissertation can be a collaborative rather than a largely solo activity. I did perform the full scholarly labor you’d expect from a literature dissertation—most people would agree successfully defending the dissertation and becoming a tenure-track assistant professor shows that. But beyond my dissertation-length work, the larger project around my dissertation relied strongly on collaboration and the intellectual generosity of others.&lt;/p&gt;
-
-&lt;p&gt;A huge number of people made Infinite Ulysses possible, so much so that I can’t name everyone right now, but I’ve put as many as possible up on the screen [&lt;em&gt;image above previous paragraph, and http://www.infiniteulysses.com/credits goes into more detail&lt;/em&gt;].&lt;/p&gt;
-
-&lt;p&gt;My advisor Matt Kirschenbaum and committee members Neil Fraistat, Kari Kraus, Melanie Kill, and Brian Richardson are amazingly intellectually generous scholars. They met with me as a team regularly throughout the entire dissertation, which was hugely helpful in keeping everyone informed about and happy with the developing look of the dissertation. I also benefitted from the feedback of colleagues at the MITH DH center where I worked 2009-2015, such as Stephanie Sapienza and Ed Summers. Their questions, guidance, and encouragement were critical in realizing my project.&lt;/p&gt;
-
-&lt;p&gt;Through social media, DHer Michael Widner at Stanford and I discovered we were working on similar tech (the Drupal annotator module). Despite being on opposite coasts, we Skyped to discuss our work, and he ended up generously allowing me to build on top of some of his Lacuna Stories project code that hadn’t yet been publicly released, allowing me to spend more time on a different piece of coding more closely tied to my research questions.&lt;/p&gt;
-
-&lt;p&gt;The people who visited Infinite Ulysses and shared annotations and/or feedback on the site are collaborators, too. The majority of the site’s annotations were authored by people other than me. Ten types of user testing, data gathering, and participatory design, with a variety of people, over the course of the site’s development, directly shaped the growth of the site.&lt;/p&gt;
-
-&lt;p&gt;Infinite Ulysses was a collaborative project with a large portion created by one person. Now, I want to tell you about a project that’s far more of a distributed and balanced collaborative, the &lt;a href=&quot;http://tinyurl.com/DHSlack&quot;&gt;Digital Humanities Slack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.019.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Slack is a social media platform that functions like a set of interconnected, themed chat rooms. Using the Slack platform, I created and manage the scholarly forum of the Digital Humanities Slack (or DH Slack). Started a little over a year ago, it now supports over 1,200 digital humanists through around 70 “channels” (thematic chat rooms on topics like libraries and the digital humanities, open access, data sharing, and various DH methods and theories). &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.020.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The DH Slack is open to anyone with a curiosity about DH and/or related interests (e.g. digital libraries, museums, and archives)—those interested just visit &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;tinyurl.com/DHslack&lt;/a&gt; to join. Absolutely no DH expertise is required, and we have several specific channels devoted to DH beginners, students, job seekers, and asking all kinds of DHy questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.021.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The DH Slack is ““mine”” [&lt;em&gt;all the air quotes&lt;/em&gt;] in an extremely limited sense, if any. I set up the Slack, publicize its existence, moderate it, periodically started discussions (more in its early days than now), answer questions about using the Slack, and lead policy-making such as adapting a DH-specific code of conduct. That code of conduct covers things like not publicly posting screenshots of Slack conversations without first getting the consent of everyone shown in the shot, which is why I’m largely showing tweets rather than screengrabs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.022.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Five other DHers generously collaborate with me as additional Slack moderators: Alan G. Pike, Sam Abrams, Alex Gil, Ed Summers, and Paige C. Morgan. We take our code of conduct seriously, and have taken firm action when it’s been called for, to protect our community members.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.023.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The DH Slack exists because of its members, who build a humanities community through their conversations and sharing. Even the most collaborative and democratic of teams needs one person to really be in charge of project management, and I feel like my current role with the DH Slack is similar—helping things along, being available and responsible should problems arise, and making the final call after group discussion.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.024.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We’re still figuring out how Slack can be useful to our scholarship: Can it allow different kinds of conversations than Twitter? On the screen, you can see examples of DHers moving between the Slack and Twitter to have different kinds of conversations—in that middle tweet, a technical discussion that was limited by Twitter’s format switched to the Slack to continue more freely.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.025.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Some of our members work at non-profits or in K-12 teaching, or aren’t professionally involved in academics; some are undergrads or grad students. It’s clear that the Slack, like many other platforms, can support geographically dispersed collaborators. But can we use the Slack to teach and support people interested in DH who don’t know of any potential collaborators, don’t have mentors geographically near them, or who aren’t inside academia? For example, I’m hoping to do a Slack hangout this spring where I’ll be available on the Slack to help anyone who wants to work through &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my &lt;em&gt;Programming Historian&lt;/em&gt; lesson on creating their own first research website&lt;/a&gt;. If DH mentors can periodically be virtually available to support questions about specific tech tutorials, maybe we can ease new DHers experimentation with digital methods.&lt;/p&gt;
-
-&lt;p&gt;Interesting uses of the DH Slack I’ve seen so far include allowing remote participants at MITH’s recent “Night Against Hate” scholarly-activist hackathon, mentorship for new digital humanists, a place to connect regional DH networks such as in Tennessee, Baltimore, and Australia and languages such as Spanish, and as a space to expand Twitter conversations. We’ve been used as a model by other scholars for their own Slack instances, and I authored an invited guest post about the DH Slack for the London School of Economics blog this past summer. If you’d like a place to discuss and learn about the digital humanities, or a friendly place to ask questions, please join us via &lt;a href=&quot;http://TinyUrl.com/DHSlack&quot;&gt;TinyUrl.com/DHSlack&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Both the DH Slack and Infinite Ulysses model a digital humanities that’s not disruptive, but different. Both take an experimental approach grounded on past humanities successes, whether that’s DH Twitter or speculative textual experiments like the Ivanhoe game or Prism. The experiments of both projects recognizably demonstrate humanities scholarship and community.&lt;/p&gt;
-
-&lt;p&gt;Both experiments also demonstrate my key interests. I’m deeply invested in DH design and building as a route to new knowledge, especially through interfaces for public, communal learning. And I’m keenly interested in the larger questions of how we make DH go: infrastructure and process, project management, and community-building. If you visit my &lt;a href=&quot;http://www.LiteratureGeek.com&quot;&gt;LiteratureGeek.com&lt;/a&gt; blog, you’ll see that I share everything from theory and analysis, to my software and design decisions, how I get started planning a new project, and how my work space is set up. This is all as a way to think through not just the strategies, but also the daily tactics of successful DH.&lt;/p&gt;
-
-&lt;p&gt;Infinite Ulysses and the DH Slack are at two ends of the collaboration spectrum, but the bulk of my interdisciplinary collaboration experience actually happens quite differently, in project teams that regularly meet face-to-face (as with a group of graduate students I taught to work with the &lt;em&gt;Shelley-Godwin Archive&lt;/em&gt;) or over Skype (as with the BitCurator team).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.028.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For example, in my current role as a DH librarian and faculty at Purdue Libraries, I enjoy a close working relationship with my colleagues in both Archives and Special Collections, and in our university press. Together, we’re using DH as the connector to build a workflow for campus DH research and teaching that runs from archival description and discovery, through scholarly communication and publication.&lt;/p&gt;
-
-&lt;p&gt;I didn’t cover this kind of collaboration in detail in this talk, as I suspect this kind of face-to-face collaboration is the most common and familiar. But, I’ll wrap up by listing on the screen a few of my more typically collaborative DH projects on the screen, and I’m happy to discuss these further in the Q&amp;amp;A or over email. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/UVaJobTalkSlides/UVaManagingDirector.031.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/23/scholars-lab-dh-center-managing-director-job-talk</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>New role: Scholars' Lab Managing Director</title>
-        <description>&lt;p&gt;I’m starting as Managing Director of the University of Virginia’s Scholars’ Lab later this spring! Academic Director Alison Booth wrote &lt;a href=&quot;http://scholarslab.org/uncategorized/amanda-visconti-is-our-new-managing-director/&quot;&gt;a lovely post about my hire on the Scholars’ Lab blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/SLphoto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Scholars’ Lab is a digital humanities center at the University of Virginia Libraries, and a founding member of the &lt;a href=&quot;http://dhcenternet.org/&quot;&gt;CenterNet&lt;/a&gt; international network of DH centers. The Lab has &lt;a href=&quot;http://scholarslab.org/people/&quot;&gt;an amazing team of DH experts&lt;/a&gt; (including new Head of Graduate Programs &lt;a href=&quot;https://twitter.com/walshbr&quot;&gt;Brandon Walsh&lt;/a&gt;), &lt;a href=&quot;http://scholarslab.org/about/charter/&quot;&gt;a team-authored charter&lt;/a&gt; I deeply respect, and past and current work including:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://neatline.org/&quot;&gt;Neatline&lt;/a&gt;, “a mix-and-match toolset for the creation of interlinked timelines and maps as interpretive expressions of the literary or historical content of archival collections”&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://codespeak.scholarslab.org/&quot;&gt;Speaking in Code&lt;/a&gt;, a symposium of advanced DH developers discussing tacit DH tech knowledge&lt;/li&gt;
-  &lt;li&gt;The &lt;a href=&quot;http://praxis.scholarslab.org/&quot;&gt;Praxis Program&lt;/a&gt; and &lt;a href=&quot;http://praxis-network.org/&quot;&gt;Network&lt;/a&gt;—innovative models of DH student training, where students have collaboratively created projects such as &lt;a href=&quot;http://prism.scholarslab.org/&quot;&gt;Prism&lt;/a&gt; and an &lt;a href=&quot;http://ivanhoe.scholarslab.org/&quot;&gt;Ivanhoe reboot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;An &lt;a href=&quot;http://scholarslab.org/makerspace/&quot;&gt;experimental humanities Makerspace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Leadership Alliance Mellon Initiative (LAMI) fellows (supporting minority students interested in graduate studies)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And even more work captured in this 2016 &lt;a href=&quot;http://scholarslab.org/uncategorized/whats-the-scholars-lab/&quot;&gt;blog post&lt;/a&gt; by Alison Booth and on the &lt;a href=&quot;http://scholarslab.org/research/&quot;&gt;Scholars’ Lab research page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m deeply honored to join and excited to work with the Scholars’ Lab team and community, and looking forward to being back in the VA/MD area.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://literaturegeek.com/2017/02/23/scholars-lab-dh-center-managing-director-job-talk&quot;&gt;next post on this blog&lt;/a&gt; will share the job talk I gave while interviewing for this role, and you could also check out &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my previous role’s job talk&lt;/a&gt; if you’re interested in interviewing for DHy positions.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/22/scholars-lab-dh-center-managing-director</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/22/scholars-lab-dh-center-managing-director</guid>
-        
-        <category>digital-humanities</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>DH 2017 Long Paper &amp; Panel Acceptances</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://dh2017.adho.org/&quot;&gt;DH 2017&lt;/a&gt; is the annual international digital humanities conference, held this August 2017 in Montréal. I’ll attend the annual &lt;a href=&quot;https://ach.org&quot;&gt;ACH&lt;/a&gt; executive council meeting then, and also present twice:&lt;/p&gt;
-
-&lt;p&gt;My “&lt;strong&gt;Less intent, more impact: Transforming public DH projects toward access, care, and inclusion&lt;/strong&gt;” talk was accepted as a long paper (see below for abstract). Among other thinkers mentioned in the abstract, the focus on a specific DH project’s social impacts was inspired by Mark A. Matienzo’s “&lt;a href=&quot;http://matienzo.org/2016/to-hell-with-good-intentions/&quot;&gt;To Hell With Good Intentions: Linked Data, Community and the Power to Name&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;“&lt;strong&gt;Hack, Yack, Stack: Access, Culture, and DH Infrastructure&lt;/strong&gt;”, a panel I’m on with Laura Braunstein (Dartmouth College Digital Humanities Librarian) and Thomas Padilla (University of California Santa Barbara, Humanities Data Curator) was also accepted. We’ll be interviewing one another on our varied experiences with and definitions of developing DH infrastructure within libraries, with lots of space for audience conversation.&lt;/p&gt;
-
-&lt;h2 id=&quot;long-paper-debriefing-the-infinite-ulysses-project-towards-a-socially-just-digital-humanities&quot;&gt;Long paper: Debriefing the Infinite Ulysses project towards a socially just digital humanities&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;The abstract I submitted, followed by responses to the (very helpful—thanks, anonymous reviewers!) reviewer comments:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Good intent carries no guarantee of a positive impact on the world. For digital humanities designers and makers building projects that face or involve public audiences, we have an extra scholarly and human responsibility for all the repercussions of our work. Focusing not on what we mean to create, but on how our work could both positively and negatively affect others, enables a more caring, accessible, and inclusive DH.&lt;/p&gt;
-
-&lt;p&gt;This paper uses my design, coding, and user testing of the participatory digital edition of James Joyce’s challenging novel &lt;em&gt;Ulysses&lt;/em&gt;, &lt;a href=&quot;http://InfiniteUlysses.com&quot;&gt;Infinite Ulysses (InfiniteUlysses.com)&lt;/a&gt;, to demonstrate a public DH project designed with care for its impact on both its audience and the DH community. More importantly, I’ll explore how ethical design considerations such as increasing accessibility and inclusion can be added or increased in existing projects that may not have explicitly built these values in from the start.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.InfiniteUlysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt;&lt;/em&gt; is a public digital humanities project that has drawn over 25,000 unique site visitors, as well as a smaller body of 775 readers who created user accounts to interact more closely with the digital edition through annotation and other social features. &lt;em&gt;Infinite Ulysses&lt;/em&gt; is also the bulk of a unique, successfully defended, no-chapters literature dissertation, and as such those interested in the future of humanities graduate education may enjoy this paper.&lt;/p&gt;
-
-&lt;p&gt;Building the &lt;em&gt;Infinite Ulysses&lt;/em&gt; digital edition helped me separate the scholarly values of textual scholarship from the common embodiment of these values (i.e. the scholarly digital edition or SDE). Through this clarification, I imagined new types of digital edition that, while different from SDEs, hold true to the same values performed by SDEs. Through building and testing the public use of one of these new models for reifying textual scholarship values, I experimented with designing an edition that is not just publicly accessible, but also invites and assists public participation in the scholarly love for a text’s materiality, history, and meaning. On the spectrum of crowdsourcing engagement, I located multiple paths for meaningful public DH activity that fall between the endpoints of full critical rhetoric and “adding a tag”. To enable this public engagement, I explored ways of designing participatory digital editions to adeptly handle an influx of public readers and their annotations, and tested suggestions on what scholars can learn about digital editions and their texts from the accompanying influx of website use data.&lt;/p&gt;
-
-&lt;p&gt;The Femtechnet scholars’ recentering of DH on ethical questions around technology design led me to connect the fields of textual scholarship and human-computer interaction, porting concepts of humane and ethical digital design to the domain of literary editions. Michael Muller’s formulation of participatory design as a “third space” connecting two audiences helped me support both scholarly and public edition readers in “challenging assumptions, learning reciprocally, and creating new ideas, which emerge through negotiation and co-creation of identities, working languages, understandings, and relationships, and polyvocal (many-voiced) dialogues across and through differences“. Katie Shilton’s exploration of how the design of a technology shapes the social values and ethics of its users helped me plan toward a community of annotators that would care for, rather than compete against, one another.&lt;/p&gt;
-
-&lt;p&gt;My post-dissertation work on &lt;em&gt;Infinite Ulysses&lt;/em&gt; pulls in thinking from libraries and information science. Librarian Chris Bourg argues that neither technology nor knowledge infrastructures such as libraries can be neutral, and that therefore we must leverage both toward, rather than away from, social justice. Archivist Jarrett M. Drake calls us to move beyond current institutional archives to build knowledge structures that let us “unlock our futures as humans, as community members, as archivists, and as memory workers”, and suggests design that encourages perceptions of community belonging as a way forward. Digital Library Federation Director Bethany Nowviskie asks, “Can we position our digital collections and digital scholarly projects more plainly not as statements about what was and is, but as resources for the building of different, better worlds?” The knowledge infrastructure of libraries and archives ports well to that of digital editions, as well as to DH more broadly. Each of these thinkers push us to create work that would take us from what DH is to what DH can be; in this presentation, their arguments act as direct prompts for exploring small ways of designing toward a better DH through the specific use case of &lt;em&gt;Infinite Ulysses&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;This paper quickly paints a cohesive picture of the &lt;em&gt;Infinite Ulysses&lt;/em&gt; project, &lt;u&gt;instead spending the bulk of its time&lt;/u&gt; critiquing the impact of the project on its users and on the DH community. In “Do Artifacts Have Ethics?”, Michael Sacasas proposes a series of questions to be asked by anyone making something of what they’re making—whether that’s building an app, designing a class, or in this case designing and coding a digital humanities project. I use Sacasas’ provocations to examine the successes, failures, and difficult decisions of &lt;em&gt;Infinite Ulysses&lt;/em&gt;’ design, &lt;strong&gt;walking the audience through concrete examples of what I did, what I should have done, or what I could do to make the project have an even better impact on the world.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;An example of a positive impact on &lt;em&gt;Infinite Ulysses&lt;/em&gt;’ users: I provided my annotators with the ability to export their textual annotations from my website, giving them ownership and control over the results of their labor, and not forcing them to risk losing their work if my site crashed or closed.&lt;/p&gt;
-
-&lt;p&gt;An example of a negative impact on &lt;em&gt;Infinite Ulysses&lt;/em&gt;’ users: I tried to populate the digital margins of &lt;em&gt;Ulysses&lt;/em&gt; with the characters in the book, by letting new users choose among illustrations of the novel’s characters for the avatar that accompanies their textual annotations. The makeup of Joyce’s text means that those avatars were largely white and male, with three white female options, a cat, and no other identities. For a text that already struggles with instances of sexism, racism, and transphobia, making new readers feel “I’m not represented here, I’m not supposed to be here” was an additional negative impact that should have easily been avoided.&lt;/p&gt;
-
-&lt;p&gt;An example of a positive impact of &lt;em&gt;Infinite Ulysses&lt;/em&gt; on the DH community: I demonstrated that a public DH project could support meaningful public participation that didn’t necessitate bending public questions, interpretations, and other comments on &lt;em&gt;Ulysses&lt;/em&gt; to fit the mold of scholarly rhetoric. By both successfully designing for public participation (my edition was cited in &lt;em&gt;The New York Times&lt;/em&gt; as a means for readers to make sense of the novel) and performing innovative humanities scholarship through that design (the project received my university’s 2016 award for arts and humanities distinguished dissertation), I added to the digital humanities’ long and ever-growing list of examples of how building can itself be critical research.&lt;/p&gt;
-
-&lt;p&gt;An example of a negative impact of &lt;em&gt;Infinite Ulysses&lt;/em&gt; on the DH community: I deepened digital editions’ duplication of the problems with the print literary canon, by building a project around another canon text and author. When only 11 of 86 projects funded by the NEH Preservation &amp;amp; Access Office 2006-2011 had a topic other than a white male writer (&lt;a href=&quot;https://twitter.com/ryancordell/status/409050747666706432&quot;&gt;Jessica DeSpain&lt;/a&gt;), I struggle with whether the positive public impacts of my work are worth deepening our problems with authorial representation.&lt;/p&gt;
-
-&lt;p&gt;I act as my scholarship’s own harshest critic not to paralyze other DH builders from ever making anything, but to make visible specific examples of how in small ways, by adding the skill of care to the skill of critique, we makers can build a better DH and a better world.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Responses to reviews:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A clear framing of the &lt;em&gt;Infinite Ulysses&lt;/em&gt; project is necessary before leading the audience through the project’s ethical considerations and how these might extend to other DH work. The long paper format would allow me time to ensure the audience comfortably understands this case study project, before I embark on exploring its implications.&lt;/p&gt;
-
-&lt;p&gt;After my careful grounding of the &lt;em&gt;Infinite Ulysses&lt;/em&gt; case study, I will survey the critical DH cultural scholarship that grounded my assessment of the ethical impact of my work (e.g. Deb Verhoeven, Roopika Risam, Moya Bailey, Amy Earhart), as well as scholarship in related areas such as libraries feminist interface design (e.g. Bess Sadler, Catherine D’Ignazio and Lauren F. Klein, Shaowen Bardzell and Eli Blevis).&lt;/p&gt;
-
-&lt;p&gt;By combining my specific &lt;em&gt;Infinite Ulysses&lt;/em&gt; case study and this survey of critical DH, I can spend the rest of my talk exploring a sampling of how I addressed my project’s ethical challenges, while also relating these decisions back to broader best practices that future DH projects and scholars might reuse.&lt;/p&gt;
-
-&lt;h3 id=&quot;bibliography&quot;&gt;Bibliography&lt;/h3&gt;
-
-&lt;p&gt;Arbuckle, Alyssa. “Considering The Waste Land for iPad and Weird Fiction as models for the public digital edition”. &lt;em&gt;Digital Studies&lt;/em&gt;. 2014.&lt;/p&gt;
-
-&lt;p&gt;Barab, Sasha and Kurt Squire. “Design-Based Research: Putting a Stake in the Ground”. &lt;em&gt;The Journal of the Learning Science&lt;/em&gt; 13(1), 1–14.&lt;/p&gt;
-
-&lt;p&gt;Bourg, Chris. “Libraries, technology, and social justice”. Text of Access 2016 talk published as blog post on &lt;em&gt;Feral Librarian&lt;/em&gt; blog. October 7, 2016. chrisbourg.wordpress.com/2016/10/07/libraries-technology-and-social-justice&lt;/p&gt;
-
-&lt;p&gt;Drake, Jarrett M. “Liberatory Archives: Towards Belonging and Believing (Part 1)”. Medium blog post: “On Archivy” collection. October 22, 2016. medium.com/on-archivy/liberatory-archives-towards-belonging-and-believing-part-1-d26aaeb0edd1#.fbgxfse1v&lt;/p&gt;
-
-&lt;p&gt;Drucker, Johanna. “Graphesis: Visual Knowledge Production and Representation”. &lt;em&gt;Poetess Archive Journal&lt;/em&gt;. 2(1). 2010. journals.tdl.org/paj/index.php/paj/article/download/4/50&lt;/p&gt;
-
-&lt;p&gt;—. “Humanities Approaches to Graphical Display”. &lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;. 5(1). 2011. digitalhumanities.org/dhq/vol/5/1/000091/000091.html&lt;/p&gt;
-
-&lt;p&gt;Galey, Alan and Stan Ruecker. “How a Prototype Argues.” &lt;em&gt;Literary and Linguistic Computing&lt;/em&gt;. 25(4). 2010. 405-424.&lt;/p&gt;
-
-&lt;p&gt;Groden, Michael. “Introduction to ‘James Joyce’s &lt;em&gt;Ulysses&lt;/em&gt; in Hypermedia’”. &lt;em&gt;Journal of Modern Literature&lt;/em&gt;. 24(3/4). 2001. 359-362.&lt;/p&gt;
-
-&lt;p&gt;—. “Problems of Annotation in a Digital &lt;em&gt;Ulysses&lt;/em&gt;” . &lt;em&gt;Hypermedia Joyce Studies&lt;/em&gt;. 4(2). 2003-4. www.oocities.org/hypermedia_joyce/groden.html&lt;/p&gt;
-
-&lt;p&gt;Kraut, R. E. and Paul Resnick. &lt;em&gt;Building successful online communities: evidence-based social design&lt;/em&gt;. Cambridge, MA: MIT Press. 2011.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Lacuna Stories&lt;/em&gt;. Collaborative annotation digital humanities project. www.lacunastories.com&lt;/p&gt;
-
-&lt;p&gt;Losh, Elizabeth, Jacqueline Wernimont, Laura Wexler, and Hong-An Wu. “Putting the Human Back into the Digital Humanities: Feminism, Generosity, and Mess”. In &lt;em&gt;Debates in the Digital Humanities&lt;/em&gt;, Lauren F. Klein and Matthew K. Gold, eds. 2016. dhdebates.gc.cuny.edu/debates/text/61&lt;/p&gt;
-
-&lt;p&gt;Marino, Mark C. “Ulysses on Web 2.0: Towards a Hypermedia Parallax Engine”. &lt;em&gt;James Joyce Quarterly&lt;/em&gt;. 44(3). Spring 2007. 475-499.&lt;/p&gt;
-
-&lt;p&gt;Matienzo, Mark A. “To Hell With Good Intentions: Linked Data, Community and the Power to Name”. Blog post of November 15, 2015 keynote for the 2015 LITA Forum. Matienzo.org/2016/to-hell-with-good-intentions&lt;/p&gt;
-
-&lt;p&gt;Muller, Michael J. “Participatory Design: The Third Space in HCI”. In &lt;em&gt;The Human-Computer Interaction Handbook&lt;/em&gt;. 1051-1068.&lt;/p&gt;
-
-&lt;p&gt;Norris, Margot. &lt;em&gt;Virgin and Veteran Readings of Ulysses&lt;/em&gt;. Palgrave Macmillan. 2011.&lt;/p&gt;
-
-&lt;p&gt;Nowviskie, Bethany. “Interfacing the Edition”. Text of conference talk.www2.iath.virginia.edu/bpn2f/1866/interface.&lt;/p&gt;
-
-&lt;p&gt;—. “alternate futures/usable pasts”. Text of talk given at Marquette University Library in September 2016 published as blog post. October 24, 2016. nowviskie.org/2016/alternate-futures-usable-pasts/&lt;/p&gt;
-
-&lt;p&gt;Pope, Rob. &lt;em&gt;Textual Intervention: Critical and Creative Strategies for Literary Studies&lt;/em&gt;. Taylor &amp;amp; Francis Group. 1995.&lt;/p&gt;
-
-&lt;p&gt;Sacasas, L.M. “Do Artifacts Have Ethics?” &lt;em&gt;Technology, Culture, and Ethics&lt;/em&gt; blog, November 29, 2014. thefrailestthing.com/2014/11/29/do-artifacts-have-ethics&lt;/p&gt;
-
-&lt;p&gt;Shilton, Katie. “Values Levers: Building Ethics Into Design”. &lt;em&gt;Science Technology Human Values&lt;/em&gt; 38(3), May 2013, 374-397.&lt;/p&gt;
-
-&lt;p&gt;Utell, Janine M. “The Archivist, the Archaeologist, and the Amateur: Reading Joyce at the Rosenbach”. &lt;em&gt;Journal of Modern Literature&lt;/em&gt;. 31. 2008. 53-65.&lt;/p&gt;
-
-&lt;p&gt;Warwick, C., Melissa Terras, P. Huntington, and N. Pappa. “If You Build It Will They Come? The LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities through Statistical Analysis of User Log Data”. &lt;em&gt;Literary and Linguistic Computing&lt;/em&gt;. 23(1). 2008. 85-102.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/19/dh-2017-paper-accepted</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/19/dh-2017-paper-accepted</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>infinite-ulysses</category>
-        
-        <category>scholarly-web-design-and-coding</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Theming Jekyll: Customizing the look of your GitHub Pages-hosted, Jekyll-generated website</title>
-        <description>&lt;p&gt;If you’d like an entirely free, easy-to-maintain, preservation-friendly, secure website over which you have full control—such as a scholarly blog, project website, or online portfolio—using Jekyll and GitHub Pages is a good option. I wrote &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;a peer-reviewed lesson that will get you started&lt;/a&gt; over at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt; (which is a really cool site full of peer-reviewed &lt;a href=&quot;http://programminghistorian.org/lessons&quot;&gt;lessons&lt;/a&gt; for lots of digital humanities skills and methods). My lesson, like many of the lessons at &lt;em&gt;&lt;a href=&quot;http://programminghistorian.org&quot;&gt;The Programming Historian&lt;/a&gt;&lt;/em&gt;, assumes no technical knowledge and is specifically aimed at people who haven’t coded or created a website before.&lt;/p&gt;
-
-&lt;p&gt;That lesson takes you through publishing a basic website that will look much like this &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo/&quot;&gt;demo website&lt;/a&gt;. If you enjoy the lesson and want to further customize the look of your website, this blog post will help you do that! (&lt;em&gt;This post assumes you’ve read &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; already.&lt;/em&gt;) Thanks to Daniel Akacki for motivation to write this post!&lt;/p&gt;
-
-&lt;h2 id=&quot;theming&quot;&gt;Theming&lt;/h2&gt;
-
-&lt;p&gt;As I mentioned in &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, “theming” means changing the visual appearance (and sometimes behavior, like adding a comment section or a new menu) of your website. “Styling” is often used to mean changing a site’s appearance through CSS (the language that tells a browser how to display things, much like HTML tells a browser how to structure content on a page); “theming” more often means that you’re achieving styling through not just changes to existing CSS, but by reusing, customizing, or creating a set of multiple files that change the site’s visual appearance.&lt;/p&gt;
-
-&lt;p&gt;Before you dive into learning CSS, you can simply reuse (and then tweak or more heavily customize) any of the many existing themes for Jekyll-generated sites. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a good place to start looking for free themes, and most of the themes have a demo website set up so you can navigate around a site using the theme and really get a feel for how it would look on your website.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4510&quot;&gt;Jekyll moved recently&lt;/a&gt; from themes that consisted of just adding files to your site folder (some CSS, HTML layouts, images, Javascript, etc.), to themes that you install as Ruby Gems (the way you already had to install Jekyll plugins). This is useful in some ways (e.g. improvements the theme creator makes to their theme can be updated on your website just by your updating the gem), but it can also be confusing for people who aren’t familiar with Ruby.&lt;/p&gt;
-
-&lt;p&gt;Below, I explain how I took the website you should have at the end of &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt;, and changed the site to have a new theme. This isn’t the only way to theme, but I think it’s currently the easiest way if you’re new to web development.&lt;/p&gt;
-
-&lt;h2 id=&quot;switching-to-the-hacker-theme&quot;&gt;Switching to the “Hacker” theme&lt;/h2&gt;
-
-&lt;p&gt;We’ll be switching to the “Hacker” theme, for which &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;you can find the code here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/jekyllhackertheme.png&quot; alt=&quot;Screenshot of Jekyll-generated GitHub Pages site using the Hacker theme&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I set up a duplicate of&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemo&quot;&gt;https://amandavisconti.github.io/JekyllDemo&lt;/a&gt; site I created for my lesson&lt;/li&gt;
-  &lt;li&gt;at &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;so that we’re starting from where &lt;a href=&quot;http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;my lesson&lt;/a&gt; left off.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;I went to &lt;a href=&quot;https://github.com/pages-themes/hacker&quot;&gt;https://github.com/pages-themes/hacker&lt;/a&gt;, clicked on the green “clone or download” button on the right, and choose to download the files as a ZIP and then unpack the ZIP (usually doubleclicking the ZIP icon will do this).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I made a copy of my original site files elsewhere, then deleted everything &lt;em&gt;inside&lt;/em&gt; my website folder (/JekyllDemoThemed)—but not the folder itself. I then pasted in everything &lt;em&gt;inside&lt;/em&gt; that unpacked ZIP folder—rather than pasting in the whole folder and its contents.&lt;/p&gt;
-
-    &lt;p&gt;We made a copy of your original files so that we can later paste in any posts or pages you want to keep from your original site.&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;A skippable aside, if you’re interested:&lt;/em&gt; Making a copy of your website files before deleting them actually isn’t a huge need, since if you’ve followed my lesson you already have those files committed on GitHub, and can always go back to that or other earlier versions of your site (it’s just more hassle, which is why we’re making a local copy instead). Also, you &lt;em&gt;could&lt;/em&gt; keep your original site files as-is and just add in the needed files (and/or code inside files) from the theme, but as someone newer to Jekyll it might be difficult to figure out which files need to be changed and which can stay, which is why we’re instead starting from the theme ZIP and importing anything from your original site you want to keep.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In the terminal, cd into the website folder. For my file setup, that meant entering &lt;code class=&quot;highlighter-rouge&quot;&gt;cd /Volumes/Vault101/Documents/GitHubGeneral/JekyllDemoTheme&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enter &lt;code class=&quot;highlighter-rouge&quot;&gt;script/bootstrap&lt;/code&gt;. Let it finish running.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Open your _config.yml file and paste in the following (replacing &lt;em&gt;/JekyllDemoThemed&lt;/em&gt; with the name of your website folder):&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl: &quot;/JekyllDemoThemed&quot;&lt;/code&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;url: &quot;localhost:4000&quot;&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Paste in the /_posts folder from that copy you made of your old site (if you want the posts from the old site). Paste in the pages from the old site (&lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt;) if you want them.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;These pages and posts from the old site reference a layout file that existed for the Minima theme (the theme that your first Jekyll site defaults to), but not for the Hacker theme. So, you need to open each page and change &lt;strong&gt;layout: page &lt;/strong&gt;to &lt;strong&gt;layout: default&lt;/strong&gt;, and open each post and change &lt;strong&gt;layout: post&lt;/strong&gt; to &lt;strong&gt;layout: default&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you’re using the default text in the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt; files I used in my demo site, you need to erase two bits of code from each of these pages. Erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages and erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages. (The Minima theme knew how to handle those calls to include icon images, but the Hacker theme doesn’t, so they will make your site not run.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Hacker theme doesn’t automatically add pages to a header menu (like the Minima theme did), but you can still access your pages by typing in their URL, e.g. by visiting &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/about&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/about&lt;/a&gt; for the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; page. You can also add links to these into your theme or the &lt;a href=&quot;http://index.md/&quot;&gt;index.md&lt;/a&gt; page. I often try to find another theme that has a feature I want—such as a fancy header menu—and then copy and paste pieces of its code into my site by trial and error. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a great place to look, and trial-and-error copying and pasting from other themes is a great way to get more familiar with how your site works.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That should do it! You can compare your site look and files with mine, if needed:&lt;/p&gt;
-
-&lt;p&gt;My new demo site using the Hacker theme: &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The repo containing the code that runs the hacker demo site:
-&lt;a href=&quot;https://github.com/amandavisconti/jekylldemothemed&quot;&gt;https://github.com/amandavisconti/jekylldemothemed&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 04 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/04/building-research-website-with-jekyll-githubpages-theming</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/04/building-research-website-with-jekyll-githubpages-theming</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>scholarly-web-design-and-coding</category>
-        
-        <category>advice-tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer)</title>
-        <description>&lt;p&gt;Early last year, I wrote a (successfully funded!) proposal for my department (Purdue Libraries) to purchase 3D scanning and printing equipment dedicated to archival digital humanities research. This was in response to a call to appropriately use some outstanding funds remaining in an equipment-funding account; the audience was department administration. I’m sharing the proposal now &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;as part of a series of posts documenting practical, administrative, and infrastructural work that makes DH go&lt;/a&gt;. If you’re interested in possible DH applications of 3D printing, or more generally in researching and making a case for DH equipment, I hope this post is useful to you!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;You can see the actual PDF I submitted here&lt;/a&gt;, if you prefer reading that to the blog post transcript below (it includes the budget and cost comparisons I didn’t feel like reformatting to paste into the blog text).&lt;/p&gt;
-
-&lt;p&gt;I try to start any proposal with a summary—this one has too long of a summary, and too long of an overall document. I was new to how the department handles purchase requests, and wanted to preemptively answer expected questions (e.g. you can see that I’m both trying to explain what 3D technology does and why purchasing it for open maker space service wasn’t my initial goal). I now try to keep reports and requests to a single page that’s easily skiable for key points like cost, value, and timeline, but I think this writeup might still be useful to someone seeking to familiarize their team with DH uses of 3D printing.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Notes:&lt;/em&gt; Redactions are summarized [in brackets]—these are things where specific names were involved or ideas that we might want to use in competitive grant proposals. The “ASC” is Purdue’s Virginia Kelly Karnes Archives &amp;amp; Special Collections.&lt;/p&gt;
-
-&lt;h2 id=&quot;big-ticket-request-digital-humanities-3d-setup&quot;&gt;Big Ticket Request: Digital Humanities 3D Setup&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Summary/definition of 3D terms&lt;/li&gt;
-  &lt;li&gt;General plans for the 3D Setup&lt;/li&gt;
-  &lt;li&gt;Location&lt;/li&gt;
-  &lt;li&gt;IT support&lt;/li&gt;
-  &lt;li&gt;ASC support&lt;/li&gt;
-  &lt;li&gt;Budget&lt;/li&gt;
-  &lt;li&gt;Why not use the Engineering Library 3D setup?&lt;/li&gt;
-  &lt;li&gt;Examples of possible projects&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;summarydefinition-of-3d-terms&quot;&gt;Summary/definition of 3D terms&lt;/h3&gt;
-
-&lt;p&gt;I propose a dedicated setup for digital humanities 3D &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; as research and
-teaching:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;3D scanning&lt;/strong&gt; lets you capture a three-dimensional digital model of an object such as a spacesuit or a model plane (much like a flat scanner lets you capture a two-dimensional model of a book page).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3D modeling&lt;/strong&gt; uses that scanning to create a digital object you can manipulate, label, and otherwise augment on a computer. (&lt;em&gt;3D models don’t necessarily need to be printed to be useful; for example, we could scan a model airplane propeller and then create a digital animation of the propeller in use.&lt;/em&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3D printing&lt;/strong&gt; produces three-dimensional physical, tangible objects representing either actual artifacts or visualizations of data:
-    &lt;ol&gt;
-      &lt;li&gt;&lt;strong&gt;Artifacts:&lt;/strong&gt; Print out in plastic (or other materials) a three-dimensional copy of the original object (or a miniature, magnified, or otherwise altered version) for display and handling, further research (e.g. with previously hard-to-decipher engravings or texture), and experimentation (e.g comparison of behavior of historical airplane propellers by printing and powering miniature versions).&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt; Digital files can also be created from scratch to produce 3D visualizations such as timelines, graphs, globes, and scale models (e.g. create a 3D model of a historic satellite orbit that can be viewed from multiple angles).&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The DH Center’s 3D printing setup would support &lt;em&gt;research&lt;/em&gt;, with a focus on how to best scan, digitally model and animate, and print facsimiles of archival and humanities artifacts for research and teaching use. Much of our time will be spent experimenting with scanner, printer, and software settings to produce accurately representative 3D models, and it is critical that researchers have full access to the equipment to do this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Requested funding:&lt;/strong&gt;  $7596.98 (see budget below)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;  Amanda Visconti (aviscont@purdue.edu)&lt;/p&gt;
-
-&lt;h3 id=&quot;general-plans-for-the-3d-setup&quot;&gt;General plans for the 3D Setup&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Initial internal experimentation:&lt;/strong&gt; A one-year initial trial period will focus on experimenting with ASC artifacts suggested by the archivists, and on documenting best practices for creating accurate and useful digital and physical facsimiles for use in further DH research and teaching.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;DH project use:&lt;/strong&gt; After this trial period, we will also begin to support humanities projects around campus that require our specific setup rather than the Engineering Library’s current printing service (e.g. a history class where students digitally “repair”, extend, label, or animate historicalartifacts using a computer). This outreach will be on the same case-by-case basis as other collaborative projects proposed to the DH Center, rather than as a drop-in service.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;External collaborations:&lt;/strong&gt; [grant project idea]&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;location&quot;&gt;Location&lt;/h3&gt;
-
-&lt;p&gt;The setup will be located in the future DH Center; until that space is inaugurated, the setup will be located
-in the DH Specialist’s office (table along the wall opposite the door).&lt;/p&gt;
-
-&lt;h3 id=&quot;it-support&quot;&gt;IT support&lt;/h3&gt;
-
-&lt;p&gt;IT for the setup will be entirely supported by the Digital Humanities Specialist (installation, support, maintenance). The DH Specialist would develop a contract with Libraries IT to record this understanding.
-This is an excellent test case to create a workflow for DH in the libraries that includes DH control and
-support for software, hardware, and policies.&lt;/p&gt;
-
-&lt;h3 id=&quot;asc-support&quot;&gt;ASC support&lt;/h3&gt;
-
-&lt;p&gt;I have discussed a possible 3D setup with [colleagues] in the ASC, and they have helped me identify specific artifacts and collections that would benefit from 3D support. We will collaborate on a workflow for secure handling and scanning on any ASC artifacts to be scanned, and think about how future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/p&gt;
-
-&lt;h3 id=&quot;budget&quot;&gt;Budget&lt;/h3&gt;
-
-&lt;p&gt;Research into appropriate equipment included speaking with humanists doing archaeological and archival
-3D work at [institutions]. We’re attempting to strike a balance between the cheapest options (assuming in the short run we’d need to upgrade to intermediate options, costing more total) and highest grade options (e.g. the $25k Artec Spider might one day be useful, but I’d want several years of prior 3D work, successful class and research use, and external funding for an investment that large). &lt;strong&gt;Total requested: $7596.98.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/BigTicketRequest_DigitalHumanitiesArchival3DSetup.pdf&quot;&gt;For the budget table and cost comparisons, see this PDF of the request (pasting it into the post was taking too much time).&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Future possible costs that will be supported from DH Specialist startup funding and other sources:&lt;/em&gt; protected cart for bringing artifacts from ASC; blue painter’s tape for printing bed improvement, sink for cleanup; ventilation/fan; table covering; dedicated computer, monitor, keyboard, mouse, cables; lockable space for storage; shared ASC+DH graduate research assistant to assist with project design, 3D work, training others.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-not-use-the-engineering-library-3d-setup&quot;&gt;Why not use the Engineering Library 3D setup?&lt;/h3&gt;
-
-&lt;p&gt;The Libraries already supports a 3D &lt;em&gt;printing&lt;/em&gt; setup in the Engineering Library, but for various reasons this is not adequate for digital humanities &lt;em&gt;scanning, modeling, and printing&lt;/em&gt; work:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Most of our research focus with the dedicated 3D setup will revolve around calibrating and customizing the setup to create accurate, representative facsimiles of historical artifacts, which requires DH and ASC experts to have hands-on oversight of the process. 3D printing setup in the Engineering Library is designed as a &lt;em&gt;service&lt;/em&gt; producing finished print-outs to those who submit files, rather than letting you calibrate settings and experiment to make the most representative facsimile for your given research use.&lt;/li&gt;
-  &lt;li&gt;DH research use necessitates iterative experimentation; the listed wait time for a print from the Engineering Library setup is up to a week.&lt;/li&gt;
-  &lt;li&gt;Transporting rare and fragile artifacts safely and securely from the ASC is simplified by keeping the equipment in-building. Future ASC processing workflows might include capturing 3D digital model files of artifacts.&lt;/li&gt;
-  &lt;li&gt;This expertise will allow experimentation focused toward publishing best practices for &lt;em&gt;humanities&lt;/em&gt; research, without competition from other (e.g. STEM) uses of existing equipment and without needing to constantly recalibrate from others using the equipment.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;examples-of-possible-projects&quot;&gt;Examples of possible projects&lt;/h3&gt;
-
-&lt;p&gt;Ideas that could be developed into full lesson plans, courses, or collaborative DH projects seeking external funding.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;General classroom use&lt;/strong&gt;. The 3D setup will allow students to have a dedicated space to explore digital interactions with the objects in ASC’s rich collections, where humanities students and faculty could experiment directly with the machines while getting archivists’ support in handling items and negotiating file/image reuse/sharing/copyright.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A classroom module would be designed around scanning some of the more interestingly structured Flight/Space Archive artifacts, such as Neil Armstrong’s model of a lunar landing module. Students would then be able to access, extend, and handle these artifacts extensively without damaging the original artifact and with options such as printing magnified versions of an object to better assess its texture and structure.&lt;/li&gt;
-  &lt;li&gt;[A specific professor’s] course around writing historical material object analyses currently asks students to write about a speculative archival artifact; we could support students creating and printing these speculative artifacts, possibly by combining digital files of real artifacts into a chimera object.&lt;/li&gt;
-  &lt;li&gt;Use 3D facial models for a direct connection with historical personages that would be otherwise difficult to gain, beginning with our John Purdue death mask. [Possible research project idea.]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;How close can we get 3D models and printing to the originals?&lt;/strong&gt; Teaching archival concerns around authenticity, materiality, and representation (e.g. presentation differs depending on what significant property you’re focusing on) through experimentation with equipment calibration, materials, and post-printing processes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How can 3D scanning and modeling improve current archival processing workflows?&lt;/strong&gt; Augment existing digital collection items with 3D files; interactive 360+ degrees animations of artifacts; packaged lesson plans for K-16 including videos explaining archival artifacts, their details, differences in models, and possible discussion questions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Students “adopt” significant artifacts to explore multiple paths of documenting, describing, narrating, and the metadata and narratives they create are incorporated into the archive for future learners.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;How can we meet the need for archival facsimiles?&lt;/strong&gt; Meet the need for exhibits around Purdue and ASC history for external institutions (e.g. recent Indianapolis Symphony exhibit), the West/Lafayette community, and Purdue’s 2019 dual 50th moon landing / 150th Purdue founding anniversaries. Create facsimiles for hand-outs at Libraries and Alumni events, to pique interest in humanities projects and ASC collections (e.g. wearable facsimiles of Amelia Earhart’s flight goggles, possibly with add-on to hold smartphones a la Google Cardboard and display related Purdue history projects or apps).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tangibility.&lt;/strong&gt; The ability to touch and manipulate objects and representations of data inspires the curiosity and questions of learners. Additionally, tangibility adds accessibility to visualizations, timelines, maps, and graphs for the visually challenged. Building on existing museum work allowing visitor access to facsimiles (e.g. the Art Institute of Chicago offers a range of sculpture with which visitors can feel the differences of various materials and compare the effects of erosion over time), we will attempt to make the learning and research outcomes of tangible access to artifacts more rigorous.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Improving active participation with research involving rare and fragile artifacts.&lt;/strong&gt; In addition to increasing access to artifacts, 3D scanning and printing would allow those without archival training to directly handle a fragile object like Neil Armstrong’s model lunar lander module, experiencing first-hand detail, dimensions, and texture. But students could do much more than just touch these artifacts.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Digital 3D versions of, for example, the lunar module model can be explored on a computer: magnified to better see details (the Smithsonian was actually able to read eroded engravings on old armor by scanning the armor and then manipulating the scan file on a computer), included in animated tutorials (historical airplane propellers and windflow; orbit paths), labeled and cross-sectioned, and digitally manipulated (e.g. students could see what a statue missing a piece would look like in its complete state, or digital files for objects on which colors had faded or washed away could be colored again).&lt;/li&gt;
-  &lt;li&gt;These same activities could also happen with the printed-out plastic copy of an artifact.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Access to off-campus artifacts.&lt;/strong&gt; The purchased scanner will be reasonably mobile, so that scans of artifacts held off-campus (e.g. in museums in an astronaut’s hometown) can be made when ASC staff visit them, then brought back to campus and printed so that a class can tangibly experience a remote artifact.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Copies of these artifacts could be printed here on-demand when a class requires, and kept for future use by the teacher of that class (we could also provide storage to “check out” already printed versions of artifacts, but we expect teachers will like having their own copy of a few key artifacts to use frequently in their own teaching).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Improving world access to Purdue’s artifacts.&lt;/strong&gt; Purdue Libraries could host downloadable 3D image files of some of our ASC’s artifacts; we’d begin by identifying 5 key objects that are some combination of highly interesting and difficult for non-archivists to access (rare, fragile, not well represented by photograph).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[Grant project idea]&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Specific ASC collections or artifacts tagged for projects include:&lt;/strong&gt;  a 3D tour of the ASC vault, pliable/wearable 3D print of the lunar glove, Earhart flight suit, historical planes/propellers, artists’ books, Armstrong lunar lander module model. Anything that is fragile, rare, dangerous (lunar dust, jet fuel…) in the ASC—things that students or even researchers can’t currently touch or see. Anything in the ASC that would benefit from a cross-section (even if the insides don’t exist or can’tbe scanned, because these can be digitally modeled) or demonstration of them item in context and/or in use (historic propellers).&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/31/2017-01-31-3D-digitalhumanities-proposal</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Designing a Digital Humanities Initiative: Background &amp; Campus DH Survey</title>
-        <description>&lt;p&gt;I’m designing a digital humanities (DH) initiative here at the Purdue University Libraries, and “initiative” means our whole vision for DH, support for which is now enshrined as a specific point in our department strategic policy. To kick off &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;a series of blog posts&lt;/a&gt; covering this infrastructure and community design work I’ve been up to, this post provides some background to the policies and plans I’ll be sharing in later writing, as well as a some of the findings of the campus DH climate survey I conducted over the past year.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-role--the-purdue-libraries&quot;&gt;My role &amp;amp; the Purdue Libraries&lt;/h2&gt;
-
-&lt;p&gt;I’m a digital humanities assistant professor and specialist librarian in the Purdue University Libraries. The Libraries here is its own department, including faculty who can teach in other departments. We don’t have an academic program of our own for listing courses within the Libraries, and I don’t believe anyone has a required teaching load. The norm for our faculty and many of our professional staff is to frequently teach/co-teach formal courses, or to do other sorts of teaching and training like leading skill workshops or visiting classes to present “one-shot” lectures on a specific topic.&lt;/p&gt;
-
-&lt;h2 id=&quot;purdue&quot;&gt;Purdue&lt;/h2&gt;
-
-&lt;p&gt;Purdue is a Big 10 research university located in West Lafayette, Indiana (an hour northwest of Indianapolis, three hours south of Chicago). My role is focused on designing and realizing our DH initiative (as well as pursuing personal research and achieving tenure, but as my interests tend to community design and infrastructure these days, both parts of the role overlap). I started the role last August—you can read &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk&lt;/a&gt; in this post, and here’s &lt;a href=&quot;http://literaturegeek.com/assets/DigitalHumanitiesSpecialist.pdf&quot;&gt;the ad for the position&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;dh-in-the-purdue-libraries&quot;&gt;DH in the Purdue Libraries&lt;/h2&gt;
-
-&lt;p&gt;Purdue has past and existing DH activity, such as History Professor &lt;a href=&quot;https://twitter.com/blackdigitalhum&quot;&gt;Kim Gallon&lt;/a&gt;’s extensive work including the &lt;a href=&quot;http://blackpressresearchcollective.org/&quot;&gt;Black Press Research Collective&lt;/a&gt;, recent NEH Institute for Advanced Topics in DH on &lt;a href=&quot;Space and Place in Africana/Black Studies&quot;&gt;Space and Place in Africana/Black Studies&lt;/a&gt; co-organized with Hamilton Professor Angel David Nieves, and a &lt;a href=&quot;http://dhdebates.gc.cuny.edu/debates/text/55&quot;&gt;recent chapter in &lt;em&gt;Debates in DH.&lt;/em&gt;&lt;/a&gt; Another DHer is English Professor Dino Felluga, whose work includes Victorian textual scholarship and the development of the &lt;a href=&quot;http://www.branchcollective.org/&quot;&gt;BRANCH Collective&lt;/a&gt; as a scholarly publishing alternative.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Recent DH hiring.&lt;/strong&gt; Libraries department was deliberately slow in hiring for DH, instead waiting and observing as these roles began to proliferate at other institutions. Waiting a bit let the department identify problems with those roles’ designs as these issues became more obvious and slightly more avoidable. The Library Loon’s “&lt;a href=&quot;http://gavialib.com/2011/12/the-c-word/&quot;&gt;Coordinator Syndrome&lt;/a&gt;” seems to be a frequent complaint of the solo DH “&lt;a href=&quot;https://twitter.com/elotroalex/status/709495906790408194&quot;&gt;Miracle Worker&lt;/a&gt;” hire (to use &lt;a href=&quot;https://twitter.com/elotroalex&quot;&gt;Alex Gil&lt;/a&gt;’s term), and Miriam Posner’s piece &lt;a href=&quot;http://miriamposner.com/blog/money-and-time/&quot;&gt;on DH shortstaffing&lt;/a&gt; and its resulting tiring out of DHers identifies a widespread issue. The Purdue Libraries were able to address some of these issues in the job ad (it’s a tenure-track faculty position, so the research background they required is rewarded by strong support for continuing to do that research), and awareness of other issues is helping me not overextend myself or my scope for the DH we commit to.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A healthy department&lt;/strong&gt;. Because Purdue Libraries has a strong ethos of collaboration over service from the dean on down, I’ve been able to enter into reasonable collaborations based on my assessment of projects and people, rather than feel pressured to fulfill all service requests. I deliberately gave &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;my job talk here&lt;/a&gt; on why a collaboration rather than a service model for our DH would be better for everyone, to gauge what their valuing of collaboration meant. The dean’s first comment after I completed my talk was to encourage me to move &lt;em&gt;even closer&lt;/em&gt; to the collaboration end of the collaboration-service spectrum than I’d articulated. It’s empowering to be enfranchised to say “no” to requests that aren’t appropriate to your role or that you don’t have time for, and to define the scope of your role and the DH group you represent. I wish more departments relied enough on the expertise of the DHers they hire to allow these experts to define the terms of their role, and to define where the department’s funding and hiring abilities limit what they can accomplish.&lt;/p&gt;
-
-&lt;h2 id=&quot;designing-a-libraries-dh-initiative-basic-questions&quot;&gt;Designing a Libraries DH initiative: basic questions&lt;/h2&gt;
-
-&lt;p&gt;The culmination of my first eight months on the job was to present a proposal for just what we should be doing with our DH initiative (this will be shared in my future posts!). The user testing and project management aspects of my DH experience helped me address questions like:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How do we (as Purdue Libraries, and as a DH initiative inside the department) &lt;strong&gt;define ourselves&lt;/strong&gt;, rather than letting others define us?&lt;/li&gt;
-  &lt;li&gt;At the same time, how do we &lt;strong&gt;listen to and acknowledge others needs for DH&lt;/strong&gt;? How do we responsibly and ethically solicit feedback and advice on campus DH needs? (As &lt;a href=&quot;https://twitter.com/Literature_Geek/status/774225208676872193&quot;&gt;a librarian&lt;/a&gt; and as a human, I hope I respect the right to privacy and full informed consent in any whose behavior we want to study.)&lt;/li&gt;
-  &lt;li&gt;There are many existing and potential audiences for DH on campus, and many desires for what DH can do for those audiences. &lt;strong&gt;We can’t be everyone’s DH&lt;/strong&gt;, and trying to do so will make sure we fail at doing particular things well. We need to balance among doing specific kinds of DH well, and connecting and encouraging people and projects on campus that advance other aspects of DH. How do we define a limited scope for the DH we do?&lt;/li&gt;
-  &lt;li&gt;How do we communicate what our DH means to campus? What kind of public policies and workflows can we design to &lt;strong&gt;communicate what we do and don’t do&lt;/strong&gt;?&lt;/li&gt;
-  &lt;li&gt;How can we define ourselves not just with some over-general definition of DH (e.g. “we support innovation in humanities via digital scholarship”), but instead &lt;strong&gt;envision the DH we want to work toward&lt;/strong&gt;—making that vision our mission? How do we &lt;strong&gt;stay honest to the values we think we hold by acting on them&lt;/strong&gt; through policies for the kinds of collaboration, education, and other efforts we focus on?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Over the course of last year, I’ve constantly reshaped how I answer these questions as I learned more about Purdue’s current and past DH culture, resources, and scholars.&lt;/p&gt;
-
-&lt;h1 id=&quot;campus-dh-survey&quot;&gt;Campus DH survey&lt;/h1&gt;
-
-&lt;p&gt;I keep notes on the campus interactions that are part of my role—who I talked to, the conversation topic, the date. These notes are useful for tenure and review purposes (e.g. I can say how many DH consultations I provided in a term, and what departments I’ve been reaching; and I can remember what we talked about or project ideas we brainstormed when we pick up the thread weeks or months later). I’m currently using a Google Spreadsheet for this, but I’ve heard of others using business CRMs (customer management software) to keep track of their campus interactions.&lt;/p&gt;
-
-&lt;p&gt;These interaction records let me take a year of talking and listening (and sometimes asking direct questions about what people want for campus DH) and aggregate these conversations into an overview of our current DH climate on campus, identifying…&lt;/p&gt;
-
-&lt;h2 id=&quot;campus-strengths-to-build-on&quot;&gt;Campus strengths to build on&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;We already have a number of existing strengths right on campus for doing DH well:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;My Libraries department has a strong commitment to &lt;strong&gt;collaboration over service&lt;/strong&gt; (e.g. our dean encourages Libraries faculty to collaborate on grant projects with other campus faculty as PIs or co-PIs). From successful collaborations like the IMPACT Program and two rounds of Mellon funding for “grand challenge” research teams that must include a campus librarian, the campus is already aware of us as potential collaborators.&lt;/p&gt;
-
-&lt;p&gt;We’ve been pre-emptive in &lt;strong&gt;defining&lt;/strong&gt; what the Libraries is, rather than letting pre-conceived notions of what a campus library does shape our strategy.&lt;/p&gt;
-
-&lt;p&gt;From my first conversations with my colleagues, we’ve discussed our DH initiative as providing an interdisciplinary space where we help train people to spread DH knowledge; connect, amplify, and record existing DH; and support other campus communities in imagining and implementing their own local DH. I feel supported in trying at most to develop &lt;strong&gt;a campus hub for DH, rather than trying to hoard (or be all) DH&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Our strategic plan includes improving information &lt;strong&gt;access, diversity, and inclusion&lt;/strong&gt;, so my desire to focus on a DH advancing these goals is tied into our department’s founding document. (&lt;em&gt;More on this in later posts on identifying our values and translating these to policies and projects&lt;/em&gt;.)&lt;/p&gt;
-
-&lt;p&gt;Many units and roles already exist in the Libraries that support &lt;strong&gt;areas overlapping or adjacent with DH&lt;/strong&gt;, such as our humanities specialist librarians, Digital Programs, Research Data,  our three repositories (PURR, e-Pubs, and e-Archives), the Purdue University Press and Scholarly Publishing Services (which are situated within the Libraries), our Engineering Library’s makerspace, Archives and Special Collections resources and staff research and teaching expertise, a GIS Specialist Librarian and GIS Analyst, and Libraries IT.&lt;/p&gt;
-
-&lt;p&gt;There are strong &lt;strong&gt;collaborations among these Libraries units&lt;/strong&gt;, too, such as previous course co-taught by the Head of Scholarly Publishing and a faculty librarian where students published a print book based on research in the Archives and Special Collections.&lt;/p&gt;
-
-&lt;p&gt;Some of these collaborations were &lt;strong&gt;perfectly set up to add a DH component&lt;/strong&gt;; in particular, collaborating with my colleagues in our Archives and Special Collections and our University Press and Scholarly Publishing Services has helped us work toward a better ASC-&amp;gt;DH-&amp;gt;Press workflow. We’re now exploring how we can make research and teaching with our ASC collections and experts flow into DH teaching, research, and publication forms, and how do these both have a natural extension to the Press’ interest in innovative scholarly communication and born-digital publication?&lt;/p&gt;
-
-&lt;p&gt;A history of &lt;strong&gt;well-known and well-funded campus DH research&lt;/strong&gt;: in particular, History Professor Kim Gallon’s and English Professor Dino Felluga’s respective grants-winning scholarship.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Collaborative work with other campus DH faculty&lt;/strong&gt; from the start of my job, including successfully co-PIing two grant proposals during my second month here.&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;decent faculty interest in DH&lt;/strong&gt; in our liberal arts and interdisciplinary studies departments (e.g. ~25 CLA faculty attended a meeting on DH despite it being held during the end of term).&lt;/p&gt;
-
-&lt;p&gt;Interest from these departments in DH’s contribution to &lt;strong&gt;alternative academic career&lt;/strong&gt; mentorship and teaching for students.&lt;/p&gt;
-
-&lt;p&gt;A number of &lt;strong&gt;past courses on or including DH&lt;/strong&gt;, and a number of past courses taught, co-taught, or otherwise supported by Libraries staff.&lt;/p&gt;
-
-&lt;p&gt;The university’s Honors College as &lt;strong&gt;a space for Libraries faculty to propose and list their own courses&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Existing student DH activity&lt;/strong&gt;, such as graduate student independent projects and GA work, student DH and tech working groups in several humanities departments.&lt;/p&gt;
-
-&lt;h2 id=&quot;campus-needs-dh-might-address&quot;&gt;Campus needs DH might address&lt;/h2&gt;
-
-&lt;p&gt;I’ve also identified areas where the Libraries DH initiative can address campus needs, including:&lt;/p&gt;
-
-&lt;p&gt;DH is happening on campus, but largely among collaborators who found each other by chance rather than some kind of DH collaboration support network or center. We don’t yet have a DH Center or other entity that &lt;strong&gt;connects DH on campus&lt;/strong&gt;, to help researchers make connections to other people, get feedback on ideas, or mentorship around learning DH. I’m proposing we act as this connecting hub both through a virtual DH@Purdue website and through a physical space (a DH lab that may eventually become a center).&lt;/p&gt;
-
-&lt;p&gt;A resource linking existing or past campus DH projects as well as &lt;strong&gt;modeling different DH project method and publication possibilities&lt;/strong&gt; is needed. (That DH@Purdue website I mentioned.)&lt;/p&gt;
-
-&lt;p&gt;We don’t have a place safekeeping &lt;strong&gt;institutional memory for DH&lt;/strong&gt; (e.g. no one can easily answer how many DH courses have been taught in the last decade). It can be difficult to &lt;strong&gt;communicate DH workshops, events, or course listings&lt;/strong&gt; to everyone who might be interested in these offerings. (That DH@Purdue website, as well as starting communication sources like the #PurdueDH hashtag, a listserv for event announcements and collaboration requests, and an RSS feed for new DH resources as I add them to the website, mostly directly from DH Twitter.)&lt;/p&gt;
-
-&lt;p&gt;We could do more to develop and participate in &lt;strong&gt;regional DH&lt;/strong&gt; (e.g. with IU, IUPUI, Notre Dame, Ball State), and particularly with IUPUI’s HILT training and THATCamp Indiana. (E.g. inviting speakers, attending nearby events, conference calls with set topics, creating a regional channel on &lt;a href=&quot;http://tinyurl.com/DHslack&quot;&gt;the DH Slack&lt;/a&gt;?)&lt;/p&gt;
-
-&lt;p&gt;Some of our digitized resources could use DHer input to identify the kinds of metadata and processing that would make &lt;strong&gt;DH teaching and research reuse&lt;/strong&gt; easiest. Some of our digitized resources are well-used, but in ways that suggest addition of DH methods such as an annotation framework could further support this use.&lt;/p&gt;
-
-&lt;p&gt;Students and faculty want easy ways to create websites that include maps, timelines, and annotation. I’ve heard interest in learning Omeka, Neatline, and Scalar.&lt;/p&gt;
-
-&lt;p&gt;For those with funding for DH projects but without technical experience or interest, not knowing &lt;strong&gt;where to find skilled collaborators&lt;/strong&gt; with these characteristics is an issue. (The College of Liberal Arts started a directory of student workers with IT skills in the past, but it proved difficult to keep up-to-date.)&lt;/p&gt;
-
-&lt;p&gt;Some CLA faculty and students aren’t aware of how they might benefit from some Libraries resources, which are sometimes &lt;strong&gt;pitched toward a STEM audience&lt;/strong&gt; or use terms unfamiliar to humanities scholars (e.g. our repository for research datasets has few humanities collections). Part of my work will be translating what our various units, experts, and resources offer to humanists and DHers.&lt;/p&gt;
-
-&lt;p&gt;I want to address findings like these, while at the same time &lt;strong&gt;encouraging other departments to fully invest in DH&lt;/strong&gt; through their own hiring and policies. For example, some of the DHy needs I heard expressed were more oriented toward IT service or digital pedagogy expertise, and the best solution would be making our advice available for those departments during their job design and hiring process for such positions.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-dh-response-to-this-campus-survey&quot;&gt;A DH response to this campus survey&lt;/h2&gt;
-
-&lt;p&gt;My next &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;meta-DH&lt;/a&gt; post will discuss identifying the values and goals for our DH initiative, and how those translated into my initial proposal to the department. Thanks for reading, and let me know any questions &lt;a href=&quot;https://twitter.com/Literature_Geek&quot;&gt;@Literature_Geek&lt;/a&gt;!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/09/11/designing-digital-humanities-initiative-background-campus-survey</guid>
-        
-        <category>digital-humanities</category>
-        
         <category>meta-dh</category>
         
         <category>dh-now</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Meta-DH, or Designing and Building a DH Initiative</title>
-        <description>&lt;p&gt;I’m &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;starting a “meta-DH” series of blog posts&lt;/a&gt; to document my work developing a digital humanities initiative here in the Libraries at Purdue University. This work includes&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;figuring out what our DH could and should be&lt;/li&gt;
-  &lt;li&gt;creating a DH physical space (center? lab? something else?)&lt;/li&gt;
-  &lt;li&gt;the practical considerations of layout and budgeting&lt;/li&gt;
-  &lt;li&gt;designing policies and infrastructure for the initiative&lt;/li&gt;
-  &lt;li&gt;building DH projects both to test our policies and to model the kinds of scholarship our methods realize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’ve been on &lt;a href=&quot;http://www.literaturegeek.com&quot;&gt;this blog&lt;/a&gt; before, you might have noticed that I enjoy blogging and other user-friendly &lt;a href=&quot;http://literaturegeek.com/tag/advice-tutorial/&quot;&gt;documentation&lt;/a&gt; of DH scholarship. This style of writing helps me think, with the bonus that sometimes that thinking is useful to others. Blogging can also lead to feedback on resources I should check out, potential collaborators, and what I’m doing wrong.&lt;/p&gt;
-
-&lt;p&gt;My first year on the job meant writing a lot of GoogleDocs and other semi-private stuff: taking notes on meetings and consultations, recording ideas for projects, and explaining my plans to administration. To communicate more clearly (and use my colleagues’ generous donation of their reading time well), I summarize—meaning I generate a lot of documentation that hasn’t reached anyone else yet. I think the non-condensed versions of these ideas could be useful to someone. Thus, this series of posts!&lt;/p&gt;
-
-&lt;p&gt;I’ll probably blog:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;✔️ &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;The job talk that put me in this role (already blogged earlier this year)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Creating the website for our DH initiative&lt;/li&gt;
-  &lt;li&gt;✔️ &lt;a href=&quot;http://literaturegeek.com/2016/09/11/designing-digital-humanities-initiative-background-campus-survey&quot;&gt;What I learned during my first year in this role: doing a campus DH survey&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Making good time &amp;amp; resource investments while designing campus DH&lt;/li&gt;
-  &lt;li&gt;How I’ve interpreted my job description&lt;/li&gt;
-  &lt;li&gt;Working with my faculty review committee to receive credit for my various kinds of DHy scholarship&lt;/li&gt;
-  &lt;li&gt;Daily practices (my office setup, software used, consultations, etc.)&lt;/li&gt;
-  &lt;li&gt;DH program identity and choosing what to call our initiative (center? lab? should we even have a physical space?)&lt;/li&gt;
-  &lt;li&gt;My formal DH initiative proposal to department administration&lt;/li&gt;
-  &lt;li&gt;Designing and following through on a DH mission statement&lt;/li&gt;
-  &lt;li&gt;Partnerships and collaboration&lt;/li&gt;
-  &lt;li&gt;Defining DH scope&lt;/li&gt;
-  &lt;li&gt;Designing timelines and funding requests&lt;/li&gt;
-  &lt;li&gt;Creating a DH space: layout, equipment, budget&lt;/li&gt;
-  &lt;li&gt;Grant proposals and sustainable models&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If there’s something not on that list you’d like to read about, let me know on Twitter &lt;a href=&quot;http://www.twitter.com/literature_geek&quot;&gt;@literature_geek&lt;/a&gt; or by email aviscont@purdue.edu.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/09/05/meta-dh</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/09/05/meta-dh</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
-        
-        <category>meta-dh</category>
         
         
       </item>

@@ -4,15 +4,15 @@
   sort: 1
   
 - slug: meta-dh
-  name: Meta digital humanities
-  title: Everything about the digital humanities, building a DH Center, designing DH projects, etc.
+  name: meta digital humanities
+  title: "Everything about doing the digital humanities: DH infrastructure, daily practices, etc."
   sort: 0
   
 - slug: scholarly-web-design-and-coding
   name: scholarly web design and coding
   title: All posts on scholarly web design and coding
   sort: 6
-  
+
 - slug: dh-now
   name: featured on DH Now!
   title: All posts that have been featured on <a href="http://digitalhumanitiesnow.org/">Digital Humanities Now</a>
@@ -36,7 +36,17 @@
 - slug: james-joyce-and-ulysses
   name: James Joyce & Ulysses
   title: All posts about James Joyce and/or <em>Ulysses</em>
-  sort: 13
+  sort: 12
+
+- slug: purdue-dh
+  name: Purdue DH
+  title: "Posts from my 2015-2017 DH Librarian role at Purdue University Libraries"
+  sort: 14
+  
+- slug: notes
+  name: Notes
+  title: Rough notes, lists, drafts, and other things that aren't in an essay format
+  sort: 15
   
 - slug: gephi
   name: Gephi
@@ -51,7 +61,7 @@
 - slug: grad-advice
   name: advice for grad students
   title: Advice for graduate students on doing a digital dissertation, project management, etc.
-  sort: 12
+  sort: 11
   
 - slug: usertesting
   name: usertesting
