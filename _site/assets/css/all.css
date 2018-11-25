@@ -930,8 +930,13 @@ padding: 0px 0px 15px 0px;
 font-family: 'Lora', serif;
 }
 
-#blog-posts li a {
-font-weight: normal;
+#blog-posts li {
+list-style-type: none;
+}
+
+#blog-posts-best li {
+font-size: 4em;
+line-height: 1em;
 }
 
 .blocks li {

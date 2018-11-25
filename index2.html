@@ -1,0 +1,36 @@
+---
+layout: new-typog
+title: New Home
+---
+<!-- New homepage typography testing! -->
+
+<div id="home">
+  <h2><i class="fa fa-book"></i> Digital humanities bloggage</h2>
+  <p><strong>Dr. Amanda Visconti</strong> designs, prototypes, & studies <strong>digital interface UX for a more public digital humanities</strong>, with interests in community design & meaningful crowdsourcing, web annotation, games & experimental design, and social reading & learning. I ground my work on a strong research background (Literature PhD, Information MS) in human-computer interaction, info science, & <strong>digital humanities</strong>.</p>
+</div>
+  
+<!-- 3 large posts w/best tag | where post.tags contains "best" -->  
+BEST
+<ul id="blog-posts-best" class="posts">
+{% for post in site.posts limit:3 %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<!-- Tag blocks --> 
+TAGS
+{% assign sorted_tags = site.data.tags | sort:"sort" %}
+<div class="blocks">
+<ul>{% for tag in sorted_tags %}
+	<li>{% include tag_link_formatter.html tag=tag %}</li> 
+{% endfor %}</ul>
+</div>
+  
+<!-- 5 most recent posts --> 
+  
+<ul id="blog-posts" class="posts">
+RECENT
+{% for post in site.posts %}
+	<li><span>{{ post.date | date: "%b %-d, %Y" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
