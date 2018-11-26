@@ -5,7 +5,7 @@ permalink: 2016/02/28/DHjobtalk
 author: 
   twitter: literature_geek
   github: amandavisconti
-tags: [digital-humanities, best, advice-tutorial, grad-advice]
+tags: [digital-humanities, best, advice-tutorial, grad-advice, purdue-dh]
 status: publish
 type: post
 published: true
