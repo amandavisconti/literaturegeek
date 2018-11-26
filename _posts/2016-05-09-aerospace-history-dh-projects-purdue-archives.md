@@ -5,7 +5,7 @@ permalink: 2016/05/09/aerospace-history-dh-projects-purdue-archives
 author: 
   twitter: literature_geek
   github: amandavisconti
-tags: [digital-humanities]
+tags: [digital-humanities, purdue-dh]
 status: publish
 type: post
 published: true
