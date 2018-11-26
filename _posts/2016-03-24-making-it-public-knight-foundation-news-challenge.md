@@ -5,7 +5,7 @@ permalink: 2016/03/24/making-it-public-knight-foundation-news-challenge
 author: 
   twitter: literature_geek
   github: amandavisconti
-tags: [digital-humanities]
+tags: [digital-humanities, purdue-dh]
 status: publish
 type: post
 published: true
