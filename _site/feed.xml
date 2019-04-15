@@ -2,12 +2,319 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literature Geek</title>
-    <description>smarter online communities via digital humanities</description>
+    <description>digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Apr 2019 17:45:46 -0400</pubDate>
-    <lastBuildDate>Sat, 06 Apr 2019 17:45:46 -0400</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Mon, 15 Apr 2019 13:49:29 -0400</pubDate>
+    <lastBuildDate>Mon, 15 Apr 2019 13:49:29 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>ScholarsLab.org website relaunch!</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/site-relaunch/&quot;&gt;January 15, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re happy to announce that our Lab website has a new look and feel, all aimed at making Scholars’ Lab more accessible and the site more useful. The website &lt;a href=&quot;http://scholarslab.org&quot;&gt;ScholarsLab.org&lt;/a&gt; represents the collective effort of our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people&quot;&gt;staff and collaborators&lt;/a&gt;, past and present. It’s existed in multiple forms: most recently, as a WordPress site and now, as of this blog post, as a Jekyll-generated static website.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-renew-the-website&quot;&gt;Why renew the website?&lt;/h1&gt;
+&lt;p&gt;Our previous website was headed by the homepage text “collaborate, &lt;strong&gt;iterate&lt;/strong&gt;, discuss”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.lib.virginia.edu/assets/post-media/2018-11-05-iterate.png&quot; alt=&quot;Screenshot of text saying &amp;quot;collaborate, iterate, discuss&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re a community lab focused on experimental scholarship. We care most about the impact of scholarship on &lt;em&gt;people&lt;/em&gt;, ranking positive human experience as the most important outcome of projects or other work. This means that failure and a journey of many iterations are not just frequent by-products of our work, but essential characteristics. For example, we periodically renew our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/charter&quot;&gt;lab charter&lt;/a&gt; to reflect our ongoing growth as scholars and professionals; as it was last updated in 2016, we’ll be renewing its text (and even, perhaps, its form) over the coming year.&lt;/p&gt;
+
+&lt;p&gt;Before renewing our charter, though, we worked on synthesizing our many views of what the lab currently is into a coherent, concise mission–visible at the top of our new homepage. Having the website look “newer” wasn’t a priority for us; rather, we used this re-articulated mission to reimagine a site more aligned with our values…&lt;/p&gt;
+
+&lt;h1 id=&quot;why-does-the-site-look-this-way&quot;&gt;Why does the site look this way?&lt;/h1&gt;
+&lt;p&gt;We started thinking about a site renewal back in Summer 2017, with two rough goals: a general rethinking of the site to fit our current work, and a migration of platforms from WordPress to a Jekyll-generated static website. (You can see this &lt;a href=&quot;https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;article&lt;/a&gt; for more on what a jekyll-generated static site is, why you might want to use one, and how.) WordPress is a popular blogging platform with the advantage of a user-friendly administrative dashboard.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the benefits of WYSIWYG (what you see is what you get) blog post editors and easy media uploads come with significant costs of web developer time updating the site’s core, plugin, and theme code and keeping the site secure. Moving to a Jekyll-generated static site helped us think through applying &lt;a href=&quot;https://go-dh.github.io/mincomp/about/&quot;&gt;minimal computing values&lt;/a&gt; to our main online platform. This move means making small content changes to the website (e.g. writing a new blog post) a little harder by requiring some steps we didn’t require before, but… we think these steps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;are within the grasp of anyone (regardless of technical experience),&lt;/li&gt;
+  &lt;li&gt;ultimately enfranchise everyone to understand more and do more with our site than WordPress allowed, and&lt;/li&gt;
+  &lt;li&gt;are in line with our teaching each of our Praxis cohorts the basic steps required to use git, GitHub, and markdown (i.e. by teaching these skills to our team and affiliates more broadly, we hope to also enfranchise folks to create their own websites with the same technologies).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After much discussion and work, these initial goals yielded a more important goal: reimagining our website to more clearly focus on making the lab accessible to folks who wouldn’t otherwise already know about or feel welcome to join us. We already have some friendly and well-trodden paths to reaching the lab, such as through our work and fellowship CFPs, consultations, events, and open office hours; so we decided to aim the website at reaching folks who weren’t already coming into our space.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/about&quot;&gt;&lt;img src=&quot;https://scholarslab.lib.virginia.edu/assets/post-media/2018-11-21-FAQlist.png&quot; alt=&quot;Screenshot of frequently asked Scholars' Lab questions&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some ways we approached this goal:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Encouraging site visitors to feel they’re in the right place&lt;/strong&gt;, by updating textual content and photos to be more explicitly welcoming. For example, we reorganized our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/makerspace&quot;&gt;Makerspace&lt;/a&gt; and &lt;a href=&quot;https://scholarslab.lib.virginia.edu/spatial-technologies&quot;&gt;Spatial Tech&lt;/a&gt; equipment and software inventories into named categories; you might not know what a serger is, but where you’d probably just skim past the word before, you can now see that it’s part of a set of equipment and supplies aimed at making things with fabric. The hope is that by grouping resources like the serger into clearer categories, you might realize that our Makerspace has some resources and folks you can talk to about, for example, your interests in making stuff from textiles, historical costuming, and/or other fabric art approaches.&lt;/li&gt;
+  &lt;li&gt;Making the &lt;strong&gt;info folks need to get more involved easy to find&lt;/strong&gt;, once they feel comfortable with our resources being theirs. We wrote a &lt;a href=&quot;https://scholarslab.lib.virginia.edu/about&quot;&gt;FAQ&lt;/a&gt; anticipating questions folks often ask us, overhauled the structure of information on our site (e.g. menu order and wording, page titles, layout and order of information on a given page). We also created clear maps showing how to get to the specific locations within our somewhat large space (the west wing of the 4th floor of Alderman Library).&lt;/li&gt;
+  &lt;li&gt;Accurately capturing the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/work&quot;&gt;work&lt;/a&gt; of all our current staff, including recent hires and folks welcomed into the lab during the library reorganization (who hadn’t had their work represented on the old site), to &lt;strong&gt;show the true breadth of disciplines and approaches we cover&lt;/strong&gt;. We also reworked the metadata on each of our current and past Scholars’ Lab folks, so that we could more easily and accurately show what roles folks have held and who has contributed anything to a given project—again, more accurately showing how the Scholars’ Lab is itself a digital scholarship project, one built together by many people over the years.&lt;/li&gt;
+  &lt;li&gt;More clearly showing that &lt;strong&gt;we’re part of the &lt;a href=&quot;http://library.virginia.edu&quot;&gt;UVA Library&lt;/a&gt;&lt;/strong&gt;, so folks understand that we’re part of the Library’s mission to provide equitable access to knowledge and learning to everyone. This work includes an FAQ question, a section of the homepage with text and the UVA Library logo, and &lt;a href=&quot;https://scholarslab.lib.virginia.edu/library&quot;&gt;a new SLab “Library” page&lt;/a&gt; highlighting the work of Library colleagues that helps us do what we do, and that may feature stories about intralibrary collaborations in the future.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;who-made-this&quot;&gt;Who made this?&lt;/h1&gt;
+&lt;p&gt;The 2017-2018 renewal of this website incorporates text, suggestions, and feedback from everyone on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people&quot;&gt;the Scholars’ Lab staff&lt;/a&gt;. Additionally, the following folks put in significant extra effort on the site’s design, coding, content, project management, and documentation: Katherine Donnally, Jeremy Boggs, Brandon Walsh, Ronda Grizzle, Laura Miller, Zoe LeBlanc, Ammon Shepherd, Shane Lin, Beth Mitchell, and Amanda Visconti.&lt;/p&gt;
+
+&lt;p&gt;We want to especially highlight the leadership and labor of &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people/katherine-donnally/&quot;&gt;Katherine Donnally&lt;/a&gt; (Scholars’ Lab DH Designer 2017-2018) in realizing this site. Katherine’s thinking and work gave the renewal project a coherent focus around making the lab more accessible and supportive of folks who might not otherwise feel part of our community; in addition to design and development work, she created structures and documentation (e.g. goal and progress tracker, code commenting, analysis of the old website, articulation of the purpose of the new site) that were instrumental in both imagining the new site and seeing it to the finish line.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/15/scholarslab-website-relaunch/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/scholarslab-website-relaunch/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Moderate Proposal: Healthier Systems for Running Online Digital Humanities Communities</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/moderation-running-dh-online-communities/&quot;&gt;February 27, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Healthy, diverse online learning communities depend on the labor of community design: unseen and often stressful work such as moderation, shaping discussions, and encouraging positive community behavior. As more opportunities emerge for learning online as part of a virtual community, how can we:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;recognize (credit, publicize, reward, treat as scholarly work) and&lt;/li&gt;
+  &lt;li&gt;reinforce (design, automate, fairly distribute the labor, deal with mental health impacts)&lt;br /&gt;
+the labor of community design? As marginalized identities are most at risk for harm when interacting with others online, support for moderation is support for community inclusion.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I write from my experiences moderating both my digital dissertation project Infinite Ulysses (a social platform for annotating/commenting on James Joyce’s novel) and the Digital Humanities Slack I started (a set of themed chat rooms with over 2,000 digital humanist members; co-moderated by Alan G. Pike, Sam Abrams, Alex Gil, Brandon Walsh, Ed Summers, Paige C. Morgan, Jeremy Boggs, Eleanor Dickson, Liz Rodrigues, and Erin Pappas). It’s been exhilarating using technology to collaborate with folks I don’t know: if you’ve taught DH, think of the students who respond to your lessons like “DH is exactly what I want to do, I just didn’t have a term for it before”, but expand to include folks from all over the world and more diverse walks of life. But it’s also been a significant source of anxiety, balancing my responsibility to the community with my desire to help folks learn to be more positive influences on that community. That stress was half of why I moved Infinite Ulysses from a Drupal site allowing commenting, to a static archived version without commenting (the other half was some serious thinking about how I could best contribute to the DH I want to see, and realizing that just for me personally, I need to move away from Joyce and Modernist studies to best accomplish that).&lt;/p&gt;
+
+&lt;p&gt;I do want to note that the challenges of moderating online DH and other academic/professional communities are, at least for me, privileged through my ability to choose my level of work (or opt out completely) without hurting my livelihood or family; compared with the pain, lack of compensation, lack of respect, and more evils experienced by folks like those who moderate YoutTube and Facebook, working with smaller communities that have some norms (though inequitable) and professional consequences (though often used as a weapon against rather than a protector of folks with marginalized identities) are less pressing problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-im-blogging-today&quot;&gt;Why I’m blogging today&lt;/h2&gt;
+&lt;p&gt;This post is largely drawn from a non-successful IMLS pre-proposal I PI’d (Spring 2018) for an NLG planning grant to explore, identify key challenges, and plan pilot community experimental approaches to aid the foundational labor of moderators underpinning online learning communities, titled “&lt;strong&gt;A Moderate Proposal&lt;/strong&gt;: Recognizing and Reinforcing Online Community Moderation to Benefit Diverse Learners” and co-designed with colleagues Jeremy Boggs, Katherine Donnally, Shane Lin, Laura Miller, and Brandon Walsh. (If you like the title pun, you may also appreciate that our proposal drafting GDoc was titled “DigitalHumanities.club”, after the domain that I own because it’s awesome, but that I was also using to explore Mastodon and Mattermost for better communities.)&lt;/p&gt;
+
+&lt;p&gt;I finally got around to this post due to cool stuff two DHers are up to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/scott_bot/status/1100387484930854913&quot;&gt;Scott Weingart’s Twitter thread&lt;/a&gt; on &lt;a href=&quot;https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona&quot;&gt;Casey Newton’s recent article&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ve only skimmed Newton’s piece, but I’ve read and admired Sarah T. Robert’s more longstanding work in this area:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a &lt;em&gt;Maclean’s&lt;/em&gt; article in Summer 2018, &lt;a href=&quot;https://www.macleans.ca/opinion/meet-the-people-who-scar-themselves-to-clean-up-our-social-media-networks/&quot;&gt;“Meet the people who scar themselves to clean up our social media networks”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;an article in &lt;em&gt;The Atlantic&lt;/em&gt; in Spring 2017, &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2017/03/commercial-content-moderation/518796/&quot;&gt;“Social Media’s Silent Filter”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And now &lt;a href=&quot;https://twitter.com/ubiquity75/status/1045552839819505664&quot;&gt;a book!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;My &lt;a href=&quot;https://scholarslab.org/people/ammon-shepherd/&quot;&gt;SLab colleague Ammon Shepherd&lt;/a&gt; has kicked off a series of blog posts around the challenges of archiving DH work, with what promises to be a special focus on the technical and especially sysadmin work unlerying these challenges. You can read &lt;a href=&quot;https://scholarslab.org/blog/archiving-dh-part-one/&quot;&gt;the first post in the series&lt;/a&gt; now, but Ammon’s also orchestrating a really cool system of inviting UVA Library colleagues to co-write the rest of the series with him, complete with clear documentation on how to take part and make the discussion better.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thanks to Scott and Ammon for being awesome scholars doing work collaboratively and in public!&lt;/p&gt;
+
+&lt;h2 id=&quot;a-moderate-proposal&quot;&gt;A moderate proposal&lt;/h2&gt;
+&lt;p&gt;Community design requires &lt;strong&gt;moderation&lt;/strong&gt; and &lt;strong&gt;scaffolding&lt;/strong&gt;. &lt;strong&gt;Moderation&lt;/strong&gt; is both the work of controlling spam and intentional harassment in a community, as well as designing and implementing a code of conduct (e.g. working behind the scenes with a community member whose words impact others negatively, but who wants to become a better community member). &lt;strong&gt;Scaffolding&lt;/strong&gt; is the work of maintaining and nurturing a community: suggesting conversation topics, encouraging community member involvement, amplifying marginalized voices, and otherwise enacting strategies to grow a healthy and active community. Creating the technical platform for an online community is relatively simple, given existing open-source versions of popular social media platforms. Rather, the challenge to improving moderation is a social project: habituating community members to behavior that reduces harassment, encourages real accountability to others in your community, distributes the stress of moderating, and recognizes/credits/rewards people who moderate and otherwise advance positive community design.&lt;/p&gt;
+
+&lt;p&gt;I’ve focused on Twitter, Slack, and Mastodon as text-heavy platforms with public and frequent use by digital humanists, plus Civil Comments and the Mozilla Coral Project as technical solutions to online community challenges. I’m also interested in these past or current DHy communities and the scholars shaping them: DH Q&amp;amp;A, Humanities Commons, DHthis, DH Commons, the DLF Forum, DH Slack, HASTAC, DHNow, the AADHUM Slack, and the Documenting the Now Slack.&lt;/p&gt;
+
+&lt;p&gt;We’ve since updated our thinking and planning, but when I submitted our grant preproposal a year ago, we imagined the following activites and outcomes:&lt;/p&gt;
+
+&lt;h2 id=&quot;activities&quot;&gt;Activities&lt;/h2&gt;
+&lt;p&gt;The project team would identify and invite 10 experts in online learning community-building, with diverse representation of gender, race, and other identities, from libraries, archives, museums, and academia. Our initial work draws on a symposium with these advisors to spark collaborations, identify key challenges, and plan out steps for piloting and assessing improvements to social systems of moderation:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Project team reviews literature and existing communities:&lt;/em&gt; Distribute Twitter and DH Slack surveys to gather anecdotes about good and bad online academic communities and their moderation systems. Use team’s existing text analysis skills to explore frequent vocabulary and sentiment in the discussions on a sample community, the Digital Humanities Slack (2k+ community members), if* DH Slack community decides this is an acceptable analysis (read more about the community’s decision to keep the Slack ephemeral via a non-paid Slack plan &lt;a href=&quot;http://literaturegeek.com/2016/07/06/digital-humanities-slack-community-design&quot;&gt;in this post&lt;/a&gt;). Create an annotated bibliography plus pre-symposium reading list. Assign each advisory board member to read 3 articles and report useful takeaway ideas from these at the symposium.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;2-day symposium of 10 advisory board members with Scholars’ Lab staff and UVA Library colleagues:&lt;/em&gt; Project team presents results of the DH Slack message text analysis* as a grounding case study. Advisory board gives lightning talks summarizing their assigned readings. Goals set for the rest of the symposium. Facilitated design jam sessions, paper prototyping, breakout groups addressing specific challenges, such as&lt;br /&gt;
+1: amplifying credit for moderators, making their labor institutionally legible for promotion, addressing gendering of work;&lt;br /&gt;
+2: templates for difficult moderation conversations with community members, tech features that could support social needs such as shadow-banning, moderator self-care.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;After symposium:&lt;/em&gt; Project team prepares report of best practices to support online learning community moderation, shares with advisory board for feedback, disseminates to public. Team outlines next steps, shares with advisory board for feedback. Probable steps include identifying both technical and social solutions to pilot, formally approaching communities to collaborate on testing practices (e.g. MLA/Humanities Commons, ACH, DLF), scheduling pilots and assessment, prototyping and testing ideas, and reporting back to public. We take the NEH “Off the Tracks” workshop resulting in &lt;a href=&quot;https://mith.umd.edu/offthetracks/recommendations&quot;&gt;recommendations for ethically crediting collaborators&lt;/a&gt; as a model for all of this work, and commit to thoroughly and accurately crediting all participants in these projects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;outcomes&quot;&gt;Outcomes&lt;/h2&gt;
+&lt;p&gt;We will identify project staffers with expertise in ethical design practices, and charge them with holding our focus on improving online communities for marginalized identities, while also documenting and publishing the conversations and findings occurring through the planning phase to ensure others can build on our work. During this grant’s planning phase we will create:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;An annotated bibliography and reading list&lt;/li&gt;
+  &lt;li&gt;A symposium whitepaper covering the ideas, best practice suggestions, and conversations a diverse advisory board of experts generate during the symposium&lt;/li&gt;
+  &lt;li&gt;A public conversation around crediting moderation labor and improving community moderation, connecting scholars interested in this work&lt;/li&gt;
+  &lt;li&gt;A written plan outlining next steps for pilot projects designing, building, and assessing various technical and social features for their impact on online community moderation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Experimental approaches may include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strategies to protect users from one another, unwanted surveillance, or commercial interests&lt;/li&gt;
+  &lt;li&gt;Documented design-driven approaches to building more ethical academic social media platforms&lt;/li&gt;
+  &lt;li&gt;A code of conduct template in support of community design labor&lt;/li&gt;
+  &lt;li&gt;Model a technical platform for online learning communities that is designed from the start with an ethic of care, with particular focus on making the system useful to those identities usually marginalized by commercial social media platforms&lt;/li&gt;
+  &lt;li&gt;Text analysis results discussion from analysis of DH Slack community vocabulary and sentiment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;interested-know-things&quot;&gt;Interested? Know things?&lt;/h2&gt;
+&lt;p&gt;If anything in this post interests you (future collaboration?), overlaps with your current work, or could benefit from my reading and citing you or others, please let me know at visconti@virginia.edu. Thank you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to colleagues Jeremy Boggs, Katherine Donnally, Shane Lin, Laura Miller, and Brandon Walsh for co-designing of the grant proposal, and to Ammon Shepherd for helping me think about the technical sustainability aspects of better online moderation experiences.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/15/moderation-running-dh-online-communities/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/moderation-running-dh-online-communities/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>DH Dissertation to Director: Notes connecting my student and staff experiences</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/dh-dissertation-to-director/&quot;&gt;February 21, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A colleague recently asked me about how I draw on my DH dissertation experience (&lt;a href=&quot;https://dr.amandavisconti.com&quot;&gt;dr.amandavisconti.com&lt;/a&gt;) in my work co-directing the Scholars’ Lab. Below, I share the rough notes I typed up in response about the first couple such dissertation-director connections that came to mind:&lt;/p&gt;
+
+&lt;h2 id=&quot;digital-humanities--experimental-humanities&quot;&gt;Digital humanities &amp;lt; experimental humanities&lt;/h2&gt;
+&lt;p&gt;Getting to do an &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;unusually shaped dissertation&lt;/a&gt; meant doing a lot of meta-dissertational work analyzing and synthesizing precedents for making as scholarship, dissertations that didn’t produce written chapters, and experimental scholarly methods and formats more generally. I not only needed to prove that such work could reach the goals of a dissertation, but that my research design choices also fit tmy particular research questions. It was profoundly useful to work through what I thought was the best research design for my questions, and then also find the language to convince others of this as well. I do not want to add more barriers to the dissertation process for anyone, but it does seem mildly unfortunate to me that most humanities dissertation creators aren’t encouraged and supported to explore multiple research aproaches and argue for why their project format is the best fit for their research questions, rather than treating written chapters as the only choice.&lt;/p&gt;
+
+&lt;p&gt;The Scholars’ Lab has historical prominence as a DH center, but we also offer strong expertise in other areas, such as GIS/spatial reasoning and cultural heritage informatics. Some of my work as a Lab director has been collaborating with my colleagues to update our understanding of what’s most important to us, articulate that in a concise and memorable way, and relaunching our Lab website (ScholarsLab.org) to better communicate that updated mission. I think my dissertation experience helped me do a better job of hearing and synthesizing our staff’s visions for the Lab: rather than forcing everything to fit under the rubric of DH, we’ve identified a shared lab commitment to questioning assumptions around the methods and publication formats of scholarship, to cultivating a readiness to experiment and create new approaches where existing ones don’t best fit our research questions. It’s the &lt;em&gt;experimental&lt;/em&gt; mindset of DH that drives us and connects our team members’ many skillsets—as you can see in partially or wholly analog work like our Makerspace and campus community design work—rather than something particular to the Digital.&lt;/p&gt;
+
+&lt;h2 id=&quot;passing-it-on&quot;&gt;Passing it on&lt;/h2&gt;
+&lt;p&gt;I have been extremely lucky, from the &lt;a href=&quot;https://mith.umd.edu&quot;&gt;MITH&lt;/a&gt; and UMD English Department smart and caring mentorship that allowed me to realize my unusual dissertation, to getting to work at the Scholars’ Lab, where the amazing staff have long, successfully made it their mission to model and nurture a generous and human-centered digital humanities.&lt;/p&gt;
+
+&lt;p&gt;My dissertation experience was an extremely lucky one: I had incredible mentors as my dissertation committee (Matt Kirschenbaum as advisor; Kari Kraus, Neil Fraistat, Melanie Kill, Brian Richardson). They met with me throughout the dissertation process to give me feedback and help us make sure that, for a very non-traditionally shaped dissertation, we were all on the same page as to expectations for the final outcome. They all had this unusual combination of innovative scholarship mixed with humanity and generosity. I’ve heard people say that either your advisor is nice to you but doesn’t push your work forward, or they’re mean (how is this not just a thing, but a fairly common one?) but make your work better. Every interaction I had with my committee was a kind one, and yet they &lt;em&gt;constantly&lt;/em&gt; challenged me to do better, with their full faith, and both the support and space necessary to figuring out what scholarship is to me.&lt;/p&gt;
+
+&lt;p&gt;Having mentors modeling this approach to scholarship made me determined to pass on the impact of their gift to other folks I encounter, as best I can. To work so that the luck and privilege that allowed me to do my dissertation might become standard resources for anyone. To put my heart into Scholars’ Lab’s goal of training the next generation of scholars to be the scholarly community we want to exist, and to take responsibility for my tiny snowflake in the storm of what DH is (e.g. think through the impact of my doing my &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;dissertation around a canon work&lt;/a&gt; by a white, male, Anglo, cis author; and change my scholarly trajectory to respond to the problems that investigation raised for me—please note that I no longer agree with that blog post, but haven’t yet written up how my thinking has evolved since then…).&lt;/p&gt;
+
+&lt;h2 id=&quot;scholarship-is-people&quot;&gt;Scholarship is people&lt;/h2&gt;
+&lt;p&gt;I read Mark Sample’s excellent &lt;a href=&quot;http://www.samplereality.com/2013/02/08/when-does-service-become-scholarship/&quot;&gt;“When does service become scholarship?”&lt;/a&gt; while dissertating, and I’ve paraphrased his argument into my preferred definition of “scholarship”:&lt;/p&gt;
+
+&lt;p&gt;one part critical thinking + one part communicating the results of that thinking&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Critical thinking&lt;/em&gt; can be accomplished through many methods, including research, writing, coding, building, designing, experimenting, and play. &lt;em&gt;Communicating critical thinking&lt;/em&gt; can take the form of traditional publishing or other forms of “making public” such as tweeting and blogging, teaching, sharing open source code, or any other way for your intellectual community to learn from, critique, evaluate, and/or build on your work.&lt;/p&gt;
+
+&lt;p&gt;Decompressing this definition:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Anyone trying to think well and share their work is part of the scholarly conversation&lt;/li&gt;
+  &lt;li&gt;Making research just half of scholarship rather than synonymous brings the scholarly community into focus as the goal of our research work—with the implicit belief that the work of care, respect, mentoring, amplifying of your community members is not just a “nice” characteristic taking second place to the completely broken concepts of “rigor” or “brilliance”, not just “eulogy worthy”, but definitionally a necessary part of being a scholar&lt;/li&gt;
+  &lt;li&gt;I don’t have time for a definition of scholarship that doesn’t recognize the brilliant contributions of project managers, teachers, students, librarians, fanfic writers, book club members, more folks than I can list: all as much a part of building intellectual communities’ knowledge and abilities as academic faculty.&lt;/li&gt;
+  &lt;li&gt;A scholarship that fits with the Scholars’ Lab’s unofficial moto of “people over projects”: focusing on community knowledge and health as the goal, and research as the means, rather than the other way around.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;documentation-of-scholarships-process-is-scholarship&quot;&gt;Documentation of scholarship’s process is scholarship&lt;/h2&gt;
+&lt;p&gt;I spent around six months of my dissertation building something on an Islandora-based framework, and then ended up not using those months of my server and code work in the final digital edition I produced. But because I documented throughout why I was making certain technical and design choices, how the technical work developed my critical thinking, I had that research to share with my intellectual community, and I wasn’t six months behind on my dissertation.&lt;/p&gt;
+
+&lt;p&gt;In my work today, I encourage others to share their notes, design choices, and other documentation as they go; it’s better for the community, and I think it’s also better for scholars new to a method to know they can start giving back to the community right away (e.g. What do you know now that you didn’t understand a week ago? Write for that person).&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/15/dh-dissertation-to-director/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/dh-dissertation-to-director/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Automating Webpage &amp; Tweet Screencaptures</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/automating-webpage-tweet-screencaptures/&quot;&gt;January 30, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you have a list of webpage URLs for which you’d like screencaps (aka screenshots)?&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;Know this tutorial fits your needs? &lt;a href=&quot;#how-to-automate-screencapping&quot;&gt;Jump to the instructions&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Maybe you study social media: you can capture all the data about a tweet using &lt;a href=&quot;https://www.docnow.io/&quot;&gt;Documenting the Now’s tools&lt;/a&gt; and get a spreadsheet listing all of a hashtag’s tweets with text, file names for any image attachments, publication date, RT/like counts…&lt;/p&gt;
+
+&lt;p&gt;But maybe you’d also like to have screencaps of the webpage per each tweet as they appeared at a given time:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;keep an offline folder of all your faved tweets? (before time passes and some of them are deleted)&lt;/li&gt;
+  &lt;li&gt;record how tweets &lt;em&gt;looked&lt;/em&gt; on Twitter.com at a given point in time, e.g. the avatars of folks who interacted with the tweet (using the avatar images current—at least as of the time of screencap—since people change these over time), or what metadata was viewable to the casual observer at a given time, as with this example tweet screencap:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweetscreenshot1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having screencaps of tweets can be useful for Twitter receipts, conducting a user study where you want to gauge folk’s reactions to seeing a tweet as it looked on Twitter.com (without needing to be online), or keep a folder of motivating tweets to refer to when you need encouragement.&lt;/p&gt;
+
+&lt;p&gt;This post will help you also automate taking screencaps from a list of URLs, by pointing you two tutorials plus some advice on combining these. This tutorial is written from a Mac user’s perspective.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-uses-cases&quot;&gt;My uses cases&lt;/h1&gt;
+&lt;p&gt;I recently had two needs for a workflow automating screencaps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Screencapping faved tweets (aka motivation)&lt;/strong&gt;: I used to “like” tweets where folks said useful things about my work, for later encouragement when I needed it. I wanted to switch to just screencapping these tweets as I saw them, saving the “like” function to indicate interest in others’ tweets, but that meant I need a way to get all those previous likes as screencaps. This workflow gave me a folder of over 2k screencapped tweets! (Now I just need to make a bot to show me a random one each time I log in…)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Figuring out how many of our posts were amplified by a DH aggregator&lt;/strong&gt;: For an external review of DH at UVA, we’re drafting a report on Scholars’ Lab as a DH unit. As a small part of this, I wanted to include the number of times SLab staff or students have had a blog post highlighted by &lt;a href=&quot;http://digitalhumanitiesnow.org/&quot;&gt;Digital Humanities Now&lt;/a&gt;. Searching the &lt;em&gt;DH Now&lt;/em&gt; with a variety of search terms (e.g. Praxis, Neatline, variants of “Scholars’ Lab”, names of former staff) turned up a bunch of posts, but without opening each result in a browser to skim that post, I couldn’t be sure that these were all actually either SLab-authored or citing SLab work (vs. e.g. happening to use the word “praxis”). By automating screencaps of all the links my search turned up, instead of opening each link in a browser, I could use Preview to bulk-open screencaps and glance over the top of each webpage, seeing more quickly whether a post was related to SLab or not.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;credits&quot;&gt;Credits&lt;/h1&gt;
+&lt;p&gt;This is an extremely light repackaging of two sets of advice, for which I am grateful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ryan Bauman’s (&lt;a href=&quot;https://twitter.com/ryanfb&quot;&gt;twitter.com/ryanfb&lt;/a&gt;) &lt;a href=&quot;https://twitter.com/ryanfb/status/1014302804796731393&quot;&gt;tweets on how to get a list of URLs for your faved tweets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Joshua Johnson’s 2011 post &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;“AppleScript: Automatically Create Screenshots from a List of Websites”&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may also wish to explore &lt;a href=&quot;https://www.docnow.io/&quot;&gt;Documenting the Now&lt;/a&gt;’s tools for ethical preservation and research with social media, including the &lt;a href=&quot;https://www.docnow.io/catalog/&quot;&gt;Tweet Catalogue&lt;/a&gt; to locate datasets of tweets using a given hashtag, and the &lt;a href=&quot;https://github.com/DocNow/hydrator&quot;&gt;Hydrator&lt;/a&gt; tool for turning those datasets back into a list of tweets and their metadata.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-automate-screencapping&quot;&gt;How to automate screencapping&lt;/h1&gt;
+
+&lt;p&gt;&lt;span&gt;1.&lt;/span&gt; You’ll need a text document (plain text / .txt) with each URL you want to be screencapped listed on a separate line:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenhot-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to create a list of just your faved tweets, see &lt;a href=&quot;https://twitter.com/ryanfb/status/1014302804796731393&quot;&gt;this tweet by Ryan Bauman tweet&lt;/a&gt; to get just the liked tweets from your Twitter &amp;gt; Settings &amp;gt; “Your Twitter Data” download.&lt;/p&gt;
+
+&lt;p&gt;If you have a bunch of bookmarked URLs you want to screenshot (possibly in one bookmarks subfolder?), you can export your whole set of bookmarks from the browser, then edit the resulting HTML file (using search+replace or regular expressions; sorry, that’s a whole separate lengthy tutorial, but &lt;a href=&quot;https://programminghistorian.org/en/lessons/understanding-regular-expressions&quot;&gt;Doug Knox’s tutorial here&lt;/a&gt;’s a good place to get started understanding regular expressions) to strip it to just a list of the URLs you want to screencap.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;2.&lt;/span&gt; Next, we’ll use Joshua Johnson’s 2011 post &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;“AppleScript: Automatically Create Screenshots from a List of Websites”&lt;/a&gt; to actually take the screencaps.&lt;/p&gt;
+
+&lt;p&gt;We’re going to use the Mac “Script Editor” tool to tell our computer to take that list of URLs, open each in Safari, take a screencap of that screen, and save it.&lt;/p&gt;
+
+&lt;p&gt;Open the Script Editor app (Applications &amp;gt; Utilities &amp;gt; Script Editor).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;3.&lt;/span&gt; Grab the text from &lt;a href=&quot;https://gist.github.com/amandavisconti/ffc05d293b9fed70a7378421f7c818f0&quot;&gt;this page&lt;/a&gt;, which puts Joshua Johnson’s script in an easy-to-find place (to understand what the script does, read &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;his post&lt;/a&gt; where he walks you through adding and adjusting the different pieces). Paste the text into the top text field:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenshot-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a slow internet connection or want to screencap pages on websites that load slowly, you may wish to find and adjust the piece of the script that says “delay 5”, to a larger number than 5 (this controls the time the script waits between directing safari to visit a given URL, and taking a screencap of whatever is then currently on the Safari screen).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;4.&lt;/span&gt; Open the Applications &amp;gt; Safari browser, and drag its screen to be as large as possible. Depending on what level of zoomed-in/zoomed-out you usually use the Safari browser at, you may wish to adjust for the purpose of taking the screencaps; the screencaps will only capture what’s showing in the window you’ve opened (not stuff you’d need to scroll down to see).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;5.&lt;/span&gt; Open the Applications &amp;gt; TextEdit app (not a different text editor, unless you want to figure out how to edit the script’s &lt;code class=&quot;highlighter-rouge&quot;&gt;tell application &quot;TextEdit&quot;&lt;/code&gt; how to point to a different application). Paste in your list of URLs.&lt;/p&gt;
+
+&lt;p&gt;If you have other TextEdit windows/tabs, make sure that the one with the URL list is the topmost/frontmost.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;6.&lt;/span&gt; You’re ready to take screencaps! You’ll want to do this when you’re okay not having access to your computer for a while, because the screenshots will be of whatever is at the front of your screen. If you step away from your computer, the script knows to leave a Safari browser window open at the front of your screen, take a screencap, then move to the next webpage in your list and screencap that. If you hide the Safari window or have other stuff open over it, you won’t get the screencaps you want. (I’m sure there’s a way to make this not the case, but I didn’t need to figure that out for my use cases.)&lt;/p&gt;
+
+&lt;p&gt;Back on the Script Editor, press the “red dot” record icon to begin automatically taking a screencap of each of the URLs in your list:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenshot-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the script finishes running, you’ll have screencaps of all the URLs!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/15/automating-webpage-tweet-screencaptures/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/automating-webpage-tweet-screencaptures/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>advice-tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>DH archiving on the Scholars' Lab Blog</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;March 11, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Over on the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;Scholars’ Lab blog&lt;/a&gt;, Ammon Shepherd has been leading a series of collaborative blog posts about the challenges of archiving or preserving digital humanities projects. The first post in the series, by Ammon, is &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-one/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With Ammon and UVA Library colleagues Lauren Work and Brandon Butler, I co-authored a piece of the second post in the series, which goes into the challenges of archiving DH projects in more detail. I recommend you read that whole post &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;here&lt;/a&gt;, but I’ve also copied my piece (on the issues resulting from the humans that underlie all technology) below:&lt;/p&gt;
+
+&lt;p&gt;The human labor underlying technology is not easily sustainable; even when you have folks committed to the work, the kind and amount of labor required to maintain and update a project can shift away from what someone is willing or able to support, and external pressures (job changes, family, other projects, aging, retirement) also arise. I (Amanda, hi!) am particularly interested in how technical sustainability is impacted by the human labor of moderating online spaces, from my experiences moderating both my digital dissertation project &lt;a href=&quot;https://infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; (a social platform for annotating/commenting on James Joyce’s novel) and the &lt;a href=&quot;https://tinyurl.com/DHSlack&quot;&gt;Digital Humanities Slack&lt;/a&gt; I started (a set of themed chat rooms with over 2,000 digital humanist members; co-moderated by Alan G. Pike, Sam Abrams, Alex Gil, Brandon Walsh, Ed Summers, Paige C. Morgan, Jeremy Boggs, Eleanor Dickson, Liz Rodrigues, and Erin Pappas).&lt;/p&gt;
+
+&lt;p&gt;Moderation is both the work of controlling spam and intentional harassment in a community, as well as designing and implementing practices such as a code of conduct to both address the negative and encourage positive community behaviors. It’s been exhilarating using technology to collaborate with folks I don’t know and create online communities together with them: if you’ve taught DH in the classroom, think of the students who respond along the lines of “DH is exactly what I do or want to do, I just didn’t have a term for it before” but expand them to include folks from all over the world and more diverse walks of life. But this work has also been a significant source of anxiety, balancing my responsibility to the community with my desire to help folks learn to be more positive influences on that community, and needing to enforce the line after which a community member cannot healthfully continue as a community member. That stress was largely why I moved Infinite Ulysses from a Drupal site allowing commenting, to a static archived version without commenting. (Relatedly, I’ve &lt;a href=&quot;https://scholarslab.org/blog/moderation-running-dh-online-communities&quot;&gt;just blogged&lt;/a&gt; on some of the work I’ve been doing to make online moderation of academic communities more sustainable!)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/15/archiving-dh-part-2-the-problem-in-detail/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/archiving-dh-part-2-the-problem-in-detail/</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
     
       <item>
         <title>Notes: Workflows to consider before opening a DH lab (Purdue version)</title>
@@ -391,286 +698,6 @@ We would need keys or key cards and a list of everyone with access to these spac
         <category>purdue-dh</category>
         
         <category>notes</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Notes: DH initiative working with existing IT expertise (Purdue version)</title>
-        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This post thinks through the DH initiative’s relation to the existing Libraries IT team.&lt;/p&gt;
-
-&lt;h2 id=&quot;libraries-it-partnership&quot;&gt;Libraries IT partnership&lt;/h2&gt;
-&lt;p&gt;We want to recognize and support the Libraries IT team’s expertise, while also recognizing that digital humanists are peculiarly, intimately involved with technical decisions at all levels of a digital project, from hardware building and calibration through long-term digital maintenance and preservation. Autonomy in technical decisions, implementation, publicity, and maintenance is an important piece of digital scholarship’s success, and we should design workflows that allow the DH Center to lead decisions about its own technical setup within the campus and departments frameworks IT oversees.&lt;/p&gt;
-
-&lt;p&gt;As part of designing the DH Center, we would explore with IT service-level contracts, routine consultations and notice to IT early in new technical projects, regular invitations to IT for involvement, and support for Libraries IT’s experts (including GAs) to attend DH events and cross-training workshops in DH tools. At each digital project’s outset, we will decide who is responsible for creation, hosting, preservation, and maintenance among the DH Center, ASC, Libraries IT, Press and Purdue repositories, another campus unit (e.g. CLA IT), or the personal hosting of a project team member.&lt;/p&gt;
-
-&lt;h2 id=&quot;dh-center-virtual-space-dh--purdue-resource-website&quot;&gt;DH Center virtual space (DH @ Purdue resource website)&lt;/h2&gt;
-&lt;p&gt;I’ve created an initial Digital Humanities @ Purdue resource website at dh.lib.purdue.edu (not yet finished with design, so hasn’t gone through final marketing and admin oversight or publication yet, although I’ve done an initial site feedback round with Paul, Libraries IT, and marketing).&lt;/p&gt;
-
-&lt;p&gt;The site’s initial goal was to provide an umbrella resource for anyone searching for DH activity at Purdue, and to show the Libraries is pursuing a DH initiative. The current basic site includes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A nascent directory of campus DHers (not yet widely advertised to other departments, but containing faculty and staff from the Libraries as well as several other departments)&lt;/li&gt;
-  &lt;li&gt;Ways to get involved with DH at Purdue (joining the DH directory or a campus DH listserv, consulting with the DH Specialist, reading about DH events on Twitter using the #PurdueDH hashtag)&lt;/li&gt;
-  &lt;li&gt;During Fall 2016, I will convert the site to Drupal and match the look of the Libraries website. I will add the following resources:&lt;/li&gt;
-  &lt;li&gt;An automated way for DH staff to add new resources (links to DH projects, tools, and writing) from their smartphones&lt;/li&gt;
-  &lt;li&gt;A section curating the resources shared at DH consultations on popular topics (e.g. designing a DH dissertation, using Omeka in the classroom, humanities visualization)&lt;/li&gt;
-  &lt;li&gt;Replacing the “DH Directory” and listserv option with a simpler page that will not need regular updating. This page will highlight how various Libraries staff, units, and resources can support DH, and also list people at Purdue working on DH under a few headings (e.g. teaching DH, DH grant proposal experience, DH students; name/role and department/email address).&lt;/li&gt;
-  &lt;li&gt;Information about the Libraries’ DH initiative, plans, and goals&lt;/li&gt;
-  &lt;li&gt;Calendar for past and future DH campus events, workshops, and opportunities&lt;/li&gt;
-  &lt;li&gt;Slides and video from past DH events (e.g. SHORE Symposium, Rikk Mulligan visit)&lt;/li&gt;
-  &lt;li&gt;Regional opportunities such as the HILT training workshop in Indianapolis and Indiana THATCamp&lt;/li&gt;
-  &lt;li&gt;Institutional memory for campus DH projects, classes and their syllabi, etc.&lt;/li&gt;
-  &lt;li&gt;Guides to getting started in various DH methodologies (e.g. visualization of humanities data; links, blog posts, example projects, Libraries units and services)&lt;/li&gt;
-  &lt;li&gt;Short video presentations on various DH topics suitable for use during a classroom session&lt;/li&gt;
-  &lt;li&gt;Blog posts documenting in-progress Libraries DH work (e.g. 3D setup installation)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I am hosting this site (and all other websites that the DH Center contracts to host and maintain) on a separate dedicated DH Center server space. Libraries IT set up dh.lib.purdue.edu and dhdev.lib.purdue.edu for public and development sites; the main DH @ Purdue site will live at dh.lib.purdue.edu, while future projects will live at URLs such as dh.lib.purdue.edu/newproject.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/25/dh-initiative-existing-IT/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/25/dh-initiative-existing-IT/</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        <category>purdue-dh</category>
-        
-        <category>notes</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Notes: DH hiring ads &amp; HR policy (Purdue version)</title>
-        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Notes from back when I was designing a DH initiative at Purdue Libraries; not my latest thinking, but still worth sharing. See also the Scholars’ Lab &lt;a href=&quot;http://scholarslab.org/announcements/job-opening-curious-about-focusing-on-dh-development/&quot;&gt;DH Developer&lt;/a&gt; and &lt;a href=&quot;http://scholarslab.org/announcements/job-opening-developer-outreach-testing-coordinator/&quot;&gt;User Advocate&lt;/a&gt; job posts for which I was one of the authors. The Scholars’ Lab job ads were created after the notes in this post, and better represent my current thinking about digital humanities HR and hiring.&lt;/p&gt;
-
-&lt;h2 id=&quot;job-ad-wording&quot;&gt;Job ad wording&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Job ad wording should allow for latent interests that the candidates’ current positions or formal academic coursework may not have allowed them to demonstrate or explore.&lt;/li&gt;
-  &lt;li&gt;Job ads should make clear that candidates need not have all mentioned attributes to apply, but more importantly not ask for characteristics that are not needed to fulfill the job satisfactorily.&lt;/li&gt;
-  &lt;li&gt;Job ads should highlight benefits of the position, such as personal research time and/or tenure-track role&lt;/li&gt;
-  &lt;li&gt;See Angela Pashia’s &lt;a href=&quot;http://angelapashia.com/2017/03/seeking-a-diverse-candidate-pool/&quot;&gt;post analyzing hiring&lt;/a&gt;, e.g. “Being willing to consider experience in other areas for transferrable skills seems like a really important factor in diversifying our field.”&lt;/li&gt;
-  &lt;li&gt;List a likely salary range using numbers (no vague “salary is competitive/will match hiree’s experience” language, no reference to arcance institutional wage structures such as “Pay Grade J”). If there’s a cost of living difference that means a position’s salary may look small but stretch farther, include that info in the ad (and perhaps a link to a calculator letting candidates compare to their current cost of living).&lt;/li&gt;
-  &lt;li&gt;Use candidates’ time well. Give as much info up front as possible (see last point: state the salary range!) and don’t ask for special work beyond a cover letter and resume during the initial application. For roles requiring previous experience, asking for e.g. a GitHub repo or link to a past project website may be appropriate (but consider e.g. who may fit your needs but not use GitHub/have an active repo), but save anything requiring new work or significant labor to curate for later stages in the interviewing process (and give candidates adequate time to prepare these when you do).&lt;/li&gt;
-  &lt;li&gt;Use references’ time well. Don’t ask for references during the initial application process, if your department allows you to do this; many folks are skittish about search committees contacting references who may not know you’re on the job market, and would appreciate knowing beforehand if you’re at the point where references will decide the hiring (give candidates time to let their bosses know first). Do let candidates know if &lt;em&gt;letters&lt;/em&gt; will be required later in the process, and only require letters rather than a phone call or email if these are judged to somehow be necessary or more fair.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-skills-are-we-seeking&quot;&gt;What skills are we seeking?&lt;/h2&gt;
-&lt;p&gt;More important than specific skills or content expertise are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Interest in learning to publicly speak about the digital humanities to diverse audiences through diverse means such as Twitter, blogging, GitHub, and public speaking both on campus and at external opportunities such as conferences&lt;/li&gt;
-  &lt;li&gt;Interest in making the humanities more public&lt;/li&gt;
-  &lt;li&gt;Interest in critical thinking about the digital humanities, including areas like diversity, inclusion, ethics, and mentorship&lt;/li&gt;
-  &lt;li&gt;Interest in learning new things, and the demonstrated ability of the curiosity and ability to teach oneself new skills&lt;/li&gt;
-  &lt;li&gt;Interest in mentoring and teaching others what you’ve learned&lt;/li&gt;
-  &lt;li&gt;Interest in pursuing a personal research agenda in the digital humanities&lt;/li&gt;
-  &lt;li&gt;Interest in balancing the excitement of innovation with work that makes the digital humanities more caring about its community and projects, more productive and generative, better at long-term thinking and planning (link Nowviskie “Capacity and Care” talk)&lt;/li&gt;
-  &lt;li&gt;Ability to discuss how your research interests either extend current Purdue DH or Libraries expertise, or add new areas of expertise&lt;/li&gt;
-  &lt;li&gt;Vision for what the digital humanities could ideally be&lt;/li&gt;
-  &lt;li&gt;Interest in working with diverse colleagues and demonstrated experience contributing to an inclusive environment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;try-to-build-these-into-the-job-description-or-practicespolicy-of-their-organizational-unit&quot;&gt;Try to build these into the job description (or practices/policy of their organizational unit)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Funds for professional development&lt;/li&gt;
-  &lt;li&gt;Mentorship&lt;/li&gt;
-  &lt;li&gt;Collaborative model that will always publicly credit their contributions&lt;/li&gt;
-  &lt;li&gt;Ability to shape DH Center and campus community&lt;/li&gt;
-  &lt;li&gt;Ability to experiment and learn in their chosen areas of research&lt;/li&gt;
-  &lt;li&gt;Flexible work schedules, commitment to work-life balance, spousal placement help, childcare, and other benefits that increase access to and wellbeing in the job&lt;/li&gt;
-  &lt;li&gt;What formal (e.g. brownbag talks on what staff have been working on) and informal (water cooler) ways does your department encourage and reward collegiality?&lt;/li&gt;
-  &lt;li&gt;All staff should be able to PI; if they are not faculty and faculty status is required to PI, we should try to obtain the ability for them to PI across the board rather than per project.&lt;/li&gt;
-  &lt;li&gt;Ideally, hires should have a reasonable expectation that they can build a career here if they move here. If the work need is truly short-term (are you sure it is?) or (more likely) you’re only able to secure funding for a contract/short-term/grant-funded position, be extra diligent in including professional development opportunities and mentorship throughout the contract, and schedule work to allow the staffer to be on the job market during the final three months (including interview travel, reference requests, and time to practice job talks).&lt;/li&gt;
-  &lt;li&gt;Each role should have a clear path for promotion, increased autonomy, and other types of development (as preferred by the staffer).&lt;/li&gt;
-  &lt;li&gt;20% personal research &amp;amp; professionalism time, in-house, on projects chosen in agreement with director/supervisor.&lt;/li&gt;
-  &lt;li&gt;The shape of the DH Lab will be determined by the individual skills, interests, and experience of the staff.&lt;/li&gt;
-  &lt;li&gt;Weekly standup meeting, monthly issues discussion lunch, regular scheduled participation in DH community (to be set with staff, e.g. Wikipedia editing, Programming Historian tutorial creation, Slack/Twitter focused chats and tech support hangouts, DH Q&amp;amp;A answers, work on open-source coding projects including documentation and usertesting)?&lt;/li&gt;
-  &lt;li&gt;Develop a charter (mission, values) that whole team develops and agrees to (e.g. Scholars’ Lab charter).&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/25/dh-hiring-ads-hr-policy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/25/dh-hiring-ads-hr-policy/</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        <category>purdue-dh</category>
-        
-        <category>notes</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Designing a digital humanities initiative at Purdue: all my notes</title>
-        <description>&lt;p&gt;Some time back, I started a &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;series of “meta-dh” posts&lt;/a&gt; documenting digital humanities and digital scholarship infrastructure: the hows and whys of making DH go. Treating a project team, lab, department, or campus as itself a DH project, if you will.&lt;/p&gt;
-
-&lt;p&gt;I kicked the series off with &lt;a href=&quot;http://literaturegeek.com/2016/09/05/meta-dh&quot;&gt;an introductory post&lt;/a&gt;, and got two posts in before life (including a career change from Purdue to UVA!) intervened:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2016/09/11/designing-digital-humanities-initiative-background-campus-survey&quot;&gt;“Designing a Digital Humanities Initiative: Background &amp;amp; Campus DH Survey”&lt;/a&gt; covers basic questions you might ask when starting a DH or digital scholarship initiative at your school, and an analysis of Purdue’s (circa 2015-2016) campus strengths and needs&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2017/01/31/2017-01-31-3D-digitalhumanities-proposal&quot;&gt;“Buying digital humanities hardware (a proposal for an archival DH 3D scanner and 3D printer”)&lt;/a&gt; shares one (successful!) model for asking your unit to fund something expensive. The actual proposal I submitted is attached, and the post covers a short skimmable summary of what I was asking for (and technical terms critical to understanding budget asks, e.g. what filament is), expected audiences for and example projects we could pursue with the equipment, expected IT support and maintenance needs, the budget, and a discussion of why the existing local options didn’t meet my needs (the Engineering Library had a 3D printer already, but we wanted one for dedicated use with the Purdue Archives)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Today, I’m releasing &lt;em&gt;7 new posts&lt;/em&gt;, completing the series on designing DH infrastructure at Purdue Libraries; a table of contents listing all these posts in one place is below.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Please note&lt;/em&gt; that these posts consist of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/PurdueDH/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/p&gt;
-
-&lt;h2 id=&quot;notes-from-my-time-at-purdue-as-their-first-dh-librarian-2015-2017&quot;&gt;Notes from my time at Purdue as their first DH Librarian (2015-2017)&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Previously released:&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;job talk&lt;/a&gt; for my role at Purdue (DH Librarian, a tenure-track faculty role 2015-2017; see also the &lt;a href=&quot;http://literaturegeek.com/2017/02/23/scholars-lab-dh-center-managing-director-job-talk&quot;&gt;job talk&lt;/a&gt; for my current role co-directing the UVA Library’s Scholars’ Lab, 2017-current)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2016/09/11/designing-digital-humanities-initiative-background-campus-survey&quot;&gt;What I learned&lt;/a&gt; about DH at Purdue during my first year in this role, doing a campus DH/DS survey&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/2017/01/31/2017-01-31-3D-digitalhumanities-proposal&quot;&gt;Proposing a significant expense&lt;/a&gt;: analysis a successful request to fund a DH-specific 3D scanning and printing setup&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;7 new posts!:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/workflows-before-opening-DH&quot;&gt;Workflows to consider before opening a DH lab&lt;/a&gt;: What workflows should I think through before the Libraries DH Lab can open its doors?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/mission-statement-digital-humanities-purdue&quot;&gt;A mission statement for digital humanities at Purdue Libraries&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Following up on the &lt;a href=&quot;http://literaturegeek.com/2018/11/25/mission-statement-digital-humanities-purdue&quot;&gt;mission statement post&lt;/a&gt;, a post &lt;a href=&quot;http://literaturegeek.com/2018/11/25/digital-humanities-initiative-scope-practice&quot;&gt;on what that mission would look like in practice&lt;/a&gt;: defining what would and wouldn’t be in scope for the initative, and what long-term success might look like&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/dh-hiring-ads-hr-policy&quot;&gt;DH lab hiring, writing good job ads, &amp;amp; HR policy&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/planning-dh-lab-physical-location&quot;&gt;Planning a DH lab’s physical location&lt;/a&gt;: basic setup needs &amp;amp; rationale, thinking toward an eventual DH Lab physically paired with the Archives &amp;amp; Special Collections space&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Thinking through the &lt;a href=&quot;http://literaturegeek.com/2018/11/25/dh-initiative-existing-IT&quot;&gt;DH initiative’s relation to the existing Libraries IT team&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://literaturegeek.com/2018/11/25/wise-resource-investments-digital-humanities-initiative&quot;&gt;Ideas for wise management of DH initiative resources&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That’s a wrap on my notes from Purdue DH, I think! My future posts in this &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;meta-DH series&lt;/a&gt; will be about my current work at the UVA Library’s Scholars’ Lab.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/25/designing-dh-initiative-purdue-table-of-contents/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/25/designing-dh-initiative-purdue-table-of-contents/</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        <category>purdue-dh</category>
-        
-        <category>notes</category>
-        
-        <category>best</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>I/O: Reading &amp; writing as a digital humanist</title>
-        <description>&lt;p&gt;I recently collaborated with my awesome colleagues Ammon Shepherd and Brandon Walsh &lt;a href=&quot;http://scholarslab.org/digital-humanities/i-o-reading-writing-as-a-digital-humanist/&quot;&gt;to self-interview&lt;/a&gt; about how we read and write as digital humanists, e.g. how our PhD program experiences changed where and how often we read. I’ve included my answers below, but please do check out &lt;a href=&quot;http://scholarslab.org/digital-humanities/i-o-reading-writing-as-a-digital-humanist/&quot;&gt;the whole post&lt;/a&gt; to read Brandon and Ammon’s thoughts and see the variety (and some interesting similarities: fewer print books!) among three digital humanists growing in alternative academic careers in libraries after humanities doctoral research.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-has-your-reading-style-changed-over-the-years&quot;&gt;How has your reading style changed over the years?&lt;/h2&gt;
-
-&lt;p&gt;Like &lt;a href=&quot;http://scholarslab.org/digital-humanities/i-o-reading-writing-as-a-digital-humanist/&quot;&gt;Brandon writes&lt;/a&gt;, reading for literature comps (&lt;a href=&quot;http://literaturegeek.com/assets/ExamsSharingCopy.pdf&quot;&gt;here’s my reading list and rationale!&lt;/a&gt;) changed my relationship to reading, but in an ultimately good way—I pay a lot more attention to whether I’m enjoying and challenged and learning from something I’m reading now, and am better at just stopping reading when those things aren’t happening. There was never enough time to read, during the first three years of my PhD program—I always was racing to get through the pages, and didn’t have enough time to reflect, or to move through readings non-linearly. I worried about being questioned about some random concept on page 180, rather than getting a sense of some of a book’s arguments and what &lt;em&gt;I&lt;/em&gt; thought about them. And I felt like I needed to Know Things, that I needed to have read X thinkers on Y authors to be a functional scholar.&lt;/p&gt;
-
-&lt;p&gt;(My mentors in grad school were &lt;em&gt;amazing&lt;/em&gt;, and to their credit none of these pressures came from them. Rather, I was seeing how other students were working and figuring out what being a scholar meant to me. I remember Melanie Kill recommending I use exams prep to figure out how I want to manage the reading part of being a scholar, before starting the first big project of the dissertation. Her advice rewrote my initial floundering with how to usefully ingest a lot of texts into something expected and welcomed.)&lt;/p&gt;
-
-&lt;p&gt;I basically don’t read any books or print journal articles anymore. I’ve gotten off most (all?) listservs. I’m not any less of a scholar for delimiting my reading to other formats. Folks who do all or some of their reading via these formats are real scholars, too. How, when, and where you read are personal choices. There is a lot of writing and discussing out there, no one can read more of it, and it’s completely fine and intellectually responsible to delimit the formats and topics you’re going to read.&lt;/p&gt;
-
-&lt;p&gt;Scholarship doesn’t come from restricting the ways you take in new ideas; scholarship is challenging yourself to think hard and share that thinking so others can learn from and build on it (a re-articulation of Mark Sample’s great “&lt;a href=&quot;https://www.samplereality.com/2013/02/08/when-does-service-become-scholarship/&quot;&gt;When does service become scholarship?&lt;/a&gt;“). And I guess I do extrapolate some best practices from that definition of scholarship, like representative and accurate citation being necessary for scholarship to &lt;em&gt;work&lt;/em&gt; (e.g. see &lt;a href=&quot;http://saranahmed/&quot;&gt;Sara Ahmed&lt;/a&gt;‘s articulation of citation as a black feminist practice). You can’t share your thinking well if you don’t say whose work you’re building on and how, and contribute to the community’s knowledge of other thinkers to learn from in addition to your thoughts.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-your-reading-inputs-connect-with-writingoutputs&quot;&gt;How do your reading inputs connect with writing/outputs?&lt;/h2&gt;
-
-&lt;p&gt;My reading nowadays largely consists of: blog posts, tweets and Twitter conversations, attending conference and event talks (or reading transcripts afterward), talking/Slacking/emailing with people. For Slack, we’ve got an active Scholars’ Lab internal Slack for our staff and students, I love the &lt;a href=&quot;https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform&quot;&gt;Documenting the Now Slack&lt;/a&gt; for generous and smart thinking about the ethics of archives (particularly archiving and doing research with social media), and the &lt;a href=&quot;http://tinyurl.com/DHSlack&quot;&gt;DH Slack&lt;/a&gt; (which I’ve been posting to less lately, but still enjoying reading). Sometimes the blog posts or tweet link to digital projects or online journal articles that I read, but the “next” books on my work to-read list have been the same ones for what feels like a year, and I’m not getting to them.&lt;/p&gt;
-
-&lt;p&gt;I’ve moved away from bookmarking stuff that I think I ought to read, and am only bookmarking things I think I’m likely to read soon, and that will impact my work (change or improve how I think or talk or listen). Having a huge backlog of “should reads” can make me feel behind, or like I’m slogging through processing text for reasons other than my own. I’d rather not have too much stuff on the backburner, and take longer thinking about the stuff I do read.&lt;/p&gt;
-
-&lt;p&gt;Sometimes it’s physically small pieces of reading that have a large impact on my writing, like this &lt;a href=&quot;https://twitter.com/elikaortega/status/618097310505938944&quot;&gt;tweet&lt;/a&gt; by Élika Ortega, that rewrites the popular focus on “What is DH?” to instead ask “What can DH be?” That tweet—and &lt;a href=&quot;https://elikaortega.net/&quot;&gt;her work&lt;/a&gt; living that shift—plus Stewart Varner’s &lt;a href=&quot;https://stewartvarner.com/2016/01/what-dh-could-be/&quot;&gt;building on&lt;/a&gt; Élika’s thinking, all encouraged me to take more personal agency in my scholarly community. Rather than just imagining what I’d like DH to become as a field, I started looking at how the tiny snowflake of &lt;em&gt;my&lt;/em&gt; scholarly choices contributes to what the field becomes. For example, &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;I’d thought&lt;/a&gt; I was okay with my dissertation creating yet another edition of a canon white male author, and I don’t think I’d argue the same today. That is not a comment on what anyone else should study—I just found that a shift in my thinking about the field of DH accompanied a shift in scholarly topics and formats. This is all to say that something as un-book-like as a tweet can cause a profound shift in someone’s scholarly career, and influence various kinds of future scholarship (including, in this instance, blogs posts, research projects, and keynotes).&lt;/p&gt;
-
-&lt;p&gt;Élika’s tweet (arising from the #WhatIfDH2016 etc. hashtags) made a huge impact, but Twitter’s been significant for my scholarship in subtler ways as well. I’ve learned to be a better scholar and person from Twitter exposing me to new ideas, or ideas I didn’t take seriously enough. It is wrong that I’m able to get so much from a platform that is actively unsafe for many of my peers to use. Some of my more recent scholarship has been a reaction to this: what features and feeling would an ideal academic virtual community have; what good virtual academic communities already exist, and whether there’s even a need for alternative technical platforms to assist with addressing social issues; and how we can better structure the work of community-building and moderation that helps such communities thrive (particular interests: more equitable distribution of the labor and stress of moderation, and recognition and reward for this work as scholarship).&lt;/p&gt;
-
-&lt;h2 id=&quot;what-do-you-wish-you-did-differently-what-do-you-want-to-try&quot;&gt;What do you wish you did differently? What do you want to try?&lt;/h2&gt;
-
-&lt;p&gt;I’d like to get back to blogging a couple of times a month. I’ve got a large backlog of drafts, including a series on designing DH infrastructure from my previous role at Purdue—I’d like to post those, and to continue to make infrastructural documents and decisions from my role in the Scholars’ Lab public, like the work of structuring our new job openings equitably and drafting job ads to match (&lt;a href=&quot;http://scholarslab.org/announcements/job-opening-developer-outreach-testing-coordinator/&quot;&gt;one example&lt;/a&gt;, &lt;a href=&quot;http://scholarslab.org/announcements/job-opening-curious-about-focusing-on-dh-development/&quot;&gt;another example&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;I also want to experiment further with my blogging voice. I’m interested in making public the pieces of scholarship that get “published” less often, whether that’s things like hiring that we don’t share to the detriment of the diversity of our community (e.g. folks sharing the text of their successful job talks—&lt;a href=&quot;http://readywriting.org/uncategorized/faculty-development-for-the-21st-century-and-beyond/&quot;&gt;Lee Skallerup Bessette&lt;/a&gt;, &lt;a href=&quot;http://celestesharpe.com/onward/&quot;&gt;Celeste Tuong Vy Sharpe&lt;/a&gt;, &lt;a href=&quot;https://chrisbourg.wordpress.com/2015/07/12/infrastructure-and-culture-a-job-talk/&quot;&gt;Chris Bourg&lt;/a&gt;, and &lt;a href=&quot;http://scholarslab.org/digital-humanities/in-out-across-with-collaborative-education-and-digital-humanities-job-talk-for-head-of-graduate-programs/&quot;&gt;Brandon Walsh&lt;/a&gt;, as well as my &lt;a href=&quot;http://scholarslab.org/digital-humanities/disrupt-the-humanities-managing-director-job-talk/&quot;&gt;Scholars’ Lab&lt;/a&gt; and previous &lt;a href=&quot;http://literaturegeek.com/2016/02/28/DHjobtalk&quot;&gt;Purdue job talk&lt;/a&gt;s), or what the daily scholarly practices look like that eventually result in a book or website (e.g. the software they use to make daily progress on &lt;a href=&quot;https://mkirschenbaum.wordpress.com/2012/08/15/on-tradecraft-and-track-changes/&quot;&gt;writing a book&lt;/a&gt;), or some small technical thing I figured out (e.g. automating screenshots of my liked tweets for personal Morale Boosting; post coming… soon?). And I’m proud of my &lt;em&gt;Programming Historian&lt;/em&gt; &lt;a href=&quot;https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;lesson&lt;/a&gt;, which I tried to write with kindness and thorough explanation of non-obvious technical stuff.&lt;/p&gt;
-
-&lt;p&gt;But I also love to read digital writing that is thoughtful in a different way about language and structure. I think I’ve had “write something that makes me feel excited about scholarship the way &lt;a href=&quot;https://twitter.com/nowviskie&quot;&gt;Bethany Nowviskie&lt;/a&gt;‘s &lt;a href=&quot;http://nowviskie.org/&quot;&gt;blog posts&lt;/a&gt; make me feel” as a goal for years now. &lt;a href=&quot;https://twitter.com/walshbr&quot;&gt;Brandon&lt;/a&gt; recently shared &lt;a href=&quot;http://walshbr.com/blog/praxis-and-scale-on-the-virtue-of-small/&quot;&gt;some of his writing&lt;/a&gt; that made me similarly really excited about work, and reminded me that I want to try similarly structuring some of my own thoughts. I think more attention to language and structure could help me here, but I’m also realizing that a difference between many of my blog posts and these digital essays I admire, is that they argue in a generative way much of my writing doesn’t. Some things I’d like to experiment with emulating and building on: Bethany’s &lt;a href=&quot;http://nowviskie.org/2014/anthropocene/&quot;&gt;lyrical force&lt;/a&gt;, Brandon’s &lt;a href=&quot;http://walshbr.com/blog/praxis-and-scale-on-the-virtue-of-small/&quot;&gt;clarity&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/digiwonk&quot;&gt;Aimée Morrison&lt;/a&gt;‘s life-giving affirmation of &lt;a href=&quot;https://hookandeye.ca/2018/02/21/i-did-it-myyyyyyy-waaaaay-and-you-should-too/&quot;&gt;scholars’ brains and bodies&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/AprilHathcock&quot;&gt;April Hathcock&lt;/a&gt;‘s &lt;a href=&quot;https://aprilhathcock.wordpress.com/2018/09/18/my-fire-this-time/&quot;&gt;courage and concision&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-technologies-do-you-use-to-facilitate-your-reading-and-writing&quot;&gt;What technologies do you use to facilitate your reading and writing?&lt;/h2&gt;
-
-&lt;p&gt;I blog in a GoogleDoc (for collaborative stuff like this post), or using a Markdown editor (Typora) or text editor (BBedit, for when I really need to focus and not mess with formatting). I moved my personal blog (&lt;a href=&quot;http://literaturegeek.com/&quot;&gt;LiteratureGeek.com&lt;/a&gt;) from WordPress to a Jekyll-generated static site hosted on GitHub Pages, so sometimes I write directly on the GitHub website. I read and write tweets using Tweetbot (on my iPhone) or Tweetdeck (from my laptop). In the past, I’ve used &lt;a href=&quot;http://www.hogbaysoftware.com/products/writeroom&quot;&gt;WriteRoom&lt;/a&gt; (for distraction-free exams presentation writing), and bookmarking tools including &lt;a href=&quot;https://getpocket.com/&quot;&gt;Pocket&lt;/a&gt;, &lt;a href=&quot;https://www.instapaper.com/&quot;&gt;Instapaper&lt;/a&gt;, and &lt;a href=&quot;https://pinboard.in/&quot;&gt;Pinboard&lt;/a&gt; to save things to read later. Currently, I save links from Twitter to Chrome bookmarks, and try to open those tabs at work once a week to read or discard them.&lt;/p&gt;
-
-&lt;h2 id=&quot;where-do-you-read-what-do-you-read-authors-forumsplatforms-formats-topics&quot;&gt;Where do you read? What do you read? (authors, forums/platforms, formats, topics…?)&lt;/h2&gt;
-
-&lt;p&gt;I’ve been meaning to gather a list of frequent authors/places I read online, but have exhausted too much energy on my other answers to do that well right now! ¯_(ツ)_/¯ In addition to more professionally related reading by folks like my colleagues at the &lt;a href=&quot;http://scholarslab.org/&quot;&gt;Scholars’ Lab&lt;/a&gt;, &lt;a href=&quot;http://nowviskie.org/2014/anthropocene/&quot;&gt;Bethany Nowviskie&lt;/a&gt;, &lt;a href=&quot;http://walshbr.com/blog/praxis-and-scale-on-the-virtue-of-small/&quot;&gt;Brandon Walsh&lt;/a&gt;, &lt;a href=&quot;https://hookandeye.ca/&quot;&gt;Aimée Morrison and the other &lt;em&gt;Hook &amp;amp; Eye&lt;/em&gt; bloggers&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/AprilHathcock&quot;&gt;April Hathcock&lt;/a&gt;, and &lt;a href=&quot;https://chrisbourg.wordpress.com/&quot;&gt;Chris Bourg&lt;/a&gt;, I follow folks on Twitter who do creative, feminist tech work, many of whom also publish great &lt;a href=&quot;https://github.com/scholarslab/resources/blob/master/ZineBoard.md&quot;&gt;zines&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/wynkenhimself&quot;&gt;Sarah Werner&lt;/a&gt; does great scholarly blogging and tweeting, and I think I’ve also enjoyed basically every fiction book she’s recommended on Twitter.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Our thanks to colleague Ronda Grizzle for helping us frame this piece in a generative way! This is a partial cross-posting from &lt;a href=&quot;http://scholarslab.org/digital-humanities/i-o-reading-writing-as-a-digital-humanist/&quot;&gt;a 9/27/2018 group-authored piece&lt;/a&gt; on the Scholars’ Lab blog.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Oct 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/10/10/digital-humanities-reading-writing-habits</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/10/digital-humanities-reading-writing-habits</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Starter kit for considering a DH dissertation</title>
-        <description>&lt;p&gt;&lt;em&gt;Cross-posted on the Modern Languages Association (MLA) &lt;a href=&quot;https://infotech.mla.hcommons.org/2018/digital-humanities-dissertation-starter-kit/&quot;&gt;Committee on Info Tech blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Successful non-traditional dissertations include a comic book (&lt;a href=&quot;http://spinweaveandcut.com/unflattening/&quot;&gt;Nick Sousanis&lt;/a&gt;), a hip-hop album (&lt;a href=&quot;http://phd.aydeethegreat.com/&quot;&gt;A.D. Carson&lt;/a&gt;), code and design without written chapters (&lt;a href=&quot;http://dr.amandavisconti.com&quot;&gt;me&lt;/a&gt;), and the use of digital formats and methods such as a Tumblog counter-narrative (&lt;a href=&quot;http://vintageblackbeauty.tumblr.com/&quot;&gt;Jade E. Davis&lt;/a&gt;) or topic modeling (&lt;a href=&quot;http://www.lisarhody.com/revising-ekphrasis/&quot;&gt;Lisa Rhody&lt;/a&gt;). Are you curious about using digital methods or forms to pursue your dissertation research questions? Or maybe dissertational gate-tenders (advisors, mentors, departments) have you seeking successful examples of DH as part of the dissertation. Wherever you’re coming from, here’s a short selection of readings to get you started exploring digital humanities as doctoral scholarship:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Humanities Commons &lt;a href=&quot;https://hcommons.org/deposits/?facets%5Bgenre_facet%5D%5B%5D=Dissertation&quot;&gt;hosts around 70 dissertations&lt;/a&gt;; you can search for “digital humanities” to whittle these down to around 10 DHy theses such as &lt;a href=&quot;https://hcommons.org/deposits/item/hc:11773/&quot;&gt;Jason Rhody’s &lt;em&gt;Game Fiction&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://hcommons.org/deposits/item/mla:61/&quot;&gt;Alex Gil’s &lt;em&gt;Migrant Textuality&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;DH discussions under the aegis of scholarly organizations like MLA or AHA spend a good portion of time on concerns around evaluation and promotion relevant to the dissertation process. Resources you might check out on Humanities Commons include the &lt;a href=&quot;https://hcommons.org/groups/digital-humanists/&quot;&gt;Digital Humanists Group&lt;/a&gt; and events like &lt;a href=&quot;https://medicalhumanities.mla.hcommons.org/2018/02/07/online-forum-digital-humanities-medicine/&quot;&gt;the Online Forum on DH and Medicine&lt;/a&gt; recently posted on the Medical Humanities site.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/remixthediss-models&quot;&gt;#RemixtheDiss Models&lt;/a&gt; (hosted by the Futures Initiative at the Graduate Center CUNY and HASTAC) A collaboratively built GoogleDoc with information on a variety of dissertations using new formats and methods, including digital humanities approaches. Info includes each dissertation’s university and department, tools and media used, status of the dissertation (possibly outdated), and contact addresses for getting on touch with these dissertators.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://praxis.scholarslab.org&quot;&gt;The Praxis Program&lt;/a&gt; (hosted by the &lt;a href=&quot;http://scholarslab.org&quot;&gt;Scholars’ Lab&lt;/a&gt; at the University of Virginia Library) Now in its seventh year, the Praxis Program offers &lt;a href=&quot;http://praxis.scholarslab.org/projects/&quot;&gt;7 examples&lt;/a&gt; of what a small team of (usually pre-ABD) humanities graduate students new to DH can learn, research, and build over the course of two semesters.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zotero.org/amandavisconti/items/collectionKey/V9DA47T7&quot;&gt;DH Guidelines for Dissertations and Tenure Zotero Library&lt;/a&gt; (46 items) Tenure and promotion cases can be models for DH dissertations, with the same issues of evaluation, effort, packaging, and translation at stake.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.hastac.org/&quot;&gt;HASTAC&lt;/a&gt; (the Humanities, Arts, Science, and Technology Alliance and Collaboratory) A good community to read what other students in similar fields and stages of the degree to yours are thinking about, and for becoming comfortable with scholarly blogging. See especially those posts tagged as &lt;a href=&quot;https://www.hastac.org/explore/humanities-arts-media/digital-humanities&quot;&gt;digital humanities&lt;/a&gt; or &lt;a href=&quot;https://www.hastac.org/groups/digital-dissertations&quot;&gt;digital dissertations&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Some of the materials I created before or during my completed DH dissertation might also be relevant:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaturegeek.com/assets/ExamsSharingCopy.pdf&quot;&gt;My PhD Exams reading list&lt;/a&gt;, including an introductory argument for the items on the list and two sets of materials: broad digital humanities readings, and textual scholarship with a focus on digital scholarly editing. Among other benefits, making DH a focus of your exams reading can help you understand your exam committee’s (as a potential dissertation committee) attitudes toward DH. A &lt;a href=&quot;https://www.zotero.org/amandavisconti/items/collectionKey/MXZR7HFN&quot;&gt;Zotero library of some of the list’s readings is here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;My dissertation itself is a website: &lt;a href=&quot;http://Dr.AmandaVisconti.com&quot;&gt;Dr.AmandaVisconti.com&lt;/a&gt;. The focus of the dissertation was the design, building, and analysis of a participatory digital edition, &lt;a href=&quot;http://InfiniteUlysses.com&quot;&gt;InfiniteUlysses.com&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;blogged&lt;/a&gt; throughout the dissertation process. I particularly recommend the linked posts on &lt;a href=&quot;http://literaturegeek.com/2016/06/14/digital-humanities-dissertation-defense-advice&quot;&gt;defense advice&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2016/06/20/digital-humanities-dissertation-defense-talk&quot;&gt;the actual defense talk&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2014/09/30/evaluating-non-traditional-digital-humanities-dissertations&quot;&gt;evaluating a DH dissertation&lt;/a&gt;, thinking through &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;diversity and inclusion in your dissertation scholarship&lt;/a&gt;, &lt;a href=&quot;http://literaturegeek.com/2014/04/28/affinitywallarticle&quot;&gt;planning out the many pieces of a dissertation project&lt;/a&gt;, and &lt;a href=&quot;http://literaturegeek.com/2014/04/02/digitaldissformat&quot;&gt;choosing the best format (chapters? something else?) for your scholarship&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Mon, 26 Feb 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/02/26/digital-humanities-dissertation-starter-kit</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/26/digital-humanities-dissertation-starter-kit</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>advice-tutorial</category>
-        
-        <category>dissertation</category>
-        
-        <category>grad-advice</category>
-        
-        <category>meta-dh</category>
-        
-        <category>dh-now</category>
         
         
       </item>

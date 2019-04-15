@@ -4,13 +4,290 @@
  <title>The blog of Literature Geek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2019-04-06T17:45:46-04:00</updated>
+ <updated>2019-04-15T13:49:29-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Amanda Visconti</name>
    <email>amandavisconti@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>ScholarsLab.org website relaunch!</title>
+   <link href="http://localhost:4000/2019/04/15/scholarslab-website-relaunch/"/>
+   <updated>2019-04-15T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/04/15/scholarslab-website-relaunch</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/site-relaunch/&quot;&gt;January 15, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re happy to announce that our Lab website has a new look and feel, all aimed at making Scholars’ Lab more accessible and the site more useful. The website &lt;a href=&quot;http://scholarslab.org&quot;&gt;ScholarsLab.org&lt;/a&gt; represents the collective effort of our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people&quot;&gt;staff and collaborators&lt;/a&gt;, past and present. It’s existed in multiple forms: most recently, as a WordPress site and now, as of this blog post, as a Jekyll-generated static website.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-renew-the-website&quot;&gt;Why renew the website?&lt;/h1&gt;
+&lt;p&gt;Our previous website was headed by the homepage text “collaborate, &lt;strong&gt;iterate&lt;/strong&gt;, discuss”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.lib.virginia.edu/assets/post-media/2018-11-05-iterate.png&quot; alt=&quot;Screenshot of text saying &amp;quot;collaborate, iterate, discuss&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re a community lab focused on experimental scholarship. We care most about the impact of scholarship on &lt;em&gt;people&lt;/em&gt;, ranking positive human experience as the most important outcome of projects or other work. This means that failure and a journey of many iterations are not just frequent by-products of our work, but essential characteristics. For example, we periodically renew our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/charter&quot;&gt;lab charter&lt;/a&gt; to reflect our ongoing growth as scholars and professionals; as it was last updated in 2016, we’ll be renewing its text (and even, perhaps, its form) over the coming year.&lt;/p&gt;
+
+&lt;p&gt;Before renewing our charter, though, we worked on synthesizing our many views of what the lab currently is into a coherent, concise mission–visible at the top of our new homepage. Having the website look “newer” wasn’t a priority for us; rather, we used this re-articulated mission to reimagine a site more aligned with our values…&lt;/p&gt;
+
+&lt;h1 id=&quot;why-does-the-site-look-this-way&quot;&gt;Why does the site look this way?&lt;/h1&gt;
+&lt;p&gt;We started thinking about a site renewal back in Summer 2017, with two rough goals: a general rethinking of the site to fit our current work, and a migration of platforms from WordPress to a Jekyll-generated static website. (You can see this &lt;a href=&quot;https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages&quot;&gt;article&lt;/a&gt; for more on what a jekyll-generated static site is, why you might want to use one, and how.) WordPress is a popular blogging platform with the advantage of a user-friendly administrative dashboard.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the benefits of WYSIWYG (what you see is what you get) blog post editors and easy media uploads come with significant costs of web developer time updating the site’s core, plugin, and theme code and keeping the site secure. Moving to a Jekyll-generated static site helped us think through applying &lt;a href=&quot;https://go-dh.github.io/mincomp/about/&quot;&gt;minimal computing values&lt;/a&gt; to our main online platform. This move means making small content changes to the website (e.g. writing a new blog post) a little harder by requiring some steps we didn’t require before, but… we think these steps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;are within the grasp of anyone (regardless of technical experience),&lt;/li&gt;
+  &lt;li&gt;ultimately enfranchise everyone to understand more and do more with our site than WordPress allowed, and&lt;/li&gt;
+  &lt;li&gt;are in line with our teaching each of our Praxis cohorts the basic steps required to use git, GitHub, and markdown (i.e. by teaching these skills to our team and affiliates more broadly, we hope to also enfranchise folks to create their own websites with the same technologies).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After much discussion and work, these initial goals yielded a more important goal: reimagining our website to more clearly focus on making the lab accessible to folks who wouldn’t otherwise already know about or feel welcome to join us. We already have some friendly and well-trodden paths to reaching the lab, such as through our work and fellowship CFPs, consultations, events, and open office hours; so we decided to aim the website at reaching folks who weren’t already coming into our space.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/about&quot;&gt;&lt;img src=&quot;https://scholarslab.lib.virginia.edu/assets/post-media/2018-11-21-FAQlist.png&quot; alt=&quot;Screenshot of frequently asked Scholars' Lab questions&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some ways we approached this goal:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Encouraging site visitors to feel they’re in the right place&lt;/strong&gt;, by updating textual content and photos to be more explicitly welcoming. For example, we reorganized our &lt;a href=&quot;https://scholarslab.lib.virginia.edu/makerspace&quot;&gt;Makerspace&lt;/a&gt; and &lt;a href=&quot;https://scholarslab.lib.virginia.edu/spatial-technologies&quot;&gt;Spatial Tech&lt;/a&gt; equipment and software inventories into named categories; you might not know what a serger is, but where you’d probably just skim past the word before, you can now see that it’s part of a set of equipment and supplies aimed at making things with fabric. The hope is that by grouping resources like the serger into clearer categories, you might realize that our Makerspace has some resources and folks you can talk to about, for example, your interests in making stuff from textiles, historical costuming, and/or other fabric art approaches.&lt;/li&gt;
+  &lt;li&gt;Making the &lt;strong&gt;info folks need to get more involved easy to find&lt;/strong&gt;, once they feel comfortable with our resources being theirs. We wrote a &lt;a href=&quot;https://scholarslab.lib.virginia.edu/about&quot;&gt;FAQ&lt;/a&gt; anticipating questions folks often ask us, overhauled the structure of information on our site (e.g. menu order and wording, page titles, layout and order of information on a given page). We also created clear maps showing how to get to the specific locations within our somewhat large space (the west wing of the 4th floor of Alderman Library).&lt;/li&gt;
+  &lt;li&gt;Accurately capturing the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/work&quot;&gt;work&lt;/a&gt; of all our current staff, including recent hires and folks welcomed into the lab during the library reorganization (who hadn’t had their work represented on the old site), to &lt;strong&gt;show the true breadth of disciplines and approaches we cover&lt;/strong&gt;. We also reworked the metadata on each of our current and past Scholars’ Lab folks, so that we could more easily and accurately show what roles folks have held and who has contributed anything to a given project—again, more accurately showing how the Scholars’ Lab is itself a digital scholarship project, one built together by many people over the years.&lt;/li&gt;
+  &lt;li&gt;More clearly showing that &lt;strong&gt;we’re part of the &lt;a href=&quot;http://library.virginia.edu&quot;&gt;UVA Library&lt;/a&gt;&lt;/strong&gt;, so folks understand that we’re part of the Library’s mission to provide equitable access to knowledge and learning to everyone. This work includes an FAQ question, a section of the homepage with text and the UVA Library logo, and &lt;a href=&quot;https://scholarslab.lib.virginia.edu/library&quot;&gt;a new SLab “Library” page&lt;/a&gt; highlighting the work of Library colleagues that helps us do what we do, and that may feature stories about intralibrary collaborations in the future.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;who-made-this&quot;&gt;Who made this?&lt;/h1&gt;
+&lt;p&gt;The 2017-2018 renewal of this website incorporates text, suggestions, and feedback from everyone on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people&quot;&gt;the Scholars’ Lab staff&lt;/a&gt;. Additionally, the following folks put in significant extra effort on the site’s design, coding, content, project management, and documentation: Katherine Donnally, Jeremy Boggs, Brandon Walsh, Ronda Grizzle, Laura Miller, Zoe LeBlanc, Ammon Shepherd, Shane Lin, Beth Mitchell, and Amanda Visconti.&lt;/p&gt;
+
+&lt;p&gt;We want to especially highlight the leadership and labor of &lt;a href=&quot;https://scholarslab.lib.virginia.edu/people/katherine-donnally/&quot;&gt;Katherine Donnally&lt;/a&gt; (Scholars’ Lab DH Designer 2017-2018) in realizing this site. Katherine’s thinking and work gave the renewal project a coherent focus around making the lab more accessible and supportive of folks who might not otherwise feel part of our community; in addition to design and development work, she created structures and documentation (e.g. goal and progress tracker, code commenting, analysis of the old website, articulation of the purpose of the new site) that were instrumental in both imagining the new site and seeing it to the finish line.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Moderate Proposal: Healthier Systems for Running Online Digital Humanities Communities</title>
+   <link href="http://localhost:4000/2019/04/15/moderation-running-dh-online-communities/"/>
+   <updated>2019-04-15T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/04/15/moderation-running-dh-online-communities</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/moderation-running-dh-online-communities/&quot;&gt;February 27, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Healthy, diverse online learning communities depend on the labor of community design: unseen and often stressful work such as moderation, shaping discussions, and encouraging positive community behavior. As more opportunities emerge for learning online as part of a virtual community, how can we:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;recognize (credit, publicize, reward, treat as scholarly work) and&lt;/li&gt;
+  &lt;li&gt;reinforce (design, automate, fairly distribute the labor, deal with mental health impacts)&lt;br /&gt;
+the labor of community design? As marginalized identities are most at risk for harm when interacting with others online, support for moderation is support for community inclusion.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I write from my experiences moderating both my digital dissertation project Infinite Ulysses (a social platform for annotating/commenting on James Joyce’s novel) and the Digital Humanities Slack I started (a set of themed chat rooms with over 2,000 digital humanist members; co-moderated by Alan G. Pike, Sam Abrams, Alex Gil, Brandon Walsh, Ed Summers, Paige C. Morgan, Jeremy Boggs, Eleanor Dickson, Liz Rodrigues, and Erin Pappas). It’s been exhilarating using technology to collaborate with folks I don’t know: if you’ve taught DH, think of the students who respond to your lessons like “DH is exactly what I want to do, I just didn’t have a term for it before”, but expand to include folks from all over the world and more diverse walks of life. But it’s also been a significant source of anxiety, balancing my responsibility to the community with my desire to help folks learn to be more positive influences on that community. That stress was half of why I moved Infinite Ulysses from a Drupal site allowing commenting, to a static archived version without commenting (the other half was some serious thinking about how I could best contribute to the DH I want to see, and realizing that just for me personally, I need to move away from Joyce and Modernist studies to best accomplish that).&lt;/p&gt;
+
+&lt;p&gt;I do want to note that the challenges of moderating online DH and other academic/professional communities are, at least for me, privileged through my ability to choose my level of work (or opt out completely) without hurting my livelihood or family; compared with the pain, lack of compensation, lack of respect, and more evils experienced by folks like those who moderate YoutTube and Facebook, working with smaller communities that have some norms (though inequitable) and professional consequences (though often used as a weapon against rather than a protector of folks with marginalized identities) are less pressing problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-im-blogging-today&quot;&gt;Why I’m blogging today&lt;/h2&gt;
+&lt;p&gt;This post is largely drawn from a non-successful IMLS pre-proposal I PI’d (Spring 2018) for an NLG planning grant to explore, identify key challenges, and plan pilot community experimental approaches to aid the foundational labor of moderators underpinning online learning communities, titled “&lt;strong&gt;A Moderate Proposal&lt;/strong&gt;: Recognizing and Reinforcing Online Community Moderation to Benefit Diverse Learners” and co-designed with colleagues Jeremy Boggs, Katherine Donnally, Shane Lin, Laura Miller, and Brandon Walsh. (If you like the title pun, you may also appreciate that our proposal drafting GDoc was titled “DigitalHumanities.club”, after the domain that I own because it’s awesome, but that I was also using to explore Mastodon and Mattermost for better communities.)&lt;/p&gt;
+
+&lt;p&gt;I finally got around to this post due to cool stuff two DHers are up to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/scott_bot/status/1100387484930854913&quot;&gt;Scott Weingart’s Twitter thread&lt;/a&gt; on &lt;a href=&quot;https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona&quot;&gt;Casey Newton’s recent article&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ve only skimmed Newton’s piece, but I’ve read and admired Sarah T. Robert’s more longstanding work in this area:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a &lt;em&gt;Maclean’s&lt;/em&gt; article in Summer 2018, &lt;a href=&quot;https://www.macleans.ca/opinion/meet-the-people-who-scar-themselves-to-clean-up-our-social-media-networks/&quot;&gt;“Meet the people who scar themselves to clean up our social media networks”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;an article in &lt;em&gt;The Atlantic&lt;/em&gt; in Spring 2017, &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2017/03/commercial-content-moderation/518796/&quot;&gt;“Social Media’s Silent Filter”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And now &lt;a href=&quot;https://twitter.com/ubiquity75/status/1045552839819505664&quot;&gt;a book!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;My &lt;a href=&quot;https://scholarslab.org/people/ammon-shepherd/&quot;&gt;SLab colleague Ammon Shepherd&lt;/a&gt; has kicked off a series of blog posts around the challenges of archiving DH work, with what promises to be a special focus on the technical and especially sysadmin work unlerying these challenges. You can read &lt;a href=&quot;https://scholarslab.org/blog/archiving-dh-part-one/&quot;&gt;the first post in the series&lt;/a&gt; now, but Ammon’s also orchestrating a really cool system of inviting UVA Library colleagues to co-write the rest of the series with him, complete with clear documentation on how to take part and make the discussion better.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thanks to Scott and Ammon for being awesome scholars doing work collaboratively and in public!&lt;/p&gt;
+
+&lt;h2 id=&quot;a-moderate-proposal&quot;&gt;A moderate proposal&lt;/h2&gt;
+&lt;p&gt;Community design requires &lt;strong&gt;moderation&lt;/strong&gt; and &lt;strong&gt;scaffolding&lt;/strong&gt;. &lt;strong&gt;Moderation&lt;/strong&gt; is both the work of controlling spam and intentional harassment in a community, as well as designing and implementing a code of conduct (e.g. working behind the scenes with a community member whose words impact others negatively, but who wants to become a better community member). &lt;strong&gt;Scaffolding&lt;/strong&gt; is the work of maintaining and nurturing a community: suggesting conversation topics, encouraging community member involvement, amplifying marginalized voices, and otherwise enacting strategies to grow a healthy and active community. Creating the technical platform for an online community is relatively simple, given existing open-source versions of popular social media platforms. Rather, the challenge to improving moderation is a social project: habituating community members to behavior that reduces harassment, encourages real accountability to others in your community, distributes the stress of moderating, and recognizes/credits/rewards people who moderate and otherwise advance positive community design.&lt;/p&gt;
+
+&lt;p&gt;I’ve focused on Twitter, Slack, and Mastodon as text-heavy platforms with public and frequent use by digital humanists, plus Civil Comments and the Mozilla Coral Project as technical solutions to online community challenges. I’m also interested in these past or current DHy communities and the scholars shaping them: DH Q&amp;amp;A, Humanities Commons, DHthis, DH Commons, the DLF Forum, DH Slack, HASTAC, DHNow, the AADHUM Slack, and the Documenting the Now Slack.&lt;/p&gt;
+
+&lt;p&gt;We’ve since updated our thinking and planning, but when I submitted our grant preproposal a year ago, we imagined the following activites and outcomes:&lt;/p&gt;
+
+&lt;h2 id=&quot;activities&quot;&gt;Activities&lt;/h2&gt;
+&lt;p&gt;The project team would identify and invite 10 experts in online learning community-building, with diverse representation of gender, race, and other identities, from libraries, archives, museums, and academia. Our initial work draws on a symposium with these advisors to spark collaborations, identify key challenges, and plan out steps for piloting and assessing improvements to social systems of moderation:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Project team reviews literature and existing communities:&lt;/em&gt; Distribute Twitter and DH Slack surveys to gather anecdotes about good and bad online academic communities and their moderation systems. Use team’s existing text analysis skills to explore frequent vocabulary and sentiment in the discussions on a sample community, the Digital Humanities Slack (2k+ community members), if* DH Slack community decides this is an acceptable analysis (read more about the community’s decision to keep the Slack ephemeral via a non-paid Slack plan &lt;a href=&quot;http://literaturegeek.com/2016/07/06/digital-humanities-slack-community-design&quot;&gt;in this post&lt;/a&gt;). Create an annotated bibliography plus pre-symposium reading list. Assign each advisory board member to read 3 articles and report useful takeaway ideas from these at the symposium.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;2-day symposium of 10 advisory board members with Scholars’ Lab staff and UVA Library colleagues:&lt;/em&gt; Project team presents results of the DH Slack message text analysis* as a grounding case study. Advisory board gives lightning talks summarizing their assigned readings. Goals set for the rest of the symposium. Facilitated design jam sessions, paper prototyping, breakout groups addressing specific challenges, such as&lt;br /&gt;
+1: amplifying credit for moderators, making their labor institutionally legible for promotion, addressing gendering of work;&lt;br /&gt;
+2: templates for difficult moderation conversations with community members, tech features that could support social needs such as shadow-banning, moderator self-care.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;After symposium:&lt;/em&gt; Project team prepares report of best practices to support online learning community moderation, shares with advisory board for feedback, disseminates to public. Team outlines next steps, shares with advisory board for feedback. Probable steps include identifying both technical and social solutions to pilot, formally approaching communities to collaborate on testing practices (e.g. MLA/Humanities Commons, ACH, DLF), scheduling pilots and assessment, prototyping and testing ideas, and reporting back to public. We take the NEH “Off the Tracks” workshop resulting in &lt;a href=&quot;https://mith.umd.edu/offthetracks/recommendations&quot;&gt;recommendations for ethically crediting collaborators&lt;/a&gt; as a model for all of this work, and commit to thoroughly and accurately crediting all participants in these projects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;outcomes&quot;&gt;Outcomes&lt;/h2&gt;
+&lt;p&gt;We will identify project staffers with expertise in ethical design practices, and charge them with holding our focus on improving online communities for marginalized identities, while also documenting and publishing the conversations and findings occurring through the planning phase to ensure others can build on our work. During this grant’s planning phase we will create:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;An annotated bibliography and reading list&lt;/li&gt;
+  &lt;li&gt;A symposium whitepaper covering the ideas, best practice suggestions, and conversations a diverse advisory board of experts generate during the symposium&lt;/li&gt;
+  &lt;li&gt;A public conversation around crediting moderation labor and improving community moderation, connecting scholars interested in this work&lt;/li&gt;
+  &lt;li&gt;A written plan outlining next steps for pilot projects designing, building, and assessing various technical and social features for their impact on online community moderation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Experimental approaches may include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strategies to protect users from one another, unwanted surveillance, or commercial interests&lt;/li&gt;
+  &lt;li&gt;Documented design-driven approaches to building more ethical academic social media platforms&lt;/li&gt;
+  &lt;li&gt;A code of conduct template in support of community design labor&lt;/li&gt;
+  &lt;li&gt;Model a technical platform for online learning communities that is designed from the start with an ethic of care, with particular focus on making the system useful to those identities usually marginalized by commercial social media platforms&lt;/li&gt;
+  &lt;li&gt;Text analysis results discussion from analysis of DH Slack community vocabulary and sentiment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;interested-know-things&quot;&gt;Interested? Know things?&lt;/h2&gt;
+&lt;p&gt;If anything in this post interests you (future collaboration?), overlaps with your current work, or could benefit from my reading and citing you or others, please let me know at visconti@virginia.edu. Thank you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to colleagues Jeremy Boggs, Katherine Donnally, Shane Lin, Laura Miller, and Brandon Walsh for co-designing of the grant proposal, and to Ammon Shepherd for helping me think about the technical sustainability aspects of better online moderation experiences.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>DH Dissertation to Director: Notes connecting my student and staff experiences</title>
+   <link href="http://localhost:4000/2019/04/15/dh-dissertation-to-director/"/>
+   <updated>2019-04-15T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/04/15/dh-dissertation-to-director</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/dh-dissertation-to-director/&quot;&gt;February 21, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A colleague recently asked me about how I draw on my DH dissertation experience (&lt;a href=&quot;https://dr.amandavisconti.com&quot;&gt;dr.amandavisconti.com&lt;/a&gt;) in my work co-directing the Scholars’ Lab. Below, I share the rough notes I typed up in response about the first couple such dissertation-director connections that came to mind:&lt;/p&gt;
+
+&lt;h2 id=&quot;digital-humanities--experimental-humanities&quot;&gt;Digital humanities &amp;lt; experimental humanities&lt;/h2&gt;
+&lt;p&gt;Getting to do an &lt;a href=&quot;http://literaturegeek.com/tag/dissertation/&quot;&gt;unusually shaped dissertation&lt;/a&gt; meant doing a lot of meta-dissertational work analyzing and synthesizing precedents for making as scholarship, dissertations that didn’t produce written chapters, and experimental scholarly methods and formats more generally. I not only needed to prove that such work could reach the goals of a dissertation, but that my research design choices also fit tmy particular research questions. It was profoundly useful to work through what I thought was the best research design for my questions, and then also find the language to convince others of this as well. I do not want to add more barriers to the dissertation process for anyone, but it does seem mildly unfortunate to me that most humanities dissertation creators aren’t encouraged and supported to explore multiple research aproaches and argue for why their project format is the best fit for their research questions, rather than treating written chapters as the only choice.&lt;/p&gt;
+
+&lt;p&gt;The Scholars’ Lab has historical prominence as a DH center, but we also offer strong expertise in other areas, such as GIS/spatial reasoning and cultural heritage informatics. Some of my work as a Lab director has been collaborating with my colleagues to update our understanding of what’s most important to us, articulate that in a concise and memorable way, and relaunching our Lab website (ScholarsLab.org) to better communicate that updated mission. I think my dissertation experience helped me do a better job of hearing and synthesizing our staff’s visions for the Lab: rather than forcing everything to fit under the rubric of DH, we’ve identified a shared lab commitment to questioning assumptions around the methods and publication formats of scholarship, to cultivating a readiness to experiment and create new approaches where existing ones don’t best fit our research questions. It’s the &lt;em&gt;experimental&lt;/em&gt; mindset of DH that drives us and connects our team members’ many skillsets—as you can see in partially or wholly analog work like our Makerspace and campus community design work—rather than something particular to the Digital.&lt;/p&gt;
+
+&lt;h2 id=&quot;passing-it-on&quot;&gt;Passing it on&lt;/h2&gt;
+&lt;p&gt;I have been extremely lucky, from the &lt;a href=&quot;https://mith.umd.edu&quot;&gt;MITH&lt;/a&gt; and UMD English Department smart and caring mentorship that allowed me to realize my unusual dissertation, to getting to work at the Scholars’ Lab, where the amazing staff have long, successfully made it their mission to model and nurture a generous and human-centered digital humanities.&lt;/p&gt;
+
+&lt;p&gt;My dissertation experience was an extremely lucky one: I had incredible mentors as my dissertation committee (Matt Kirschenbaum as advisor; Kari Kraus, Neil Fraistat, Melanie Kill, Brian Richardson). They met with me throughout the dissertation process to give me feedback and help us make sure that, for a very non-traditionally shaped dissertation, we were all on the same page as to expectations for the final outcome. They all had this unusual combination of innovative scholarship mixed with humanity and generosity. I’ve heard people say that either your advisor is nice to you but doesn’t push your work forward, or they’re mean (how is this not just a thing, but a fairly common one?) but make your work better. Every interaction I had with my committee was a kind one, and yet they &lt;em&gt;constantly&lt;/em&gt; challenged me to do better, with their full faith, and both the support and space necessary to figuring out what scholarship is to me.&lt;/p&gt;
+
+&lt;p&gt;Having mentors modeling this approach to scholarship made me determined to pass on the impact of their gift to other folks I encounter, as best I can. To work so that the luck and privilege that allowed me to do my dissertation might become standard resources for anyone. To put my heart into Scholars’ Lab’s goal of training the next generation of scholars to be the scholarly community we want to exist, and to take responsibility for my tiny snowflake in the storm of what DH is (e.g. think through the impact of my doing my &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;dissertation around a canon work&lt;/a&gt; by a white, male, Anglo, cis author; and change my scholarly trajectory to respond to the problems that investigation raised for me—please note that I no longer agree with that blog post, but haven’t yet written up how my thinking has evolved since then…).&lt;/p&gt;
+
+&lt;h2 id=&quot;scholarship-is-people&quot;&gt;Scholarship is people&lt;/h2&gt;
+&lt;p&gt;I read Mark Sample’s excellent &lt;a href=&quot;http://www.samplereality.com/2013/02/08/when-does-service-become-scholarship/&quot;&gt;“When does service become scholarship?”&lt;/a&gt; while dissertating, and I’ve paraphrased his argument into my preferred definition of “scholarship”:&lt;/p&gt;
+
+&lt;p&gt;one part critical thinking + one part communicating the results of that thinking&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Critical thinking&lt;/em&gt; can be accomplished through many methods, including research, writing, coding, building, designing, experimenting, and play. &lt;em&gt;Communicating critical thinking&lt;/em&gt; can take the form of traditional publishing or other forms of “making public” such as tweeting and blogging, teaching, sharing open source code, or any other way for your intellectual community to learn from, critique, evaluate, and/or build on your work.&lt;/p&gt;
+
+&lt;p&gt;Decompressing this definition:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Anyone trying to think well and share their work is part of the scholarly conversation&lt;/li&gt;
+  &lt;li&gt;Making research just half of scholarship rather than synonymous brings the scholarly community into focus as the goal of our research work—with the implicit belief that the work of care, respect, mentoring, amplifying of your community members is not just a “nice” characteristic taking second place to the completely broken concepts of “rigor” or “brilliance”, not just “eulogy worthy”, but definitionally a necessary part of being a scholar&lt;/li&gt;
+  &lt;li&gt;I don’t have time for a definition of scholarship that doesn’t recognize the brilliant contributions of project managers, teachers, students, librarians, fanfic writers, book club members, more folks than I can list: all as much a part of building intellectual communities’ knowledge and abilities as academic faculty.&lt;/li&gt;
+  &lt;li&gt;A scholarship that fits with the Scholars’ Lab’s unofficial moto of “people over projects”: focusing on community knowledge and health as the goal, and research as the means, rather than the other way around.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;documentation-of-scholarships-process-is-scholarship&quot;&gt;Documentation of scholarship’s process is scholarship&lt;/h2&gt;
+&lt;p&gt;I spent around six months of my dissertation building something on an Islandora-based framework, and then ended up not using those months of my server and code work in the final digital edition I produced. But because I documented throughout why I was making certain technical and design choices, how the technical work developed my critical thinking, I had that research to share with my intellectual community, and I wasn’t six months behind on my dissertation.&lt;/p&gt;
+
+&lt;p&gt;In my work today, I encourage others to share their notes, design choices, and other documentation as they go; it’s better for the community, and I think it’s also better for scholars new to a method to know they can start giving back to the community right away (e.g. What do you know now that you didn’t understand a week ago? Write for that person).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Automating Webpage &amp; Tweet Screencaptures</title>
+   <link href="http://localhost:4000/2019/04/15/automating-webpage-tweet-screencaptures/"/>
+   <updated>2019-04-15T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/04/15/automating-webpage-tweet-screencaptures</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/automating-webpage-tweet-screencaptures/&quot;&gt;January 30, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you have a list of webpage URLs for which you’d like screencaps (aka screenshots)?&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;Know this tutorial fits your needs? &lt;a href=&quot;#how-to-automate-screencapping&quot;&gt;Jump to the instructions&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Maybe you study social media: you can capture all the data about a tweet using &lt;a href=&quot;https://www.docnow.io/&quot;&gt;Documenting the Now’s tools&lt;/a&gt; and get a spreadsheet listing all of a hashtag’s tweets with text, file names for any image attachments, publication date, RT/like counts…&lt;/p&gt;
+
+&lt;p&gt;But maybe you’d also like to have screencaps of the webpage per each tweet as they appeared at a given time:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;keep an offline folder of all your faved tweets? (before time passes and some of them are deleted)&lt;/li&gt;
+  &lt;li&gt;record how tweets &lt;em&gt;looked&lt;/em&gt; on Twitter.com at a given point in time, e.g. the avatars of folks who interacted with the tweet (using the avatar images current—at least as of the time of screencap—since people change these over time), or what metadata was viewable to the casual observer at a given time, as with this example tweet screencap:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweetscreenshot1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having screencaps of tweets can be useful for Twitter receipts, conducting a user study where you want to gauge folk’s reactions to seeing a tweet as it looked on Twitter.com (without needing to be online), or keep a folder of motivating tweets to refer to when you need encouragement.&lt;/p&gt;
+
+&lt;p&gt;This post will help you also automate taking screencaps from a list of URLs, by pointing you two tutorials plus some advice on combining these. This tutorial is written from a Mac user’s perspective.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-uses-cases&quot;&gt;My uses cases&lt;/h1&gt;
+&lt;p&gt;I recently had two needs for a workflow automating screencaps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Screencapping faved tweets (aka motivation)&lt;/strong&gt;: I used to “like” tweets where folks said useful things about my work, for later encouragement when I needed it. I wanted to switch to just screencapping these tweets as I saw them, saving the “like” function to indicate interest in others’ tweets, but that meant I need a way to get all those previous likes as screencaps. This workflow gave me a folder of over 2k screencapped tweets! (Now I just need to make a bot to show me a random one each time I log in…)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Figuring out how many of our posts were amplified by a DH aggregator&lt;/strong&gt;: For an external review of DH at UVA, we’re drafting a report on Scholars’ Lab as a DH unit. As a small part of this, I wanted to include the number of times SLab staff or students have had a blog post highlighted by &lt;a href=&quot;http://digitalhumanitiesnow.org/&quot;&gt;Digital Humanities Now&lt;/a&gt;. Searching the &lt;em&gt;DH Now&lt;/em&gt; with a variety of search terms (e.g. Praxis, Neatline, variants of “Scholars’ Lab”, names of former staff) turned up a bunch of posts, but without opening each result in a browser to skim that post, I couldn’t be sure that these were all actually either SLab-authored or citing SLab work (vs. e.g. happening to use the word “praxis”). By automating screencaps of all the links my search turned up, instead of opening each link in a browser, I could use Preview to bulk-open screencaps and glance over the top of each webpage, seeing more quickly whether a post was related to SLab or not.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;credits&quot;&gt;Credits&lt;/h1&gt;
+&lt;p&gt;This is an extremely light repackaging of two sets of advice, for which I am grateful:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ryan Bauman’s (&lt;a href=&quot;https://twitter.com/ryanfb&quot;&gt;twitter.com/ryanfb&lt;/a&gt;) &lt;a href=&quot;https://twitter.com/ryanfb/status/1014302804796731393&quot;&gt;tweets on how to get a list of URLs for your faved tweets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Joshua Johnson’s 2011 post &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;“AppleScript: Automatically Create Screenshots from a List of Websites”&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may also wish to explore &lt;a href=&quot;https://www.docnow.io/&quot;&gt;Documenting the Now&lt;/a&gt;’s tools for ethical preservation and research with social media, including the &lt;a href=&quot;https://www.docnow.io/catalog/&quot;&gt;Tweet Catalogue&lt;/a&gt; to locate datasets of tweets using a given hashtag, and the &lt;a href=&quot;https://github.com/DocNow/hydrator&quot;&gt;Hydrator&lt;/a&gt; tool for turning those datasets back into a list of tweets and their metadata.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-automate-screencapping&quot;&gt;How to automate screencapping&lt;/h1&gt;
+
+&lt;p&gt;&lt;span&gt;1.&lt;/span&gt; You’ll need a text document (plain text / .txt) with each URL you want to be screencapped listed on a separate line:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenhot-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to create a list of just your faved tweets, see &lt;a href=&quot;https://twitter.com/ryanfb/status/1014302804796731393&quot;&gt;this tweet by Ryan Bauman tweet&lt;/a&gt; to get just the liked tweets from your Twitter &amp;gt; Settings &amp;gt; “Your Twitter Data” download.&lt;/p&gt;
+
+&lt;p&gt;If you have a bunch of bookmarked URLs you want to screenshot (possibly in one bookmarks subfolder?), you can export your whole set of bookmarks from the browser, then edit the resulting HTML file (using search+replace or regular expressions; sorry, that’s a whole separate lengthy tutorial, but &lt;a href=&quot;https://programminghistorian.org/en/lessons/understanding-regular-expressions&quot;&gt;Doug Knox’s tutorial here&lt;/a&gt;’s a good place to get started understanding regular expressions) to strip it to just a list of the URLs you want to screencap.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;2.&lt;/span&gt; Next, we’ll use Joshua Johnson’s 2011 post &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;“AppleScript: Automatically Create Screenshots from a List of Websites”&lt;/a&gt; to actually take the screencaps.&lt;/p&gt;
+
+&lt;p&gt;We’re going to use the Mac “Script Editor” tool to tell our computer to take that list of URLs, open each in Safari, take a screencap of that screen, and save it.&lt;/p&gt;
+
+&lt;p&gt;Open the Script Editor app (Applications &amp;gt; Utilities &amp;gt; Script Editor).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;3.&lt;/span&gt; Grab the text from &lt;a href=&quot;https://gist.github.com/amandavisconti/ffc05d293b9fed70a7378421f7c818f0&quot;&gt;this page&lt;/a&gt;, which puts Joshua Johnson’s script in an easy-to-find place (to understand what the script does, read &lt;a href=&quot;https://mac.appstorm.net/general/applescript-automatically-create-screenshots-from-a-list-of-websites/&quot;&gt;his post&lt;/a&gt; where he walks you through adding and adjusting the different pieces). Paste the text into the top text field:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenshot-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a slow internet connection or want to screencap pages on websites that load slowly, you may wish to find and adjust the piece of the script that says “delay 5”, to a larger number than 5 (this controls the time the script waits between directing safari to visit a given URL, and taking a screencap of whatever is then currently on the Safari screen).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;4.&lt;/span&gt; Open the Applications &amp;gt; Safari browser, and drag its screen to be as large as possible. Depending on what level of zoomed-in/zoomed-out you usually use the Safari browser at, you may wish to adjust for the purpose of taking the screencaps; the screencaps will only capture what’s showing in the window you’ve opened (not stuff you’d need to scroll down to see).&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;5.&lt;/span&gt; Open the Applications &amp;gt; TextEdit app (not a different text editor, unless you want to figure out how to edit the script’s &lt;code class=&quot;highlighter-rouge&quot;&gt;tell application &quot;TextEdit&quot;&lt;/code&gt; how to point to a different application). Paste in your list of URLs.&lt;/p&gt;
+
+&lt;p&gt;If you have other TextEdit windows/tabs, make sure that the one with the URL list is the topmost/frontmost.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;6.&lt;/span&gt; You’re ready to take screencaps! You’ll want to do this when you’re okay not having access to your computer for a while, because the screenshots will be of whatever is at the front of your screen. If you step away from your computer, the script knows to leave a Safari browser window open at the front of your screen, take a screencap, then move to the next webpage in your list and screencap that. If you hide the Safari window or have other stuff open over it, you won’t get the screencaps you want. (I’m sure there’s a way to make this not the case, but I didn’t need to figure that out for my use cases.)&lt;/p&gt;
+
+&lt;p&gt;Back on the Script Editor, press the “red dot” record icon to begin automatically taking a screencap of each of the URLs in your list:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.org/assets/post-media/2019-01-31-tweet-screenshot-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the script finishes running, you’ll have screencaps of all the URLs!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>DH archiving on the Scholars' Lab Blog</title>
+   <link href="http://localhost:4000/2019/04/15/archiving-dh-part-2-the-problem-in-detail/"/>
+   <updated>2019-04-15T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/04/15/archiving-dh-part-2-the-problem-in-detail</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;March 11, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Over on the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;Scholars’ Lab blog&lt;/a&gt;, Ammon Shepherd has been leading a series of collaborative blog posts about the challenges of archiving or preserving digital humanities projects. The first post in the series, by Ammon, is &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-one/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With Ammon and UVA Library colleagues Lauren Work and Brandon Butler, I co-authored a piece of the second post in the series, which goes into the challenges of archiving DH projects in more detail. I recommend you read that whole post &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;here&lt;/a&gt;, but I’ve also copied my piece (on the issues resulting from the humans that underlie all technology) below:&lt;/p&gt;
+
+&lt;p&gt;The human labor underlying technology is not easily sustainable; even when you have folks committed to the work, the kind and amount of labor required to maintain and update a project can shift away from what someone is willing or able to support, and external pressures (job changes, family, other projects, aging, retirement) also arise. I (Amanda, hi!) am particularly interested in how technical sustainability is impacted by the human labor of moderating online spaces, from my experiences moderating both my digital dissertation project &lt;a href=&quot;https://infiniteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt; (a social platform for annotating/commenting on James Joyce’s novel) and the &lt;a href=&quot;https://tinyurl.com/DHSlack&quot;&gt;Digital Humanities Slack&lt;/a&gt; I started (a set of themed chat rooms with over 2,000 digital humanist members; co-moderated by Alan G. Pike, Sam Abrams, Alex Gil, Brandon Walsh, Ed Summers, Paige C. Morgan, Jeremy Boggs, Eleanor Dickson, Liz Rodrigues, and Erin Pappas).&lt;/p&gt;
+
+&lt;p&gt;Moderation is both the work of controlling spam and intentional harassment in a community, as well as designing and implementing practices such as a code of conduct to both address the negative and encourage positive community behaviors. It’s been exhilarating using technology to collaborate with folks I don’t know and create online communities together with them: if you’ve taught DH in the classroom, think of the students who respond along the lines of “DH is exactly what I do or want to do, I just didn’t have a term for it before” but expand them to include folks from all over the world and more diverse walks of life. But this work has also been a significant source of anxiety, balancing my responsibility to the community with my desire to help folks learn to be more positive influences on that community, and needing to enforce the line after which a community member cannot healthfully continue as a community member. That stress was largely why I moved Infinite Ulysses from a Drupal site allowing commenting, to a static archived version without commenting. (Relatedly, I’ve &lt;a href=&quot;https://scholarslab.org/blog/moderation-running-dh-online-communities&quot;&gt;just blogged&lt;/a&gt; on some of the work I’ve been doing to make online moderation of academic communities more sustainable!)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Notes: Workflows to consider before opening a DH lab (Purdue version)</title>
@@ -951,7 +1228,7 @@ We would need keys or key cards and a list of everyone with access to these spac
     &lt;p&gt;These pages and posts from the old site reference a layout file that existed for the Minima theme (the theme that your first Jekyll site defaults to), but not for the Hacker theme. So, you need to open each page and change &lt;strong&gt;layout: page &lt;/strong&gt;to &lt;strong&gt;layout: default&lt;/strong&gt;, and open each post and change &lt;strong&gt;layout: post&lt;/strong&gt; to &lt;strong&gt;layout: default&lt;/strong&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;If you’re using the default text in the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt; files I used in my demo site, you need to erase two bits of code from each of these pages. Erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages and erase &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;icon-github.html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;username=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt; from both pages. (The Minima theme knew how to handle those calls to include icon images, but the Hacker theme doesn’t, so they will make your site not run.)&lt;/p&gt;
+    &lt;p&gt;If you’re using the default text in the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; and &lt;a href=&quot;http://resume.md/&quot;&gt;resume.md&lt;/a&gt; files I used in my demo site, you need to erase two bits of code from each of these pages. Erase &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include icon-github.html username=&quot;jekyll&quot; %}&lt;/code&gt; from both pages and erase &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include icon-github.html username=&quot;jekyll&quot; %}&lt;/code&gt; from both pages. (The Minima theme knew how to handle those calls to include icon images, but the Hacker theme doesn’t, so they will make your site not run.)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Hacker theme doesn’t automatically add pages to a header menu (like the Minima theme did), but you can still access your pages by typing in their URL, e.g. by visiting &lt;a href=&quot;https://amandavisconti.github.io/JekyllDemoThemed/about&quot;&gt;https://amandavisconti.github.io/JekyllDemoThemed/about&lt;/a&gt; for the &lt;a href=&quot;http://about.md/&quot;&gt;about.md&lt;/a&gt; page. You can also add links to these into your theme or the &lt;a href=&quot;http://index.md/&quot;&gt;index.md&lt;/a&gt; page. I often try to find another theme that has a feature I want—such as a fancy header menu—and then copy and paste pieces of its code into my site by trial and error. &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;The Jekyll Themes site&lt;/a&gt; is a great place to look, and trial-and-error copying and pasting from other themes is a great way to get more familiar with how your site works.&lt;/p&gt;
@@ -2337,9 +2614,8 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
 
 &lt;p&gt;After the command line tools suite has completed installation, return to your command line window and enter the following to install &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You’ll need to press enter when prompted and enter your computer password when asked. For reference, below is a screenshot of the command entered into the author’s command line, followed by all the text that appeared (including the prompt to press enter, and to enter my password).&lt;/p&gt;
 
@@ -2473,10 +2749,9 @@ These steps should both improve Infinite Ulysses as a textual resource, and add 
   &lt;li&gt;
     &lt;p&gt;Add the two following lines of text, on separate lines and with the same lower-case formatting (as shown in the screenshot below), then &lt;strong&gt;save&lt;/strong&gt;:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem 'jekyll'
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem 'jekyll'
 gem 'github-pages'
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;p&gt;&lt;img src=&quot;/assets/building-static-sites-with-jekyll-github-pages-13.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
