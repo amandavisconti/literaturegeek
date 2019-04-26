@@ -5,8 +5,8 @@
     <description>digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Apr 2019 14:02:32 -0400</pubDate>
-    <lastBuildDate>Fri, 26 Apr 2019 14:02:32 -0400</lastBuildDate>
+    <pubDate>Fri, 26 Apr 2019 14:06:02 -0400</pubDate>
+    <lastBuildDate>Fri, 26 Apr 2019 14:06:02 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -18,7 +18,7 @@
 &lt;h2 id=&quot;what-is-20-time&quot;&gt;What is 20% time?&lt;/h2&gt;
 &lt;p&gt;Previously also referred to as “personal R&amp;amp;D time”, we’ve recently shifted to saying &lt;strong&gt;“self-initiated R&amp;amp;D time”&lt;/strong&gt; to emphasize that this work is often collaborative, and always feeds back into the lab: what’s unique about 20% time is special leeway to experiment and fail, and formal support for staff to initiate and direct their own professional and scholarly development on the job. Making this a specific job expectation can help folks feel comfortable pursuing learning that isn’t immediately applicable to scholarship, but probably will be later on. For example, GIS Specialist Drew Macqueen’s “Arduino Chris” (GIF below, courtesy of Drew) used the problem of our office lights (which turn off when folks weren’t moving around much at their desks) to get some practice building electronics, which he can now apply to research consultations and collaborations as part of his spatial technologies toolkit:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/scholarslab/scholarslab.org/blob/master/assets/post-media/2019-01-22-Arduino-Chris.GIF&quot; alt=&quot;GIF of Drew Macqueen's &amp;quot;Arduino Chris&amp;quot;, using electronics and a photo of GIS Specialist Chris Gist to turn the office lights back on when they go off from no one moving around.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/scholarslab/scholarslab.org/blob/master/assets/post-media/2019-01-22-Arduino-Chris.GIF?raw=true&quot; alt=&quot;GIF of Drew Macqueen's &amp;quot;Arduino Chris&amp;quot;, using electronics and a photo of GIS Specialist Chris Gist to turn the office lights back on when they go off from no one moving around.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Above: GIF of Drew Macqueen’s “Arduino Chris”, using electronics and a photo of GIS Specialist Chris Gist to turn the office lights back on when they go off from no one moving around.&lt;/em&gt;&lt;/p&gt;
 
