@@ -1,0 +1,33 @@
+---
+layout: post
+title: "DH Archiving: Data Policies for Small DH Projects"
+permalink: 2019/04/30/archiving-dh-data-policy
+tags: [digital-humanities, meta-dh]
+status: publish
+type: post
+published: true
+---
+
+*Originally posted on the Scholars' Lab blog on [April 30, 2019](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/).*
+
+Over on the [Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/), Ammon Shepherd has been leading a series of collaborative blog posts about the challenges of archiving or preserving digital humanities projects. The first post in the series, by Ammon, is [here](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-one/). Ammon led UVA Library colleagues Lauren Work and Brandon Butler and me on co-authoring a [second piece in the series](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/), which goes into the challenges of archiving DH projects in more detail. Ammon, Brandon Butler, and I have just co-authored a third piece in the series on the [Scholars' Lab blog](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/).
+
+I recommend you read that whole post [here](https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/), but I've also copied my piece (on creating a data policy for a smaller DH project) below:
+
+Your project will most likely use data or generate data. You need to be clear up front on how you expect and desire others to be able to use, or not use, the data from your project. For a smaller, not institutionally supported DH project, a data policy can be a simple set of public commitments about the possible futures of your project. The following is a practical example of implementing a data policy for a small digital project.
+
+![Infinite Ulysses](https://scholarslab.lib.virginia.edu/assets/post-media/2019-04-30-infiniteulysses.png)
+
+My (hey, this is Amanda!) [Infinite Ulysses](http://infiniteulysses.com/) project was dissertational research supported by a single person, but it also had a wide and varied audience for such a small project (12k unique visitors during the first couple weeks of beta opening) and hosted user-created content (1k annotations). Its focus on interface design and user studies, and the use of social media encouraging testing of the site, were important in inviting use by enough users from both inside and outside academia to address my questions about the impact of such a shared space on literary reading and learning. 
+
+On the other hand, the site looking nice and having some publicity probably conveyed a permanency for the site that I was hopeful for at the time, and had some real plans and resources for continuing post-PhD, but was ultimately the dissertation project of a single person contributing their own limited time, money, and moderation stress to running the site. I should have done better making sure folks were clear that there was one person behind the project and no presumption of ongoing hosting, for example for folks planning long term or repeat readings (likely, given Ulysses' length, difficulty, and rewards for rereadings) or planning to demo or use the site in a class. 
+
+I am happy that the project, from the start, did include a public document addressing both data privacy and data preservation plans for the project. For example, because the site invited and stored user annotations as they were reading a long and difficult novel, I had a responsibility to let folks know possible disasters (aka "I lose all your comments") and what I was doing to prepare against those calamities. My public data policy stated: "This site has an automated daily backup that includes all user annotations and comments, as well as weekly server backups. In addition, the site is regularly replicated on a development and local server."
+
+Critically, this public data policy included plans for if I needed to stop site interaction or take down the site for some reason. Even if your plan is for your project to exist in its current or an improved form ongoing, sharing a contingency plan from the start lets users make informed decisions about their activity with your project. My policy stated: "If the site ever needs to be shut down, go offline indefinitely, or be transferred to substantially different ownership, I'll contact all users through the email address given on your user profile page with directions for downloading your content. Users will be given at least one month's notice to export their content. Should such a situation ever occur, I'd prioritize keeping the site up but in static form (i.e. you can't change or add to the annotations and comments anymore) so that it's still available as a resource; users could then opt to use the Annotator.js browser plugin to continue the annotation of the text using an AnnotateIt account. If that ever becomes the case, I'll post instructions to the front page of this site on how to continue using the site." I did end up first shutting the site to new users, then to new annotations, and eventually migrating from Drupal to a static archived version of the site. I felt better about doing this given there was never an explicit promise to always run the site the way it currently ran (though see above caveats about site shininess and social media).
+
+My data policy also helped project users protect and own their labor through documented paths to export their own work for use elsewhere or personal preservation: "users should be able to export their content with the push of a button", ideally, in multiple non-proprietary formats that support both reading (e.g. HTML or TXT) and data manipulation (e.g. JSON or CSV).
+
+To create a similar public data policy for a small DH project, you'll want to ask yourself the following:
+1. What might people build off this? Think about ways your site/data might be treated as a feed, API, or permanent fixture that you might not hear about, e.g. if folks could be running Twitter bots off the presumption of continuous new content or activity on your website, or use in a classroom.
+2. What have people built on this? Uses you know about; on Infinite Ulysses, this meant users' textual annotations, but also: the community they help build and constitute, and their reputation, scholarly or otherwise, in that community; any scholarship citing and/or depending on folks being able to look at or interact with your project as it currently appears.

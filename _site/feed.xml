@@ -5,9 +5,48 @@
     <description>digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Apr 2019 14:06:02 -0400</pubDate>
-    <lastBuildDate>Fri, 26 Apr 2019 14:06:02 -0400</lastBuildDate>
+    <pubDate>Tue, 30 Apr 2019 15:53:02 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Apr 2019 15:53:02 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>DH Archiving: Data Policies for Small DH Projects</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted on the Scholars’ Lab blog on &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/&quot;&gt;April 30, 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Over on the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/&quot;&gt;Scholars’ Lab blog&lt;/a&gt;, Ammon Shepherd has been leading a series of collaborative blog posts about the challenges of archiving or preserving digital humanities projects. The first post in the series, by Ammon, is &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-one/&quot;&gt;here&lt;/a&gt;. Ammon led UVA Library colleagues Lauren Work and Brandon Butler and me on co-authoring a &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-2-the-problem-in-detail/&quot;&gt;second piece in the series&lt;/a&gt;, which goes into the challenges of archiving DH projects in more detail. Ammon, Brandon Butler, and I have just co-authored a third piece in the series on the &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/&quot;&gt;Scholars’ Lab blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I recommend you read that whole post &lt;a href=&quot;https://scholarslab.lib.virginia.edu/blog/archiving-dh-part-3-the-long-view/&quot;&gt;here&lt;/a&gt;, but I’ve also copied my piece (on creating a data policy for a smaller DH project) below:&lt;/p&gt;
+
+&lt;p&gt;Your project will most likely use data or generate data. You need to be clear up front on how you expect and desire others to be able to use, or not use, the data from your project. For a smaller, not institutionally supported DH project, a data policy can be a simple set of public commitments about the possible futures of your project. The following is a practical example of implementing a data policy for a small digital project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scholarslab.lib.virginia.edu/assets/post-media/2019-04-30-infiniteulysses.png&quot; alt=&quot;Infinite Ulysses&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My (hey, this is Amanda!) &lt;a href=&quot;http://infiniteulysses.com/&quot;&gt;Infinite Ulysses&lt;/a&gt; project was dissertational research supported by a single person, but it also had a wide and varied audience for such a small project (12k unique visitors during the first couple weeks of beta opening) and hosted user-created content (1k annotations). Its focus on interface design and user studies, and the use of social media encouraging testing of the site, were important in inviting use by enough users from both inside and outside academia to address my questions about the impact of such a shared space on literary reading and learning.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, the site looking nice and having some publicity probably conveyed a permanency for the site that I was hopeful for at the time, and had some real plans and resources for continuing post-PhD, but was ultimately the dissertation project of a single person contributing their own limited time, money, and moderation stress to running the site. I should have done better making sure folks were clear that there was one person behind the project and no presumption of ongoing hosting, for example for folks planning long term or repeat readings (likely, given Ulysses’ length, difficulty, and rewards for rereadings) or planning to demo or use the site in a class.&lt;/p&gt;
+
+&lt;p&gt;I am happy that the project, from the start, did include a public document addressing both data privacy and data preservation plans for the project. For example, because the site invited and stored user annotations as they were reading a long and difficult novel, I had a responsibility to let folks know possible disasters (aka “I lose all your comments”) and what I was doing to prepare against those calamities. My public data policy stated: “This site has an automated daily backup that includes all user annotations and comments, as well as weekly server backups. In addition, the site is regularly replicated on a development and local server.”&lt;/p&gt;
+
+&lt;p&gt;Critically, this public data policy included plans for if I needed to stop site interaction or take down the site for some reason. Even if your plan is for your project to exist in its current or an improved form ongoing, sharing a contingency plan from the start lets users make informed decisions about their activity with your project. My policy stated: “If the site ever needs to be shut down, go offline indefinitely, or be transferred to substantially different ownership, I’ll contact all users through the email address given on your user profile page with directions for downloading your content. Users will be given at least one month’s notice to export their content. Should such a situation ever occur, I’d prioritize keeping the site up but in static form (i.e. you can’t change or add to the annotations and comments anymore) so that it’s still available as a resource; users could then opt to use the Annotator.js browser plugin to continue the annotation of the text using an AnnotateIt account. If that ever becomes the case, I’ll post instructions to the front page of this site on how to continue using the site.” I did end up first shutting the site to new users, then to new annotations, and eventually migrating from Drupal to a static archived version of the site. I felt better about doing this given there was never an explicit promise to always run the site the way it currently ran (though see above caveats about site shininess and social media).&lt;/p&gt;
+
+&lt;p&gt;My data policy also helped project users protect and own their labor through documented paths to export their own work for use elsewhere or personal preservation: “users should be able to export their content with the push of a button”, ideally, in multiple non-proprietary formats that support both reading (e.g. HTML or TXT) and data manipulation (e.g. JSON or CSV).&lt;/p&gt;
+
+&lt;p&gt;To create a similar public data policy for a small DH project, you’ll want to ask yourself the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;What might people build off this? Think about ways your site/data might be treated as a feed, API, or permanent fixture that you might not hear about, e.g. if folks could be running Twitter bots off the presumption of continuous new content or activity on your website, or use in a classroom.&lt;/li&gt;
+  &lt;li&gt;What have people built on this? Uses you know about; on Infinite Ulysses, this meant users’ textual annotations, but also: the community they help build and constitute, and their reputation, scholarly or otherwise, in that community; any scholarship citing and/or depending on folks being able to look at or interact with your project as it currently appears.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 30 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/30/archiving-dh-data-policy</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/30/archiving-dh-data-policy</guid>
+        
+        <category>digital-humanities</category>
+        
+        <category>meta-dh</category>
+        
+        
+      </item>
     
       <item>
         <title>20% Time: Why we make self-initiated research &amp; development part of the job</title>
@@ -616,101 +655,6 @@ We would need keys or key cards and a list of everyone with access to these spac
         <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/11/25/planning-dh-lab-physical-location/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/25/planning-dh-lab-physical-location/</guid>
-        
-        <category>digital-humanities</category>
-        
-        <category>meta-dh</category>
-        
-        <category>purdue-dh</category>
-        
-        <category>notes</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Notes: A mission statement for digital humanities (Purdue version)</title>
-        <description>&lt;p&gt;&lt;em&gt;Part of &lt;a href=&quot;http://literaturegeek.com/tag/meta-dh/&quot;&gt;my meta-DH series&lt;/a&gt; documenting DH/DS infrastructure: the hows &amp;amp; whys of treating a project team, lab, department, or campus as itself a DH project.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Caveat&lt;/strong&gt;: &lt;em&gt;This post consists of notes taken during my former &lt;a href=&quot;http://literaturegeek.com/tag/purdue-dh/&quot;&gt;DH Librarian role at Purdue&lt;/a&gt; (2015-2017), rather than my latest thinking at Scholars’ Lab. I’ll be sharing that updated thinking here soon!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This post (everything below) is from a post I was drafting back when I was designing Purdue Libraries’ DH initiative; some parts weren’t completely fleshed out, and the “values” list doesn’t reflect my current thinking.&lt;/p&gt;
-
-&lt;p&gt;The stuff below—identifying what our values are, and stating that we mean to prioritize them—doesn’t mean that prioritizing or “doing the work” of those values will happen. This isn’t the work. The work is doing stuff that performs, amplifies, shares, teaches, argues for these values.&lt;/p&gt;
-
-&lt;p&gt;As with a code of conduct, it’s more dangerous to say you’re going to do (or are doing) something and then not stand by that promise, than to not make the promise at all. Lots of institutions say they value diversity, but either they don’t follow up on that claim at all (or enough), or they define the term so broadly as to neutralize any benefits.&lt;/p&gt;
-
-&lt;p&gt;It’s easy to say you’re going to do a thing, and harder to imbue your work with the values you think you care about. I’m sharing this publicly now for a couple reasons: I want to be held publicly accountable to show I value these things. As we get deeper into specific projects, I hope to post what each project aims for, and to follow up with periodic analysis of whether we’ve held to those goals.&lt;/p&gt;
-
-&lt;p&gt;My dissertational &lt;em&gt;&lt;a href=&quot;http://www.infinteulysses.com&quot;&gt;Infinite Ulysses&lt;/a&gt;&lt;/em&gt; work, for example, has failed at doing its best to support all the values I list below—but &lt;a href=&quot;http://literaturegeek.com/2013/12/02/valuespost&quot;&gt;stating my values at the beginning of that project&lt;/a&gt; was essential to helping me realize the project’s shortcomings later on, and to build my knowledge so my future work can do better. (You can read about the most obvious problem from &lt;a href=&quot;http://literaturegeek.com/2014/05/27/inclusivityeditioncanon&quot;&gt;a mid-dissertation post here&lt;/a&gt;, the conclusion of which I no longer agree with.) I also want to encourage others to document and self-reflect on their work, by contributing to the existing pool of statements and charters holding scholars to their values—just as I’ve been encouraged by work like Scott Weingart’s &lt;a href=&quot;http://scottbot.net/pledges/&quot;&gt;Pledges&lt;/a&gt; page and the &lt;a href=&quot;http://scholarslab.org/about/charter&quot;&gt;Scholars’ Lab charter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;identifying-values&quot;&gt;Identifying values&lt;/h2&gt;
-&lt;p&gt;I built on past mission statements and charters I’ve encountered (DH or otherwise). On my dry-erase board, I made a list of things I think I care about and/or I think our DH initiative should value, given our experts, resources, and department and campus mission and strategic statements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a more public and participatory humanities through DH, with engagement with non-academics recognized as scholarship&lt;/li&gt;
-  &lt;li&gt;topic, practitioner, and audience diversity and inclusion, pervasively rather than as an add-on&lt;/li&gt;
-  &lt;li&gt;move beyond the idea that libraries can be neutral: choose work that is actively good, not just not-bad (e.g. explicit anti-racist approaches)&lt;/li&gt;
-  &lt;li&gt;accessibility and universal design from the beginning of projects&lt;/li&gt;
-  &lt;li&gt;participatory design with a project’s intended audience from the beginning of projects, not just user testing at the end&lt;/li&gt;
-  &lt;li&gt;listening and amplification, e.g. through&lt;/li&gt;
-  &lt;li&gt;full credit and IP retention for all involved in making a project regardless of professional role, affiliation, or type of work performed&lt;/li&gt;
-  &lt;li&gt;fully citing &amp;amp; crediting the resources we build on (with especial care for under-cited digital resources and alt-ac scholars)&lt;/li&gt;
-  &lt;li&gt;care to not accidentally nor intentionally overstate, when stating our involvement in collaborative projects or in other scholars’ projects (and knowledge that the larger our initiative grows, the more potential there is for people to incorrectly assume any DHer or DH project on campus involves us or is ours)&lt;/li&gt;
-  &lt;li&gt;recognition of multiple publics, and funding and designing with under-supported publics&lt;/li&gt;
-  &lt;li&gt;recording today’s campus through the eyes of our community (e.g. the students who use our Archive to study past students), but only when we can do so in a rewarding, respectful, safe way&lt;/li&gt;
-  &lt;li&gt;open access, reuse, remix, and user-friendly documentation allowing these&lt;/li&gt;
-  &lt;li&gt;share about our project work during and after the work to help others understand the choices and effort that goes into various kinds of DH&lt;/li&gt;
-  &lt;li&gt;making project IP, privacy, data management clear to users (including any tracking such as Google Analytics) and a public plan for how data and site users will be impacted if funding or maintenance of the site are cut off&lt;/li&gt;
-  &lt;li&gt;projects that are sustainable &lt;em&gt;or&lt;/em&gt; explicitly ephemeral and well documented; create space for experimentation and failure&lt;/li&gt;
-  &lt;li&gt;clear ways to accept, credit, and incorporate user feedback&lt;/li&gt;
-  &lt;li&gt;only involve or build communities if you can commit to tending them well and enforcing a code of conduct that protects community members&lt;/li&gt;
-  &lt;li&gt;student mentorship, and funding and professional development support for non-tenure-track-faculty such as adjuncts, continuing lecturers, and students&lt;/li&gt;
-  &lt;li&gt;evaluable mission statements for projects&lt;/li&gt;
-  &lt;li&gt;time for reflection on past work and realigning new strategy to fix previous failures&lt;/li&gt;
-  &lt;li&gt;prioritize work that supports collaboration and offers potential for a branching impact (invest in training the trainers)&lt;/li&gt;
-  &lt;li&gt;participate in and support broader DH initiatives beyond our campus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;if-we-think-these-are-what-we-value-how-are-we-acting-on-these-values&quot;&gt;If we think these are what we value, how are we acting on these values?&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;ID specific actions and/or policies supporting these&lt;/li&gt;
-  &lt;li&gt;I’ll keep track of any DH visitors/speakers and ensure we’re using our funds and time to support a diverse representation of DH; projects must explicitly advance one of our stated core values (access, diversity, inclusion), with a preference for projects that include mentorship for students and credit for all team members&lt;/li&gt;
-  &lt;li&gt;What do we study? We’ll likely want to work with our many Objects That Have Been in Space and other neat aerospace history stuff—how do we keep that from pulling us toward work by and for white dudes?&lt;/li&gt;
-  &lt;li&gt;Initial philosophy-heavy proposal focused on foundational policies: what would we do, and what wouldn’t we do? how would we interact with campus IT? what funding needs will we have?&lt;/li&gt;
-  &lt;li&gt;Next step is report/request/objectives &amp;amp; goals doc that outlines how we’ll do the work over the next two years&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;a-dh-mission-statement&quot;&gt;A DH mission statement&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;This was originally the abstract for my first proposal to the Purdue Libraries on where our DH initiative should go. I’m thinking it will evolve into charters for major projects here (like a possible DH space, and a DH team-taught course), so I’m capturing each version in a GitHub repo so we can track changes over time.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I propose we initially focus our digital humanities initiative on a collaboration among DH, the ASC (&lt;em&gt;note: Purdue Archives &amp;amp; Special Collections, a Libraries unit&lt;/em&gt;), and the University Press &amp;amp; Scholarly Publishing Services (&lt;em&gt;also located in the Libraries!&lt;/em&gt;), with a focus on &lt;strong&gt;co-evolving these units while developing infrastructure toward a more open (diverse, inclusive, accessible, participatory, real-time, relevant) humanities.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I envision a DH Center for the Open Humanities in the Purdue Libraries, serving as the hub of the campus DH community. We will build a culture of digital scholarship, assisting through incubation rather than service: connecting potential collaborators, recording DH work for institutional memory, modeling best practices and inspiring other DH work with our own experiments, showcasing the Libraries’ strengths, and raising visibility for Purdue’s digital humanities successes through diverse publication forms and audiences.&lt;/p&gt;
-
-&lt;p&gt;I take the Libraries’ valuing of diversity, inclusion, and access as core motivating ideals, and plan strong demonstrations in all three areas of the latest (2016-2019) strategic plan (particularly 1:3, 2, and 3:2-4). We should proactively develop what we want the digital humanities to be, by pursuing and publicizing projects that advance all our strategic values.&lt;/p&gt;
-
-&lt;p&gt;In practical terms, our activities will include modeling DH research and publication best practices through collaborative internal projects, cross-campus collaboration and outreach, consultations and mentorship, and hosting events including a DH visiting speaker series, a day of talks by DHers from all over campus (co-hosted with the CLA), and intensive methodological training workshops. We will additionally maintain an information-rich “DH @ Purdue” website (including a campus DH directory), and design and co-teach pilot DH+ASC+Press courses giving students theoretical, technical, and alternative academic experience in building a DH project as a collaborator. Our work will emphasize collaboration and mentorship, value a more public and inclusive humanities, and lead by modeling effective DH research and teaching for other departments. Because we currently have limited staff time and resources, we’ll focus on building a sustainable funding model, doing a few specific pilot projects extremely well, and DH networking on campus through events and consultations.&lt;/p&gt;
-
-&lt;p&gt;I propose a two-phase approach:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;[3 sentences on specific plans for fund allocation in the next two years]&lt;/li&gt;
-  &lt;li&gt;[3 sentences on specific plans for fund allocation years 3-5]&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;During Phase 1, [paragraph on specific major grant project idea].&lt;/p&gt;
-
-&lt;p&gt;The rest of this document offers details on specific activities we could pursue, longterm goals for the initiative, reasoning for requested funding and hiring, and more.&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Rewrite this philosophy-heavy proposal into an objectives and goals report with specific requests, actions, and timeline.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/25/mission-statement-digital-humanities-purdue/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/25/mission-statement-digital-humanities-purdue/</guid>
         
         <category>digital-humanities</category>
         
