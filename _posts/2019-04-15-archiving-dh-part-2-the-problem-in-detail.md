@@ -2,7 +2,7 @@
 layout: post
 title: "DH archiving on the Scholars' Lab Blog"
 permalink: 2019/04/15/archiving-dh-part-2-the-problem-in-detail/
-tags: [digital-humanities, meta-dh]
+tags: [digital-humanities, meta-dh, dh-now]
 status: publish
 type: post
 published: true

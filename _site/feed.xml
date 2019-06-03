@@ -5,8 +5,8 @@
     <description>digital humanities</description>
     <link>/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Apr 2019 15:53:02 -0400</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2019 15:53:02 -0400</lastBuildDate>
+    <pubDate>Mon, 03 Jun 2019 14:59:26 -0400</pubDate>
+    <lastBuildDate>Mon, 03 Jun 2019 14:59:26 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -458,6 +458,8 @@ the labor of community design? As marginalized identities are most at risk for h
         <category>digital-humanities</category>
         
         <category>meta-dh</category>
+        
+        <category>dh-now</category>
         
         
       </item>
