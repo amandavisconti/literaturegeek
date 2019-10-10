@@ -2,7 +2,7 @@
 layout: post
 title: "How We Talk and Write about DH Jobs"
 permalink: 2019/10/10/digital-humanities-cover-letters-job-advice
-tags: [digital-humanities, meta-dh, advice-tutorial, grad-advice]
+tags: [digital-humanities, meta-dh, advice-tutorial, grad-advice, dh-now]
 status: publish
 type: post
 published: true
