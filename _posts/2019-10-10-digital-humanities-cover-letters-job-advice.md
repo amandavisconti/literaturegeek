@@ -46,9 +46,11 @@ We started working at SLab on the same day and were not involved in the hiring o
 
 ### Brandon's cover letter
 _[Brandon's cover letter](https://hcommons.org/?get_group_doc=1003473/1570202258-HeadofGraduateProgramsCoverLetter.docx), notes by Amanda_
+
 ```
 I am writing to apply for the position of Head of Graduate Programs in the Scholars’ Lab at the University of Virginia. As an alumnus of both the Praxis Program and the Graduate Fellowship in Digital Humanities, I have a deep appreciation for the Scholars’ Lab’s commitment to experimental forms of collaborative, project-based pedagogy.
 ```
+
 * If you have past experience or knowledge of what the place does, share that! You don't have to have worked/learned at the place (as Brandon did at UVA) to speak to what specifically draws you there. E.g. maybe you've gotten a sense from their social media, a project or conference talk, or a blog post about what's important to how the place works?
 * Brandon shows awareness and mutual commitment to some of the lab's values here; he shares this in a way that lets the search committee learn something about _him_ (that he digs experimentation, collaboration), rather than something more abstract like "I would be honored to work at such a great place" that doesn't give the committee info but does take up some of your limited space.
 * Most of the cover letters I've seen use the first paragraph to deliver information that isn't really new—_this is my name, I'm not confused what position I'm applying for, I think I would be a good fit_—so I like how he leads with a framing that _does_ tell us more about him as a candidate.
