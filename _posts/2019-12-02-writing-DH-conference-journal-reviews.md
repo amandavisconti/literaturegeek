@@ -2,7 +2,7 @@
 layout: post
 title: "Personal guidelines for DH journal and conference reviewing"
 permalink: 2019/12/02/writing-DH-conference-journal-reviews
-tags: [digital-humanities, meta-dh, advice-tutorial, grad-advice]
+tags: [digital-humanities, meta-dh, advice-tutorial, grad-advice, dh-now]
 status: publish
 type: post
 published: true
