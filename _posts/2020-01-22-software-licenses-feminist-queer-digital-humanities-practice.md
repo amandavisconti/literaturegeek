@@ -43,22 +43,3 @@ Troncoso, Stacco and Ann Marie Utratel. "Last Night A Distributed Cooperative Or
 Wagner, Claudia, David García, Mohsen Jadidi, and Markus Strohmaier. “It’s a Man’s Wikipedia? Assessing Gender Inequality in an Online Encyclopedia.” ICWSM, 2015
 
 Wellner, Galit, and Tiran Rothman. “Feminist AI: Can We Expect Our AI Systems to Become Feminist?” Philosophy & Technology, May 2019. https://doi.org/10.1007/s13347-019-00352-z
-
-Temporarily testing some things here:
-
-<code>single line code</code>
-
-and 
-
-<code>
-1. multiple  
-2. lines of  
-code  
-and without doubel space to break lines
-does this and previous line yet break?
-</code>
-
-also testing pre
-
-<pre> how does this look?
-and this without previous double space? </pre>
