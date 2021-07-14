@@ -5,8 +5,9 @@ permalink: 2021/07/14/building-community-and-generosity-in-the-context-of-gradua
 tags: [digital-humanities, meta-dh, grad-advice]
 status: publish
 type: post
-published: true
+published: true  
 ---
+
 *This post was co-authored with <a href="https://scholarslab.lib.virginia.edu/people/brandon-walsh/">Brandon Walsh</a> and was originally posted on the Scholars' Lab blog on [July 14, 2021](https://scholarslab.lib.virginia.edu/blog/building-community-and-generosity-in-the-context-of-graduate-education/). As our pre-panel talk for a ACH 2021 conference panel, it has also been uploaded to Humanities Commons.*
 
 We'd like to specifically acknowledge Ronda Grizzle as a key contributor to this work. Even though she was not co-author of this particular talk for ACH 2021, her work is central to this material, foundational to it, and in many ways hers. 
